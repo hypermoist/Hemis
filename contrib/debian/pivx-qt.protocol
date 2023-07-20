@@ -1,0 +1,11 @@
+[Protocol]
+exec=hemis-qt '%u'
+protocol=hemis
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
