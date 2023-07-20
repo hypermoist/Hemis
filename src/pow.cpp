@@ -132,7 +132,6 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
         return error("CheckProofOfWork() : nBits below minimum work");
 
     // Check proof of work matches claimed amount
-    std::cout << "nBits: " << UintToArith256(hash).GetHex() << std::endl;
     if (UintToArith256(hash) > bnTarget)
         return error("CheckProofOfWork() : hash doesn't match nBits");
 
