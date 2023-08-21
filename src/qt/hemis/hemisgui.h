@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2022 The PIVX Core developers
+// Copyright (c) 2019-2022 The HEMIS Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_CORE_NEW_GUI_hemisGUI_H
-#define PIVX_CORE_NEW_GUI_hemisGUI_H
+#ifndef HEMIS_CORE_NEW_GUI_hemisGUI_H
+#define HEMIS_CORE_NEW_GUI_hemisGUI_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/hemis-config.h"
@@ -39,7 +39,7 @@ class WalletModel;
 
 
 /**
-  PIVX GUI main class. This class represents the main window of the PIVX UI. It communicates with both the client and
+  HEMIS GUI main class. This class represents the main window of the HEMIS UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
 class hemisGUI : public QMainWindow
@@ -201,4 +201,4 @@ Q_SIGNALS:
 };
 
 
-#endif //PIVX_CORE_NEW_GUI_hemisGUI_H
+#endif //HEMIS_CORE_NEW_GUI_hemisGUI_H
