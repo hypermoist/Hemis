@@ -1262,7 +1262,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
 </context>
 <context>
-    <name>MNRow</name>
+    <name>GMRow</name>
     <message>
         <source>Form</source>
         <translation>Вид</translation>
@@ -1277,7 +1277,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
 </context>
 <context>
-    <name>MasterNodeWizardDialog</name>
+    <name>GameMasterWizardDialog</name>
     <message>
         <source>Dialog</source>
         <translation>Диалоговое окно</translation>
@@ -1307,15 +1307,15 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Адрес</translation>
     </message>
     <message>
-        <source>Create New Masternode Controller</source>
+        <source>Create New Gamemaster Controller</source>
         <translation>Создать новый контроллер Мастерноды</translation>
     </message>
     <message>
-        <source>Set Masternode Name</source>
+        <source>Set Gamemaster Name</source>
         <translation>Установить имя мастерноды</translation>
     </message>
     <message>
-        <source>Set Masternode IP and Port</source>
+        <source>Set Gamemaster IP and Port</source>
         <translation>Задать IP-адрес и порт Мастерноды</translation>
     </message>
     <message>
@@ -1393,20 +1393,20 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>walletModel не установлен</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Неверный файл masternode.conf</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Неверный файл gamemaster.conf</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Ошибка разбора файла masternode.conf</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Ошибка разбора файла gamemaster.conf</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>Файла masternode.cong не существует</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>Файла gamemaster.cong не существует</translation>
     </message>
 </context>
 <context>
-    <name>MasterNodesWidget</name>
+    <name>GameMastersWidget</name>
     <message>
         <source>Form</source>
         <translation>Вид</translation>
@@ -1420,7 +1420,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Запустить неактивные</translation>
     </message>
     <message>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation>Мастерноды</translation>
     </message>
     <message>
@@ -1430,11 +1430,11 @@ and vote on the treasury system receiving a periodic reward.</source>
 и голосовать за систему казны периодически отправляя вознаграждения.</translation>
     </message>
     <message>
-        <source>Create Masternode Controller</source>
+        <source>Create Gamemaster Controller</source>
         <translation>Создать контроллер мастерноды</translation>
     </message>
     <message>
-        <source>No active Masternode yet</source>
+        <source>No active Gamemaster yet</source>
         <translation>Пока что нет активных мастернод</translation>
     </message>
     <message>
@@ -1454,22 +1454,22 @@ and vote on the treasury system receiving a periodic reward.</source>
         <translation>Пожалуйста, дождитесь полной синхронизации узла</translation>
     </message>
     <message>
-        <source>Start Masternode</source>
+        <source>Start Gamemaster</source>
         <translation>Запустить мастерноду</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
         <translation>Вы уверены, что хотите запустить мастерноду %1?
 </translation>
     </message>
     <message>
-        <source>Cannot edit masternode, wallet locked</source>
+        <source>Cannot edit gamemaster, wallet locked</source>
         <translation>Невозможно редактировать мастерноду, кошелек заблокирован</translation>
     </message>
     <message>
-        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
-Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
+        <source>Cannot start gamemaster, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (gamemaster collaterals require %1 confirmations).</source>
         <translation>Невозможно запустить мастерноду, транзакция коллатераля еще не подтверждена сетью. Подождите еще несколько минут (для коллатералей мастерноды требуется %1 подтверждений).</translation>
     </message>
     <message>
@@ -1477,7 +1477,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>Выполняется фоновая задача, пожалуйста, подождите</translation>
     </message>
     <message>
-        <source>Start ALL masternodes failed</source>
+        <source>Start ALL gamemasters failed</source>
         <translation>Не удалось запустить ВСЕ мастерноды</translation>
     </message>
     <message>
@@ -1485,39 +1485,39 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>Разблокировка кошелька отменена</translation>
     </message>
     <message>
-        <source>Cannot perform Masternodes start</source>
+        <source>Cannot perform Gamemasters start</source>
         <translation>Невозможно выполнить запуск Мастернод</translation>
     </message>
     <message>
-        <source>%1 Masternodes failed to start, %2 started</source>
+        <source>%1 Gamemasters failed to start, %2 started</source>
         <translation>Не удалось запустить %1 мастернод, запущено %2</translation>
     </message>
     <message>
-        <source>All Masternodes started!</source>
+        <source>All Gamemasters started!</source>
         <translation>Все Мастерноды запущены!</translation>
     </message>
     <message>
-        <source>Cannot show Masternode information, wallet locked</source>
+        <source>Cannot show Gamemaster information, wallet locked</source>
         <translation>Невозможно отобразить информацию о Мастерноде, кошелек заблокирован</translation>
     </message>
     <message>
-        <source>Masternode data copied to the clipboard.</source>
+        <source>Gamemaster data copied to the clipboard.</source>
         <translation>Данные Мастерноды скопированы в буфер обмена.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 %1 required.</source>
+        <source>Not enough balance to create a gamemaster, 10,000 %1 required.</source>
         <translation>Недостаточно баланса для создания мастерноды, требуется 10000 %1.</translation>
     </message>
     <message>
-        <source>Remote Masternode Data</source>
+        <source>Remote Gamemaster Data</source>
         <translation>Данные удаленной мастерноды</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>Что такое мастернода?</translation>
     </message>
     <message>
-        <source>FAQ explaining what Masternodes are</source>
+        <source>FAQ explaining what Gamemasters are</source>
         <translation>FAQ, объясняющий, что такое Мастерноды</translation>
     </message>
     <message>
@@ -1525,17 +1525,17 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>Что такое Контроллер?</translation>
     </message>
     <message>
-        <source>FAQ explaining what is a Masternode Controller</source>
+        <source>FAQ explaining what is a Gamemaster Controller</source>
         <translation>FAQ, объясняющий, что такое Контроллер Мастерноды</translation>
     </message>
     <message>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press "start").
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press "start").
 </source>
         <translation>Вы собираетесь экспортировать необходимые данные для запуска мастерноды
 на удаленном сервере в буфер обмена.
@@ -1547,11 +1547,11 @@ this controller wallet (select the Masternode in the list and press "start").
 </translation>
     </message>
     <message>
-        <source>Delete Masternode</source>
+        <source>Delete Gamemaster</source>
         <translation>Удалить мастерноду</translation>
     </message>
     <message>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
@@ -1561,34 +1561,34 @@ Are you sure?</source>
 Вы уверены?</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Неверный файл masternode.conf</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Неверный файл gamemaster.conf</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Ошибка разбора файла masternode.conf</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Ошибка разбора файла gamemaster.conf</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>Файла masternode.cong не существует</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>Файла gamemaster.cong не существует</translation>
     </message>
     <message>
-        <source>Cannot create Masternode controller, wallet locked</source>
+        <source>Cannot create Gamemaster controller, wallet locked</source>
         <translation>Невозможно создать контроллер Мастерноды, кошелек заблокирован</translation>
     </message>
     <message>
-        <source>Error creating masternode</source>
+        <source>Error creating gamemaster</source>
         <translation>Ошибка при создании мастерноды</translation>
     </message>
 </context>
 <context>
-    <name>MnInfoDialog</name>
+    <name>GmInfoDialog</name>
     <message>
         <source>Form</source>
         <translation>Вид</translation>
     </message>
     <message>
-        <source>Masternode Information</source>
+        <source>Gamemaster Information</source>
         <translation>Информация о Мастерноде</translation>
     </message>
     <message>
@@ -1616,11 +1616,11 @@ Are you sure?</source>
         <translation>Статус:</translation>
     </message>
     <message>
-        <source>Export data to run the Masternode on a remote server</source>
+        <source>Export data to run the Gamemaster on a remote server</source>
         <translation>Экспорт данных для запуска Мастерноды на удаленном сервере</translation>
     </message>
     <message>
-        <source>Masternode public key copied</source>
+        <source>Gamemaster public key copied</source>
         <translation>Открытый ключ мастерноды скопирован</translation>
     </message>
     <message>
@@ -1813,11 +1813,11 @@ STAKING</source>
         <translation>Включить функции &amp;управления монет</translation>
     </message>
     <message>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
+        <source>Show additional tab listing all your gamemasters in first sub-tab&lt;br/&gt;and all gamemasters on the network in second sub-tab.</source>
         <translation>Показать список всех ваших мастернод в первой вкладке&lt;br/&gt;и всех мастернод в сети во второй вкладке.</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
+        <source>Show Gamemasters Tab</source>
         <translation>Показать вкладку Мастернод</translation>
     </message>
     <message>
@@ -2275,7 +2275,7 @@ Address: %4
         <translation>Ошибка: неправильная комбинация -regtest и -testnet.</translation>
     </message>
     <message>
-        <source>Error reading masternode configuration file: %1</source>
+        <source>Error reading gamemaster configuration file: %1</source>
         <translation>Ошибка чтения файла конфигурации мастерноды: %1</translation>
     </message>
     <message>
@@ -2359,8 +2359,8 @@ Address: %4
         <translation>Чеканка</translation>
     </message>
     <message>
-        <source>MN reward</source>
-        <translation>Вознаграждение от MN</translation>
+        <source>GM reward</source>
+        <translation>Вознаграждение от GM</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2522,7 +2522,7 @@ Address: %4
         <translation>Открыть протокол отладки hemis. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
+        <source>Number of Gamemasters</source>
         <translation>Количество мастернод</translation>
     </message>
     <message>
@@ -3858,11 +3858,11 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Куда мне обратиться, если мне нужна поддержка?</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>Что такое мастернода?</translation>
     </message>
     <message>
-        <source>What is a Masternode Controller?</source>
+        <source>What is a Gamemaster Controller?</source>
         <translation>Что такое контроллер Мастерноды?
 
  </translation>
@@ -3870,7 +3870,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3885,16 +3885,16 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           For providing such services, masternodes are also paid a certain portion
+                           For providing such services, gamemasters are also paid a certain portion
                            of reward for each block. This can serve as a passive income to the
-                           masternode owners minus their running cost.
+                           gamemaster owners minus their running cost.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Perks:
+                           Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
-                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
                            &lt;li&gt;Help secure the hemis network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3903,10 +3903,10 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 HMS per single Gamemaster instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
-                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;li&gt;Gamemaster wallet to remain online&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -3948,11 +3948,11 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>4) Куда я могу обратиться, если мне нужна поддержка?</translation>
     </message>
     <message>
-        <source>5) What is a Masternode?</source>
+        <source>5) What is a Gamemaster?</source>
         <translation>5) Что такое Мастернода?</translation>
     </message>
     <message>
-        <source>6) What is a Masternode Controller?</source>
+        <source>6) What is a Gamemaster Controller?</source>
         <translation>6) Что такое Контроллер Мастерноды?</translation>
     </message>
     <message>
@@ -3999,7 +3999,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Соединения:</translation>
     </message>
     <message>
-        <source>Number of Masternodes:</source>
+        <source>Number of Gamemasters:</source>
         <translation>Число Мастернод:</translation>
     </message>
     <message>
@@ -4202,7 +4202,7 @@ Are you sure?
         <translation>Флажок</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hemis addresses after it matures.</source>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
         <translation>MultiSend позволяет автоматически отправлять до 100% ваших вознаграждений от стекинга или мастернод в список других адресов hemis после его созревания.</translation>
     </message>
     <message>
@@ -4222,7 +4222,7 @@ Are you sure?
         <translation>Отправить вознаграждения за стекинг</translation>
     </message>
     <message>
-        <source>Send masternode rewards</source>
+        <source>Send gamemaster rewards</source>
         <translation>Отправить вознаграждения за мастерноду</translation>
     </message>
     <message>
@@ -4273,7 +4273,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Unable to activate MultiSend
-Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+Check one or both of the check boxes to send on stake and/or gamemaster rewards</source>
         <translation>Невозможно активировать MultiSend.
 Проверьте один или оба флажка для отправки вознаграждений за стекинг и / или мастерноду.</translation>
     </message>
@@ -5010,7 +5010,7 @@ backup will be created.
         <translation>Получено с</translation>
     </message>
     <message>
-        <source>Masternode Reward</source>
+        <source>Gamemaster Reward</source>
         <translation>Вознаграждение Мастерноды</translation>
     </message>
     <message>
@@ -5281,7 +5281,7 @@ Select fewer inputs with coin control.</source>
         <translation>Конфиденциальность</translation>
     </message>
     <message>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation>Мастерноды</translation>
     </message>
     <message>
@@ -5303,7 +5303,7 @@ hemis Core Wallet</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Как говорится в нашем манифесте: конфиденциальность является не подлежащим обсуждению основным правом человека; это дает пользователям свободу делиться своими данными в любое время и с кем угодно, ведь hemis верит в собственный суверенитет.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation>Сеть мастернод - это сеть второго уровня hemis поверх блокчейна, которая позволяет нашему ДАО обеспечивать децентрализованное управление и казначейство.</translation>
     </message>
     <message>
@@ -5311,7 +5311,7 @@ hemis Core Wallet</source>
         <translation>Как hemis уважает вашу конфиденциальность?</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>Что такое мастернода?</translation>
     </message>
     <message>
@@ -5582,8 +5582,8 @@ hemis Core Wallet</source>
         <translation>Обнаружена поврежденная база данных блоков</translation>
     </message>
     <message>
-        <source>Could not parse masternode.conf</source>
-        <translation>Не удалось разобрать masternode.conf</translation>
+        <source>Could not parse gamemaster.conf</source>
+        <translation>Не удалось разобрать gamemaster.conf</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -5614,7 +5614,7 @@ hemis Core Wallet</source>
         <translation>Загрузка выполнена</translation>
     </message>
     <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <source>Enable the client to act as a gamemaster (0-1, default: %u)</source>
         <translation>Разрешить клиенту действовать как мастернод (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
@@ -5806,11 +5806,11 @@ hemis Core Wallet</source>
         <translation>Загрузка кэша бюджета ...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading gamemaster cache...</source>
         <translation>загрузка оперативной памяти мастернодов</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading gamemaster payment cache...</source>
         <translation>Загрузка кэша платежей в мазну ...</translation>
     </message>
     <message>
@@ -5826,15 +5826,15 @@ hemis Core Wallet</source>
         <translation>Расположение файла cookie auth (по умолчанию: data dir)</translation>
     </message>
     <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Блокировка masternodes из файла конфигурации masternode (по умолчанию: %u)</translation>
+        <source>Lock gamemasters from gamemaster configuration file (default: %u)</source>
+        <translation>Блокировка gamemasters из файла конфигурации gamemaster (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
         <translation>Lookup (): Invalid -proxy адрес или имя хоста: '%s'</translation>
     </message>
     <message>
-        <source>MNs synchronization pending...</source>
+        <source>GMs synchronization pending...</source>
         <translation>Ожидается синхронизация Мастернод...</translation>
     </message>
     <message>
@@ -5842,8 +5842,8 @@ hemis Core Wallet</source>
         <translation>Поддерживать большинство  &lt;n&gt; соединений со сверстниками (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Masternode options:</source>
-        <translation>Параметры Masternode:</translation>
+        <source>Gamemaster options:</source>
+        <translation>Параметры Gamemaster:</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -5962,7 +5962,7 @@ hemis Core Wallet</source>
         <translation>(должно быть %d для %s-net)</translation>
     </message>
     <message>
-        <source>Active Masternode not initialized.</source>
+        <source>Active Gamemaster not initialized.</source>
         <translation>Активный Мастернода не инициализирована.</translation>
     </message>
     <message>
@@ -5982,8 +5982,8 @@ hemis Core Wallet</source>
         <translation>Изменить индекс вне диапазона</translation>
     </message>
     <message>
-        <source>Error: -listen must be true if -masternode is set.</source>
-        <translation>Ошибка: -listen должен быть истинным, если установлена -masternode.</translation>
+        <source>Error: -listen must be true if -gamemaster is set.</source>
+        <translation>Ошибка: -listen должен быть истинным, если установлена -gamemaster.</translation>
     </message>
     <message>
         <source>Error: -maxmempool must be at least %d MB</source>
@@ -6000,12 +6000,12 @@ hemis Core Wallet</source>
         <translation>Комиссия (в %s/кБ) для добавления к отправляемым транзакциям (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Invalid -masternodeaddr address: %s</source>
-        <translation>Неверный адрес -masternodeaddr: %s</translation>
+        <source>Invalid -gamemasteraddr address: %s</source>
+        <translation>Неверный адрес -gamemasteraddr: %s</translation>
     </message>
     <message>
-        <source>Invalid port %d detected in masternode.conf</source>
-        <translation>В masternode.conf обнаружен неверный порт %d</translation>
+        <source>Invalid port %d detected in gamemaster.conf</source>
+        <translation>В gamemaster.conf обнаружен неверный порт %d</translation>
     </message>
     <message>
         <source>Invalid status error.</source>
@@ -6080,8 +6080,8 @@ hemis Core Wallet</source>
         <translation>Установите размер кеша базы данных в мегабайтах (от %d до %d, по умолчанию: %d)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Задайте внешний адрес: порт, чтобы перейти к этому masternode (пример: %s)</translation>
+        <source>Set external address:port to get to this gamemaster (example: %s)</source>
+        <translation>Задайте внешний адрес: порт, чтобы перейти к этому gamemaster (пример: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -6100,7 +6100,7 @@ hemis Core Wallet</source>
         <translation>Установите максимальную глубину реорганизации (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Set the masternode private key</source>
+        <source>Set the gamemaster private key</source>
         <translation>Задайте личный ключ масштаба</translation>
     </message>
     <message>
@@ -6136,7 +6136,7 @@ hemis Core Wallet</source>
         <translation>Укажите каталог данных</translation>
     </message>
     <message>
-        <source>Specify masternode configuration file (default: %s)</source>
+        <source>Specify gamemaster configuration file (default: %s)</source>
         <translation>Укажите конфигурационный файл (по умолчанию: %s)</translation>
     </message>
     <message>
@@ -6172,11 +6172,11 @@ hemis Core Wallet</source>
         <translation>Синхронизация бюджетов ...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing gamemaster winners...</source>
         <translation>Синхронизация мастернод победителей ...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing gamemasters...</source>
         <translation>Синхронизация мастернод ...</translation>
     </message>
     <message>
@@ -6200,11 +6200,11 @@ hemis Core Wallet</source>
         <translation>Это предназначено для инструментов тестирования регрессии и разработки приложений.</translation>
     </message>
     <message>
-        <source>This is not a masternode. 'local' option disabled.</source>
+        <source>This is not a gamemaster. 'local' option disabled.</source>
         <translation>Это не мастернода. Опция 'local' отключена.</translation>
     </message>
     <message>
-        <source>This is not a masternode.</source>
+        <source>This is not a gamemaster.</source>
         <translation>Это не мастернода.</translation>
     </message>
     <message>

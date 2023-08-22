@@ -7,7 +7,7 @@
 
 #include <QDialog>
 
-class MNModel;
+class GMModel;
 class hemisGUI;
 
 namespace Ui {
@@ -23,11 +23,11 @@ public:
         UNSPENDABLE,
         STAKE,
         SUPPORT,
-        MASTERNODE,
-        MNCONTROLLER
+        GAMEMASTER,
+        GMCONTROLLER
     };
 
-    explicit SettingsFaqWidget(hemisGUI* parent, MNModel* _model);
+    explicit SettingsFaqWidget(hemisGUI* parent, GMModel* _model);
     ~SettingsFaqWidget();
 
     void showEvent(QShowEvent *event) override;

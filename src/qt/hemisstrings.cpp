@@ -17,8 +17,8 @@ QT_TRANSLATE_NOOP("hemis-core", ""
 QT_TRANSLATE_NOOP("hemis-core", ""
 "Cannot obtain a lock on data directory %s. %s is probably already running."),
 QT_TRANSLATE_NOOP("hemis-core", ""
-"Cannot start deterministic masternode before enforcement. Remove %s to start "
-"as legacy masternode"),
+"Cannot start deterministic gamemaster before enforcement. Remove %s to start "
+"as legacy gamemaster"),
 QT_TRANSLATE_NOOP("hemis-core", ""
 "Cannot upgrade to Sapling wallet (already running Sapling support). Version: "
 "%d"),
@@ -26,7 +26,7 @@ QT_TRANSLATE_NOOP("hemis-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
 QT_TRANSLATE_NOOP("hemis-core", ""
-"Enabling Masternode support requires turning on transaction indexing.Please "
+"Enabling Gamemaster support requires turning on transaction indexing.Please "
 "add %s to your configuration and start with %s"),
 QT_TRANSLATE_NOOP("hemis-core", ""
 "Error: Listening for incoming connections failed (listen returned error %s)"),
@@ -46,8 +46,8 @@ QT_TRANSLATE_NOOP("hemis-core", ""
 "Invalid amount for %s: '%s' (must be at least the minimum relay fee of %s to "
 "prevent stuck transactions)"),
 QT_TRANSLATE_NOOP("hemis-core", ""
-"Legacy masternode system disabled. Use %s to start as deterministic "
-"masternode"),
+"Legacy gamemaster system disabled. Use %s to start as deterministic "
+"gamemaster"),
 QT_TRANSLATE_NOOP("hemis-core", ""
 "Please check that your computer's date and time are correct! If your clock "
 "is wrong %s will not work properly."),
@@ -96,7 +96,7 @@ QT_TRANSLATE_NOOP("hemis-core", ""
 "Warning: error reading %s! All keys read correctly, but transaction data or "
 "address book entries might be missing or incorrect."),
 QT_TRANSLATE_NOOP("hemis-core", ""
-"\"local\" vote is no longer available with DMNs. Use \"alias\" from the "
+"\"local\" vote is no longer available with DGMs. Use \"alias\" from the "
 "wallet with the voting key."),
 QT_TRANSLATE_NOOP("hemis-core", "%s Invalid %s address or hostname: '%s'"),
 QT_TRANSLATE_NOOP("hemis-core", "%s corrupt, salvage failed"),
@@ -104,7 +104,7 @@ QT_TRANSLATE_NOOP("hemis-core", "%s is not allowed in combination with enabled w
 QT_TRANSLATE_NOOP("hemis-core", "%s is only allowed with a single wallet file"),
 QT_TRANSLATE_NOOP("hemis-core", "(must be %d for %s-net)"),
 QT_TRANSLATE_NOOP("hemis-core", "A fatal internal error occurred, see debug.log for details"),
-QT_TRANSLATE_NOOP("hemis-core", "Active Masternode not initialized."),
+QT_TRANSLATE_NOOP("hemis-core", "Active Gamemaster not initialized."),
 QT_TRANSLATE_NOOP("hemis-core", "Calculating money supply..."),
 QT_TRANSLATE_NOOP("hemis-core", "Can't generate a change-address key. Please call keypoolrefill first."),
 QT_TRANSLATE_NOOP("hemis-core", "Cannot downgrade wallet."),
@@ -120,8 +120,8 @@ QT_TRANSLATE_NOOP("hemis-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("hemis-core", "Could not find asmap file %s"),
 QT_TRANSLATE_NOOP("hemis-core", "Could not open debug log file %s"),
 QT_TRANSLATE_NOOP("hemis-core", "Could not parse asmap file %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Could not parse masternode.conf"),
-QT_TRANSLATE_NOOP("hemis-core", "Deterministic masternodes are not enforced yet"),
+QT_TRANSLATE_NOOP("hemis-core", "Could not parse gamemaster.conf"),
+QT_TRANSLATE_NOOP("hemis-core", "Deterministic gamemasters are not enforced yet"),
 QT_TRANSLATE_NOOP("hemis-core", "Do you want to rebuild the block database now?"),
 QT_TRANSLATE_NOOP("hemis-core", "Done loading"),
 QT_TRANSLATE_NOOP("hemis-core", "Elliptic curve cryptography sanity check failure. Aborting."),
@@ -155,31 +155,31 @@ QT_TRANSLATE_NOOP("hemis-core", "Incorrect or no genesis block found. Wrong data
 QT_TRANSLATE_NOOP("hemis-core", "Information"),
 QT_TRANSLATE_NOOP("hemis-core", "Initialization sanity check failed. %s is shutting down."),
 QT_TRANSLATE_NOOP("hemis-core", "Insufficient funds."),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid -masternodeaddr address: %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid -masternodeaddr port %d, isn't the same as the peer port %d"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid -masternodeaddr port %d, only %d is supported on %s-net."),
+QT_TRANSLATE_NOOP("hemis-core", "Invalid -gamemasteraddr address: %s"),
+QT_TRANSLATE_NOOP("hemis-core", "Invalid -gamemasteraddr port %d, isn't the same as the peer port %d"),
+QT_TRANSLATE_NOOP("hemis-core", "Invalid -gamemasteraddr port %d, only %d is supported on %s-net."),
 QT_TRANSLATE_NOOP("hemis-core", "Invalid activation height (%s)"),
 QT_TRANSLATE_NOOP("hemis-core", "Invalid amount for %s: '%s' (must be at least %s)"),
 QT_TRANSLATE_NOOP("hemis-core", "Invalid amount for -%s=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid masternodeprivkey. Please see the documentation."),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid mnoperatorprivatekey. Please see the documentation."),
+QT_TRANSLATE_NOOP("hemis-core", "Invalid gamemasterprivkey. Please see the documentation."),
+QT_TRANSLATE_NOOP("hemis-core", "Invalid gmoperatorprivatekey. Please see the documentation."),
 QT_TRANSLATE_NOOP("hemis-core", "Invalid netmask specified in %s: '%s'"),
 QT_TRANSLATE_NOOP("hemis-core", "Invalid network upgrade (%s)"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid port %d detected in masternode.conf"),
+QT_TRANSLATE_NOOP("hemis-core", "Invalid port %d detected in gamemaster.conf"),
 QT_TRANSLATE_NOOP("hemis-core", "Invalid status error."),
 QT_TRANSLATE_NOOP("hemis-core", "Keypool ran out, please call keypoolrefill first, or unlock the wallet."),
-QT_TRANSLATE_NOOP("hemis-core", "Legacy Masternode is obsolete."),
+QT_TRANSLATE_NOOP("hemis-core", "Legacy Gamemaster is obsolete."),
 QT_TRANSLATE_NOOP("hemis-core", "Line: %d"),
 QT_TRANSLATE_NOOP("hemis-core", "Loading addresses..."),
 QT_TRANSLATE_NOOP("hemis-core", "Loading banlist..."),
 QT_TRANSLATE_NOOP("hemis-core", "Loading block index..."),
 QT_TRANSLATE_NOOP("hemis-core", "Loading budget cache..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading masternode cache..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading masternode payment cache..."),
+QT_TRANSLATE_NOOP("hemis-core", "Loading gamemaster cache..."),
+QT_TRANSLATE_NOOP("hemis-core", "Loading gamemaster payment cache..."),
 QT_TRANSLATE_NOOP("hemis-core", "Loading sporks..."),
 QT_TRANSLATE_NOOP("hemis-core", "Loading wallet..."),
 QT_TRANSLATE_NOOP("hemis-core", "Loading/Pruning invalid outputs..."),
-QT_TRANSLATE_NOOP("hemis-core", "MNs synchronization pending..."),
+QT_TRANSLATE_NOOP("hemis-core", "GMs synchronization pending..."),
 QT_TRANSLATE_NOOP("hemis-core", "Need to specify a port with %s: '%s'"),
 QT_TRANSLATE_NOOP("hemis-core", "Network upgrade parameters malformed, expecting %s"),
 QT_TRANSLATE_NOOP("hemis-core", "Network upgrade parameters may only be overridden on regtest."),
@@ -200,14 +200,14 @@ QT_TRANSLATE_NOOP("hemis-core", "Specified blocks directory \"%s\" does not exis
 QT_TRANSLATE_NOOP("hemis-core", "Synchronization failed"),
 QT_TRANSLATE_NOOP("hemis-core", "Synchronization finished"),
 QT_TRANSLATE_NOOP("hemis-core", "Synchronizing budgets..."),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronizing masternode winners..."),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronizing masternodes..."),
+QT_TRANSLATE_NOOP("hemis-core", "Synchronizing gamemaster winners..."),
+QT_TRANSLATE_NOOP("hemis-core", "Synchronizing gamemasters..."),
 QT_TRANSLATE_NOOP("hemis-core", "Synchronizing sporks..."),
 QT_TRANSLATE_NOOP("hemis-core", "The threshold value cannot be less than %s"),
 QT_TRANSLATE_NOOP("hemis-core", "This is experimental software."),
-QT_TRANSLATE_NOOP("hemis-core", "This is not a deterministic masternode. 'local' option disabled."),
-QT_TRANSLATE_NOOP("hemis-core", "This is not a masternode. 'local' option disabled."),
-QT_TRANSLATE_NOOP("hemis-core", "This is not a masternode."),
+QT_TRANSLATE_NOOP("hemis-core", "This is not a deterministic gamemaster. 'local' option disabled."),
+QT_TRANSLATE_NOOP("hemis-core", "This is not a gamemaster. 'local' option disabled."),
+QT_TRANSLATE_NOOP("hemis-core", "This is not a gamemaster."),
 QT_TRANSLATE_NOOP("hemis-core", "This product includes UPnP software written by Thomas Bernard."),
 QT_TRANSLATE_NOOP("hemis-core", "Transaction amount too small"),
 QT_TRANSLATE_NOOP("hemis-core", "Transaction amounts must be positive"),
@@ -233,7 +233,7 @@ QT_TRANSLATE_NOOP("hemis-core", "Warning"),
 QT_TRANSLATE_NOOP("hemis-core", "Warning: This version is obsolete, upgrade required!"),
 QT_TRANSLATE_NOOP("hemis-core", "Warning: Unsupported argument %s ignored, use %s"),
 QT_TRANSLATE_NOOP("hemis-core", "Warning: Unsupported argument %s ignored, use %s."),
-QT_TRANSLATE_NOOP("hemis-core", "You can not start a masternode in litemode"),
+QT_TRANSLATE_NOOP("hemis-core", "You can not start a gamemaster in litemode"),
 QT_TRANSLATE_NOOP("hemis-core", "You need to rebuild the database using %s to change %s"),
 QT_TRANSLATE_NOOP("hemis-core", "Zapping all transactions from wallet..."),
 };

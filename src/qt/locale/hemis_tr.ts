@@ -1163,14 +1163,14 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
     </message>
 </context>
 <context>
-    <name>MNRow</name>
+    <name>GMRow</name>
     <message>
         <source>Form</source>
         <translation>Form</translation>
     </message>
     </context>
 <context>
-    <name>MasterNodeWizardDialog</name>
+    <name>GameMasterWizardDialog</name>
     <message>
         <source>Dialog</source>
         <translation>Diyalog</translation>
@@ -1205,11 +1205,11 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 HMS will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 HMS'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 HMS'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Gamemaster'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
-        <translation>Gerçek Masternode'un çalıştığı adres herzaman online olmak zorundadır.</translation>
+        <translation>Gerçek Gamemaster'un çalıştığı adres herzaman online olmak zorundadır.</translation>
     </message>
     <message>
         <source>Enter IP address</source>
@@ -1232,27 +1232,27 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>IP ve Port boş olamaz</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Geçersiz masternode.conf dosyası</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Geçersiz gamemaster.conf dosyası</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation> masternode.conf dosyası çözümleme hatası</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation> gamemaster.conf dosyası çözümleme hatası</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation> masternode.conf dosyası bulunamadı</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation> gamemaster.conf dosyası bulunamadı</translation>
     </message>
 </context>
 <context>
-    <name>MasterNodesWidget</name>
+    <name>GameMastersWidget</name>
     <message>
         <source>Form</source>
         <translation>Form</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternode'lar</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemaster'lar</translation>
     </message>
     <message>
         <source>Full nodes that incentivize node operators to perform the core consensus functions
@@ -1260,12 +1260,12 @@ and vote on the treasury system receiving a periodic reward.</source>
         <translation>Düğüm operatörlerinin temel konsensüs fonksiyonlarını teşvik eden tam düğümler hazine sisteminde oy kullanarak düzenli ödüller kazanırlar. </translation>
     </message>
     <message>
-        <source>Create Masternode Controller</source>
-        <translation>Masternode Kontrolörü Yarat</translation>
+        <source>Create Gamemaster Controller</source>
+        <translation>Gamemaster Kontrolörü Yarat</translation>
     </message>
     <message>
-        <source>No active Masternode yet</source>
-        <translation>Henüz Aktif Masternode bulunmuyor</translation>
+        <source>No active Gamemaster yet</source>
+        <translation>Henüz Aktif Gamemaster bulunmuyor</translation>
     </message>
     <message>
         <source>Start</source>
@@ -1280,33 +1280,33 @@ and vote on the treasury system receiving a periodic reward.</source>
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Start Masternode</source>
-        <translation>Masternode'u başlat</translation>
+        <source>Start Gamemaster</source>
+        <translation>Gamemaster'u başlat</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
-        <translation>Masternode %1 'i başlatmak istediğinize emin misiniz?
+        <translation>Gamemaster %1 'i başlatmak istediğinize emin misiniz?
 </translation>
     </message>
     <message>
-        <source>Remote Masternode Data</source>
-        <translation>Uzak Masternode Bilgisi</translation>
+        <source>Remote Gamemaster Data</source>
+        <translation>Uzak Gamemaster Bilgisi</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Masternode nedir?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Gamemaster nedir?</translation>
     </message>
     <message>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press "start").
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press "start").
 </source>
-        <translation>Uzak bir sunucuda Masternode çalıştırabilmek için gereken bilgiyi
+        <translation>Uzak bir sunucuda Gamemaster çalıştırabilmek için gereken bilgiyi
 panoya almak üzeresiniz.
 
 
@@ -1316,38 +1316,38 @@ Masternodu başlatın (Listeden Masternodu seçip "başlat" tuşuna basın).
 </translation>
     </message>
     <message>
-        <source>Delete Masternode</source>
-        <translation>Masternode'u Sil</translation>
+        <source>Delete Gamemaster</source>
+        <translation>Gamemaster'u Sil</translation>
     </message>
     <message>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
-        <translation>Masternode'u silmek üzeresiniz
+        <translation>Gamemaster'u silmek üzeresiniz
 %1
 
 Emin misiniz?</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Geçersiz masternode.conf dosyası</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Geçersiz gamemaster.conf dosyası</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation> masternode.conf dosyası çözümleme hatası</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation> gamemaster.conf dosyası çözümleme hatası</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation> masternode.conf dosyası bulunamadı</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation> gamemaster.conf dosyası bulunamadı</translation>
     </message>
     <message>
-        <source>Error creating masternode</source>
-        <translation>Masternode yaratma hatası</translation>
+        <source>Error creating gamemaster</source>
+        <translation>Gamemaster yaratma hatası</translation>
     </message>
 </context>
 <context>
-    <name>MnInfoDialog</name>
+    <name>GmInfoDialog</name>
     <message>
         <source>Form</source>
         <translation>Form</translation>
@@ -1520,12 +1520,12 @@ Emin misiniz?</translation>
         <translation>Köşe ve kontrol özelliklerini etkinleştir</translation>
     </message>
     <message>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
+        <source>Show additional tab listing all your gamemasters in first sub-tab&lt;br/&gt;and all gamemasters on the network in second sub-tab.</source>
         <translation>Tüm alt düğmelerinizi ilk alt sekmede listeleyen ek sekme gösterin&lt;br/&gt;ve ikinci alt sekmesindeki ağdaki tüm masternodları</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
-        <translation>Masternode'lar Sekmesini Göster </translation>
+        <source>Show Gamemasters Tab</source>
+        <translation>Gamemaster'lar Sekmesini Göster </translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -1978,8 +1978,8 @@ Adres: %4
         <translation>Hata: Geçersiz -regtest ve -testnet kombinasyonu.</translation>
     </message>
     <message>
-        <source>Error reading masternode configuration file: %1</source>
-        <translation>Masternode konfigürasyon dosyası okuma hatası: %1</translation>
+        <source>Error reading gamemaster configuration file: %1</source>
+        <translation>Gamemaster konfigürasyon dosyası okuma hatası: %1</translation>
     </message>
     <message>
         <source>hemis Core didn't yet exit safely...</source>
@@ -2018,8 +2018,8 @@ Adres: %4
         <translation>Mint edildi </translation>
     </message>
     <message>
-        <source>MN reward</source>
-        <translation>MN Ödülü</translation>
+        <source>GM reward</source>
+        <translation>GM Ödülü</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2117,7 +2117,7 @@ Adres: %4
         <translation>Geçerli veri dizininden hemis hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
+        <source>Number of Gamemasters</source>
         <translation>Masternodların sayısı</translation>
     </message>
     <message>
@@ -3196,13 +3196,13 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>6</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Masternode nedir?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Gamemaster nedir?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3217,16 +3217,16 @@ Verify that you have installed a predetermined text editor.</source>
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           For providing such services, masternodes are also paid a certain portion
+                           For providing such services, gamemasters are also paid a certain portion
                            of reward for each block. This can serve as a passive income to the
-                           masternode owners minus their running cost.
+                           gamemaster owners minus their running cost.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Perks:
+                           Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
-                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
                            &lt;li&gt;Help secure the hemis network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3235,10 +3235,10 @@ Verify that you have installed a predetermined text editor.</source>
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 HMS per single Gamemaster instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
-                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;li&gt;Gamemaster wallet to remain online&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -3260,15 +3260,15 @@ Verify that you have installed a predetermined text editor.</source>
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Bu tür hizmetler vermesi ile masternodlar her blok ödülünden belli
-bir oranda pay alırlar. Bu masternode sahiplerine
+bir oranda pay alırlar. Bu gamemaster sahiplerine
 işletim maliyetleri sonrası pasif bir gelir sunar.
                             &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Avantajları:
+                           Gamemaster Avantajları:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;hemis yönetimine katılın&lt;/li&gt;
-                           &lt;li&gt;Masternode Ödülleri kazanın&lt;/li&gt;
+                           &lt;li&gt;Gamemaster Ödülleri kazanın&lt;/li&gt;
                            &lt;li&gt;İlerde satabileceğiniz bir varlık opsiyonu&lt;/li&gt;
                            &lt;li&gt;hemis ağını güvenliğine destek olun&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3280,7 +3280,7 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
                            &lt;li&gt;Her Masternod için ayrı 10,000 HMS
                            &lt;li&gt;Core cüzdan içinde saklanmalıdır.&lt;/li&gt;
                            &lt;li&gt;Atanmış IP adresi gerekmektedir. &lt;/li&gt;
-                           &lt;li&gt;Masternode cüzdanının online olması&lt;/li&gt;
+                           &lt;li&gt;Gamemaster cüzdanının online olması&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3484,8 +3484,8 @@ Emin misiniz?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hemis addresses after it matures.</source>
-        <translation>ÇokluGönder olgunlaşmış masternode ve staking ödüllerinizin 100% 'üne kadarını diğer hemis adreslerine otomatik olarak göndermenizi sağlar. </translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
+        <translation>ÇokluGönder olgunlaşmış gamemaster ve staking ödüllerinizin 100% 'üne kadarını diğer hemis adreslerine otomatik olarak göndermenizi sağlar. </translation>
     </message>
     <message>
         <source>Active</source>
@@ -3504,8 +3504,8 @@ Emin misiniz?
         <translation>Stakeleri gönder</translation>
     </message>
     <message>
-        <source>Send masternode rewards</source>
-        <translation>Masternode ödüllerini gönder</translation>
+        <source>Send gamemaster rewards</source>
+        <translation>Gamemaster ödüllerini gönder</translation>
     </message>
     <message>
         <source>ADD RECIPIENT</source>
@@ -3547,9 +3547,9 @@ Lütfen adresi kontrol ediniz ve tekrar deneyiniz.</translation>
     </message>
     <message>
         <source>Unable to activate MultiSend
-Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+Check one or both of the check boxes to send on stake and/or gamemaster rewards</source>
         <translation>ÇokluGönder aktive edilemedi
-İşaret kuturlarından birini veya ikisini seçerek stake ve/veya masternode ödüllerinden gönderin.</translation>
+İşaret kuturlarından birini veya ikisini seçerek stake ve/veya gamemaster ödüllerinden gönderin.</translation>
     </message>
     <message>
         <source>MultiSend activated but writing settings to DB failed</source>
@@ -4112,8 +4112,8 @@ Emin misiniz?
         <translation>ile Alınmış</translation>
     </message>
     <message>
-        <source>Masternode Reward</source>
-        <translation>Masternode Ödülü </translation>
+        <source>Gamemaster Reward</source>
+        <translation>Gamemaster Ödülü </translation>
     </message>
     <message>
         <source>Received from</source>
@@ -4308,8 +4308,8 @@ Emin misiniz?
         <translation>Gizlilik</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternode'lar</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemaster'lar</translation>
     </message>
     <message>
         <source>Select your language</source>
@@ -4330,16 +4330,16 @@ Hoşgeldiniz</translation>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Manifestomuzda yazdığı gibi: Gizlilik, pazarlık yapılamayacak temel bir insan hakkıdır; kullanıcılarına istedikleri zaman ve istedikleri kişiyle verilerini paylaşma özgürlüğü verir - hemis özerkliğe inanır.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Masternode ağı dağıtık yönetim ve hazine yönetimini sağlayan hemis blockchaini üzerindeki ikinci katmandır.</translation>
+        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Gamemaster ağı dağıtık yönetim ve hazine yönetimini sağlayan hemis blockchaini üzerindeki ikinci katmandır.</translation>
     </message>
     <message>
         <source>How hemis respects your privacy?</source>
         <translation>hemis gizliliğinize nasıl saygı duyar?</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Masternode nedir?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Gamemaster nedir?</translation>
     </message>
     <message>
         <source>default</source>
@@ -4605,8 +4605,8 @@ Hoşgeldiniz</translation>
         <translation>Bozuk blok veritabanı tespit edildi</translation>
     </message>
     <message>
-        <source>Could not parse masternode.conf</source>
-        <translation>masternode.conf çözümlenemedi</translation>
+        <source>Could not parse gamemaster.conf</source>
+        <translation>gamemaster.conf çözümlenemedi</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -4637,8 +4637,8 @@ Hoşgeldiniz</translation>
         <translation>Yükleme tamamlandı</translation>
     </message>
     <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>İstemciyi Masternode olarak hareket etmesi için etkinleştir. (0-1, varsayılan: %u)</translation>
+        <source>Enable the client to act as a gamemaster (0-1, default: %u)</source>
+        <translation>İstemciyi Gamemaster olarak hareket etmesi için etkinleştir. (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -4821,12 +4821,12 @@ Hoşgeldiniz</translation>
         <translation>Bütçe ön belleği yükleniyor...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
-        <translation>Masternode ön belleği yükleniyor...</translation>
+        <source>Loading gamemaster cache...</source>
+        <translation>Gamemaster ön belleği yükleniyor...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
-        <translation>Masternode ödeme ön belleği yükleniyor...</translation>
+        <source>Loading gamemaster payment cache...</source>
+        <translation>Gamemaster ödeme ön belleği yükleniyor...</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
@@ -4841,8 +4841,8 @@ Hoşgeldiniz</translation>
         <translation>Yetki çerez lokasyonu (varsayılan: bilgi dizini)</translation>
     </message>
     <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Masternode'ları masternode konfigürasyon dosyasından kilitle (varsayılan: %u)</translation>
+        <source>Lock gamemasters from gamemaster configuration file (default: %u)</source>
+        <translation>Gamemaster'ları gamemaster konfigürasyon dosyasından kilitle (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
@@ -4853,8 +4853,8 @@ Hoşgeldiniz</translation>
         <translation>Eşlerle en fazla &lt;n&gt; bağlantı kur (varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Masternode options:</source>
-        <translation>Masternode seçenekleri:</translation>
+        <source>Gamemaster options:</source>
+        <translation>Gamemaster seçenekleri:</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -4961,8 +4961,8 @@ Hoşgeldiniz</translation>
         <translation>Veritabanı ön bellek büyüklüğünü megabyte cinsinden belirle (%d 'den  %d 'ye, varsayılan: %d)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Dış adres belirle: bu masternode ulaşmak için port aç (örnek: %s)</translation>
+        <source>Set external address:port to get to this gamemaster (example: %s)</source>
+        <translation>Dış adres belirle: bu gamemaster ulaşmak için port aç (örnek: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -4981,8 +4981,8 @@ Hoşgeldiniz</translation>
         <translation>Maksimum reorg derinliğini belirle (varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Set the masternode private key</source>
-        <translation>Masternode gizli anahtarı</translation>
+        <source>Set the gamemaster private key</source>
+        <translation>Gamemaster gizli anahtarı</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
@@ -5017,8 +5017,8 @@ Hoşgeldiniz</translation>
         <translation>Bilgi dizini belirleyin</translation>
     </message>
     <message>
-        <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Masternode konfigürasyon dosyası belirleyin (varsayılan:%s)</translation>
+        <source>Specify gamemaster configuration file (default: %s)</source>
+        <translation>Gamemaster konfigürasyon dosyası belirleyin (varsayılan:%s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -5053,12 +5053,12 @@ Hoşgeldiniz</translation>
         <translation>Bütçe eşzamanlanıyor..</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
-        <translation>Masternode kazananları eşzamanlanıyor..</translation>
+        <source>Synchronizing gamemaster winners...</source>
+        <translation>Gamemaster kazananları eşzamanlanıyor..</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
-        <translation>Masternode'lar eşzamanlanıyor..</translation>
+        <source>Synchronizing gamemasters...</source>
+        <translation>Gamemaster'lar eşzamanlanıyor..</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>

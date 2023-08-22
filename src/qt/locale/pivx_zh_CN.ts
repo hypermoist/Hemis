@@ -1195,14 +1195,14 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
 </context>
 <context>
-    <name>MNRow</name>
+    <name>GMRow</name>
     <message>
         <source>Form</source>
         <translation>来自</translation>
     </message>
     </context>
 <context>
-    <name>MasterNodeWizardDialog</name>
+    <name>GameMasterWizardDialog</name>
     <message>
         <source>Dialog</source>
         <translation>对话框</translation>
@@ -1232,19 +1232,19 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>地址</translation>
     </message>
     <message>
-        <source>Create New Masternode Controller</source>
+        <source>Create New Gamemaster Controller</source>
         <translation>创建新的主节点控制器</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Masternode you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个hemis主节点，你必须奉献10,000 HMS（hemis的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Set Masternode Name</source>
+        <source>Set Gamemaster Name</source>
         <translation>设置主节点名称</translation>
     </message>
     <message>
-        <source>Set Masternode IP and Port</source>
+        <source>Set Gamemaster IP and Port</source>
         <translation>设置主节点IP和端口</translation>
     </message>
     <message>
@@ -1314,20 +1314,20 @@ It will start automatically as soon as the wallet has enough confirmations on an
 %1</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
+        <source>Invalid gamemaster.conf file</source>
         <translation>主节点配置文件无效</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
+        <source>Error parsing gamemaster.conf file</source>
         <translation>解析主节点配置文件出错</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
+        <source>gamemaster.conf file doesn't exists</source>
         <translation>主节点配置文件不存在</translation>
     </message>
 </context>
 <context>
-    <name>MasterNodesWidget</name>
+    <name>GameMastersWidget</name>
     <message>
         <source>Form</source>
         <translation>来自</translation>
@@ -1341,7 +1341,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>停止活跃／秒</translation>
     </message>
     <message>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation>主节点</translation>
     </message>
     <message>
@@ -1351,11 +1351,11 @@ and vote on the treasury system receiving a periodic reward.</source>
 并对财政部系统定期奖励进行投票。</translation>
     </message>
     <message>
-        <source>Create Masternode Controller</source>
+        <source>Create Gamemaster Controller</source>
         <translation>创建主节点控制器</translation>
     </message>
     <message>
-        <source>No active Masternode yet</source>
+        <source>No active Gamemaster yet</source>
         <translation>还没激活主节点</translation>
     </message>
     <message>
@@ -1375,22 +1375,22 @@ and vote on the treasury system receiving a periodic reward.</source>
         <translation>请等到节点完全同步</translation>
     </message>
     <message>
-        <source>Start Masternode</source>
+        <source>Start Gamemaster</source>
         <translation>开始主节点</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
         <translation>您确定要开始主节点%1?
 </translation>
     </message>
     <message>
-        <source>Cannot edit masternode, wallet locked</source>
+        <source>Cannot edit gamemaster, wallet locked</source>
         <translation>无法编辑主节点，钱包被锁了</translation>
     </message>
     <message>
-        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
-Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
+        <source>Cannot start gamemaster, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (gamemaster collaterals require %1 confirmations).</source>
         <translation>无法启动主节点，抵押品交易还没有被网络确认。
 请再稍等几分钟(主节点担保品需要%1确认)。</translation>
     </message>
@@ -1399,7 +1399,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>后台任务正在执行，请稍候</translation>
     </message>
     <message>
-        <source>Start ALL masternodes failed</source>
+        <source>Start ALL gamemasters failed</source>
         <translation>启动所有主节点失败</translation>
     </message>
     <message>
@@ -1407,41 +1407,41 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>解锁钱包已取消</translation>
     </message>
     <message>
-        <source>Cannot perform Masternodes start</source>
+        <source>Cannot perform Gamemasters start</source>
         <translation>无法启动主节点</translation>
     </message>
     <message>
-        <source>%1 Masternodes failed to start, %2 started</source>
+        <source>%1 Gamemasters failed to start, %2 started</source>
         <translation>%1主节点启动失败，%2已经启动</translation>
     </message>
     <message>
-        <source>All Masternodes started!</source>
+        <source>All Gamemasters started!</source>
         <translation>所有主节点已经启动！</translation>
     </message>
     <message>
-        <source>Cannot show Masternode information, wallet locked</source>
+        <source>Cannot show Gamemaster information, wallet locked</source>
         <translation>无法显示主节点信息，钱包被锁了</translation>
     </message>
     <message>
-        <source>Masternode data copied to the clipboard.</source>
+        <source>Gamemaster data copied to the clipboard.</source>
         <translation>复制到剪贴板的主节点数据。</translation>
     </message>
     <message>
-        <source>Remote Masternode Data</source>
+        <source>Remote Gamemaster Data</source>
         <translation>远程主节点数据</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>主节点是什么？</translation>
     </message>
     <message>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press "start").
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press "start").
 </source>
         <translation>您正准备导出运行主节点所需的数据
 到剪贴板的远程服务器上。
@@ -1453,11 +1453,11 @@ this controller wallet (select the Masternode in the list and press "start").
 </translation>
     </message>
     <message>
-        <source>Delete Masternode</source>
+        <source>Delete Gamemaster</source>
         <translation>删除主节点</translation>
     </message>
     <message>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
@@ -1467,34 +1467,34 @@ Are you sure?</source>
 确定吗？</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
+        <source>Invalid gamemaster.conf file</source>
         <translation>主节点配置文件无效</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
+        <source>Error parsing gamemaster.conf file</source>
         <translation>解析主节点配置文件出错</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
+        <source>gamemaster.conf file doesn't exists</source>
         <translation>主节点配置文件不存在</translation>
     </message>
     <message>
-        <source>Cannot create Masternode controller, wallet locked</source>
+        <source>Cannot create Gamemaster controller, wallet locked</source>
         <translation>无法创建主节点控制器，钱包被锁了</translation>
     </message>
     <message>
-        <source>Error creating masternode</source>
+        <source>Error creating gamemaster</source>
         <translation>创建主节点出错</translation>
     </message>
 </context>
 <context>
-    <name>MnInfoDialog</name>
+    <name>GmInfoDialog</name>
     <message>
         <source>Form</source>
         <translation>来自</translation>
     </message>
     <message>
-        <source>Masternode Information</source>
+        <source>Gamemaster Information</source>
         <translation>主节点信息</translation>
     </message>
     <message>
@@ -1522,7 +1522,7 @@ Are you sure?</source>
         <translation>状态：</translation>
     </message>
     <message>
-        <source>Export data to run the Masternode on a remote server</source>
+        <source>Export data to run the Gamemaster on a remote server</source>
         <translation>导出数据去远程服务器上运行主节点</translation>
     </message>
     </context>
@@ -1669,11 +1669,11 @@ Are you sure?</source>
         <translation>启用硬币&amp;控制功能</translation>
     </message>
     <message>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
+        <source>Show additional tab listing all your gamemasters in first sub-tab&lt;br/&gt;and all gamemasters on the network in second sub-tab.</source>
         <translation>显示附加的标签，列出所有您的主节点在第一子列表上&lt;br/&gt;所有主节点的网络在第二个子列表上。</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
+        <source>Show Gamemasters Tab</source>
         <translation>显示主节点选项卡</translation>
     </message>
     <message>
@@ -2131,7 +2131,7 @@ Address: %4
         <translation>错误:-regtest和-testnet的组合无效。</translation>
     </message>
     <message>
-        <source>Error reading masternode configuration file: %1</source>
+        <source>Error reading gamemaster configuration file: %1</source>
         <translation>读取主节点配置文件出错:%1</translation>
     </message>
     <message>
@@ -2211,8 +2211,8 @@ Address: %4
         <translation>已铸币</translation>
     </message>
     <message>
-        <source>MN reward</source>
-        <translation>MN奖励</translation>
+        <source>GM reward</source>
+        <translation>GM奖励</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2322,7 +2322,7 @@ Address: %4
         <translation>从当前数据目录打开hemis调试日志文件。对于大型日志文件，这可能需要几秒钟。</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
+        <source>Number of Gamemasters</source>
         <translation>主节点数量</translation>
     </message>
     <message>
@@ -3541,21 +3541,21 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>如果我需要帮助，我该怎么办？</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>主节点是什么？</translation>
     </message>
     <message>
-        <source>What is a Masternode Controller?</source>
+        <source>What is a Gamemaster Controller?</source>
         <translation>什么是主节点控制器？</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Gamemaster Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote gamemaster setup. It is a wallet that can activate the remote gamemaster wallet(s) and allows you to keep your collateral coins offline while the remote gamemaster remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;主节点控制器钱包是控制器-远程主节点建立期间10,000 HMS抵押可以驻留的地方。这是一个可以激活远程主节点钱包(s)的钱包，可以让你的抵押币离线但远程主节点保持在线。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3570,16 +3570,16 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           For providing such services, masternodes are also paid a certain portion
+                           For providing such services, gamemasters are also paid a certain portion
                            of reward for each block. This can serve as a passive income to the
-                           masternode owners minus their running cost.
+                           gamemaster owners minus their running cost.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Perks:
+                           Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
-                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
                            &lt;li&gt;Help secure the hemis network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3588,10 +3588,10 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 HMS per single Gamemaster instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
-                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;li&gt;Gamemaster wallet to remain online&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -3687,7 +3687,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>连接：</translation>
     </message>
     <message>
-        <source>Number of Masternodes:</source>
+        <source>Number of Gamemasters:</source>
         <translation>主节点数量：</translation>
     </message>
     <message>
@@ -3886,7 +3886,7 @@ Are you sure?
         <translation>查看列表</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hemis addresses after it matures.</source>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
         <translation>成熟以后，多重花费允许您自动发送高达 100% 的股权或主节点奖励到其他hemis地址列表</translation>
     </message>
     <message>
@@ -3906,7 +3906,7 @@ Are you sure?
         <translation>发送加注</translation>
     </message>
     <message>
-        <source>Send masternode rewards</source>
+        <source>Send gamemaster rewards</source>
         <translation>发送主节点奖励</translation>
     </message>
     <message>
@@ -3953,7 +3953,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Unable to activate MultiSend
-Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+Check one or both of the check boxes to send on stake and/or gamemaster rewards</source>
         <translation>无法激活多重发送
 选中一个或两个复选框来发送加注和/或主节点奖励</translation>
     </message>
@@ -4598,7 +4598,7 @@ backup will be created.
         <translation>接收</translation>
     </message>
     <message>
-        <source>Masternode Reward</source>
+        <source>Gamemaster Reward</source>
         <translation>主节点奖励</translation>
     </message>
     <message>
@@ -4818,7 +4818,7 @@ backup will be created.
         <translation>隐私</translation>
     </message>
     <message>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation>主节点</translation>
     </message>
     <message>
@@ -4840,7 +4840,7 @@ hemis核心钱包</translation>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正如我们的宣言所说:隐私是一项不容协商的基本人权;它赋予用户随时随地与任何人共享数据的自由——hemis相信自我主权&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation>主节点网络是hemis在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
     </message>
     <message>
@@ -4848,7 +4848,7 @@ hemis核心钱包</translation>
         <translation>hemis 到底是怎么尊重你的隐私的？</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>主节点是什么？</translation>
     </message>
     <message>
@@ -5119,7 +5119,7 @@ hemis核心钱包</translation>
         <translation>检测到已损坏区块数据库</translation>
     </message>
     <message>
-        <source>Could not parse masternode.conf</source>
+        <source>Could not parse gamemaster.conf</source>
         <translation>无法解析主节点配置</translation>
     </message>
     <message>
@@ -5151,7 +5151,7 @@ hemis核心钱包</translation>
         <translation>下载完成</translation>
     </message>
     <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <source>Enable the client to act as a gamemaster (0-1, default: %u)</source>
         <translation>允许客户端充当主节点(0-1，默认值:%u)</translation>
     </message>
     <message>
@@ -5343,11 +5343,11 @@ hemis核心钱包</translation>
         <translation>正在下载加载预算…</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading gamemaster cache...</source>
         <translation>正在下载主节点缓存...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading gamemaster payment cache...</source>
         <translation>正在下载主节点支付缓存...</translation>
     </message>
     <message>
@@ -5363,7 +5363,7 @@ hemis核心钱包</translation>
         <translation>auth cookie的位置(默认:data dir)</translation>
     </message>
     <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <source>Lock gamemasters from gamemaster configuration file (default: %u)</source>
         <translation>从主节点配置文件中锁定主节点(默认:%u)</translation>
     </message>
     <message>
@@ -5371,15 +5371,15 @@ hemis核心钱包</translation>
         <translation>查找():无效-代理地址或主机名:'%s'</translation>
     </message>
     <message>
-        <source>MNs synchronization pending...</source>
-        <translation>MNs同步正在进行...</translation>
+        <source>GMs synchronization pending...</source>
+        <translation>GMs同步正在进行...</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>最多&lt;n&gt;保持与端口连接(默认值:%u)</translation>
     </message>
     <message>
-        <source>Masternode options:</source>
+        <source>Gamemaster options:</source>
         <translation>主节点选项：</translation>
     </message>
     <message>
@@ -5507,7 +5507,7 @@ hemis核心钱包</translation>
         <translation>设置数据库缓存大小(从%d到%d，默认为%d)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <source>Set external address:port to get to this gamemaster (example: %s)</source>
         <translation>设置外部地址:到达这个主节点的端口(例如:%s)</translation>
     </message>
     <message>
@@ -5527,7 +5527,7 @@ hemis核心钱包</translation>
         <translation>设置最大reorg深度(默认:%u)</translation>
     </message>
     <message>
-        <source>Set the masternode private key</source>
+        <source>Set the gamemaster private key</source>
         <translation>设置主节点私钥</translation>
     </message>
     <message>
@@ -5563,7 +5563,7 @@ hemis核心钱包</translation>
         <translation>指定数据目录</translation>
     </message>
     <message>
-        <source>Specify masternode configuration file (default: %s)</source>
+        <source>Specify gamemaster configuration file (default: %s)</source>
         <translation>指定主节点配置文件(默认:%s)</translation>
     </message>
     <message>
@@ -5599,11 +5599,11 @@ hemis核心钱包</translation>
         <translation>正在同步预算...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing gamemaster winners...</source>
         <translation>正在同步主节点赢家...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing gamemasters...</source>
         <translation>正在同步主节点...</translation>
     </message>
     <message>

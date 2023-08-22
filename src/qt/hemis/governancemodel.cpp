@@ -10,7 +10,7 @@
 #include "guiconstants.h"
 #include "qt/transactiontablemodel.h"
 #include "qt/transactionrecord.h"
-#include "qt/hemis/mnmodel.h"
+#include "qt/hemis/gmmodel.h"
 #include "tiertwo/tiertwo_sync_state.h"
 #include "utilmoneystr.h"
 #include "utilstrencodings.h"
@@ -36,7 +36,7 @@ std::string ProposalInfo::statusToStr() const
     return "";
 }
 
-GovernanceModel::GovernanceModel(ClientModel* _clientModel, MNModel* _mnModel) : clientModel(_clientModel), mnModel(_mnModel) {}
+GovernanceModel::GovernanceModel(ClientModel* _clientModel, GMModel* _gmModel) : clientModel(_clientModel), gmModel(_gmModel) {}
 GovernanceModel::~GovernanceModel() {}
 
 void GovernanceModel::setWalletModel(WalletModel* _walletModel)
@@ -53,7 +53,7 @@ ProposalInfo GovernanceModel::buildProposalInfo(const CBudgetProposal* prop, boo
     // Calculate status
     int votesYes = prop->GetYeas();
     int votesNo = prop->GetNays();
-    int mnCount = clientModel->getMasternodesCount();
+    int gmCount = clientModel->getGamemastersCount();
     int remainingPayments = prop->GetRemainingPaymentCount(clientModel->getLastBlockProcessedHeight());
     ProposalInfo::Status status;
 
@@ -65,7 +65,7 @@ ProposalInfo GovernanceModel::buildProposalInfo(const CBudgetProposal* prop, boo
             status = ProposalInfo::FINISHED;
         } else if (isPassing) {
             status = ProposalInfo::PASSING;
-        } else if (allocatedAmount + prop->GetAmount() > getMaxAvailableBudgetAmount() && votesYes - votesNo > mnCount / 10) {
+        } else if (allocatedAmount + prop->GetAmount() > getMaxAvailableBudgetAmount() && votesYes - votesNo > gmCount / 10) {
             status = ProposalInfo::PASSING_NOT_FUNDED;
         } else {
             status = ProposalInfo::NOT_PASSING;
@@ -150,28 +150,28 @@ int GovernanceModel::getNextSuperblockHeight() const
     return chainHeight - chainHeight % nBlocksPerCycle + nBlocksPerCycle;
 }
 
-std::vector<VoteInfo> GovernanceModel::getLocalMNsVotesForProposal(const ProposalInfo& propInfo)
+std::vector<VoteInfo> GovernanceModel::getLocalGMsVotesForProposal(const ProposalInfo& propInfo)
 {
-    // First, get the local masternodes
-    std::vector<std::pair<COutPoint, std::string>> vecLocalMn;
-    for (int i = 0; i < mnModel->rowCount(); ++i) {
-        vecLocalMn.emplace_back(std::make_pair(
-                COutPoint(uint256S(mnModel->index(i, MNModel::COLLATERAL_ID, QModelIndex()).data().toString().toStdString()),
-                mnModel->index(i, MNModel::COLLATERAL_OUT_INDEX, QModelIndex()).data().toInt()),
-                mnModel->index(i, MNModel::ALIAS, QModelIndex()).data().toString().toStdString())
+    // First, get the local gamemasters
+    std::vector<std::pair<COutPoint, std::string>> vecLocalGm;
+    for (int i = 0; i < gmModel->rowCount(); ++i) {
+        vecLocalGm.emplace_back(std::make_pair(
+                COutPoint(uint256S(gmModel->index(i, GMModel::COLLATERAL_ID, QModelIndex()).data().toString().toStdString()),
+                gmModel->index(i, GMModel::COLLATERAL_OUT_INDEX, QModelIndex()).data().toInt()),
+                gmModel->index(i, GMModel::ALIAS, QModelIndex()).data().toString().toStdString())
         );
     }
 
     std::vector<VoteInfo> localVotes;
     {
         LOCK(g_budgetman.cs_proposals); // future: encapsulate this mutex lock.
-        // Get the budget proposal, get the votes, then loop over it and return the ones that correspond to the local masternodes here.
+        // Get the budget proposal, get the votes, then loop over it and return the ones that correspond to the local gamemasters here.
         CBudgetProposal* prop = g_budgetman.FindProposal(propInfo.id);
         const auto& mapVotes = prop->GetVotes();
         for (const auto& it : mapVotes) {
-            for (const auto& mn : vecLocalMn) {
-                if (it.first == mn.first && it.second.IsValid()) {
-                    localVotes.emplace_back(mn.first, (VoteInfo::VoteDirection) it.second.GetDirection(), mn.second, it.second.GetTime());
+            for (const auto& gm : vecLocalGm) {
+                if (it.first == gm.first && it.second.IsValid()) {
+                    localVotes.emplace_back(gm.first, (VoteInfo::VoteDirection) it.second.GetDirection(), gm.second, it.second.GetTime());
                     break;
                 }
             }
@@ -259,17 +259,17 @@ OperationResult GovernanceModel::createProposal(const std::string& strProposalNa
 
 OperationResult GovernanceModel::voteForProposal(const ProposalInfo& prop,
                                                  bool isVotePositive,
-                                                 const std::vector<std::string>& mnVotingAlias)
+                                                 const std::vector<std::string>& gmVotingAlias)
 {
     UniValue ret; // future: don't use UniValue here.
-    for (const auto& mnAlias : mnVotingAlias) {
-        bool fLegacyMN = true; // For now, only legacy MNs
-        ret = mnBudgetVoteInner(nullptr,
-                          fLegacyMN,
+    for (const auto& gmAlias : gmVotingAlias) {
+        bool fLegacyGM = true; // For now, only legacy GMs
+        ret = gmBudgetVoteInner(nullptr,
+                          fLegacyGM,
                           prop.id,
                           false,
                           isVotePositive ? CBudgetVote::VoteDirection::VOTE_YES : CBudgetVote::VoteDirection::VOTE_NO,
-                          mnAlias);
+                          gmAlias);
         if (ret.exists("detail") && ret["detail"].isArray()) {
             const UniValue& obj = ret["detail"].get_array()[0];
             if (obj["result"].getValStr() != "success") {

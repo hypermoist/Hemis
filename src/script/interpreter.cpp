@@ -1378,7 +1378,7 @@ bool TransactionSignatureChecker::CheckColdStake(bool fAllowLastOutputFree, cons
     assert(outs >= 2);
     // All outputs must have the same pubKeyScript, and it must match the script we are spending.
     // If the coinstake has at least 3 outputs, the last one can be left free, to be used for
-    // budget/masternode payments (before v6.0 enforcement), and is checked in CheckColdstakeFreeOutput().
+    // budget/gamemaster payments (before v6.0 enforcement), and is checked in CheckColdstakeFreeOutput().
     // Here we verify only that input amount goes to the non-free outputs.
     CAmount outValue{0};
     for (unsigned int i = 1; i < outs; i++) {

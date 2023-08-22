@@ -142,8 +142,8 @@ bool openDebugLogfile();
 // Open hemis.conf
 bool openConfigfile();
 
-// Open masternode.conf
-bool openMNConfigfile();
+// Open gamemaster.conf
+bool openGMConfigfile();
 
 // Browse backup folder
 bool showBackups();
