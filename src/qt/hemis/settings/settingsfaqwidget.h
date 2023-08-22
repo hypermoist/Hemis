@@ -7,7 +7,7 @@
 
 #include <QDialog>
 
-class MNModel;
+class GMModel;
 class hemisGUI;
 
 namespace Ui {
@@ -24,10 +24,10 @@ public:
         STAKE,
         SUPPORT,
         GAMEMASTER,
-        MNCONTROLLER
+        GMCONTROLLER
     };
 
-    explicit SettingsFaqWidget(hemisGUI* parent, MNModel* _model);
+    explicit SettingsFaqWidget(hemisGUI* parent, GMModel* _model);
     ~SettingsFaqWidget();
 
     void showEvent(QShowEvent *event) override;

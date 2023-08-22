@@ -123,7 +123,7 @@ hemisGUI::hemisGUI(const NetworkStyle* networkStyle, QWidget* parent) :
         sendWidget = new SendWidget(this);
         receiveWidget = new ReceiveWidget(this);
         addressesWidget = new AddressesWidget(this);
-        masterNodesWidget = new MasterNodesWidget(this);
+        gamemaStersWidget = new GamemaStersWidget(this);
         coldStakingWidget = new ColdStakingWidget(this);
         governancewidget = new GovernanceWidget(this);
         settingsWidget = new SettingsWidget(this);
@@ -133,7 +133,7 @@ hemisGUI::hemisGUI(const NetworkStyle* networkStyle, QWidget* parent) :
         stackedContainer->addWidget(sendWidget);
         stackedContainer->addWidget(receiveWidget);
         stackedContainer->addWidget(addressesWidget);
-        stackedContainer->addWidget(masterNodesWidget);
+        stackedContainer->addWidget(gamemaStersWidget);
         stackedContainer->addWidget(coldStakingWidget);
         stackedContainer->addWidget(governancewidget);
         stackedContainer->addWidget(settingsWidget);
@@ -199,8 +199,8 @@ void hemisGUI::connectActions()
     connect(sendWidget, &SendWidget::showHide, this, &hemisGUI::showHide);
     connect(receiveWidget, &ReceiveWidget::showHide, this, &hemisGUI::showHide);
     connect(addressesWidget, &AddressesWidget::showHide, this, &hemisGUI::showHide);
-    connect(masterNodesWidget, &MasterNodesWidget::showHide, this, &hemisGUI::showHide);
-    connect(masterNodesWidget, &MasterNodesWidget::execDialog, this, &hemisGUI::execDialog);
+    connect(gamemaStersWidget, &GamemaStersWidget::showHide, this, &hemisGUI::showHide);
+    connect(gamemaStersWidget, &GamemaStersWidget::execDialog, this, &hemisGUI::execDialog);
     connect(coldStakingWidget, &ColdStakingWidget::showHide, this, &hemisGUI::showHide);
     connect(coldStakingWidget, &ColdStakingWidget::execDialog, this, &hemisGUI::execDialog);
     connect(governancewidget, &GovernanceWidget::showHide, this, &hemisGUI::showHide);
@@ -254,7 +254,7 @@ void hemisGUI::setClientModel(ClientModel* _clientModel)
         topBar->setClientModel(clientModel);
         dashboard->setClientModel(clientModel);
         sendWidget->setClientModel(clientModel);
-        masterNodesWidget->setClientModel(clientModel);
+        gamemaStersWidget->setClientModel(clientModel);
         settingsWidget->setClientModel(clientModel);
         governancewidget->setClientModel(clientModel);
 
@@ -503,10 +503,10 @@ void hemisGUI::goToAddresses()
     showTop(addressesWidget);
 }
 
-void hemisGUI::goToMasterNodes()
+void hemisGUI::goToGamemaSters()
 {
-    masterNodesWidget->resetCoinControl();
-    showTop(masterNodesWidget);
+    gamemaStersWidget->resetCoinControl();
+    showTop(gamemaStersWidget);
 }
 
 void hemisGUI::goToColdStaking()
@@ -612,7 +612,7 @@ int hemisGUI::getNavWidth()
 void hemisGUI::openFAQ(SettingsFaqWidget::Section section)
 {
     showHide(true);
-    SettingsFaqWidget* dialog = new SettingsFaqWidget(this, mnModel);
+    SettingsFaqWidget* dialog = new SettingsFaqWidget(this, gmModel);
     dialog->setSection(section);
     openDialogWithOpaqueBackgroundFullScreen(dialog, this);
     dialog->deleteLater();
@@ -626,12 +626,12 @@ void hemisGUI::setGovModel(GovernanceModel* govModel)
     governancewidget->setGovModel(govModel);
 }
 
-void hemisGUI::setMNModel(MNModel* _mnModel)
+void hemisGUI::setGMModel(GMModel* _gmModel)
 {
     if (!stackedContainer || !clientModel) return;
-    mnModel = _mnModel;
-    governancewidget->setMNModel(mnModel);
-    masterNodesWidget->setMNModel(mnModel);
+    gmModel = _gmModel;
+    governancewidget->setGMModel(gmModel);
+    gamemaStersWidget->setGMModel(gmModel);
 }
 
 bool hemisGUI::addWallet(const QString& name, WalletModel* walletModel)
@@ -647,14 +647,14 @@ bool hemisGUI::addWallet(const QString& name, WalletModel* walletModel)
     receiveWidget->setWalletModel(walletModel);
     sendWidget->setWalletModel(walletModel);
     addressesWidget->setWalletModel(walletModel);
-    masterNodesWidget->setWalletModel(walletModel);
+    gamemaStersWidget->setWalletModel(walletModel);
     coldStakingWidget->setWalletModel(walletModel);
     governancewidget->setWalletModel(walletModel);
     settingsWidget->setWalletModel(walletModel);
 
     // Connect actions..
     connect(walletModel, &WalletModel::message, this, &hemisGUI::message);
-    connect(masterNodesWidget, &MasterNodesWidget::message, this, &hemisGUI::message);
+    connect(gamemaStersWidget, &GamemaStersWidget::message, this, &hemisGUI::message);
     connect(coldStakingWidget, &ColdStakingWidget::message, this, &hemisGUI::message);
     connect(topBar, &TopBar::message, this, &hemisGUI::message);
     connect(sendWidget, &SendWidget::message,this, &hemisGUI::message);
