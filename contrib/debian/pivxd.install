@@ -1,3 +1,0 @@
-usr/local/bin/hemisd usr/bin
-usr/local/bin/hemis-cli usr/bin
-debian/examples/hemis.conf etc/hemis
