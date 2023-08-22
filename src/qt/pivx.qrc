@@ -169,7 +169,7 @@
         <file alias="img-empty-contacts">hemis/res/img/img-empty-contacts.svg</file>
         <file alias="img-empty-dark-contacts">hemis/res/img/img-empty-dark-contacts.svg</file>
         <file alias="img-empty-dark-error">hemis/res/img/img-empty-dark-error.svg</file>
-        <file alias="img-empty-dark-masternode">hemis/res/img/img-empty-dark-masternode.svg</file>
+        <file alias="img-empty-dark-gamemaster">hemis/res/img/img-empty-dark-gamemaster.svg</file>
         <file alias="img-empty-dark-multisend">hemis/res/img/img-empty-dark-multisend.svg</file>
         <file alias="img-empty-dark-peers">hemis/res/img/img-empty-dark-peers.svg</file>
         <file alias="img-empty-dark-staking-on">hemis/res/img/img-empty-dark-staking-on.svg</file>
@@ -177,7 +177,7 @@
         <file alias="img-empty-dark-transactions">hemis/res/img/img-empty-dark-transactions.svg</file>
         <file alias="img-empty-dark-privacy">hemis/res/img/img-empty-privacy-dark.svg</file>
         <file alias="img-empty-error">hemis/res/img/img-empty-error.svg</file>
-        <file alias="img-empty-masternode">hemis/res/img/img-empty-masternode.svg</file>
+        <file alias="img-empty-gamemaster">hemis/res/img/img-empty-gamemaster.svg</file>
         <file alias="img-empty-multisend">hemis/res/img/img-empty-multisend.svg</file>
         <file alias="img-empty-peers">hemis/res/img/img-empty-peers.svg</file>
         <file alias="img-empty-privacy">hemis/res/img/img-empty-privacy.svg</file>

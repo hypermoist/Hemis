@@ -1320,19 +1320,19 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>주소</translation>
     </message>
     <message>
-        <source>Create New Masternode Controller</source>
+        <source>Create New Gamemaster Controller</source>
         <translation>새로운 마스터노드 컨트롤러 만들기</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Masternode you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;hemis 마스터노드를 생성하기 위해서는 10,000 HMS (hemis 단위)를 네트워크에 예치해야 합니다. (예치한 코인은 계속 본인의 소유입니다.) &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;언제든지 노드를 비활성화 시키고 코인을 잠금해제할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Set Masternode Name</source>
+        <source>Set Gamemaster Name</source>
         <translation>마스터노드 이름 설정</translation>
     </message>
     <message>
-        <source>Set Masternode IP and Port</source>
+        <source>Set Gamemaster IP and Port</source>
         <translation>마스터노드 IP와 Port 설정</translation>
     </message>
     <message>
@@ -1410,16 +1410,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>walletModel이 설정되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>masternode.conf 파일이 유효하지 않습니다.</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>gamemaster.conf 파일이 유효하지 않습니다.</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>masternode.conf 파일 문법 오류</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>gamemaster.conf 파일 문법 오류</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>masternode.conf 파일이 생성되지 않았습니다.</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>gamemaster.conf 파일이 생성되지 않았습니다.</translation>
     </message>
 </context>
 <context>
@@ -1437,7 +1437,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>비활성화된 노드 시작</translation>
     </message>
     <message>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation>마스터노드</translation>
     </message>
     <message>
@@ -1447,11 +1447,11 @@ and vote on the treasury system receiving a periodic reward.</source>
 정기적인 보상을 받는 재무 시스템에 투표할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Create Masternode Controller</source>
+        <source>Create Gamemaster Controller</source>
         <translation>마스터노드 컨트롤러 생성</translation>
     </message>
     <message>
-        <source>No active Masternode yet</source>
+        <source>No active Gamemaster yet</source>
         <translation>활성화된 마스터노드가 없습니다.</translation>
     </message>
     <message>
@@ -1471,21 +1471,21 @@ and vote on the treasury system receiving a periodic reward.</source>
         <translation>노드가 완전히 동기화될 때까지 기다려주세요.</translation>
     </message>
     <message>
-        <source>Start Masternode</source>
+        <source>Start Gamemaster</source>
         <translation>마스터노드 시작</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
         <translation>마스터노드 %1을 시작하시겠습니까?</translation>
     </message>
     <message>
-        <source>Cannot edit masternode, wallet locked</source>
+        <source>Cannot edit gamemaster, wallet locked</source>
         <translation>지갑이 잠겨, 마스터노드 수정을 할 수 없습니다.</translation>
     </message>
     <message>
-        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
-Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
+        <source>Cannot start gamemaster, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (gamemaster collaterals require %1 confirmations).</source>
         <translation>담보 거래가 아직 네트워크에 의해 컨펌되지 않았기 때문에 마스터노드를 시작할 수 없습니다.
 몇 분 더 기다려주십시오. (마스터노드 담보 거래가 완료되려면 %1 컨펌이 필요합니다.)</translation>
     </message>
@@ -1494,7 +1494,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>백그라운드 작업이 실행 중입니다. 기다려 주십시오.</translation>
     </message>
     <message>
-        <source>Start ALL masternodes failed</source>
+        <source>Start ALL gamemasters failed</source>
         <translation>실패한 모든 마스터노드 시작</translation>
     </message>
     <message>
@@ -1502,39 +1502,39 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>지갑 열기 취소됨</translation>
     </message>
     <message>
-        <source>Cannot perform Masternodes start</source>
+        <source>Cannot perform Gamemasters start</source>
         <translation>마스터노드 시작을 실행할 수 없습니다.</translation>
     </message>
     <message>
-        <source>%1 Masternodes failed to start, %2 started</source>
+        <source>%1 Gamemasters failed to start, %2 started</source>
         <translation>%1 마스터노드 시작 실패, %2 마스터노드 시작됨</translation>
     </message>
     <message>
-        <source>All Masternodes started!</source>
+        <source>All Gamemasters started!</source>
         <translation>마스터노드 모두 시작!</translation>
     </message>
     <message>
-        <source>Cannot show Masternode information, wallet locked</source>
+        <source>Cannot show Gamemaster information, wallet locked</source>
         <translation>마스터노드 정보를 볼 수 없습니다. 지갑이 잠겨 있습니다.</translation>
     </message>
     <message>
-        <source>Masternode data copied to the clipboard.</source>
+        <source>Gamemaster data copied to the clipboard.</source>
         <translation>마스터노드 정보가 클립보드에 복사되었습니다.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 %1 required.</source>
+        <source>Not enough balance to create a gamemaster, 10,000 %1 required.</source>
         <translation>마스터노드 생성에 필요한 10,000 %1 보다 잔고가 부족합니다.</translation>
     </message>
     <message>
-        <source>Remote Masternode Data</source>
+        <source>Remote Gamemaster Data</source>
         <translation>마스터노드 데이터 원격 조종</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>마스터로드란?</translation>
     </message>
     <message>
-        <source>FAQ explaining what Masternodes are</source>
+        <source>FAQ explaining what Gamemasters are</source>
         <translation>마스터노드가 무엇인지 FAQ에 설명되어 있습니다.</translation>
     </message>
     <message>
@@ -1542,17 +1542,17 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>Controller란 무엇인가요?</translation>
     </message>
     <message>
-        <source>FAQ explaining what is a Masternode Controller</source>
+        <source>FAQ explaining what is a Gamemaster Controller</source>
         <translation>마스터노드 Controller가 무엇인지 FAQ에 설명되어 있습니다.</translation>
     </message>
     <message>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press "start").
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press "start").
 </source>
         <translation>리모트 서버에서 마스터노드를 실행하기 위해 필요한 데이터를
 클립보드로 내보내려고 합니다.
@@ -1564,11 +1564,11 @@ this controller wallet (select the Masternode in the list and press "start").
 </translation>
     </message>
     <message>
-        <source>Delete Masternode</source>
+        <source>Delete Gamemaster</source>
         <translation>마스터노드 삭제</translation>
     </message>
     <message>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
@@ -1577,23 +1577,23 @@ Are you sure?</source>
 삭제하시겠습니까?</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>masternode.conf 파일이 유효하지 않습니다.</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>gamemaster.conf 파일이 유효하지 않습니다.</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>masternode.conf 파일 문법 오류</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>gamemaster.conf 파일 문법 오류</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>masternode.conf 파일이 생성되지 않았습니다.</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>gamemaster.conf 파일이 생성되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Cannot create Masternode controller, wallet locked</source>
+        <source>Cannot create Gamemaster controller, wallet locked</source>
         <translation>마스터노드 컨트롤러를 생성할 수 없습니다. 지갑이 잠겨 있습니다.</translation>
     </message>
     <message>
-        <source>Error creating masternode</source>
+        <source>Error creating gamemaster</source>
         <translation>마스터노드 생성 오류</translation>
     </message>
 </context>
@@ -1604,7 +1604,7 @@ Are you sure?</source>
         <translation>양식</translation>
     </message>
     <message>
-        <source>Masternode Information</source>
+        <source>Gamemaster Information</source>
         <translation>마스터노드 정보</translation>
     </message>
     <message>
@@ -1632,11 +1632,11 @@ Are you sure?</source>
         <translation>상태:</translation>
     </message>
     <message>
-        <source>Export data to run the Masternode on a remote server</source>
+        <source>Export data to run the Gamemaster on a remote server</source>
         <translation>마스터노드를 원격 서버에 운용하기 위한 정보 추출</translation>
     </message>
     <message>
-        <source>Masternode public key copied</source>
+        <source>Gamemaster public key copied</source>
         <translation>마스터노드 public key가 복사되었습니다.</translation>
     </message>
     <message>
@@ -1829,11 +1829,11 @@ STAKING</source>
         <translation>코인 &amp;제어 기능 사용</translation>
     </message>
     <message>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
+        <source>Show additional tab listing all your gamemasters in first sub-tab&lt;br/&gt;and all gamemasters on the network in second sub-tab.</source>
         <translation>첫 번째 하위 탭에서 모든 마스터 노드를 나열하는 추가 탭과&lt;br/&gt;두 번째 하위 탭에서 네트워크의 모든 마스터 노드를 표시하십시오.</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
+        <source>Show Gamemasters Tab</source>
         <translation>마스터노드 탭 표시</translation>
     </message>
     <message>
@@ -2295,7 +2295,7 @@ Address: %4
         <translation>오류: -regtest와 -testnet은 함께 사용할 수 없습니다.</translation>
     </message>
     <message>
-        <source>Error reading masternode configuration file: %1</source>
+        <source>Error reading gamemaster configuration file: %1</source>
         <translation>마스터노드 설정 파일 읽기 오류: %1</translation>
     </message>
     <message>
@@ -2375,7 +2375,7 @@ Address: %4
         <translation>발행</translation>
     </message>
     <message>
-        <source>MN reward</source>
+        <source>GM reward</source>
         <translation>마스터노드 보상</translation>
     </message>
     <message>
@@ -2522,7 +2522,7 @@ Address: %4
         <translation>현재 데이터 디렉토리에서 hemis 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
+        <source>Number of Gamemasters</source>
         <translation>마스터노드 개수</translation>
     </message>
     <message>
@@ -3666,7 +3666,7 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>4</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>마스터로드란?</translation>
     </message>
     <message>
@@ -3709,7 +3709,7 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>연결 개수:</translation>
     </message>
     <message>
-        <source>Number of Masternodes:</source>
+        <source>Number of Gamemasters:</source>
         <translation>마스터노드 개수:</translation>
     </message>
     <message>
@@ -3900,7 +3900,7 @@ Are you sure?
         <translation>체크박스</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hemis addresses after it matures.</source>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
         <translation>멀티 전송 기능은 확인된 새로 받은 스테이킹 혹은 마스터노드 보상을 100% 전부 까지 지정된 다른 주소로 자동 전송할수 있는 기능입니다.</translation>
     </message>
     <message>
@@ -3920,7 +3920,7 @@ Are you sure?
         <translation>스테이크 보상 전송</translation>
     </message>
     <message>
-        <source>Send masternode rewards</source>
+        <source>Send gamemaster rewards</source>
         <translation>마스터노드 보상 전송</translation>
     </message>
     <message>
@@ -4580,7 +4580,7 @@ NOTE: 업그레이드 이후에는
         <translation>수신됨</translation>
     </message>
     <message>
-        <source>Masternode Reward</source>
+        <source>Gamemaster Reward</source>
         <translation>마스터노드 보상 </translation>
     </message>
     <message>
@@ -4808,7 +4808,7 @@ NOTE: 업그레이드 이후에는
         <translation>정보 보호</translation>
     </message>
     <message>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation>마스터노드</translation>
     </message>
     <message>
@@ -4830,7 +4830,7 @@ hemis Core Wallet</translation>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;hemis 선언서(manifesto) 내용: 프라이버시는 타협할 수 없는 인간의 기본적인 인권입니다. 사용자가 원한다면 언제든 누구에게든 정보를 공유할 수 있는 자유를 보장합니다. hemis는 자기 주권(self sovereignty)을 추구합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation>마스터노드 네트워크는 hemis 블록체인의 상위의 2nd 레이어 네트워크입니다. 이를 통해 탈중앙화 거버넌스 및 예산 관리가 가능한 DAO를 구현합니다.</translation>
     </message>
     <message>
@@ -4838,7 +4838,7 @@ hemis Core Wallet</translation>
         <translation>hemis는 프라이버시를 얼마나 중요하게 생각하나요?</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation>마스터노드란 무엇인가요?</translation>
     </message>
     <message>
@@ -5081,8 +5081,8 @@ hemis Core Wallet</translation>
         <translation>손상된 블록 데이터베이스가 발견되었습니다</translation>
     </message>
     <message>
-        <source>Could not parse masternode.conf</source>
-        <translation>masternode.conf 를 분석할 수 없습니다.</translation>
+        <source>Could not parse gamemaster.conf</source>
+        <translation>gamemaster.conf 를 분석할 수 없습니다.</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -5113,7 +5113,7 @@ hemis Core Wallet</translation>
         <translation>로딩 완료</translation>
     </message>
     <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <source>Enable the client to act as a gamemaster (0-1, default: %u)</source>
         <translation>클라이언트가 마스터노드로 작동하는 것을 활성화 (0-1, 기본값: %u)</translation>
     </message>
     <message>
@@ -5305,11 +5305,11 @@ hemis Core Wallet</translation>
         <translation>budget 캐시를 불러오는 중...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
+        <source>Loading gamemaster cache...</source>
         <translation>마스터노드 캐시를 불러오는 중...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
+        <source>Loading gamemaster payment cache...</source>
         <translation>마스터노드 결제 캐시를 불러오는 중...</translation>
     </message>
     <message>
@@ -5325,7 +5325,7 @@ hemis Core Wallet</translation>
         <translation>auth 쿠기 위치 (default: data dir)</translation>
     </message>
     <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
+        <source>Lock gamemasters from gamemaster configuration file (default: %u)</source>
         <translation>마스터노드 구성 파일에서 마스터노드를 잠급니다. (기본값: %u)</translation>
     </message>
     <message>
@@ -5337,7 +5337,7 @@ hemis Core Wallet</translation>
         <translation>최대 &lt;n&gt; 연결을 피어들과 유지합니다. (기본값: %u)</translation>
     </message>
     <message>
-        <source>Masternode options:</source>
+        <source>Gamemaster options:</source>
         <translation>마스터노드 옵션:</translation>
     </message>
     <message>
@@ -5453,7 +5453,7 @@ hemis Core Wallet</translation>
         <translation>데이터베이스 캐시 크기를 메가바이트 단위로 설정합니다 (%d 에서 %d, 기본값: %d)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <source>Set external address:port to get to this gamemaster (example: %s)</source>
         <translation>마스터노드에 접속하려면 외부 주소:포트를 설정하십시오 (예시: %s)</translation>
     </message>
     <message>
@@ -5473,7 +5473,7 @@ hemis Core Wallet</translation>
         <translation>최대 재구성 깊이 설정 (기본값 : %u)</translation>
     </message>
     <message>
-        <source>Set the masternode private key</source>
+        <source>Set the gamemaster private key</source>
         <translation>마스터노드 개인 키를 설정합니다</translation>
     </message>
     <message>
@@ -5509,7 +5509,7 @@ hemis Core Wallet</translation>
         <translation>데이터 디렉토리 지정</translation>
     </message>
     <message>
-        <source>Specify masternode configuration file (default: %s)</source>
+        <source>Specify gamemaster configuration file (default: %s)</source>
         <translation>마스터노드 구성파일 지정 (기본값: %s)</translation>
     </message>
     <message>
@@ -5545,11 +5545,11 @@ hemis Core Wallet</translation>
         <translation>budgets 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
+        <source>Synchronizing gamemaster winners...</source>
         <translation>마스터노드 승자를 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
+        <source>Synchronizing gamemasters...</source>
         <translation>마스터노드와 동기화중입니다...</translation>
     </message>
     <message>

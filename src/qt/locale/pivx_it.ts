@@ -1310,20 +1310,20 @@ Si avvierà automaticamente non appena il portafoglio avrà sufficienti conferme
         <translation>Indirizzo</translation>
     </message>
     <message>
-        <source>Create New Masternode Controller</source>
-        <translation>Crea nuovo controller Masternode</translation>
+        <source>Create New Gamemaster Controller</source>
+        <translation>Crea nuovo controller Gamemaster</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Masternode you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Per creare un Masternode hemis devi dedicare 10.000 HMS (l'unità di hemis) alla rete (tuttavia, queste coin sono ancora tue e saranno sempre in tuo possesso). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Puoi disattivare il nodo e sbloccare le valute in qualsiasi momento.</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Per creare un Gamemaster hemis devi dedicare 10.000 HMS (l'unità di hemis) alla rete (tuttavia, queste coin sono ancora tue e saranno sempre in tuo possesso). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Puoi disattivare il nodo e sbloccare le valute in qualsiasi momento.</translation>
     </message>
     <message>
-        <source>Set Masternode Name</source>
-        <translation>Imposta Nome Masternode</translation>
+        <source>Set Gamemaster Name</source>
+        <translation>Imposta Nome Gamemaster</translation>
     </message>
     <message>
-        <source>Set Masternode IP and Port</source>
-        <translation>Imposta IP e Porta Masternode</translation>
+        <source>Set Gamemaster IP and Port</source>
+        <translation>Imposta IP e Porta Gamemaster</translation>
     </message>
     <message>
         <source>Enter port</source>
@@ -1335,11 +1335,11 @@ Si avvierà automaticamente non appena il portafoglio avrà sufficienti conferme
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 HMS will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Verrà effettuata una transazione di 10.000 HMS&lt;/p&gt;&lt;p&gt;a un nuovo indirizzo vuoto nel tuo portafoglio.&lt;p&gt;L'indirizzo è etichettato con il nome del Masternode.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Verrà effettuata una transazione di 10.000 HMS&lt;/p&gt;&lt;p&gt;a un nuovo indirizzo vuoto nel tuo portafoglio.&lt;p&gt;L'indirizzo è etichettato con il nome del Gamemaster.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
-        <translation>Indirizzo del nodo che deve essere sempre online che esegue il Masternode effettivo.</translation>
+        <translation>Indirizzo del nodo che deve essere sempre online che esegue il Gamemaster effettivo.</translation>
     </message>
     <message>
         <source>Enter IP address</source>
@@ -1374,7 +1374,7 @@ Si avvierà automaticamente non appena il portafoglio avrà sufficienti conferme
 
 %1
 </source>
-        <translation>Preparazione del Masternode non riuscita.
+        <translation>Preparazione del Gamemaster non riuscita.
 
 %1
 </translation>
@@ -1385,7 +1385,7 @@ Si avvierà automaticamente non appena il portafoglio avrà sufficienti conferme
     </message>
     <message>
         <source>Master node created! Wait %1 confirmations before starting it.</source>
-        <translation>Masternode creato! Attendi %1 conferme prima di avviarlo.</translation>
+        <translation>Gamemaster creato! Attendi %1 conferme prima di avviarlo.</translation>
     </message>
     <message>
         <source>Cannot send collateral transaction.
@@ -1400,16 +1400,16 @@ Si avvierà automaticamente non appena il portafoglio avrà sufficienti conferme
         <translation>walletModel non impostato</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Il file masternode.conf non è valido</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Il file gamemaster.conf non è valido</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Errore durante l'analisi del file masternode.conf</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Errore durante l'analisi del file gamemaster.conf</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>il file masternode.conf non esiste</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>il file gamemaster.conf non esiste</translation>
     </message>
 </context>
 <context>
@@ -1427,8 +1427,8 @@ Si avvierà automaticamente non appena il portafoglio avrà sufficienti conferme
         <translation>Avvia Inattivo/i</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternodes</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemasters</translation>
     </message>
     <message>
         <source>Full nodes that incentivize node operators to perform the core consensus functions
@@ -1437,12 +1437,12 @@ and vote on the treasury system receiving a periodic reward.</source>
 e votano il sistema di tesoreria ricevendo una ricompensa periodica.</translation>
     </message>
     <message>
-        <source>Create Masternode Controller</source>
-        <translation>Creare il Masternode Controller</translation>
+        <source>Create Gamemaster Controller</source>
+        <translation>Creare il Gamemaster Controller</translation>
     </message>
     <message>
-        <source>No active Masternode yet</source>
-        <translation>Ancora nessun Masternode attivo</translation>
+        <source>No active Gamemaster yet</source>
+        <translation>Ancora nessun Gamemaster attivo</translation>
     </message>
     <message>
         <source>Start</source>
@@ -1461,132 +1461,132 @@ e votano il sistema di tesoreria ricevendo una ricompensa periodica.</translatio
         <translation>Per favore attendere la sincronizzazione completa</translation>
     </message>
     <message>
-        <source>Start Masternode</source>
-        <translation>Avvia Masternode</translation>
+        <source>Start Gamemaster</source>
+        <translation>Avvia Gamemaster</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
-        <translation>Confermi di voler avviare il masternode %1?
+        <translation>Confermi di voler avviare il gamemaster %1?
 </translation>
     </message>
     <message>
-        <source>Cannot edit masternode, wallet locked</source>
-        <translation>Impossibile modificare masternode, portafoglio bloccato</translation>
+        <source>Cannot edit gamemaster, wallet locked</source>
+        <translation>Impossibile modificare gamemaster, portafoglio bloccato</translation>
     </message>
     <message>
-        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
-Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
-        <translation>Impossibile avviare il masternode, la transazione per il collaterale non è stata ancora confermata dalla rete.
-Per favore, attendi qualche minuto (il collaterale del masternode richiede %1 conferme).</translation>
+        <source>Cannot start gamemaster, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (gamemaster collaterals require %1 confirmations).</source>
+        <translation>Impossibile avviare il gamemaster, la transazione per il collaterale non è stata ancora confermata dalla rete.
+Per favore, attendi qualche minuto (il collaterale del gamemaster richiede %1 conferme).</translation>
     </message>
     <message>
         <source>Background task is being executed, please wait</source>
         <translation>L'attività in background è in esecuzione, si prega di attendere</translation>
     </message>
     <message>
-        <source>Start ALL masternodes failed</source>
-        <translation>Inizializzazione di TUTTI i masternode fallita.</translation>
+        <source>Start ALL gamemasters failed</source>
+        <translation>Inizializzazione di TUTTI i gamemaster fallita.</translation>
     </message>
     <message>
         <source>Wallet unlock cancelled</source>
         <translation>Sblocco portafoglio è stato annullato.</translation>
     </message>
     <message>
-        <source>Cannot perform Masternodes start</source>
-        <translation>Impossibile eseguire l'avvio dei Masternode</translation>
+        <source>Cannot perform Gamemasters start</source>
+        <translation>Impossibile eseguire l'avvio dei Gamemaster</translation>
     </message>
     <message>
-        <source>%1 Masternodes failed to start, %2 started</source>
-        <translation>Avvio di %1 Masternode fallito, %2 avviato/i</translation>
+        <source>%1 Gamemasters failed to start, %2 started</source>
+        <translation>Avvio di %1 Gamemaster fallito, %2 avviato/i</translation>
     </message>
     <message>
-        <source>All Masternodes started!</source>
-        <translation>Tutti i Masternode sono avviati!</translation>
+        <source>All Gamemasters started!</source>
+        <translation>Tutti i Gamemaster sono avviati!</translation>
     </message>
     <message>
-        <source>Cannot show Masternode information, wallet locked</source>
-        <translation>Impossibile mostrare informazioni Masternode, wallet bloccato</translation>
+        <source>Cannot show Gamemaster information, wallet locked</source>
+        <translation>Impossibile mostrare informazioni Gamemaster, wallet bloccato</translation>
     </message>
     <message>
-        <source>Masternode data copied to the clipboard.</source>
-        <translation>Dati Masternode copiati negli appunti.</translation>
+        <source>Gamemaster data copied to the clipboard.</source>
+        <translation>Dati Gamemaster copiati negli appunti.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 %1 required.</source>
-        <translation>Saldo insufficiente per creare un masternode, sono necessari 10.000 %1.</translation>
+        <source>Not enough balance to create a gamemaster, 10,000 %1 required.</source>
+        <translation>Saldo insufficiente per creare un gamemaster, sono necessari 10.000 %1.</translation>
     </message>
     <message>
-        <source>Remote Masternode Data</source>
-        <translation>Remote Masternode Data</translation>
+        <source>Remote Gamemaster Data</source>
+        <translation>Remote Gamemaster Data</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Cos'è un Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Cos'è un Gamemaster?</translation>
     </message>
     <message>
-        <source>FAQ explaining what Masternodes are</source>
-        <translation>FAQ cosa sono i Masternode</translation>
+        <source>FAQ explaining what Gamemasters are</source>
+        <translation>FAQ cosa sono i Gamemaster</translation>
     </message>
     <message>
         <source>What is a Controller?</source>
-        <translation>Cos'è un Masternode controller?</translation>
+        <translation>Cos'è un Gamemaster controller?</translation>
     </message>
     <message>
-        <source>FAQ explaining what is a Masternode Controller</source>
-        <translation>FAQ Cos'è un Masternode Controller</translation>
+        <source>FAQ explaining what is a Gamemaster Controller</source>
+        <translation>FAQ Cos'è un Gamemaster Controller</translation>
     </message>
     <message>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press "start").
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press "start").
 </source>
         <translation>Stai per esportare negli appunti i dati richiesti per eseguire
-un Masternode su un server remoto .
+un Gamemaster su un server remoto .
 
 
 Dovrai solo incollare i dati nel file hemis.conf del server remoto
-e avviarlo, quindi avviare il Masternode utilizzando questo portafoglio
-come controller (selezionare il Masternode nell'elenco e premere "start").
+e avviarlo, quindi avviare il Gamemaster utilizzando questo portafoglio
+come controller (selezionare il Gamemaster nell'elenco e premere "start").
 </translation>
     </message>
     <message>
-        <source>Delete Masternode</source>
-        <translation>Cancella Masternode</translation>
+        <source>Delete Gamemaster</source>
+        <translation>Cancella Gamemaster</translation>
     </message>
     <message>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
-        <translation>Stai per rimuovere il Masternode:
+        <translation>Stai per rimuovere il Gamemaster:
 %1
 
 Sei sicuro?</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Il file masternode.conf non è valido</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Il file gamemaster.conf non è valido</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Errore durante l'analisi del file masternode.conf</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Errore durante l'analisi del file gamemaster.conf</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>il file masternode.conf non esiste</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>il file gamemaster.conf non esiste</translation>
     </message>
     <message>
-        <source>Cannot create Masternode controller, wallet locked</source>
-        <translation>Impossibile creare un Masternode controller, wallet bloccato</translation>
+        <source>Cannot create Gamemaster controller, wallet locked</source>
+        <translation>Impossibile creare un Gamemaster controller, wallet bloccato</translation>
     </message>
     <message>
-        <source>Error creating masternode</source>
-        <translation>Errore in fase di creazione del Masternode</translation>
+        <source>Error creating gamemaster</source>
+        <translation>Errore in fase di creazione del Gamemaster</translation>
     </message>
 </context>
 <context>
@@ -1596,8 +1596,8 @@ Sei sicuro?</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>Masternode Information</source>
-        <translation>Informazioni Masternode</translation>
+        <source>Gamemaster Information</source>
+        <translation>Informazioni Gamemaster</translation>
     </message>
     <message>
         <source>Public Key:</source>
@@ -1624,12 +1624,12 @@ Sei sicuro?</translation>
         <translation>Stato:</translation>
     </message>
     <message>
-        <source>Export data to run the Masternode on a remote server</source>
-        <translation>Esporta i dati per eseguire il Masternode su un server remoto</translation>
+        <source>Export data to run the Gamemaster on a remote server</source>
+        <translation>Esporta i dati per eseguire il Gamemaster su un server remoto</translation>
     </message>
     <message>
-        <source>Masternode public key copied</source>
-        <translation>Copia pubblica Masternode copiata</translation>
+        <source>Gamemaster public key copied</source>
+        <translation>Copia pubblica Gamemaster copiata</translation>
     </message>
     <message>
         <source>Collateral tx id copied</source>
@@ -1821,12 +1821,12 @@ STAKING</translation>
         <translation>Attiva la funzionalità di &amp;controllo della moneta</translation>
     </message>
     <message>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Mostra la scheda aggiuntiva che elenca tutti i tuoi Masternode nella prima sottoscheda&lt;br/&gt;e tutti i Masternode della rete nella seconda sottoscheda.</translation>
+        <source>Show additional tab listing all your gamemasters in first sub-tab&lt;br/&gt;and all gamemasters on the network in second sub-tab.</source>
+        <translation>Mostra la scheda aggiuntiva che elenca tutti i tuoi Gamemaster nella prima sottoscheda&lt;br/&gt;e tutti i Gamemaster della rete nella seconda sottoscheda.</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
-        <translation>Mostra la scheda dei Masternode</translation>
+        <source>Show Gamemasters Tab</source>
+        <translation>Mostra la scheda dei Gamemaster</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -2283,8 +2283,8 @@ Indirizzo: %4
         <translation>Errore: combinazione non valida di -regtest e -testnet.</translation>
     </message>
     <message>
-        <source>Error reading masternode configuration file: %1</source>
-        <translation>Errore durante la lettura del file di configurazione del Masternode: %1</translation>
+        <source>Error reading gamemaster configuration file: %1</source>
+        <translation>Errore durante la lettura del file di configurazione del Gamemaster: %1</translation>
     </message>
     <message>
         <source>hemis Core didn't yet exit safely...</source>
@@ -2367,8 +2367,8 @@ Indirizzo: %4
         <translation>Forgiato</translation>
     </message>
     <message>
-        <source>MN reward</source>
-        <translation>Premio del MN</translation>
+        <source>GM reward</source>
+        <translation>Premio del GM</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2530,8 +2530,8 @@ Indirizzo: %4
         <translation>Aprire il file di registro di debug hemis dalla directory dei dati corrente. Questa operazione può richiedere alcuni secondi per file di registro di grandi dimensioni.</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
-        <translation>Numero dei Masternode</translation>
+        <source>Number of Gamemasters</source>
+        <translation>Numero dei Gamemaster</translation>
     </message>
     <message>
         <source>Data Directory</source>
@@ -3893,21 +3893,21 @@ per vedere e spendere i saldi sulla rete.
                          </translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Cos'è un Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Cos'è un Gamemaster?</translation>
     </message>
     <message>
-        <source>What is a Masternode Controller?</source>
-        <translation>Cos'è un Masternode controller?</translation>
+        <source>What is a Gamemaster Controller?</source>
+        <translation>Cos'è un Gamemaster controller?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Un Masternode Controller wallet è dove i 10.000 HMS collaterali possono risiedere durante l'impostazione del Masternode Controller remoto. È un portafoglio che può attivare uno o più portafogli masternode remoti e ti consente di mantenere offline le tue valute collaterali mentre il masternode remoto rimane online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Gamemaster Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote gamemaster setup. It is a wallet that can activate the remote gamemaster wallet(s) and allows you to keep your collateral coins offline while the remote gamemaster remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Un Gamemaster Controller wallet è dove i 10.000 HMS collaterali possono risiedere durante l'impostazione del Gamemaster Controller remoto. È un portafoglio che può attivare uno o più portafogli gamemaster remoti e ti consente di mantenere offline le tue valute collaterali mentre il gamemaster remoto rimane online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3922,16 +3922,16 @@ per vedere e spendere i saldi sulla rete.
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           For providing such services, masternodes are also paid a certain portion
+                           For providing such services, gamemasters are also paid a certain portion
                            of reward for each block. This can serve as a passive income to the
-                           masternode owners minus their running cost.
+                           gamemaster owners minus their running cost.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Perks:
+                           Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
-                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
                            &lt;li&gt;Help secure the hemis network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3940,16 +3940,16 @@ per vedere e spendere i saldi sulla rete.
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 HMS per single Gamemaster instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
-                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;li&gt;Gamemaster wallet to remain online&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Un masternode è un computer che esegue un portafoglio core hemis a nodo completo
+                           Un gamemaster è un computer che esegue un portafoglio core hemis a nodo completo
 con un requisito di 10.000 HMS a garanzia per fornire servizi extra
 alla rete e, in cambio, riceve una parte del premio del blocco
 regolarmente. Questi servizi includono:
@@ -3964,16 +3964,16 @@ regolarmente. Questi servizi includono:
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Per fornire tali servizi, i masternode vengono pagati anche una determinata porzione
+                           Per fornire tali servizi, i gamemaster vengono pagati anche una determinata porzione
  di ricompensa per ogni blocco. Questo può servire come reddito passivo per il
- proprietari di masternode detratti i loro costi di gestione.
+ proprietari di gamemaster detratti i loro costi di gestione.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Vantaggi del Masternode:
+                           Vantaggi del Gamemaster:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Partecipare alla Governance di hemis &lt;/li&gt;
-                           &lt;li&gt;Guadagnare i premi del Masternode&lt;/li&gt;
+                           &lt;li&gt;Guadagnare i premi del Gamemaster&lt;/li&gt;
                            &lt;li&gt;Opzione di una commodity per vendita futura&lt;/li&gt;
                            &lt;li&gt;Aiuta a proteggere la rete hemis&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3982,10 +3982,10 @@ regolarmente. Questi servizi includono:
                            Requisiti:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per singolo Masternode
+                           &lt;li&gt;10,000 HMS per singolo Gamemaster
                            &lt;li&gt;Devono essere conservati in un portafoglio core&lt;/li&gt;
                            &lt;li&gt;Necessita un indirizzo IP dedicato&lt;/li&gt;
-                           &lt;li&gt;Il portafoglio del Masternode deve rimanere online&lt;/li&gt;
+                           &lt;li&gt;Il portafoglio del Gamemaster deve rimanere online&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -4003,12 +4003,12 @@ regolarmente. Questi servizi includono:
         <translation>4) Dove dovrei andare se ho bisogno di supporto?</translation>
     </message>
     <message>
-        <source>5) What is a Masternode?</source>
-        <translation>5) Cos'è un Masternode?</translation>
+        <source>5) What is a Gamemaster?</source>
+        <translation>5) Cos'è un Gamemaster?</translation>
     </message>
     <message>
-        <source>6) What is a Masternode Controller?</source>
-        <translation>Cos'è un Masternode controller?</translation>
+        <source>6) What is a Gamemaster Controller?</source>
+        <translation>Cos'è un Gamemaster controller?</translation>
     </message>
     <message>
         <source>You can read more here</source>
@@ -4054,8 +4054,8 @@ regolarmente. Questi servizi includono:
         <translation>Connessioni:</translation>
     </message>
     <message>
-        <source>Number of Masternodes:</source>
-        <translation>Numero dei Masternode:</translation>
+        <source>Number of Gamemasters:</source>
+        <translation>Numero dei Gamemaster:</translation>
     </message>
     <message>
         <source>Current number of blocks:</source>
@@ -4257,8 +4257,8 @@ Sei sicuro?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hemis addresses after it matures.</source>
-        <translation>MultiSend ti consente di inviare automaticamente fino al 100% dei tuoi stake o ricompense masternode a un elenco di altri indirizzi hemis dopo la loro maturazione.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
+        <translation>MultiSend ti consente di inviare automaticamente fino al 100% dei tuoi stake o ricompense gamemaster a un elenco di altri indirizzi hemis dopo la loro maturazione.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4277,8 +4277,8 @@ Sei sicuro?
         <translation>Invia stake</translation>
     </message>
     <message>
-        <source>Send masternode rewards</source>
-        <translation>Invia le ricompense del Masternode</translation>
+        <source>Send gamemaster rewards</source>
+        <translation>Invia le ricompense del Gamemaster</translation>
     </message>
     <message>
         <source>ADD RECIPIENT</source>
@@ -4328,9 +4328,9 @@ Per favore controlla l'indirizzo e riprova nuovamente.</translation>
     </message>
     <message>
         <source>Unable to activate MultiSend
-Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+Check one or both of the check boxes to send on stake and/or gamemaster rewards</source>
         <translation>Impossibile attivare MultiSend
-Seleziona una o entrambe le caselle di controllo per inviare gli stake e/o i premi del masternode</translation>
+Seleziona una o entrambe le caselle di controllo per inviare gli stake e/o i premi del gamemaster</translation>
     </message>
     <message>
         <source>MultiSend activated but writing settings to DB failed</source>
@@ -5065,8 +5065,8 @@ sarà creato un nuovo un backup.
         <translation>Ricevuto con</translation>
     </message>
     <message>
-        <source>Masternode Reward</source>
-        <translation>Ricompense Masternode</translation>
+        <source>Gamemaster Reward</source>
+        <translation>Ricompense Gamemaster</translation>
     </message>
     <message>
         <source>Received from</source>
@@ -5337,8 +5337,8 @@ Selezionare meno ingressi con controllo coin.</translation>
         <translation>Privacy</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternodes</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemasters</translation>
     </message>
     <message>
         <source>Select your language</source>
@@ -5359,16 +5359,16 @@ Portafoglio hemis Core.</translation>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Come dice il nostro manifesto: la privacy è un diritto umano di base non negoziabile; garantisce agli utenti la libertà di condividere i propri dati quando e con chi vuole - hemis crede nell'auto sovranità.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>La rete masternode è la rete di secondo livello di hemis sopra alla blockchain che consente al nostro DAO di fornire governance decentralizzata e tesoreria.</translation>
+        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>La rete gamemaster è la rete di secondo livello di hemis sopra alla blockchain che consente al nostro DAO di fornire governance decentralizzata e tesoreria.</translation>
     </message>
     <message>
         <source>How hemis respects your privacy?</source>
         <translation>In che modo hemis rispetta la tua privacy?</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Cos'è un Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Cos'è un Gamemaster?</translation>
     </message>
     <message>
         <source>default</source>
@@ -5638,8 +5638,8 @@ Portafoglio hemis Core.</translation>
         <translation>Rilevato database dei blocchi danneggiato</translation>
     </message>
     <message>
-        <source>Could not parse masternode.conf</source>
-        <translation>Impossibile effettuare l'analisi del file masternode.conf</translation>
+        <source>Could not parse gamemaster.conf</source>
+        <translation>Impossibile effettuare l'analisi del file gamemaster.conf</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -5670,8 +5670,8 @@ Portafoglio hemis Core.</translation>
         <translation>Caricamento completato</translation>
     </message>
     <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Abilita il client a fungere da Masternode (0-1, impostazione predefinita: %u)</translation>
+        <source>Enable the client to act as a gamemaster (0-1, default: %u)</source>
+        <translation>Abilita il client a fungere da Gamemaster (0-1, impostazione predefinita: %u)</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -5862,12 +5862,12 @@ Portafoglio hemis Core.</translation>
         <translation>Caricamento cache budget...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
-        <translation>Caricamento cache masternode...</translation>
+        <source>Loading gamemaster cache...</source>
+        <translation>Caricamento cache gamemaster...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
-        <translation>Caricamento cache pagamento masternode...</translation>
+        <source>Loading gamemaster payment cache...</source>
+        <translation>Caricamento cache pagamento gamemaster...</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
@@ -5882,8 +5882,8 @@ Portafoglio hemis Core.</translation>
         <translation>Posizione del cookie di autenticazione (impostazione predefinita: directory dati)</translation>
     </message>
     <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Blocca i masternodes dal file di configurazione del masternode (default: %u)</translation>
+        <source>Lock gamemasters from gamemaster configuration file (default: %u)</source>
+        <translation>Blocca i gamemasters dal file di configurazione del gamemaster (default: %u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
@@ -5891,15 +5891,15 @@ Portafoglio hemis Core.</translation>
     </message>
     <message>
         <source>MNs synchronization pending...</source>
-        <translation>Sincronizzazione MN in attesa...</translation>
+        <translation>Sincronizzazione GM in attesa...</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Conserva al massimo &lt;n&gt; connessioni ai peers (impostazione predefinita: %u)</translation>
     </message>
     <message>
-        <source>Masternode options:</source>
-        <translation>Opzioni del Masternode:</translation>
+        <source>Gamemaster options:</source>
+        <translation>Opzioni del Gamemaster:</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -6018,8 +6018,8 @@ Portafoglio hemis Core.</translation>
         <translation>(deve essere %d per %s-net)</translation>
     </message>
     <message>
-        <source>Active Masternode not initialized.</source>
-        <translation>Masternode Attivo non inizializzato.</translation>
+        <source>Active Gamemaster not initialized.</source>
+        <translation>Gamemaster Attivo non inizializzato.</translation>
     </message>
     <message>
         <source>Allows deprecated RPC method(s) to be used</source>
@@ -6038,8 +6038,8 @@ Portafoglio hemis Core.</translation>
         <translation>Indice di variazione fuori range</translation>
     </message>
     <message>
-        <source>Error: -listen must be true if -masternode is set.</source>
-        <translation>Errore: -listen deve essere vero se -masternode è impostato.</translation>
+        <source>Error: -listen must be true if -gamemaster is set.</source>
+        <translation>Errore: -listen deve essere vero se -gamemaster è impostato.</translation>
     </message>
     <message>
         <source>Error: -maxmempool must be at least %d MB</source>
@@ -6056,16 +6056,16 @@ Portafoglio hemis Core.</translation>
         <translation>Fee (in %s/kB) per aggiungere alle transazioni che invii (default: %s)</translation>
     </message>
     <message>
-        <source>Invalid -masternodeaddr address: %s</source>
-        <translation>Indirizzo -masternodeaddr non valido: %s</translation>
+        <source>Invalid -gamemasteraddr address: %s</source>
+        <translation>Indirizzo -gamemasteraddr non valido: %s</translation>
     </message>
     <message>
-        <source>Invalid -masternodeaddr port %d, only %d is supported on %s-net.</source>
-        <translation>Porta -masternodeaddr non valida %d, solo %d è supportata su %s-net.</translation>
+        <source>Invalid -gamemasteraddr port %d, only %d is supported on %s-net.</source>
+        <translation>Porta -gamemasteraddr non valida %d, solo %d è supportata su %s-net.</translation>
     </message>
     <message>
-        <source>Invalid port %d detected in masternode.conf</source>
-        <translation>Porta non valida %d rilevato in masternode.conf</translation>
+        <source>Invalid port %d detected in gamemaster.conf</source>
+        <translation>Porta non valida %d rilevato in gamemaster.conf</translation>
     </message>
     <message>
         <source>Invalid status error.</source>
@@ -6140,7 +6140,7 @@ Portafoglio hemis Core.</translation>
         <translation>Imposta la dimensione della cache del database in megabyte (%d a %d, default: %d)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <source>Set external address:port to get to this gamemaster (example: %s)</source>
         <translation>Imposta indirizzo esterno:porta per arrivare a questo nodo principale (esempio: %s)</translation>
     </message>
     <message>
@@ -6160,8 +6160,8 @@ Portafoglio hemis Core.</translation>
         <translation>Imposta la profondità massima del reorg (default: %u)</translation>
     </message>
     <message>
-        <source>Set the masternode private key</source>
-        <translation>Impostare la chiave privata del Masternode</translation>
+        <source>Set the gamemaster private key</source>
+        <translation>Impostare la chiave privata del Gamemaster</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
@@ -6196,8 +6196,8 @@ Portafoglio hemis Core.</translation>
         <translation>Specifica la directory dei dati</translation>
     </message>
     <message>
-        <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Specificare il file di configurazione del Masternode (default: %s)</translation>
+        <source>Specify gamemaster configuration file (default: %s)</source>
+        <translation>Specificare il file di configurazione del Gamemaster (default: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -6232,12 +6232,12 @@ Portafoglio hemis Core.</translation>
         <translation>Sincronizzazione budgets...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
-        <translation>Sincronizzazione dei Masternode vincitori...</translation>
+        <source>Synchronizing gamemaster winners...</source>
+        <translation>Sincronizzazione dei Gamemaster vincitori...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
-        <translation>Sincronizzazione dei Masternode...</translation>
+        <source>Synchronizing gamemasters...</source>
+        <translation>Sincronizzazione dei Gamemaster...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
@@ -6260,12 +6260,12 @@ Portafoglio hemis Core.</translation>
         <translation>Questo è destinato agli strumenti di test di regressione e allo sviluppo di app.</translation>
     </message>
     <message>
-        <source>This is not a masternode. 'local' option disabled.</source>
-        <translation>Questo non è un masternode. opzione "locale" disattivata.</translation>
+        <source>This is not a gamemaster. 'local' option disabled.</source>
+        <translation>Questo non è un gamemaster. opzione "locale" disattivata.</translation>
     </message>
     <message>
-        <source>This is not a masternode.</source>
-        <translation>Questo non è un masternode.</translation>
+        <source>This is not a gamemaster.</source>
+        <translation>Questo non è un gamemaster.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>

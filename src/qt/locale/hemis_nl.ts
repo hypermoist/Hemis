@@ -1309,20 +1309,20 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Adres</translation>
     </message>
     <message>
-        <source>Create New Masternode Controller</source>
-        <translation>Creëer Nieuwe Masternode Controller</translation>
+        <source>Create New Gamemaster Controller</source>
+        <translation>Creëer Nieuwe Gamemaster Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Masternode you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een hemis Masternode te creëren moet u 10.000 HMS (de eenheid van hemis) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een hemis Gamemaster te creëren moet u 10.000 HMS (de eenheid van hemis) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Set Masternode Name</source>
-        <translation>Stel de naam voor de Masternode in</translation>
+        <source>Set Gamemaster Name</source>
+        <translation>Stel de naam voor de Gamemaster in</translation>
     </message>
     <message>
-        <source>Set Masternode IP and Port</source>
-        <translation>Stel het IP-adres en de Poort voor de Masternode in</translation>
+        <source>Set Gamemaster IP and Port</source>
+        <translation>Stel het IP-adres en de Poort voor de Gamemaster in</translation>
     </message>
     <message>
         <source>Enter port</source>
@@ -1334,11 +1334,11 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 HMS will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Een transactie van 10,000 HMS zal gemaakt worden&lt;/p&gt;&lt;p&gt;naar een nieuw leeg adres in uw portemonnee.&lt;/p&gt;&lt;p&gt;Het adres is gelabeld onder de masternode's naam.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Een transactie van 10,000 HMS zal gemaakt worden&lt;/p&gt;&lt;p&gt;naar een nieuw leeg adres in uw portemonnee.&lt;/p&gt;&lt;p&gt;Het adres is gelabeld onder de gamemaster's naam.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
-        <translation>Adres van de node dat altijd online moet zijn met het eigenlijke masternode.</translation>
+        <translation>Adres van de node dat altijd online moet zijn met het eigenlijke gamemaster.</translation>
     </message>
     <message>
         <source>Enter IP address</source>
@@ -1373,7 +1373,7 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
 
 %1
 </source>
-        <translation>Voorbereiden masternode mislukt.
+        <translation>Voorbereiden gamemaster mislukt.
 
 %1
 </translation>
@@ -1384,7 +1384,7 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
     </message>
     <message>
         <source>Master node created! Wait %1 confirmations before starting it.</source>
-        <translation>Masternode gecreëerd! Wacht op %1 bevestigingen vooraleer je het start. </translation>
+        <translation>Gamemaster gecreëerd! Wacht op %1 bevestigingen vooraleer je het start. </translation>
     </message>
     <message>
         <source>Cannot send collateral transaction.
@@ -1399,16 +1399,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>walletModel niet ingesteld</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Invalide masternode.conf file</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Invalide gamemaster.conf file</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Fout opgelopen bij het parsen van het masternode.conf bestand</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Fout opgelopen bij het parsen van het gamemaster.conf bestand</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>masternode.conf bestand bestaat niet</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>gamemaster.conf bestand bestaat niet</translation>
     </message>
 </context>
 <context>
@@ -1426,8 +1426,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Start Inactieve/s</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternodes</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemasters</translation>
     </message>
     <message>
         <source>Full nodes that incentivize node operators to perform the core consensus functions
@@ -1436,12 +1436,12 @@ and vote on the treasury system receiving a periodic reward.</source>
 en stemmen over het treasury systeem met een periodieke beloning.</translation>
     </message>
     <message>
-        <source>Create Masternode Controller</source>
-        <translation>Creëer Masternode Controller</translation>
+        <source>Create Gamemaster Controller</source>
+        <translation>Creëer Gamemaster Controller</translation>
     </message>
     <message>
-        <source>No active Masternode yet</source>
-        <translation>Geen actieve Masternode</translation>
+        <source>No active Gamemaster yet</source>
+        <translation>Geen actieve Gamemaster</translation>
     </message>
     <message>
         <source>Start</source>
@@ -1460,132 +1460,132 @@ en stemmen over het treasury systeem met een periodieke beloning.</translation>
         <translation>Wacht tot de node volledig gesynchroniseerd is</translation>
     </message>
     <message>
-        <source>Start Masternode</source>
-        <translation>Start Masternode</translation>
+        <source>Start Gamemaster</source>
+        <translation>Start Gamemaster</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
-        <translation>Weet u zeker dat u masternode %1 wilt starten?
+        <translation>Weet u zeker dat u gamemaster %1 wilt starten?
 </translation>
     </message>
     <message>
-        <source>Cannot edit masternode, wallet locked</source>
-        <translation>Kan de masternode niet bewerken, portemonnee vergrendeld</translation>
+        <source>Cannot edit gamemaster, wallet locked</source>
+        <translation>Kan de gamemaster niet bewerken, portemonnee vergrendeld</translation>
     </message>
     <message>
-        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
-Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
-        <translation>Kan de masternode niet starten, de collaterale transactie is nog niet bevestigd door het netwerk.
-Gelieve nog enkele minuten te wachten (het onderpand van een masternode vereist %1 bevestigingen).</translation>
+        <source>Cannot start gamemaster, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (gamemaster collaterals require %1 confirmations).</source>
+        <translation>Kan de gamemaster niet starten, de collaterale transactie is nog niet bevestigd door het netwerk.
+Gelieve nog enkele minuten te wachten (het onderpand van een gamemaster vereist %1 bevestigingen).</translation>
     </message>
     <message>
         <source>Background task is being executed, please wait</source>
         <translation>Achtergrondopdracht wordt nu uitgevoerd, even geduld</translation>
     </message>
     <message>
-        <source>Start ALL masternodes failed</source>
-        <translation>Opstarten van ALLE masternodes mislukt</translation>
+        <source>Start ALL gamemasters failed</source>
+        <translation>Opstarten van ALLE gamemasters mislukt</translation>
     </message>
     <message>
         <source>Wallet unlock cancelled</source>
         <translation>Portemonnee ontgrendeling geannuleerd </translation>
     </message>
     <message>
-        <source>Cannot perform Masternodes start</source>
-        <translation>Kan geen Masternode opstart uitvoeren</translation>
+        <source>Cannot perform Gamemasters start</source>
+        <translation>Kan geen Gamemaster opstart uitvoeren</translation>
     </message>
     <message>
-        <source>%1 Masternodes failed to start, %2 started</source>
-        <translation>%1 Masternodes niet succesvol opgestart, %2 opgestart</translation>
+        <source>%1 Gamemasters failed to start, %2 started</source>
+        <translation>%1 Gamemasters niet succesvol opgestart, %2 opgestart</translation>
     </message>
     <message>
-        <source>All Masternodes started!</source>
-        <translation>Alle Masternodes zijn opgestart!</translation>
+        <source>All Gamemasters started!</source>
+        <translation>Alle Gamemasters zijn opgestart!</translation>
     </message>
     <message>
-        <source>Cannot show Masternode information, wallet locked</source>
-        <translation>Kan geen Masternode-informatie tonen, portemonnee vergrendeld</translation>
+        <source>Cannot show Gamemaster information, wallet locked</source>
+        <translation>Kan geen Gamemaster-informatie tonen, portemonnee vergrendeld</translation>
     </message>
     <message>
-        <source>Masternode data copied to the clipboard.</source>
-        <translation>Masternodegegevens gekopieerd naar het klembord</translation>
+        <source>Gamemaster data copied to the clipboard.</source>
+        <translation>Gamemastergegevens gekopieerd naar het klembord</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 %1 required.</source>
-        <translation>Niet genoeg balans om een masternode te creëren, 10,000 %1 vereist.</translation>
+        <source>Not enough balance to create a gamemaster, 10,000 %1 required.</source>
+        <translation>Niet genoeg balans om een gamemaster te creëren, 10,000 %1 vereist.</translation>
     </message>
     <message>
-        <source>Remote Masternode Data</source>
-        <translation>Remote Masternodegegevens</translation>
+        <source>Remote Gamemaster Data</source>
+        <translation>Remote Gamemastergegevens</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Wat is een Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Wat is een Gamemaster?</translation>
     </message>
     <message>
-        <source>FAQ explaining what Masternodes are</source>
-        <translation>FAQ legt uit wat Masternodes zijn</translation>
+        <source>FAQ explaining what Gamemasters are</source>
+        <translation>FAQ legt uit wat Gamemasters zijn</translation>
     </message>
     <message>
         <source>What is a Controller?</source>
         <translation>Wat is een Controller?</translation>
     </message>
     <message>
-        <source>FAQ explaining what is a Masternode Controller</source>
-        <translation>FAQ legt uit wat een Masternode Controller is</translation>
+        <source>FAQ explaining what is a Gamemaster Controller</source>
+        <translation>FAQ legt uit wat een Gamemaster Controller is</translation>
     </message>
     <message>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press "start").
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press "start").
 </source>
-        <translation>U staat op het punt om de vereiste gegevens te exporteren om een Masternode uit te voeren.
+        <translation>U staat op het punt om de vereiste gegevens te exporteren om een Gamemaster uit te voeren.
 op een externe server aan uw klembord.
 
 
 U hoeft alleen de gegevens in het hemis.conf bestand te plakken
-van uw externe server en start deze vervolgens de Masternode met
-deze controller portemonnee (selecteer de Masternode in de lijst en druk op "start").
+van uw externe server en start deze vervolgens de Gamemaster met
+deze controller portemonnee (selecteer de Gamemaster in de lijst en druk op "start").
 </translation>
     </message>
     <message>
-        <source>Delete Masternode</source>
-        <translation>Verwijder Masternode</translation>
+        <source>Delete Gamemaster</source>
+        <translation>Verwijder Gamemaster</translation>
     </message>
     <message>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
-        <translation>Je staat op het punt om volgende Masternode te verwijderen:
+        <translation>Je staat op het punt om volgende Gamemaster te verwijderen:
 %1
 
 Weet je het zeker?</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Invalide masternode.conf file</translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Invalide gamemaster.conf file</translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Fout opgelopen bij het parsen van het masternode.conf bestand</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Fout opgelopen bij het parsen van het gamemaster.conf bestand</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>masternode.conf bestand bestaat niet</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>gamemaster.conf bestand bestaat niet</translation>
     </message>
     <message>
-        <source>Cannot create Masternode controller, wallet locked</source>
-        <translation>Kan geen Masternode controller aanmaken, portemonnee vergrendeld</translation>
+        <source>Cannot create Gamemaster controller, wallet locked</source>
+        <translation>Kan geen Gamemaster controller aanmaken, portemonnee vergrendeld</translation>
     </message>
     <message>
-        <source>Error creating masternode</source>
-        <translation>Error in het aanmaken van de masternode</translation>
+        <source>Error creating gamemaster</source>
+        <translation>Error in het aanmaken van de gamemaster</translation>
     </message>
 </context>
 <context>
@@ -1595,8 +1595,8 @@ Weet je het zeker?</translation>
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>Masternode Information</source>
-        <translation>Masternode informatie</translation>
+        <source>Gamemaster Information</source>
+        <translation>Gamemaster informatie</translation>
     </message>
     <message>
         <source>Public Key:</source>
@@ -1623,12 +1623,12 @@ Weet je het zeker?</translation>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>Export data to run the Masternode on a remote server</source>
-        <translation>Exporteer gegevens om de Masternode op een externe server uit te voeren</translation>
+        <source>Export data to run the Gamemaster on a remote server</source>
+        <translation>Exporteer gegevens om de Gamemaster op een externe server uit te voeren</translation>
     </message>
     <message>
-        <source>Masternode public key copied</source>
-        <translation>Masternode publieke sleutel gekopieerd</translation>
+        <source>Gamemaster public key copied</source>
+        <translation>Gamemaster publieke sleutel gekopieerd</translation>
     </message>
     <message>
         <source>Collateral tx id copied</source>
@@ -1820,12 +1820,12 @@ STAKING</translation>
         <translation>Munt- en controlefuncties inschakelen</translation>
     </message>
     <message>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Toon extra tabblad waarin al je masternodes worden vermeld in het eerste sub-tabblad&lt;br/&gt;en alle masternodes op het netwerk in het tweede sub-tabblad.</translation>
+        <source>Show additional tab listing all your gamemasters in first sub-tab&lt;br/&gt;and all gamemasters on the network in second sub-tab.</source>
+        <translation>Toon extra tabblad waarin al je gamemasters worden vermeld in het eerste sub-tabblad&lt;br/&gt;en alle gamemasters op het netwerk in het tweede sub-tabblad.</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
-        <translation>Toon Masternodes Tab</translation>
+        <source>Show Gamemasters Tab</source>
+        <translation>Toon Gamemasters Tab</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -2286,8 +2286,8 @@ Adres: %4
         <translation>Fout: Ongeldige combinatie van -regtest en -testnet.</translation>
     </message>
     <message>
-        <source>Error reading masternode configuration file: %1</source>
-        <translation>Fout bij het lezen van het masternode configuratiebestand: %1</translation>
+        <source>Error reading gamemaster configuration file: %1</source>
+        <translation>Fout bij het lezen van het gamemaster configuratiebestand: %1</translation>
     </message>
     <message>
         <source>hemis Core didn't yet exit safely...</source>
@@ -2370,8 +2370,8 @@ Adres: %4
         <translation>Minted</translation>
     </message>
     <message>
-        <source>MN reward</source>
-        <translation>MN beloning</translation>
+        <source>GM reward</source>
+        <translation>GM beloning</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2533,8 +2533,8 @@ Adres: %4
         <translation>Open het hemis debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
-        <translation>Aantal Masternodes</translation>
+        <source>Number of Gamemasters</source>
+        <translation>Aantal Gamemasters</translation>
     </message>
     <message>
         <source>Data Directory</source>
@@ -3896,21 +3896,21 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                          </translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Wat is een Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Wat is een Gamemaster?</translation>
     </message>
     <message>
-        <source>What is a Masternode Controller?</source>
-        <translation>Wat is een Masternode Controller</translation>
+        <source>What is a Gamemaster Controller?</source>
+        <translation>Wat is een Gamemaster Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Een Masternode Controller portemonnee is waar de 10.000 HMS onderpand zich kan bevinden tijdens een Controller-Remote masternode setup. Het is een portemonnee die de remote masternode portemonnee(s) kan activeren en waarmee u uw ondergepande munten offline kunt houden terwijl de remote masternode online blijft. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Gamemaster Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote gamemaster setup. It is a wallet that can activate the remote gamemaster wallet(s) and allows you to keep your collateral coins offline while the remote gamemaster remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Een Gamemaster Controller portemonnee is waar de 10.000 HMS onderpand zich kan bevinden tijdens een Controller-Remote gamemaster setup. Het is een portemonnee die de remote gamemaster portemonnee(s) kan activeren en waarmee u uw ondergepande munten offline kunt houden terwijl de remote gamemaster online blijft. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3925,16 +3925,16 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           For providing such services, masternodes are also paid a certain portion
+                           For providing such services, gamemasters are also paid a certain portion
                            of reward for each block. This can serve as a passive income to the
-                           masternode owners minus their running cost.
+                           gamemaster owners minus their running cost.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Perks:
+                           Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
-                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
                            &lt;li&gt;Help secure the hemis network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3943,16 +3943,16 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 HMS per single Gamemaster instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
-                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;li&gt;Gamemaster wallet to remain online&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Een masternode is een computer met een volledige node hemis core portemonnee met een
+                           Een gamemaster is een computer met een volledige node hemis core portemonnee met een
                            vereiste van 10.000 HMS onderpand om extra diensten te kunnen verlenen
                            aan het netwerk en in ruil daarvoor ontvangt u regelmatig een deel van de blokbeloning.
                            Deze diensten omvatten::
@@ -3967,16 +3967,16 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Voor het verlenen van dergelijke diensten wordt ook een bepaald deel van de masternodes betaald
+                           Voor het verlenen van dergelijke diensten wordt ook een bepaald deel van de gamemasters betaald
                             van beloning voor elk blok. Dit kan dienen als een passief inkomen voor de
-                           masternode eigenaars minus hun exploitatiekosten.
+                           gamemaster eigenaars minus hun exploitatiekosten.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Voordelen:
+                           Gamemaster Voordelen:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Deelnemen in het hemis Bestuur&lt;/li&gt;
-                           &lt;li&gt;Verdien Masternode Beloningen&lt;/li&gt;
+                           &lt;li&gt;Verdien Gamemaster Beloningen&lt;/li&gt;
                            &lt;li&gt;Commodity-optie voor toekomstige verkoop&lt;/li&gt;
                            &lt;li&gt;Helpt bij het beveiligen van het hemis netwerk&lt;/li&gt;
                            &lt;/ul&gt;
@@ -3985,10 +3985,10 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Vereisten:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 HMS per Gamemaster instance&lt;/li&gt;
                            &lt;li&gt;Moet in een kernportemonnee worden opgeborgen&lt;/li&gt;
                            &lt;li&gt;Vereist een vast IP-adres
-                           &lt;li&gt;Masternode portemonnee moet online blijven&lt;/li&gt;
+                           &lt;li&gt;Gamemaster portemonnee moet online blijven&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -4006,12 +4006,12 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>4) Waar moet ik heen gaan als ik ondersteuning nodig heb?</translation>
     </message>
     <message>
-        <source>5) What is a Masternode?</source>
-        <translation>5) Wat is een Masternode?</translation>
+        <source>5) What is a Gamemaster?</source>
+        <translation>5) Wat is een Gamemaster?</translation>
     </message>
     <message>
-        <source>6) What is a Masternode Controller?</source>
-        <translation>6) Wat is een Masternode Controller?</translation>
+        <source>6) What is a Gamemaster Controller?</source>
+        <translation>6) Wat is een Gamemaster Controller?</translation>
     </message>
     <message>
         <source>You can read more here</source>
@@ -4057,8 +4057,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Verbindingen:</translation>
     </message>
     <message>
-        <source>Number of Masternodes:</source>
-        <translation>Aantal Masternodes:</translation>
+        <source>Number of Gamemasters:</source>
+        <translation>Aantal Gamemasters:</translation>
     </message>
     <message>
         <source>Current number of blocks:</source>
@@ -4260,8 +4260,8 @@ Weet u het zeker?
         <translation>Selectievakje</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hemis addresses after it matures.</source>
-        <translation>Met MultiSend kunt u automatisch tot 100% van uw inzet of masternode beloning naar een lijst met andere hemis-adressen sturen nadat deze volwaardig zijn geworden.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
+        <translation>Met MultiSend kunt u automatisch tot 100% van uw inzet of gamemaster beloning naar een lijst met andere hemis-adressen sturen nadat deze volwaardig zijn geworden.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4280,8 +4280,8 @@ Weet u het zeker?
         <translation>Verstuur stakes</translation>
     </message>
     <message>
-        <source>Send masternode rewards</source>
-        <translation>Verstuurd masternode beloningen</translation>
+        <source>Send gamemaster rewards</source>
+        <translation>Verstuurd gamemaster beloningen</translation>
     </message>
     <message>
         <source>ADD RECIPIENT</source>
@@ -4331,9 +4331,9 @@ Controleer het adres en probeer opnieuw.</translation>
     </message>
     <message>
         <source>Unable to activate MultiSend
-Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+Check one or both of the check boxes to send on stake and/or gamemaster rewards</source>
         <translation>MultiSend kan niet geactiveerd worden
-Vink één of beide selectievakjes aan om beloningen op de inzet en/of masternode te sturen.</translation>
+Vink één of beide selectievakjes aan om beloningen op de inzet en/of gamemaster te sturen.</translation>
     </message>
     <message>
         <source>MultiSend activated but writing settings to DB failed</source>
@@ -5072,8 +5072,8 @@ nieuwe back-up aangemaakt worden.
         <translation>Ontvangen met</translation>
     </message>
     <message>
-        <source>Masternode Reward</source>
-        <translation>Masternode beloning</translation>
+        <source>Gamemaster Reward</source>
+        <translation>Gamemaster beloning</translation>
     </message>
     <message>
         <source>Received from</source>
@@ -5344,8 +5344,8 @@ Selecteer minder invoeren met muntcontrole.</translation>
         <translation>Privacy</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternodes</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemasters</translation>
     </message>
     <message>
         <source>Select your language</source>
@@ -5366,16 +5366,16 @@ hemis Core Portemonnee</translation>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zoals ons manifest zegt: Privacy is een niet-onderhandelbaar fundamenteel mensenrecht; het geeft gebruikers de vrijheid om hun gegevens te delen wanneer en met wie ze maar willen - hemis gelooft in soevereiniteit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Het masternode netwerk is hemis's tweedelaagse netwerk bovenop de blockchain die onze DAO in staat stelt om gedecentraliseerd bestuur, treasury te leveren</translation>
+        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Het gamemaster netwerk is hemis's tweedelaagse netwerk bovenop de blockchain die onze DAO in staat stelt om gedecentraliseerd bestuur, treasury te leveren</translation>
     </message>
     <message>
         <source>How hemis respects your privacy?</source>
         <translation>Hoe respecteert hemis uw privacy?</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Wat is een Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Wat is een Gamemaster?</translation>
     </message>
     <message>
         <source>default</source>
@@ -5645,8 +5645,8 @@ hemis Core Portemonnee</translation>
         <translation>Corrupte block database gedetecteerd</translation>
     </message>
     <message>
-        <source>Could not parse masternode.conf</source>
-        <translation>Kan masternode.conf niet parsen</translation>
+        <source>Could not parse gamemaster.conf</source>
+        <translation>Kan gamemaster.conf niet parsen</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
@@ -5677,8 +5677,8 @@ hemis Core Portemonnee</translation>
         <translation>Klaar met laden</translation>
     </message>
     <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Schakel de client in als masternode (0-1, standaard: %u)</translation>
+        <source>Enable the client to act as a gamemaster (0-1, default: %u)</source>
+        <translation>Schakel de client in als gamemaster (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -5915,12 +5915,12 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Budget cache laden...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
-        <translation>Masternode cache laden...</translation>
+        <source>Loading gamemaster cache...</source>
+        <translation>Gamemaster cache laden...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
-        <translation>Masternode betalingscache laden...</translation>
+        <source>Loading gamemaster payment cache...</source>
+        <translation>Gamemaster betalingscache laden...</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
@@ -5935,8 +5935,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Locatie van de auth cookie (standaard: data dir)</translation>
     </message>
     <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Masternodes vergrendelen van masternode configuratiebestand (standaard: %u)</translation>
+        <source>Lock gamemasters from gamemaster configuration file (default: %u)</source>
+        <translation>Gamemasters vergrendelen van gamemaster configuratiebestand (standaard: %u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
@@ -5944,15 +5944,15 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
     </message>
     <message>
         <source>MNs synchronization pending...</source>
-        <translation>Synchronisatie van MN's in afwachting...</translation>
+        <translation>Synchronisatie van GM's in afwachting...</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Bijhouden maximaal &lt;n&gt; connecties naar peers (standaard: %u)</translation>
     </message>
     <message>
-        <source>Masternode options:</source>
-        <translation>Masternode opties:</translation>
+        <source>Gamemaster options:</source>
+        <translation>Gamemaster opties:</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -6083,8 +6083,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>(moet %d voor %s-net zijn)</translation>
     </message>
     <message>
-        <source>Active Masternode not initialized.</source>
-        <translation>Actieve Masternode niet geïnitialiseerd.</translation>
+        <source>Active Gamemaster not initialized.</source>
+        <translation>Actieve Gamemaster niet geïnitialiseerd.</translation>
     </message>
     <message>
         <source>Allows deprecated RPC method(s) to be used</source>
@@ -6103,8 +6103,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Wissel buiten het bereik</translation>
     </message>
     <message>
-        <source>Error: -listen must be true if -masternode is set.</source>
-        <translation>Error: -listen moet op true staan als de -masternode is ingesteld.</translation>
+        <source>Error: -listen must be true if -gamemaster is set.</source>
+        <translation>Error: -listen moet op true staan als de -gamemaster is ingesteld.</translation>
     </message>
     <message>
         <source>Error: -maxmempool must be at least %d MB</source>
@@ -6121,16 +6121,16 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Kosten (in %s/kB) om toe te voegen aan de transactie die je verstuurd (standaard: %s)</translation>
     </message>
     <message>
-        <source>Invalid -masternodeaddr address: %s</source>
-        <translation>Ongeldig -masternodeaddr adres: %s</translation>
+        <source>Invalid -gamemasteraddr address: %s</source>
+        <translation>Ongeldig -gamemasteraddr adres: %s</translation>
     </message>
     <message>
-        <source>Invalid -masternodeaddr port %d, only %d is supported on %s-net.</source>
-        <translation>Ongeldig -masternodeaddr poort %d, enkel %d is ondersteund op %s-net.</translation>
+        <source>Invalid -gamemasteraddr port %d, only %d is supported on %s-net.</source>
+        <translation>Ongeldig -gamemasteraddr poort %d, enkel %d is ondersteund op %s-net.</translation>
     </message>
     <message>
-        <source>Invalid port %d detected in masternode.conf</source>
-        <translation>Ongeldige poort %d gedetecteerd in masternode.conf</translation>
+        <source>Invalid port %d detected in gamemaster.conf</source>
+        <translation>Ongeldige poort %d gedetecteerd in gamemaster.conf</translation>
     </message>
     <message>
         <source>Invalid status error.</source>
@@ -6209,8 +6209,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Stel de cache grootte van de database in megabytes in (%d tot %d, standaard: %d)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Extern adres instellen:poort om bij deze masternode te komen (voorbeeld: %s)</translation>
+        <source>Set external address:port to get to this gamemaster (example: %s)</source>
+        <translation>Extern adres instellen:poort om bij deze gamemaster te komen (voorbeeld: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
@@ -6229,8 +6229,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Stel de Maximale reorg diepte in (standaard: %u)</translation>
     </message>
     <message>
-        <source>Set the masternode private key</source>
-        <translation>Stel de masternode privé sleutel in</translation>
+        <source>Set the gamemaster private key</source>
+        <translation>Stel de gamemaster privé sleutel in</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
@@ -6269,8 +6269,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Specificeer data directory.</translation>
     </message>
     <message>
-        <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Specificeer masternode configuratie bestand (default: %s)</translation>
+        <source>Specify gamemaster configuration file (default: %s)</source>
+        <translation>Specificeer gamemaster configuratie bestand (default: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -6305,12 +6305,12 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Budgeten synchroniseren...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
-        <translation>Synchroniseren masternode winnaars...</translation>
+        <source>Synchronizing gamemaster winners...</source>
+        <translation>Synchroniseren gamemaster winnaars...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
-        <translation>Synchroniseren masternodes...</translation>
+        <source>Synchronizing gamemasters...</source>
+        <translation>Synchroniseren gamemasters...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
@@ -6333,12 +6333,12 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Dit is bedoeld voor regressie test tools en app ontwikkeling.</translation>
     </message>
     <message>
-        <source>This is not a masternode. 'local' option disabled.</source>
-        <translation>Dit is geen masternode. 'Lokaal' optie uitgeschakeld.</translation>
+        <source>This is not a gamemaster. 'local' option disabled.</source>
+        <translation>Dit is geen gamemaster. 'Lokaal' optie uitgeschakeld.</translation>
     </message>
     <message>
-        <source>This is not a masternode.</source>
-        <translation>Dit is geen Masternode.</translation>
+        <source>This is not a gamemaster.</source>
+        <translation>Dit is geen Gamemaster.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>

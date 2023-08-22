@@ -1324,20 +1324,20 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>Adresa</translation>
     </message>
     <message>
-        <source>Create New Masternode Controller</source>
-        <translation>Stvori novi Masternode Controller</translation>
+        <source>Create New Gamemaster Controller</source>
+        <translation>Stvori novi Gamemaster Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Masternode you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti hemis Masternode, morate odvojiti 10,000 HMS (jedinica hemis-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti hemis Gamemaster, morate odvojiti 10,000 HMS (jedinica hemis-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Set Masternode Name</source>
-        <translation>Postavi ime za Masternode</translation>
+        <source>Set Gamemaster Name</source>
+        <translation>Postavi ime za Gamemaster</translation>
     </message>
     <message>
-        <source>Set Masternode IP and Port</source>
-        <translation>Postavi IP adresu i ulaz za Masternode</translation>
+        <source>Set Gamemaster IP and Port</source>
+        <translation>Postavi IP adresu i ulaz za Gamemaster</translation>
     </message>
     <message>
         <source>Enter port</source>
@@ -1349,11 +1349,11 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 HMS will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 HMS će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Masternode-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 HMS će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Gamemaster-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
-        <translation>Adresa čvora koji uvijek mora biti na mreži pokrečući stvarni masternode.</translation>
+        <translation>Adresa čvora koji uvijek mora biti na mreži pokrečući stvarni gamemaster.</translation>
     </message>
     <message>
         <source>Enter IP address</source>
@@ -1388,7 +1388,7 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
 
 %1
 </source>
-        <translation>Priprema masternode neuspjela.
+        <translation>Priprema gamemaster neuspjela.
 
 %1
 </translation>
@@ -1399,7 +1399,7 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
     </message>
     <message>
         <source>Master node created! Wait %1 confirmations before starting it.</source>
-        <translation>Masternode stvoren! Pričekajte %1 potvrda prije pokretanja.</translation>
+        <translation>Gamemaster stvoren! Pričekajte %1 potvrda prije pokretanja.</translation>
     </message>
     <message>
         <source>Cannot send collateral transaction.
@@ -1414,16 +1414,16 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>novčanikModel nije postavljen</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Nevažeća masternode.conf datoteka </translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Nevažeća gamemaster.conf datoteka </translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Greška pri parsiranju masternode.conf datoteke</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Greška pri parsiranju gamemaster.conf datoteke</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>masternode.conf datoteka ne postoji</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>gamemaster.conf datoteka ne postoji</translation>
     </message>
 </context>
 <context>
@@ -1441,8 +1441,8 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>Pokreni neaktivne</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternodeovi</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemasterovi</translation>
     </message>
     <message>
         <source>Full nodes that incentivize node operators to perform the core consensus functions
@@ -1451,12 +1451,12 @@ and vote on the treasury system receiving a periodic reward.</source>
 i glasaju o sustavu riznice dobivajući zauzvrat periodične nagrade.</translation>
     </message>
     <message>
-        <source>Create Masternode Controller</source>
-        <translation>Stvori Masternode Controller</translation>
+        <source>Create Gamemaster Controller</source>
+        <translation>Stvori Gamemaster Controller</translation>
     </message>
     <message>
-        <source>No active Masternode yet</source>
-        <translation>Još nema aktivnih Masternodeova</translation>
+        <source>No active Gamemaster yet</source>
+        <translation>Još nema aktivnih Gamemasterova</translation>
     </message>
     <message>
         <source>Start</source>
@@ -1475,132 +1475,132 @@ i glasaju o sustavu riznice dobivajući zauzvrat periodične nagrade.</translati
         <translation>Pričekajte dok se čvor u potpunosti ne sinkronizira</translation>
     </message>
     <message>
-        <source>Start Masternode</source>
-        <translation>Pokreni Masternode</translation>
+        <source>Start Gamemaster</source>
+        <translation>Pokreni Gamemaster</translation>
     </message>
     <message>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
-        <translation>Jeste li sigurni da želite pokrenuti masternode %1?
+        <translation>Jeste li sigurni da želite pokrenuti gamemaster %1?
 </translation>
     </message>
     <message>
-        <source>Cannot edit masternode, wallet locked</source>
-        <translation>Ne može se urediti masternode, novčanik je zaključan</translation>
+        <source>Cannot edit gamemaster, wallet locked</source>
+        <translation>Ne može se urediti gamemaster, novčanik je zaključan</translation>
     </message>
     <message>
-        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
-Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
-        <translation>Masternode se ne može pokrenuti, transakcija sa zalogom još nije potvrdjena.
-Molimo pričekajte nekoliko minuta (zalog za Masternode zahtjeva %1 potvrda).</translation>
+        <source>Cannot start gamemaster, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (gamemaster collaterals require %1 confirmations).</source>
+        <translation>Gamemaster se ne može pokrenuti, transakcija sa zalogom još nije potvrdjena.
+Molimo pričekajte nekoliko minuta (zalog za Gamemaster zahtjeva %1 potvrda).</translation>
     </message>
     <message>
         <source>Background task is being executed, please wait</source>
         <translation>Pozadinski zadatak se izvršava, molimo pričekajte</translation>
     </message>
     <message>
-        <source>Start ALL masternodes failed</source>
-        <translation>Pokreni SVE masternodeove neuspjelo</translation>
+        <source>Start ALL gamemasters failed</source>
+        <translation>Pokreni SVE gamemasterove neuspjelo</translation>
     </message>
     <message>
         <source>Wallet unlock cancelled</source>
         <translation>Otključavanje novčanika je otkazano</translation>
     </message>
     <message>
-        <source>Cannot perform Masternodes start</source>
-        <translation>Ne mogu izvršiti pokretanje Masternodea</translation>
+        <source>Cannot perform Gamemasters start</source>
+        <translation>Ne mogu izvršiti pokretanje Gamemastera</translation>
     </message>
     <message>
-        <source>%1 Masternodes failed to start, %2 started</source>
-        <translation>%1 Masternode se nije uspio pokrenuti, %2 je započeo</translation>
+        <source>%1 Gamemasters failed to start, %2 started</source>
+        <translation>%1 Gamemaster se nije uspio pokrenuti, %2 je započeo</translation>
     </message>
     <message>
-        <source>All Masternodes started!</source>
-        <translation>Svi Masternodeovi pokrenuti!</translation>
+        <source>All Gamemasters started!</source>
+        <translation>Svi Gamemasterovi pokrenuti!</translation>
     </message>
     <message>
-        <source>Cannot show Masternode information, wallet locked</source>
-        <translation>Ne mogu se prikazati informacije o Masternode-u, novčanik je zaključan</translation>
+        <source>Cannot show Gamemaster information, wallet locked</source>
+        <translation>Ne mogu se prikazati informacije o Gamemaster-u, novčanik je zaključan</translation>
     </message>
     <message>
-        <source>Masternode data copied to the clipboard.</source>
-        <translation>Podaci za Masternode kopirani u međjuspremnik.</translation>
+        <source>Gamemaster data copied to the clipboard.</source>
+        <translation>Podaci za Gamemaster kopirani u međjuspremnik.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 %1 required.</source>
-        <translation>Nemate dovoljno sredstava za stvoriti masternode, potrebno je 10,000 %1.</translation>
+        <source>Not enough balance to create a gamemaster, 10,000 %1 required.</source>
+        <translation>Nemate dovoljno sredstava za stvoriti gamemaster, potrebno je 10,000 %1.</translation>
     </message>
     <message>
-        <source>Remote Masternode Data</source>
-        <translation>Podaci za udaljeni Masternode</translation>
+        <source>Remote Gamemaster Data</source>
+        <translation>Podaci za udaljeni Gamemaster</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Što je Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Što je Gamemaster?</translation>
     </message>
     <message>
-        <source>FAQ explaining what Masternodes are</source>
-        <translation>Najčešća pitanja objašnjavaju što su Masternodeovi</translation>
+        <source>FAQ explaining what Gamemasters are</source>
+        <translation>Najčešća pitanja objašnjavaju što su Gamemasterovi</translation>
     </message>
     <message>
         <source>What is a Controller?</source>
         <translation>Što je Controller?</translation>
     </message>
     <message>
-        <source>FAQ explaining what is a Masternode Controller</source>
-        <translation>Najčešća pitanja objašnjavaju što je Masternode Upravljač</translation>
+        <source>FAQ explaining what is a Gamemaster Controller</source>
+        <translation>Najčešća pitanja objašnjavaju što je Gamemaster Upravljač</translation>
     </message>
     <message>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press "start").
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press "start").
 </source>
-        <translation>Upravo ćete izvesti potrebne podatke da biste pokrenuli Masternode
+        <translation>Upravo ćete izvesti potrebne podatke da biste pokrenuli Gamemaster
 na udaljenom poslužitelju u medjuspremnik.
 
 
 Podatke ćete morati zalijepiti u datoteku hemis.conf
-na udaljenom poslužitelju i pokrenuti ga, a zatim pokrenite Masternode
-koristeći ovaj controller novčanik (na popisu odaberite Masternode i pritisnite "start").
+na udaljenom poslužitelju i pokrenuti ga, a zatim pokrenite Gamemaster
+koristeći ovaj controller novčanik (na popisu odaberite Gamemaster i pritisnite "start").
 </translation>
     </message>
     <message>
-        <source>Delete Masternode</source>
-        <translation>Izbriši Masternode</translation>
+        <source>Delete Gamemaster</source>
+        <translation>Izbriši Gamemaster</translation>
     </message>
     <message>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
-        <translation>Upravo ćete izbrisati Masternode:
+        <translation>Upravo ćete izbrisati Gamemaster:
 %1
 
 Jeste li sigurni?</translation>
     </message>
     <message>
-        <source>Invalid masternode.conf file</source>
-        <translation>Nevažeća masternode.conf datoteka </translation>
+        <source>Invalid gamemaster.conf file</source>
+        <translation>Nevažeća gamemaster.conf datoteka </translation>
     </message>
     <message>
-        <source>Error parsing masternode.conf file</source>
-        <translation>Greška pri parsiranju masternode.conf datoteke</translation>
+        <source>Error parsing gamemaster.conf file</source>
+        <translation>Greška pri parsiranju gamemaster.conf datoteke</translation>
     </message>
     <message>
-        <source>masternode.conf file doesn't exists</source>
-        <translation>masternode.conf datoteka ne postoji</translation>
+        <source>gamemaster.conf file doesn't exists</source>
+        <translation>gamemaster.conf datoteka ne postoji</translation>
     </message>
     <message>
-        <source>Cannot create Masternode controller, wallet locked</source>
-        <translation>Ne može se kreirati Masternode controller, novčanik je zaključan</translation>
+        <source>Cannot create Gamemaster controller, wallet locked</source>
+        <translation>Ne može se kreirati Gamemaster controller, novčanik je zaključan</translation>
     </message>
     <message>
-        <source>Error creating masternode</source>
-        <translation>Greška pri stvaranju Masternode-a</translation>
+        <source>Error creating gamemaster</source>
+        <translation>Greška pri stvaranju Gamemaster-a</translation>
     </message>
 </context>
 <context>
@@ -1610,8 +1610,8 @@ Jeste li sigurni?</translation>
         <translation>Obrazac</translation>
     </message>
     <message>
-        <source>Masternode Information</source>
-        <translation>Informacije o Masternode-u</translation>
+        <source>Gamemaster Information</source>
+        <translation>Informacije o Gamemaster-u</translation>
     </message>
     <message>
         <source>Public Key:</source>
@@ -1638,12 +1638,12 @@ Jeste li sigurni?</translation>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>Export data to run the Masternode on a remote server</source>
-        <translation>Izvoz podataka za pokretanje Masternode-a na udaljenom poslužitelju</translation>
+        <source>Export data to run the Gamemaster on a remote server</source>
+        <translation>Izvoz podataka za pokretanje Gamemaster-a na udaljenom poslužitelju</translation>
     </message>
     <message>
-        <source>Masternode public key copied</source>
-        <translation>Masternode javni ključ je kopiran</translation>
+        <source>Gamemaster public key copied</source>
+        <translation>Gamemaster javni ključ je kopiran</translation>
     </message>
     <message>
         <source>Collateral tx id copied</source>
@@ -1835,12 +1835,12 @@ STAKING</translation>
         <translation>Omogući značajke &amp;upravljanja novčićima</translation>
     </message>
     <message>
-        <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Prikaži dodatnu karticu s popisom svih svojih masternode-ova u prvoj pod-kartici&lt;br/&gt;i sve masternode-ove na mreži u drugoj pod-kartici.</translation>
+        <source>Show additional tab listing all your gamemasters in first sub-tab&lt;br/&gt;and all gamemasters on the network in second sub-tab.</source>
+        <translation>Prikaži dodatnu karticu s popisom svih svojih gamemaster-ova u prvoj pod-kartici&lt;br/&gt;i sve gamemaster-ove na mreži u drugoj pod-kartici.</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
-        <translation>Prikaži Masternodes karticu</translation>
+        <source>Show Gamemasters Tab</source>
+        <translation>Prikaži Gamemasters karticu</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -2301,8 +2301,8 @@ Adresa: %4
         <translation>Greška: Neispravna kombinacija -regtest i -testnet.</translation>
     </message>
     <message>
-        <source>Error reading masternode configuration file: %1</source>
-        <translation>Greška pri čitanju masternode konfiguracijske datoteke: %1</translation>
+        <source>Error reading gamemaster configuration file: %1</source>
+        <translation>Greška pri čitanju gamemaster konfiguracijske datoteke: %1</translation>
     </message>
     <message>
         <source>hemis Core didn't yet exit safely...</source>
@@ -2405,8 +2405,8 @@ Adresa: %4
         <translation>Minted</translation>
     </message>
     <message>
-        <source>MN reward</source>
-        <translation>MN nagrade</translation>
+        <source>GM reward</source>
+        <translation>GM nagrade</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -2568,8 +2568,8 @@ Adresa: %4
         <translation>Otvorite hemis debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
-        <translation>Broj Masternode-ova</translation>
+        <source>Number of Gamemasters</source>
+        <translation>Broj Gamemaster-ova</translation>
     </message>
     <message>
         <source>Data Directory</source>
@@ -4041,7 +4041,7 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
                            hemis utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of hemis to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
-                           run Masternodes to create and vote on proposals.
+                           run Gamemasters to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
@@ -4056,7 +4056,7 @@ koja je implementirala Sapling (SHIELD) i anoniman zk-SNARKs baziran protokol.
 hemis koristi algoritam konsenzusa Proof of Stake (PoS),
 omogućujući svim vlasnicima hemis-a sudjelovanje u zarađi blokovih nagrada
 dok osiguravaju mrežu full node novčanicima, kao i
-vodjenje Masternode-ova za stvaranje i glasanje o prijedlozima.
+vodjenje Gamemaster-ova za stvaranje i glasanje o prijedlozima.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4083,21 +4083,21 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
 </translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Što je Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Što je Gamemaster?</translation>
     </message>
     <message>
-        <source>What is a Masternode Controller?</source>
-        <translation>Što je Masternode Controller?</translation>
+        <source>What is a Gamemaster Controller?</source>
+        <translation>Što je Gamemaster Controller?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Masternode Controller novčanik je mjesto gdje zalog od 10,000 HMS može stajati tijekom Controller-Remote podešavanja masternode-a. To je novčanik koji može aktivirati Remote masternode novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote masternode novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Gamemaster Controller wallet is where the 10,000 HMS collateral can reside during a Controller-Remote gamemaster setup. It is a wallet that can activate the remote gamemaster wallet(s) and allows you to keep your collateral coins offline while the remote gamemaster remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Gamemaster Controller novčanik je mjesto gdje zalog od 10,000 HMS može stajati tijekom Controller-Remote podešavanja gamemaster-a. To je novčanik koji može aktivirati Remote gamemaster novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote gamemaster novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -4112,16 +4112,16 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                            &lt;/ul&gt;
 
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           For providing such services, masternodes are also paid a certain portion
+                           For providing such services, gamemasters are also paid a certain portion
                            of reward for each block. This can serve as a passive income to the
-                           masternode owners minus their running cost.
+                           gamemaster owners minus their running cost.
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
-                           Masternode Perks:
+                           Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
                            &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
-                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
                            &lt;li&gt;Help secure the hemis network&lt;/li&gt;
                            &lt;/ul&gt;
@@ -4130,16 +4130,16 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 HMS per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 HMS per single Gamemaster instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
-                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;li&gt;Gamemaster wallet to remain online&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Masternode je računalo koje pokreće full node hemis Core novčanik sa
+Gamemaster je računalo koje pokreće full node hemis Core novčanik sa
 zahtjevanih 10,000 HMS-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
@@ -4154,16 +4154,16 @@ Te usluge uključuju:
 &lt;/ul&gt;
 
 &lt;/p&gt;&lt;p align="justify"&gt;
-Za pružanje takvih usluga, masternode-ovi bivaju plaćeni odredjenim
+Za pružanje takvih usluga, gamemaster-ovi bivaju plaćeni odredjenim
 dijelom nagrade za svaki blok. To može služiti kao pasivan dohodak
-vlasnicima masternode-ova umanjeno za troškove održavanja.
+vlasnicima gamemaster-ova umanjeno za troškove održavanja.
 &lt;/p&gt;&lt;p align="justify"&gt;
 
-Povlastice masternode-ova:
+Povlastice gamemaster-ova:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
 &lt;li&gt;Sudjelovanje u upravljanju hemis-a&lt;/li&gt;
-&lt;li&gt;Zaradjivanje Masternode nagrada&lt;/li&gt;
+&lt;li&gt;Zaradjivanje Gamemaster nagrada&lt;/li&gt;
 &lt;li&gt;Robna opcija za buduću prodaju&lt;/li&gt;
 &lt;li&gt;Pomaže u osiguravanju hemis mreže&lt;/li&gt;
 &lt;/ul&gt;
@@ -4172,10 +4172,10 @@ Povlastice masternode-ova:
 Zahtjevi:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;10,000 HMS po svakom Masternode-u&lt;/li&gt;
+&lt;li&gt;10,000 HMS po svakom Gamemaster-u&lt;/li&gt;
 &lt;li&gt;Mora biti pohranjem u Core novčaniku&lt;/li&gt;
 &lt;li&gt;Mora biti jedinstvena IP adresa&lt;/li&gt;
-&lt;li&gt;Masternode novčanik treba ostati online&lt;/li&gt;
+&lt;li&gt;Gamemaster novčanik treba ostati online&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -4197,12 +4197,12 @@ Zahtjevi:
         <translation>4) Gdje trebam ići ako mi treba podrška?</translation>
     </message>
     <message>
-        <source>5) What is a Masternode?</source>
-        <translation>5) Što je Masternode?</translation>
+        <source>5) What is a Gamemaster?</source>
+        <translation>5) Što je Gamemaster?</translation>
     </message>
     <message>
-        <source>6) What is a Masternode Controller?</source>
-        <translation>6) Što je Masternode upravljač?</translation>
+        <source>6) What is a Gamemaster Controller?</source>
+        <translation>6) Što je Gamemaster upravljač?</translation>
     </message>
     <message>
         <source>You can read more here</source>
@@ -4248,8 +4248,8 @@ Zahtjevi:
         <translation>Veze:</translation>
     </message>
     <message>
-        <source>Number of Masternodes:</source>
-        <translation>Broj Masternodeova:</translation>
+        <source>Number of Gamemasters:</source>
+        <translation>Broj Gamemasterova:</translation>
     </message>
     <message>
         <source>Current number of blocks:</source>
@@ -4451,8 +4451,8 @@ Jeste li sigurni?
         <translation>PotvrdniOkvir</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other hemis addresses after it matures.</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade masternode na popis drugih hemis adresa nakon što sazriju.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
+        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade gamemaster na popis drugih hemis adresa nakon što sazriju.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4471,8 +4471,8 @@ Jeste li sigurni?
         <translation>Pošalji stake-ove</translation>
     </message>
     <message>
-        <source>Send masternode rewards</source>
-        <translation>Pošalji masternode nagrade</translation>
+        <source>Send gamemaster rewards</source>
+        <translation>Pošalji gamemaster nagrade</translation>
     </message>
     <message>
         <source>ADD RECIPIENT</source>
@@ -4522,9 +4522,9 @@ Molimo provjerite adresu i pokušajte ponovo.</translation>
     </message>
     <message>
         <source>Unable to activate MultiSend
-Check one or both of the check boxes to send on stake and/or masternode rewards</source>
+Check one or both of the check boxes to send on stake and/or gamemaster rewards</source>
         <translation>Ne mogu aktivirati MultiSend
-Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili masternode nagrade</translation>
+Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili gamemaster nagrade</translation>
     </message>
     <message>
         <source>MultiSend activated but writing settings to DB failed</source>
@@ -5314,8 +5314,8 @@ stvorit će se nova sigurnosna kopija.
         <translation>Primljeno s</translation>
     </message>
     <message>
-        <source>Masternode Reward</source>
-        <translation>Masternode Nagrada</translation>
+        <source>Gamemaster Reward</source>
+        <translation>Gamemaster Nagrada</translation>
     </message>
     <message>
         <source>Received from</source>
@@ -5630,8 +5630,8 @@ Odaberite manje ulaza pomoću Upravljanja novčićima.</translation>
         <translation>Privatnost</translation>
     </message>
     <message>
-        <source>Masternodes</source>
-        <translation>Masternodeovi</translation>
+        <source>Gamemasters</source>
+        <translation>Gamemasterovi</translation>
     </message>
     <message>
         <source>Select your language</source>
@@ -5652,16 +5652,16 @@ hemis temeljni novčanik</translation>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kao što naš manifest kaže: Privatnost je osnovno ljudsko pravo o kojemu se ne pregovara; korisnicima daje slobodu dijeljenja svojih podataka kad god i s kim god žele - hemis vjeruje u suverenitet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Masternode mreža je mreža drugog sloja hemis-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
+        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Gamemaster mreža je mreža drugog sloja hemis-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
     </message>
     <message>
         <source>How hemis respects your privacy?</source>
         <translation>Kako hemis poštuje Vašu privatnost?</translation>
     </message>
     <message>
-        <source>What is a Masternode?</source>
-        <translation>Što je Masternode?</translation>
+        <source>What is a Gamemaster?</source>
+        <translation>Što je Gamemaster?</translation>
     </message>
     <message>
         <source>default</source>
@@ -5931,8 +5931,8 @@ hemis temeljni novčanik</translation>
         <translation>Otkriven oštećen blok podataka</translation>
     </message>
     <message>
-        <source>Could not parse masternode.conf</source>
-        <translation>Nije moguće analizirati masternode.conf
+        <source>Could not parse gamemaster.conf</source>
+        <translation>Nije moguće analizirati gamemaster.conf
 </translation>
     </message>
     <message>
@@ -5964,8 +5964,8 @@ hemis temeljni novčanik</translation>
         <translation>Završeno učitavanje</translation>
     </message>
     <message>
-        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Omogućite klijentu da djeluje kao masternode (0-1, zadano: %u)</translation>
+        <source>Enable the client to act as a gamemaster (0-1, default: %u)</source>
+        <translation>Omogućite klijentu da djeluje kao gamemaster (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -6140,8 +6140,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Nije moguće nadograditi na novčanik Sapling (već ima Sapling podršku). Verzija: %d</translation>
     </message>
     <message>
-        <source>Disable all hemis specific functionality (Masternodes, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogućite sve hemis specifične funkcionalnosti (Masternode, proračun) (0-1, zadano: %u)</translation>
+        <source>Disable all hemis specific functionality (Gamemasters, Budgeting) (0-1, default: %u)</source>
+        <translation>Onemogućite sve hemis specifične funkcionalnosti (Gamemaster, proračun) (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>This file contains all of your private keys in plain text. DO NOT send this file to anyone!</source>
@@ -6194,8 +6194,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Nevažeći iznos za -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
-        <source>Invalid masternodeprivkey. Please see the documentation.</source>
-        <translation>Nevažeći masternodeprivkey. Molimo pogledajte dokumentaciju.</translation>
+        <source>Invalid gamemasterprivkey. Please see the documentation.</source>
+        <translation>Nevažeći gamemasterprivkey. Molimo pogledajte dokumentaciju.</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -6230,12 +6230,12 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Učitavanje predmemorije proračuna...</translation>
     </message>
     <message>
-        <source>Loading masternode cache...</source>
-        <translation>Učitavanje predmemorije masternodea...</translation>
+        <source>Loading gamemaster cache...</source>
+        <translation>Učitavanje predmemorije gamemastera...</translation>
     </message>
     <message>
-        <source>Loading masternode payment cache...</source>
-        <translation>Učitavanje predmemorije plaćanja masternodea...</translation>
+        <source>Loading gamemaster payment cache...</source>
+        <translation>Učitavanje predmemorije plaćanja gamemastera...</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
@@ -6250,8 +6250,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Lokacija autentičnog kolačića (zadano: dir. Podataka)</translation>
     </message>
     <message>
-        <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Zaključaj masternode iz masternode konfiguracijske datoteke (zadano: %u)</translation>
+        <source>Lock gamemasters from gamemaster configuration file (default: %u)</source>
+        <translation>Zaključaj gamemaster iz gamemaster konfiguracijske datoteke (zadano: %u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
@@ -6259,15 +6259,15 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
     </message>
     <message>
         <source>MNs synchronization pending...</source>
-        <translation>Sinkronizacija MN-ova je na čekanju ...</translation>
+        <translation>Sinkronizacija GM-ova je na čekanju ...</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Održavajte najviše &lt;n&gt; vezu s korisnicima (zadano: %u)</translation>
     </message>
     <message>
-        <source>Masternode options:</source>
-        <translation>Masternode mogućnosti:</translation>
+        <source>Gamemaster options:</source>
+        <translation>Gamemaster mogućnosti:</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
@@ -6398,8 +6398,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>(mora biti %d za %s-net)</translation>
     </message>
     <message>
-        <source>Active Masternode not initialized.</source>
-        <translation>Aktivan Masternode nije inicijaliziran.</translation>
+        <source>Active Gamemaster not initialized.</source>
+        <translation>Aktivan Gamemaster nije inicijaliziran.</translation>
     </message>
     <message>
         <source>Allows deprecated RPC method(s) to be used</source>
@@ -6418,8 +6418,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Promijenite indeks izvan raspona</translation>
     </message>
     <message>
-        <source>Error: -listen must be true if -masternode is set.</source>
-        <translation>Greška: -listen mora biti istinit ako je -masternode postavljen.</translation>
+        <source>Error: -listen must be true if -gamemaster is set.</source>
+        <translation>Greška: -listen mora biti istinit ako je -gamemaster postavljen.</translation>
     </message>
     <message>
         <source>Error: -maxmempool must be at least %d MB</source>
@@ -6436,16 +6436,16 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Naknada (u %s/kB) za dodavanje transakcijama koje šaljete (zadano: %s)</translation>
     </message>
     <message>
-        <source>Invalid -masternodeaddr address: %s</source>
-        <translation>Nevažeća -masternodeaddr adresa: %s</translation>
+        <source>Invalid -gamemasteraddr address: %s</source>
+        <translation>Nevažeća -gamemasteraddr adresa: %s</translation>
     </message>
     <message>
-        <source>Invalid -masternodeaddr port %d, only %d is supported on %s-net.</source>
-        <translation>Nevažeći -masternodeaddr ulaz %d, samo %d je podržan na %s-net.</translation>
+        <source>Invalid -gamemasteraddr port %d, only %d is supported on %s-net.</source>
+        <translation>Nevažeći -gamemasteraddr ulaz %d, samo %d je podržan na %s-net.</translation>
     </message>
     <message>
-        <source>Invalid port %d detected in masternode.conf</source>
-        <translation>Otkriven je nevažeći port %d u masternode.conf</translation>
+        <source>Invalid port %d detected in gamemaster.conf</source>
+        <translation>Otkriven je nevažeći port %d u gamemaster.conf</translation>
     </message>
     <message>
         <source>Invalid status error.</source>
@@ -6524,7 +6524,7 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Postavite veličinu predmemorije baze podataka u megabajtima (%d do %d, zadano: %d)</translation>
     </message>
     <message>
-        <source>Set external address:port to get to this masternode (example: %s)</source>
+        <source>Set external address:port to get to this gamemaster (example: %s)</source>
         <translation>Postavite vanjsku adresu:port da biste došli do tog masternoda (primjer: %s)</translation>
     </message>
     <message>
@@ -6544,8 +6544,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Postavite maksimalnu dubinu reorg (zadano: %u)</translation>
     </message>
     <message>
-        <source>Set the masternode private key</source>
-        <translation>Postavite masternode privatni ključ</translation>
+        <source>Set the gamemaster private key</source>
+        <translation>Postavite gamemaster privatni ključ</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
@@ -6584,8 +6584,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Navedite direktorij podataka</translation>
     </message>
     <message>
-        <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Navedite masternode konfiguracijsku datoteku (zadano: %s)</translation>
+        <source>Specify gamemaster configuration file (default: %s)</source>
+        <translation>Navedite gamemaster konfiguracijsku datoteku (zadano: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
@@ -6620,12 +6620,12 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Sinkronizacija proračuna...</translation>
     </message>
     <message>
-        <source>Synchronizing masternode winners...</source>
-        <translation>Usklađivanje masternode pobjednika...</translation>
+        <source>Synchronizing gamemaster winners...</source>
+        <translation>Usklađivanje gamemaster pobjednika...</translation>
     </message>
     <message>
-        <source>Synchronizing masternodes...</source>
-        <translation>Sinkronizacija masternodeova...</translation>
+        <source>Synchronizing gamemasters...</source>
+        <translation>Sinkronizacija gamemasterova...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
@@ -6648,12 +6648,12 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>To je namijenjeno alatima za test regresije i razvoju aplikacija.</translation>
     </message>
     <message>
-        <source>This is not a masternode. 'local' option disabled.</source>
-        <translation>Ovo nije masternode. 'lokalna' opcija isključena.</translation>
+        <source>This is not a gamemaster. 'local' option disabled.</source>
+        <translation>Ovo nije gamemaster. 'lokalna' opcija isključena.</translation>
     </message>
     <message>
-        <source>This is not a masternode.</source>
-        <translation>Ovo nije masternode.</translation>
+        <source>This is not a gamemaster.</source>
+        <translation>Ovo nije gamemaster.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>

@@ -22,7 +22,7 @@
 #include "qt/hemis/addresseswidget.h"
 #include "qt/hemis/coldstakingwidget.h"
 #include "qt/hemis/governancewidget.h"
-#include "qt/hemis/masternodeswidget.h"
+#include "qt/hemis/gamemasterswidget.h"
 #include "qt/hemis/snackbar.h"
 #include "qt/hemis/settings/settingswidget.h"
 #include "qt/hemis/settings/settingsfaqwidget.h"

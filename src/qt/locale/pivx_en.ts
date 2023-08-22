@@ -1696,7 +1696,7 @@ Be part of the DAO.</source>
 <context>
     <name>MasterNodeWizardDialog</name>
     <message>
-        <location filename="../hemis/forms/masternodewizarddialog.ui" line="+196"/>
+        <location filename="../hemis/forms/gamemasterwizarddialog.ui" line="+196"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1727,17 +1727,17 @@ Be part of the DAO.</source>
     </message>
     <message>
         <location line="+94"/>
-        <source>Create New Masternode Controller</source>
+        <source>Create New Gamemaster Controller</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+109"/>
-        <source>Set Masternode Name</source>
+        <source>Set Gamemaster Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+87"/>
-        <source>Set Masternode IP and Port</source>
+        <source>Set Gamemaster IP and Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1771,7 +1771,7 @@ Be part of the DAO.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/masternodewizarddialog.cpp" line="+192"/>
+        <location filename="../hemis/gamemasterwizarddialog.cpp" line="+192"/>
         <source>address label cannot be empty</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1817,7 +1817,7 @@ Be part of the DAO.</source>
     </message>
     <message>
         <location line="-210"/>
-        <source>To create a hemis Masternode you must dedicate %1 (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession).</source>
+        <source>To create a hemis Gamemaster you must dedicate %1 (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1847,24 +1847,24 @@ Be part of the DAO.</source>
     </message>
     <message>
         <location line="+140"/>
-        <source>Invalid masternode.conf file</source>
+        <source>Invalid gamemaster.conf file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>Error parsing masternode.conf file</source>
+        <source>Error parsing gamemaster.conf file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-31"/>
-        <source>masternode.conf file doesn&apos;t exists</source>
+        <source>gamemaster.conf file doesn&apos;t exists</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>MasterNodesWidget</name>
     <message>
-        <location filename="../hemis/forms/masternodeswidget.ui" line="+295"/>
+        <location filename="../hemis/forms/gamemasterswidget.ui" line="+295"/>
         <source>Start All</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1875,7 +1875,7 @@ Be part of the DAO.</source>
     </message>
     <message>
         <location line="-240"/>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1886,16 +1886,16 @@ and vote on the treasury system receiving a periodic reward.</source>
     </message>
     <message>
         <location line="+207"/>
-        <source>Create Masternode Controller</source>
+        <source>Create Gamemaster Controller</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-52"/>
-        <source>No active Masternode yet</source>
+        <source>No active Gamemaster yet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/masternodeswidget.cpp" line="+167"/>
+        <location filename="../hemis/gamemasterswidget.cpp" line="+167"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1916,24 +1916,24 @@ and vote on the treasury system receiving a periodic reward.</source>
     </message>
     <message>
         <location line="+11"/>
-        <source>Start Masternode</source>
+        <source>Start Gamemaster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>Are you sure you want to start masternode %1?
+        <source>Are you sure you want to start gamemaster %1?
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot edit masternode, wallet locked</source>
+        <source>Cannot edit gamemaster, wallet locked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
-Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
+        <source>Cannot start gamemaster, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (gamemaster collaterals require %1 confirmations).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1943,7 +1943,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
     </message>
     <message>
         <location line="+4"/>
-        <source>Start ALL masternodes failed</source>
+        <source>Start ALL gamemasters failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1953,42 +1953,42 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
     </message>
     <message>
         <location line="+6"/>
-        <source>Cannot perform Masternodes start</source>
+        <source>Cannot perform Gamemasters start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>%1 Masternodes failed to start, %2 started</source>
+        <source>%1 Gamemasters failed to start, %2 started</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>All Masternodes started!</source>
+        <source>All Gamemasters started!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Cannot show Masternode information, wallet locked</source>
+        <source>Cannot show Gamemaster information, wallet locked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>Masternode data copied to the clipboard.</source>
+        <source>Gamemaster data copied to the clipboard.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-11"/>
-        <source>Remote Masternode Data</source>
+        <source>Remote Gamemaster Data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-248"/>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>FAQ explaining what Masternodes are</source>
+        <source>FAQ explaining what Gamemasters are</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1998,29 +1998,29 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
     </message>
     <message>
         <location line="+1"/>
-        <source>FAQ explaining what is a Masternode Controller</source>
+        <source>FAQ explaining what is a Gamemaster Controller</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+246"/>
-        <source>You are just about to export the required data to run a Masternode
+        <source>You are just about to export the required data to run a Gamemaster
 on a remote server to your clipboard.
 
 
 You will only have to paste the data in the hemis.conf file
-of your remote server and start it, then start the Masternode using
-this controller wallet (select the Masternode in the list and press &quot;start&quot;).
+of your remote server and start it, then start the Gamemaster using
+this controller wallet (select the Gamemaster in the list and press &quot;start&quot;).
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Delete Masternode</source>
+        <source>Delete Gamemaster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+0"/>
-        <source>You are just about to delete Masternode:
+        <source>You are just about to delete Gamemaster:
 %1
 
 Are you sure?</source>
@@ -2028,32 +2028,32 @@ Are you sure?</source>
     </message>
     <message>
         <location line="+16"/>
-        <source>Invalid masternode.conf file</source>
+        <source>Invalid gamemaster.conf file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Error parsing masternode.conf file</source>
+        <source>Error parsing gamemaster.conf file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+50"/>
-        <source>masternode.conf file doesn&apos;t exists</source>
+        <source>gamemaster.conf file doesn&apos;t exists</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Cannot create Masternode controller, wallet locked</source>
+        <source>Cannot create Gamemaster controller, wallet locked</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Not enough balance to create a masternode, %1 required.</source>
+        <source>Not enough balance to create a gamemaster, %1 required.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>Error creating masternode</source>
+        <source>Error creating gamemaster</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2061,7 +2061,7 @@ Are you sure?</source>
     <name>MnInfoDialog</name>
     <message>
         <location filename="../hemis/forms/mninfodialog.ui" line="+104"/>
-        <source>Masternode Information</source>
+        <source>Gamemaster Information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2096,12 +2096,12 @@ Are you sure?</source>
     </message>
     <message>
         <location line="+45"/>
-        <source>Export data to run the Masternode on a remote server</source>
+        <source>Export data to run the Gamemaster on a remote server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../hemis/mninfodialog.cpp" line="+25"/>
-        <source>Masternode public key copied</source>
+        <source>Gamemaster public key copied</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2114,12 +2114,12 @@ Are you sure?</source>
     <name>MnSelectionDialog</name>
     <message>
         <location filename="../hemis/forms/mnselectiondialog.ui" line="+117"/>
-        <source>Select Masternodes</source>
+        <source>Select Gamemasters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+28"/>
-        <source>Each Masternode refers to a single vote, you can select which one will vote for the proposal</source>
+        <source>Each Gamemaster refers to a single vote, you can select which one will vote for the proposal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2180,7 +2180,7 @@ Are you sure?</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>No vote has been emitted from this Masternode</source>
+        <source>No vote has been emitted from this Gamemaster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2611,7 +2611,7 @@ Address: %4
     </message>
     <message>
         <location line="-69"/>
-        <source>Error reading masternode configuration file: %1</source>
+        <source>Error reading gamemaster configuration file: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2741,7 +2741,7 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>MN reward</source>
+        <source>GM reward</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2934,8 +2934,8 @@ Address: %4
     </message>
     <message>
         <location line="-122"/>
-        <source>Number of Masternodes</source>
-        <translation>Number of Masternodes</translation>
+        <source>Number of Gamemasters</source>
+        <translation>Number of Gamemasters</translation>
     </message>
     <message>
         <location line="-73"/>
@@ -4608,12 +4608,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+90"/>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+90"/>
-        <source>What is a Masternode Controller?</source>
+        <source>What is a Gamemaster Controller?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4638,12 +4638,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+22"/>
-        <source>5) What is a Masternode?</source>
+        <source>5) What is a Gamemaster?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+22"/>
-        <source>6) What is a Masternode Controller?</source>
+        <source>6) What is a Gamemaster Controller?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4658,7 +4658,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+6"/>
-        <source>hemis utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of hemis to participate in earning block rewards while securing the network with full node wallets, as well as to run Masternodes to create and vote on proposals.</source>
+        <source>hemis utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of hemis to participate in earning block rewards while securing the network with full node wallets, as well as to run Gamemasters to create and vote on proposals.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4708,12 +4708,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+30"/>
-        <source>%1 per single Masternode instance</source>
+        <source>%1 per single Gamemaster instance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>A Masternode Controller wallet is where the %1 collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online.</source>
+        <source>A Gamemaster Controller wallet is where the %1 collateral can reside during a Controller-Remote gamemaster setup. It is a wallet that can activate the remote gamemaster wallet(s) and allows you to keep your collateral coins offline while the remote gamemaster remains online.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4723,7 +4723,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="-7"/>
-        <source>A masternode is a computer running a full node %1 wallet with a requirement of %2 secured collateral to provide extra services to the network and in return, receive a portion of the block reward regularly. These services include:</source>
+        <source>A gamemaster is a computer running a full node %1 wallet with a requirement of %2 secured collateral to provide extra services to the network and in return, receive a portion of the block reward regularly. These services include:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4743,12 +4743,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+2"/>
-        <source>For providing such services, masternodes are also paid a certain portion of reward for each block. This can serve as a passive income to the masternode owners minus their running cost.</source>
+        <source>For providing such services, gamemasters are also paid a certain portion of reward for each block. This can serve as a passive income to the gamemaster owners minus their running cost.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>Masternode Perks:</source>
+        <source>Gamemaster Perks:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4758,7 +4758,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+1"/>
-        <source>Earn Masternode Rewards</source>
+        <source>Earn Gamemaster Rewards</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4788,7 +4788,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+1"/>
-        <source>Masternode wallet to remain online</source>
+        <source>Gamemaster wallet to remain online</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4836,7 +4836,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+52"/>
-        <source>Number of Masternodes:</source>
+        <source>Number of Gamemasters:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5924,7 +5924,7 @@ backup will be created.
     </message>
     <message>
         <location line="+2"/>
-        <source>Masternode Reward</source>
+        <source>Gamemaster Reward</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6233,13 +6233,13 @@ backup will be created.
     </message>
     <message>
         <location line="+50"/>
-        <source>Select vote direction and the masternodes that will vote for it</source>
+        <source>Select vote direction and the gamemasters that will vote for it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+276"/>
         <location filename="../hemis/votedialog.cpp" line="+170"/>
-        <source>Select Voting Masternodes</source>
+        <source>Select Voting Gamemasters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6279,7 +6279,7 @@ backup will be created.
     </message>
     <message>
         <location line="+5"/>
-        <source>Missing voting masternodes selection</source>
+        <source>Missing voting gamemasters selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6289,13 +6289,13 @@ backup will be created.
     </message>
     <message>
         <location line="+77"/>
-        <source>You have voted with %1 Masternodes for this proposal
+        <source>You have voted with %1 Gamemasters for this proposal
 Change votes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>%1 Masternodes selected to vote</source>
+        <source>%1 Gamemasters selected to vote</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6358,7 +6358,7 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+41"/>
-        <source>Masternodes</source>
+        <source>Gamemasters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6378,7 +6378,7 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+83"/>
-        <source>The masternode network is hemis&apos;s second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <source>The gamemaster network is hemis&apos;s second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6394,7 +6394,7 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+180"/>
-        <source>What is a Masternode?</source>
+        <source>What is a Gamemaster?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6525,12 +6525,12 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Could not parse masternode.conf</source>
-        <translation type="unfinished">Could not parse masternode.conf</translation>
+        <source>Could not parse gamemaster.conf</source>
+        <translation type="unfinished">Could not parse gamemaster.conf</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Deterministic masternodes are not enforced yet</source>
+        <source>Deterministic gamemasters are not enforced yet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6615,7 +6615,7 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Invalid -masternodeaddr port %d, isn&apos;t the same as the peer port %d</source>
+        <source>Invalid -gamemasteraddr port %d, isn&apos;t the same as the peer port %d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6738,7 +6738,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>Invalid masternodeprivkey. Please see the documentation.</source>
+        <source>Invalid gamemasterprivkey. Please see the documentation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6768,13 +6768,13 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading masternode cache...</source>
-        <translation type="unfinished">Loading masternode cache...</translation>
+        <source>Loading gamemaster cache...</source>
+        <translation type="unfinished">Loading gamemaster cache...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Loading masternode payment cache...</source>
-        <translation type="unfinished">Loading masternode payment cache...</translation>
+        <source>Loading gamemaster payment cache...</source>
+        <translation type="unfinished">Loading gamemaster payment cache...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6838,12 +6838,12 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot start deterministic masternode before enforcement. Remove %s to start as legacy masternode</source>
+        <source>Cannot start deterministic gamemaster before enforcement. Remove %s to start as legacy gamemaster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Enabling Masternode support requires turning on transaction indexing.Please add %s to your configuration and start with %s</source>
+        <source>Enabling Gamemaster support requires turning on transaction indexing.Please add %s to your configuration and start with %s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6863,7 +6863,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+3"/>
-        <source>Legacy masternode system disabled. Use %s to start as deterministic masternode</source>
+        <source>Legacy gamemaster system disabled. Use %s to start as deterministic gamemaster</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6883,7 +6883,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+2"/>
-        <source>Active Masternode not initialized.</source>
+        <source>Active Gamemaster not initialized.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6934,12 +6934,12 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+2"/>
-        <source>Invalid -masternodeaddr address: %s</source>
+        <source>Invalid -gamemasteraddr address: %s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Invalid -masternodeaddr port %d, only %d is supported on %s-net.</source>
+        <source>Invalid -gamemasteraddr port %d, only %d is supported on %s-net.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6969,7 +6969,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>Invalid port %d detected in masternode.conf</source>
+        <source>Invalid port %d detected in gamemaster.conf</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6984,7 +6984,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>Legacy Masternode is obsolete.</source>
+        <source>Legacy Gamemaster is obsolete.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7059,13 +7059,13 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing masternode winners...</source>
-        <translation type="unfinished">Synchronizing masternode winners...</translation>
+        <source>Synchronizing gamemaster winners...</source>
+        <translation type="unfinished">Synchronizing gamemaster winners...</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Synchronizing masternodes...</source>
-        <translation type="unfinished">Synchronizing masternodes...</translation>
+        <source>Synchronizing gamemasters...</source>
+        <translation type="unfinished">Synchronizing gamemasters...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7084,17 +7084,17 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>This is not a deterministic masternode. &apos;local&apos; option disabled.</source>
+        <source>This is not a deterministic gamemaster. &apos;local&apos; option disabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>This is not a masternode. &apos;local&apos; option disabled.</source>
+        <source>This is not a gamemaster. &apos;local&apos; option disabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>This is not a masternode.</source>
+        <source>This is not a gamemaster.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7229,7 +7229,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
     </message>
     <message>
         <location line="+1"/>
-        <source>You can not start a masternode in litemode</source>
+        <source>You can not start a gamemaster in litemode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
