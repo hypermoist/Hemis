@@ -196,22 +196,6 @@ padding-top:2px;
               </layout>
              </widget>
             </item>
-            <item alignment="Qt::AlignHCenter|Qt::AlignTop">
-             <widget class="QLabel" name="labelSubtitle2">
-              <property name="styleSheet">
-               <string notr="true"/>
-              </property>
-              <property name="text">
-               <string>Select which coins to spend</string>
-              </property>
-              <property name="alignment">
-               <set>Qt::AlignCenter</set>
-              </property>
-              <property name="indent">
-               <number>0</number>
-              </property>
-             </widget>
-            </item>
            </layout>
           </item>
          </layout>

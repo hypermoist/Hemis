@@ -50,9 +50,11 @@ SendWidget::SendWidget(hemisGUI* parent) :
     setCssProperty(ui->pushLeft, "btn-check-left");
     ui->pushLeft->setChecked(true);
     setCssProperty(ui->pushRight, "btn-check-right");
+    ui->pushLeft->setVisible(false);
+    ui->pushRight->setVisible(false);
 
     /* Subtitle */
-    setCssProperty({ui->labelSubtitle1, ui->labelSubtitle2}, "text-subtitle");
+    setCssProperty({ui->labelSubtitle1}, "text-subtitle");
 
     /* Address - Amount*/
     setCssProperty({ui->labelSubtitleAddress, ui->labelSubtitleAmount}, "text-title");
@@ -173,7 +175,7 @@ void SendWidget::refreshAmounts()
         titleTotalRemaining = tr("Unlocked remaining");
     }
 
-    QString type = isTransparent ? "transparent" : "shielded";
+    QString type = "";
     QString labelAmountRemaining = GUIUtil::formatBalance( totalAmount, nDisplayUnit, false) + " " + type;
     QMetaObject::invokeMethod(this, "updateAmounts", Qt::QueuedConnection,
                               Q_ARG(QString, titleTotalRemaining),

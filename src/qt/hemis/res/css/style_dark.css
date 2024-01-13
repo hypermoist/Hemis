@@ -24,7 +24,6 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="container-right"] {
     background-color:#101011;
-    border-left:  1px solid #33FFFFFF;
 }
 
 *[cssClass="container-square"] {
@@ -2912,16 +2911,16 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 
-*[cssClass="coin-icon-piv"] {
+/**[cssClass="coin-icon-piv"] {
     qproperty-icon: url("://ic-coin-piv") off,
     url("://ic-coin-piv") on ;
     qproperty-iconSize: 24px 24px;
     background-color: #FFFFFF;
     border:  2px solid #101011;
     border-radius: 12px;
-}
+}*/
 
-*[cssClass="coin-icon-zpiv"] {
+/**[cssClass="coin-icon-zpiv"] {
     qproperty-icon: url("://ic-coin-zpiv") off,
     url("://ic-coin-zpiv") on ;
     qproperty-iconSize: 24px 24px;
@@ -2930,7 +2929,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     background-color: #FFFFFF;
     border:  2px solid #101011;
     border-radius: 12px;
-}
+}*/
 
 
 
@@ -3789,7 +3788,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 
 *[cssClass="container-snackbar"]{
-    background-color:#382d4d;
+    background-color:#4a484e;
     border-top:2px solid #FF9000;
 }
 

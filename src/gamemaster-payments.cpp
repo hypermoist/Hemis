@@ -262,14 +262,20 @@ bool IsBlockPayeeValid(const CBlock& block, const CBlockIndex* pindexPrev)
     // In all cases a gamemaster will get the payment for this block
 
     //check for gamemaster payee
-    if (gamemasterPayments.IsTransactionValid(txNew, pindexPrev))
-        return true;
-    LogPrint(BCLog::GAMEMASTER,"Invalid gm payment detected %s\n", txNew.ToString().c_str());
+    if (sporkManager.IsSporkActive(SPORK_7_GAMEMASTER_PAYMENT_ENABLE)) {
+        if (gamemasterPayments.IsTransactionValid(txNew, pindexPrev))
+            return true;
 
-    if (sporkManager.IsSporkActive(SPORK_8_GAMEMASTER_PAYMENT_ENFORCEMENT))
-        return false;
-    LogPrint(BCLog::GAMEMASTER,"Gamemaster payment enforcement is disabled, accepting block\n");
-    return true;
+        LogPrint(BCLog::GAMEMASTER,"Invalid gm payment detected %s\n", txNew.ToString().c_str());
+    
+        if (sporkManager.IsSporkActive(SPORK_8_GAMEMASTER_PAYMENT_ENFORCEMENT))
+            return false;
+        LogPrint(BCLog::GAMEMASTER,"Gamemaster payment enforcement is disabled, accepting block\n");
+        return true;
+    } else {
+        LogPrint(BCLog::GAMEMASTER,"Gamemasters are disabled, accepting block\n");
+        return true;
+    }
 }
 
 
@@ -323,19 +329,24 @@ bool CGamemasterPayments::GetLegacyGamemasterTxOut(int nHeight, std::vector<CTxO
     voutGamemasterPaymentsRet.clear();
 
     CScript payee;
-    if (!GetBlockPayee(nHeight, payee)) {
-        //no gamemaster detected
-        const uint256& hash = gamemasterman.GetHashAtHeight(nHeight - 1);
-        GamemasterRef winningNode = gamemasterman.GetCurrentGameMaster(hash);
-        if (winningNode) {
-            payee = winningNode->GetPayeeScript();
-        } else {
-            LogPrint(BCLog::GAMEMASTER,"CreateNewBlock: Failed to detect gamemaster to pay\n");
-            return false;
+    if (sporkManager.IsSporkActive(SPORK_7_GAMEMASTER_PAYMENT_ENABLE)) {
+        if (!GetBlockPayee(nHeight, payee)) {
+            //no gamemaster detected
+            const uint256& hash = gamemasterman.GetHashAtHeight(nHeight - 1);
+            GamemasterRef winningNode = gamemasterman.GetCurrentGameMaster(hash);
+            if (winningNode) {
+                payee = winningNode->GetPayeeScript();
+            } else {
+                LogPrint(BCLog::GAMEMASTER,"CreateNewBlock: Failed to detect gamemaster to pay\n");
+                return false;
+            }
         }
+        voutGamemasterPaymentsRet.emplace_back(GetGamemasterPayment(nHeight), payee);
+        return true;
+    } else {
+        LogPrint(BCLog::GAMEMASTER,"CreateNewBlock: Gameemasters are disabled\n");
+        return false;
     }
-    voutGamemasterPaymentsRet.emplace_back(GetGamemasterPayment(nHeight), payee);
-    return true;
 }
 
 static void SubtractGmPaymentFromCoinstake(CMutableTransaction& txCoinstake, CAmount gamemasterPayment, int stakerOuts)

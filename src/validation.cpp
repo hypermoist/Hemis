@@ -811,7 +811,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 CAmount GetBlockValue(int nHeight)
 {
     // Set V5.5 upgrade block for regtest as well as testnet and mainnet
-    const int nLast = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V5_5].nActivationHeight;
+    const int nLast = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight;
 
     // Regtest block reward reduction schedule
     if (Params().IsRegTestNet()) {
@@ -825,23 +825,8 @@ CAmount GetBlockValue(int nHeight)
         return 250000 * COIN;
     }
     // Mainnet/Testnet block reward reduction schedule
-    const int nZerocoinV2 = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_ZC_V2].nActivationHeight;
-    if (nHeight > nLast) return 10 * COIN;
-    if (nHeight > nZerocoinV2) return 5 * COIN;
-    if (nHeight > 648000) return 4.5 * COIN;
-    if (nHeight > 604800) return 9 * COIN;
-    if (nHeight > 561600) return 13.5 * COIN;
-    if (nHeight > 518400) return 18 * COIN;
-    if (nHeight > 475200) return 22.5 * COIN;
-    if (nHeight > 432000) return 27 * COIN;
-    if (nHeight > 388800) return 31.5 * COIN;
-    if (nHeight > 345600) return 36 * COIN;
-    if (nHeight > 302400) return 40.5 * COIN;
-    if (nHeight > 151200) return 45 * COIN;
-    if (nHeight > 86400) return 225 * COIN;
-    if (nHeight != 1) return 250 * COIN;
-    // Premine for 6 gamemasters at block 1
-    return 60001 * COIN;
+    if (nHeight > nLast) return 1.55 * COIN;
+    if (nHeight <= nLast) return 1600 * COIN;
 }
 
 int64_t GetGamemasterPayment(int nHeight)
@@ -1044,14 +1029,17 @@ int GetSpendHeight(const CCoinsViewCache& inputs)
 namespace Consensus {
 bool CheckTxInputs(const CTransaction& tx, CValidationState& state, const CCoinsViewCache& inputs, int nSpendHeight)
 {
+    bool fSaplingMaintenance =  (block.nTime > sporkManager.GetSporkValue(SPORK_20_SAPLING_MAINTENANCE));
     // This doesn't trigger the DoS code on purpose; if it did, it would make it easier
     // for an attacker to attempt to split the network.
     if (!inputs.HaveInputs(tx))
         return state.Invalid(false, 0, "", "Inputs unavailable");
 
-    // are the Sapling's requirements met?
-    if (!inputs.HaveShieldedRequirements(tx))
-        return state.Invalid(error("CheckInputs(): %s Sapling requirements not met", tx.GetHash().ToString()));
+    if (!fSaplingMaintenance) {
+        // are the Sapling's requirements met?
+        if (!inputs.HaveShieldedRequirements(tx))
+            return state.Invalid(error("CheckInputs(): %s Sapling requirements not met", tx.GetHash().ToString()));
+    }
 
     const Consensus::Params& consensus = ::Params().GetConsensus();
     CAmount nValueIn = 0;
@@ -1074,8 +1062,10 @@ bool CheckTxInputs(const CTransaction& tx, CValidationState& state, const CCoins
             return state.DoS(100, false, REJECT_INVALID, "bad-txns-inputvalues-outofrange");
     }
 
-    // Sapling
-    nValueIn += tx.GetShieldedValueIn();
+    if (!fSaplingMaintenance) {
+        // Sapling
+        nValueIn += tx.GetShieldedValueIn();
+    }
 
     if (!tx.IsCoinStake()) {
         if (nValueIn < tx.GetValueOut())
@@ -1446,6 +1436,7 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
     const bool isPoSActive = consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_POS);
     const bool isV5UpgradeEnforced = consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_V5_0);
     const bool isV6UpgradeEnforced = consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_V6_0);
+    bool fSaplingMaintenance =  (block.nTime > sporkManager.GetSporkValue(SPORK_20_SAPLING_MAINTENANCE));
 
     // Coinbase output should be empty if proof-of-stake block (before v6 enforcement)
     if (!isV6UpgradeEnforced && isPoSBlock && (block.vtx[0]->vout.size() != 1 || !block.vtx[0]->vout[0].IsEmpty()))
@@ -1523,9 +1514,9 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
     std::vector<PrecomputedTransactionData> precomTxData;
     precomTxData.reserve(block.vtx.size()); // Required so that pointers to individual precomTxData don't get invalidated
     bool fInitialBlockDownload = IsInitialBlockDownload();
-    bool fSaplingMaintenance =  (block.nTime > sporkManager.GetSporkValue(SPORK_20_SAPLING_MAINTENANCE));
     for (unsigned int i = 0; i < block.vtx.size(); i++) {
         const CTransaction& tx = *block.vtx[i];
+        bool isShielded = tx.IsShieldedTx();
 
         nInputs += tx.vin.size();
         nSigOps += GetLegacySigOpCount(tx);
@@ -1533,7 +1524,7 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
             return state.DoS(100, error("ConnectBlock() : too many sigops"), REJECT_INVALID, "bad-blk-sigops");
 
         // Check maintenance mode
-        if (!fInitialBlockDownload && fSaplingMaintenance && tx.IsShieldedTx()) {
+        if (!fInitialBlockDownload && fSaplingMaintenance && isShielded) {
             return state.DoS(100, error("%s : shielded transactions are currently in maintenance mode", __func__));
         }
 
@@ -1547,10 +1538,12 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
             if (!view.HaveInputs(tx)) {
                 return state.DoS(100, false, REJECT_INVALID, "bad-txns-inputs-missingorspent");
             }
-            // Sapling: are the sapling spends' requirements met in tx(valid anchors/nullifiers)?
-            if (!view.HaveShieldedRequirements(tx))
-                return state.DoS(100, error("%s: spends requirements not met", __func__),
+            if (!fSaplingMaintenance) {
+                // Sapling: are the sapling spends' requirements met in tx(valid anchors/nullifiers)?
+                if (!view.HaveShieldedRequirements(tx))
+                    return state.DoS(100, error("%s: spends requirements not met", __func__),
                                  REJECT_INVALID, "bad-txns-sapling-requirements-not-met");
+            }
 
             // Add in sigops done by pay-to-script-hash inputs;
             // this is to prevent a "rogue miner" from creating
@@ -1590,10 +1583,13 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
         const bool fSkipInvalid = SkipInvalidUTXOS(pindex->nHeight);
         UpdateCoins(tx, view, i == 0 ? undoDummy : blockundo.vtxundo.back(), pindex->nHeight, fSkipInvalid);
 
-        // Sapling update tree
-        if (tx.IsShieldedTx() && !tx.sapData->vShieldedOutput.empty()) {
-            for(const OutputDescription &outputDescription : tx.sapData->vShieldedOutput) {
-                sapling_tree.append(outputDescription.cmu);
+        if (!fSaplingMaintenance) {
+
+            // Sapling update tree
+            if (isShielded && !tx.sapData->vShieldedOutput.empty()) {
+                for(const OutputDescription &outputDescription : tx.sapData->vShieldedOutput) {
+                    sapling_tree.append(outputDescription.cmu);
+                }
             }
         }
 
@@ -1601,11 +1597,13 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
         pos.nTxOffset += ::GetSerializeSize(tx, CLIENT_VERSION);
     }
 
-    // Push new tree anchor
-    view.PushAnchor(sapling_tree);
+    if (!fSaplingMaintenance) {
+        // Push new tree anchor
+        view.PushAnchor(sapling_tree);
+    }
 
     // Verify header correctness
-    if (isV5UpgradeEnforced) {
+    if (isV5UpgradeEnforced && !fSaplingMaintenance) {
         // If Sapling is active, block.hashFinalSaplingRoot must be the
         // same as the root of the Sapling tree
         if (block.hashFinalSaplingRoot != sapling_tree.root()) {

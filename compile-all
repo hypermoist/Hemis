@@ -1,30 +1,49 @@
-#!/bin/sh
-make distclean
+cores=$(getconf _NPROCESSORS_ONLN)
+echo "We have "$cores" Cores"
+TIMEFORMAT='It took %R seconds to build Hemis.'
+time {
+make clean
 echo "compiling for linux"
 ./autogen.sh
-./configure --disable-tests --disable-bench --enable-mining-rpc --enable-debug
-make -j6
-cp ./src/hemisd ~/builds/linux/hemisd
-cp ./src/hemis-cli ~/builds/linux/hemis-cli
-cp ./src/hemis-tx ~/builds/linux/hemis-tx
+./configure --enable-mining-rpc --enable-debug --enable-zmq --enable-glibc-back-compat --enable-reduce-exports --with-incompatible-bdb --disable-shared --disable-tests --disable-bench CPPFLAGS='-DARENA_DEBUG -DDEBUG_LOCKORDER' 
+make -j$cores
 
-cp ./src/qt/hemis-qt ~/builds/linux/qt/hemis-qt
-
+cp ./src/hemisd /var/www/html/builds/linux/hemisd
+cp ./src/hemis-cli /var/www/html/builds/linux/hemis-cli
+cp ./src/hemis-tx /var/www/html/builds/linux/hemis-tx
+cp ./src/qt/hemis-qt /var/www/html/builds/linux/hemis-qt
 
 echo "Compiling for Windows"
-make distclean
+make clean
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 cd depends
-make HOST=x86_64-w64-mingw32 -j6
+make HOST=x86_64-w64-mingw32 -j$cores
 cd ..
 ./autogen.sh
-CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust --disable-tests --disable-bench
-make -j6
+CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --enable-reduce-exports --enable-debug --disable-shared --disable-online-rust --disable-tests --disable-bench
+make -j$cores
 make deploy
 
-cp ./src/hemisd.exe ~/builds/windows/hemisd.exe
-cp ./src/hemis-cli.exe ~/builds/windows/hemis-cli.exe
-cp ./src/hemis-tx.exe ~/builds/windows/hemis-tx.exe
+cp ./src/hemisd.exe /var/www/html/builds/windows/hemisd.exe
+cp ./src/hemis-cli.exe /var/www/html/builds/windows/hemis-cli.exe
+cp ./src/hemis-tx.exe /var/www/html/builds/windows/hemis-tx.exe
 
-cp ./src/qt/hemis-qt.exe ~/builds/windows/qt/hemis-qt.exe
-cp ./hemis-*.exe ~/builds/windows/qt/hemis-installer.exe
+cp ./src/qt/hemis-qt.exe /var/www/html/builds/windows/hemis-qt.exe
+cp ./hemis-*.exe /var/www/html/builds/windows/hemis-installer.exe
+
+
+
+echo "Compiling for ARM"
+make clean
+echo "Compiling for ARM"
+cd depends
+make HOST=arm-linux-gnueabihf NO_QT=1 -j$cores
+cd ..
+./autogen.sh
+./configure --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++ --disable-tests --disable-bench
+make -j$cores
+
+cp ./src/hemisd /var/www/html/builds/arm/hemisd
+cp ./src/hemis-cli /var/www/html/builds/arm/hemis-cli
+cp ./src/hemis-tx /var/www/html/builds/arm/hemis-tx
+}

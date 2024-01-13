@@ -1,5 +1,6 @@
+
+The PIVX Core project operates an open contributor model where anyone is
 Contributing to hemis Core
-============================
 
 The hemis Core project operates an open contributor model where anyone is
 welcome to contribute towards development in the form of peer review, testing

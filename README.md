@@ -1,5 +1,4 @@
 hemis Core integration/staging repository
-=====================================
 
 [![master Actions Status](https://github.com/hemis-Project/hemis/workflows/CI%20Actions%20for%20hemis/badge.svg)](https://github.com/hemis-Project/hemis/actions)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/hemis-Project/hemis?color=%235c4b7d&cacheSeconds=3600)](https://github.com/hemis-Project/hemis/releases)

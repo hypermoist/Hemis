@@ -65,7 +65,7 @@ TopBar::TopBar(hemisGUI* _mainWindow, QWidget *parent) :
     ui->containerTop->setProperty("cssClass", "container-top");
 #endif
 
-    std::initializer_list<QWidget*> lblTitles = {ui->labelTitle1, ui->labelTitle3, ui->labelTitle4, ui->labelTrans, ui->labelShield};
+    std::initializer_list<QWidget*> lblTitles = {ui->labelTitle1, ui->labelTitle3, ui->labelTitle4};
     setCssProperty(lblTitles, "text-title-topbar");
     QFont font;
     font.setWeight(QFont::Light);
@@ -73,7 +73,7 @@ TopBar::TopBar(hemisGUI* _mainWindow, QWidget *parent) :
 
     // Amount information top
     ui->widgetTopAmount->setVisible(false);
-    setCssProperty({ui->labelAmountTopPiv, ui->labelAmountTopShieldedPiv}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountTopPiv}, "amount-small-topbar");
     setCssProperty({ui->labelAmountPiv}, "amount-topbar");
     setCssProperty({ui->labelPendingPiv, ui->labelImmaturePiv}, "amount-small-topbar");
 
@@ -114,14 +114,6 @@ TopBar::TopBar(hemisGUI* _mainWindow, QWidget *parent) :
 
     ui->pushButtonLock->setButtonClassStyle("cssClass", "btn-check-lock");
 
-    if (isLightTheme()) {
-        ui->pushButtonTheme->setButtonClassStyle("cssClass", "btn-check-theme-light");
-        ui->pushButtonTheme->setButtonText(tr("Light Theme"));
-    } else {
-        ui->pushButtonTheme->setButtonClassStyle("cssClass", "btn-check-theme-dark");
-        ui->pushButtonTheme->setButtonText(tr("Dark Theme"));
-    }
-
     setCssProperty(ui->qrContainer, "container-qr");
     setCssProperty(ui->pushButtonQR, "btn-qr");
     setCssProperty(ui->pushButtonBalanceInfo, "btn-info");
@@ -145,7 +137,6 @@ TopBar::TopBar(hemisGUI* _mainWindow, QWidget *parent) :
     connect(ui->btnQr, &QPushButton::clicked, this, &TopBar::onBtnReceiveClicked);
     connect(ui->pushButtonBalanceInfo, &QPushButton::clicked, this, &TopBar::onBtnBalanceInfoClicked);
     connect(ui->pushButtonLock, &ExpandableButton::Mouse_Pressed, this, &TopBar::onBtnLockClicked);
-    connect(ui->pushButtonTheme, &ExpandableButton::Mouse_Pressed, this, &TopBar::onThemeClicked);
     connect(ui->pushButtonFAQ, &ExpandableButton::Mouse_Pressed, [this](){window->openFAQ();});
     connect(ui->pushButtonColdStaking, &ExpandableButton::Mouse_Pressed, this, &TopBar::onColdStakingClicked);
     connect(ui->pushButtonSync, &ExpandableButton::Mouse_HoverLeave, this, &TopBar::refreshProgressBarSize);
@@ -160,15 +151,6 @@ void TopBar::onThemeClicked()
     bool lightTheme = !isLightTheme();
 
     setTheme(lightTheme);
-
-    if (lightTheme) {
-        ui->pushButtonTheme->setButtonClassStyle("cssClass", "btn-check-theme-light",  true);
-        ui->pushButtonTheme->setButtonText(tr("Light Theme"));
-    } else {
-        ui->pushButtonTheme->setButtonClassStyle("cssClass", "btn-check-theme-dark", true);
-        ui->pushButtonTheme->setButtonText(tr("Dark Theme"));
-    }
-    updateStyle(ui->pushButtonTheme);
 
     Q_EMIT themeChanged(lightTheme);
 }
@@ -349,7 +331,7 @@ void TopBar::onBtnBalanceInfoClicked()
     } else balanceBubble = new BalanceBubble(this);
 
     const auto& balances = walletModel->GetWalletBalances();
-    balanceBubble->updateValues(balances.balance - balances.shielded_balance, balances.shielded_balance, nDisplayUnit);
+    balanceBubble->updateValues(balances.balance - balances.shielded_balance, nDisplayUnit);
     QPoint pos = this->pos();
     pos.setX(pos.x() + (ui->labelTitle1->width()) + 60);
     pos.setY(pos.y() + 20);
@@ -684,12 +666,10 @@ void TopBar::updateBalances(const interfaces::WalletBalances& newBalance)
     // HMS Total
     QString totalPiv = GUIUtil::formatBalance(newBalance.balance, nDisplayUnit);
     QString totalTransparent = GUIUtil::formatBalance(newBalance.balance - newBalance.shielded_balance);
-    QString totalShielded = GUIUtil::formatBalance(newBalance.shielded_balance);
 
     // HMS
     // Top
     ui->labelAmountTopPiv->setText(totalTransparent);
-    ui->labelAmountTopShieldedPiv->setText(totalShielded);
     // Expanded
     ui->labelAmountPiv->setText(totalPiv);
     ui->labelPendingPiv->setText(GUIUtil::formatBalance(newBalance.unconfirmed_balance + newBalance.unconfirmed_shielded_balance, nDisplayUnit));

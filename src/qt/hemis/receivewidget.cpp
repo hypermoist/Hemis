@@ -115,6 +115,8 @@ ReceiveWidget::ReceiveWidget(hemisGUI* parent) :
     ui->pushLeft->setChecked(true);
     connect(ui->pushLeft, &QPushButton::clicked, [this](){onTransparentSelected(true);});
     connect(ui->pushRight,  &QPushButton::clicked, [this](){onTransparentSelected(false);});
+    ui->pushLeft->setVisible(false);
+    ui->pushRight->setVisible(false);
 }
 
 void ReceiveWidget::loadWalletModel()
@@ -344,14 +346,13 @@ void ReceiveWidget::sortAddresses()
 
 void ReceiveWidget::onTransparentSelected(bool transparentSelected)
 {
-    shieldedMode = !transparentSelected;
     refreshView();
-    this->filter->setType(shieldedMode ? AddressTableModel::ShieldedReceive : AddressTableModel::Receive);
+    this->filter->setType(AddressTableModel::Receive);
 };
 
 void ReceiveWidget::changeTheme(bool isLightTheme, QString& theme)
 {
-    static_cast<AddressHolder*>(this->delegate->getRowFactory())->isLightTheme = isLightTheme;
+    static_cast<AddressHolder*>(this->delegate->getRowFactory())->isLightTheme = false;
 }
 
 ReceiveWidget::~ReceiveWidget()

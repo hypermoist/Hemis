@@ -215,8 +215,8 @@ bool isLightTheme()
 void setTheme(bool isLight)
 {
     QSettings* settings = getSettings();
-    settings->setValue("theme", isLight ? "default" : "default-dark");
-    settings->setValue("lightTheme", isLight);
+    settings->setValue("theme", "default-dark");
+    settings->setValue("lightTheme", false);
 }
 
 

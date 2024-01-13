@@ -74,4 +74,8 @@ CWalletTx GetValidSaplingReceive(const Consensus::Params& consensusParams,
                                  bool genNewKey = false,
                                  const CWallet* pwalletIn = nullptr);
 
+<<<<<<< HEAD
+#endif // PIVX_UTIL_TEST_H
+=======
 #endif // hemis_UTIL_TEST_H
+>>>>>>> 1f345019d (first step)

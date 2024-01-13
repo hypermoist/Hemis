@@ -70,6 +70,10 @@ const struct NUInfo NetworkUpgradeInfo[Consensus::MAX_NETWORK_UPGRADES] = {
                 /*.strInfo =*/ "Deterministic Gamemasters",
         },
         {
+                /*.strName =*/ "GM_Enable",
+                /*.strInfo =*/ "Enable Gamemaster payments",
+        },
+        {
                 /*.strName =*/ "Test_dummy",
                 /*.strInfo =*/ "Test dummy info",
         },

@@ -1162,7 +1162,7 @@ class HemisTestFramework():
             file_object.write(confData)
 
         # lock collateral
-        gmOwner.lockunspent(False, True, [{"txid": collateralTxId, "vout": collateralTxId_n}])
+        gmOwner.lockunspent(False, [{"txid": collateralTxId, "vout": collateralTxId_n}])
 
         # return the collateral outpoint
         return COutPoint(collateralTxId, collateralTxId_n)

@@ -200,16 +200,20 @@ void CGamemasterSync::Process()
     UpdateBlockchainSynced(isRegTestNet);
 
     if (g_tiertwo_sync_state.IsSynced()) {
-        if (isRegTestNet) {
-            return;
-        }
-        bool legacy_obsolete = deterministicGMManager->LegacyGMObsolete();
-        // Check if we lost all gamemasters (except the local one in case the node is a GM)
-        // from sleep/wake or failure to sync originally (after spork 21, check if we lost
-        // all proposals instead). If we did, resync from scratch.
-        if ((!legacy_obsolete && gamemasterman.CountEnabled(true /* only_legacy */) <= 1) ||
-            (legacy_obsolete && g_budgetman.CountProposals() == 0)) {
-            Reset();
+        if (sporkManager.IsSporkActive(SPORK_7_GAMEMASTER_PAYMENT_ENABLE)) {
+            if (isRegTestNet) {
+                return;
+            }
+            bool legacy_obsolete = deterministicGMManager->LegacyGMObsolete();
+            // Check if we lost all gamemasters (except the local one in case the node is a GM)
+            // from sleep/wake or failure to sync originally (after spork 21, check if we lost
+            // all proposals instead). If we did, resync from scratch.
+           if ((!legacy_obsolete && gamemasterman.CountEnabled(true /* only_legacy */) <= 1) ||
+                (legacy_obsolete && g_budgetman.CountProposals() == 0)) {
+                Reset();
+            } else {
+                return;
+            }
         } else {
             return;
         }

@@ -314,12 +314,12 @@ public:
         consensus.nFutureTimeDriftPoS = 180;
         consensus.nMaxMoneyOut = 10000000 * COIN;
         consensus.nGMCollateralAmt = 1000 * COIN;
-        consensus.nGMBlockReward = 3 * COIN;
-        consensus.nNewGMBlockReward = 6 * COIN;
+        consensus.nGMBlockReward = 0.775 * COIN;
+        consensus.nNewGMBlockReward = 1 * COIN;
         consensus.nGMCollateralMinConf = 15;
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 60 * 60;
-        consensus.nStakeMinDepth = 400;
+        consensus.nStakeMinDepth = 600;
         consensus.nTargetTimespan = 20 * 60;
         consensus.nTargetTimespanV2 = 20 * 60;
         consensus.nTargetSpacing = 0.5 * 60;
@@ -350,7 +350,7 @@ public:
         consensus.ZC_MinMintConfirmations = 20;
         consensus.ZC_MinMintFee = 1 * CENT;
         consensus.ZC_MinStakeDepth = 200;
-        consensus.ZC_TimeStart = 1808214600;        // October 17, 2017 4:30:00 AM
+        consensus.ZC_TimeStart = 4070908800;        // October 17, 2017 4:30:00 AM
         consensus.ZC_HeightStart = 1;
 
         // Network upgrades
@@ -358,18 +358,18 @@ public:
                 Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
         consensus.vUpgrades[Consensus::UPGRADE_TESTDUMMY].nActivationHeight = 
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
-        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 800;
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight        = 800;
+        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 1000;
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight        = 1000;
         consensus.vUpgrades[Consensus::UPGRADE_ZC].nActivationHeight            = 71000000;
         consensus.vUpgrades[Consensus::UPGRADE_ZC_V2].nActivationHeight         = 71000000;
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight         = 800;
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight         = 1000;
         consensus.vUpgrades[Consensus::UPGRADE_ZC_PUBLIC].nActivationHeight     = 71000000;
-        consensus.vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight          = 800;
-        consensus.vUpgrades[Consensus::UPGRADE_V4_0].nActivationHeight          = 801;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_0].nActivationHeight          = 752;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_2].nActivationHeight          = 803;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_3].nActivationHeight          = 804;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_5].nActivationHeight          = 805;
+        consensus.vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight          = 1000;
+        consensus.vUpgrades[Consensus::UPGRADE_V4_0].nActivationHeight          = 1001;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_0].nActivationHeight          = 1002;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_2].nActivationHeight          = 1003;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_3].nActivationHeight          = 1004;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_5].nActivationHeight          = 1005;
         consensus.vUpgrades[Consensus::UPGRADE_V6_0].nActivationHeight 		    = 
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
 
@@ -508,7 +508,7 @@ public:
         consensus.ZC_MinMintConfirmations = 20;
         consensus.ZC_MinMintFee = 1 * CENT;
         consensus.ZC_MinStakeDepth = 200;
-        consensus.ZC_TimeStart = 1508214600;        // October 17, 2017 4:30:00 AM
+        consensus.ZC_TimeStart = 4070908800;        // October 17, 2017 4:30:00 AM
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =
@@ -654,8 +654,8 @@ public:
         consensus.ZC_MinMintConfirmations = 10;
         consensus.ZC_MinMintFee = 1 * CENT;
         consensus.ZC_MinStakeDepth = 10;
-        consensus.ZC_TimeStart = 0;                 // not implemented on regtest
-        consensus.ZC_HeightStart = 0;
+        consensus.ZC_TimeStart = 4070908800;                 // not implemented on regtest
+        consensus.ZC_HeightStart = 100000000;
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =

@@ -555,7 +555,7 @@ void hemisGUI::changeTheme(bool isLightTheme)
     this->setStyleSheet(css);
 
     // Notify
-    Q_EMIT themeChanged(isLightTheme, css);
+    Q_EMIT themeChanged(false, css);
 
     // Update style
     updateStyle(this);
