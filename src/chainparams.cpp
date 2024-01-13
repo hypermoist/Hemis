@@ -319,10 +319,10 @@ public:
         consensus.nGMCollateralMinConf = 15;
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 60 * 60;
-        consensus.nStakeMinDepth = 600;
+        consensus.nStakeMinDepth = 300;
         consensus.nTargetTimespan = 20 * 60;
         consensus.nTargetTimespanV2 = 20 * 60;
-        consensus.nTargetSpacing = 0.5 * 60;
+        consensus.nTargetSpacing = 1 * 60;
         consensus.nTimeSlotLength = 15;
         consensus.nMaxProposalPayments = 6;
 
@@ -358,18 +358,18 @@ public:
                 Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
         consensus.vUpgrades[Consensus::UPGRADE_TESTDUMMY].nActivationHeight = 
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
-        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 1000;
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight        = 1000;
+        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 500;
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight        = 500;
         consensus.vUpgrades[Consensus::UPGRADE_ZC].nActivationHeight            = 71000000;
         consensus.vUpgrades[Consensus::UPGRADE_ZC_V2].nActivationHeight         = 71000000;
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight         = 1000;
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight         = 500;
         consensus.vUpgrades[Consensus::UPGRADE_ZC_PUBLIC].nActivationHeight     = 71000000;
-        consensus.vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight          = 1000;
-        consensus.vUpgrades[Consensus::UPGRADE_V4_0].nActivationHeight          = 1001;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_0].nActivationHeight          = 1002;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_2].nActivationHeight          = 1003;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_3].nActivationHeight          = 1004;
-        consensus.vUpgrades[Consensus::UPGRADE_V5_5].nActivationHeight          = 1005;
+        consensus.vUpgrades[Consensus::UPGRADE_V3_4].nActivationHeight          = 500;
+        consensus.vUpgrades[Consensus::UPGRADE_V4_0].nActivationHeight          = 501;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_0].nActivationHeight          = 502;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_2].nActivationHeight          = 503;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_3].nActivationHeight          = 504;
+        consensus.vUpgrades[Consensus::UPGRADE_V5_5].nActivationHeight          = 505;
         consensus.vUpgrades[Consensus::UPGRADE_V6_0].nActivationHeight 		    = 
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
 

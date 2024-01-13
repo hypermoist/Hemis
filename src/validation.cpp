@@ -826,7 +826,7 @@ CAmount GetBlockValue(int nHeight)
     }
     // Mainnet/Testnet block reward reduction schedule
     if (nHeight > nLast) return 1.55 * COIN;
-    if (nHeight <= nLast) return 1600 * COIN;
+    if (nHeight <= nLast) return 3800 * COIN;
 }
 
 int64_t GetGamemasterPayment(int nHeight)
