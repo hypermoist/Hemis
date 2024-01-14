@@ -825,7 +825,7 @@ CAmount GetBlockValue(int nHeight)
         return 250000 * COIN;
     }
     // Mainnet/Testnet block reward reduction schedule
-    if (nHeight > nLast) return 1.55 * COIN;
+    if (nHeight > nLast) return 5.35 * COIN;
     if (nHeight <= nLast) return 3800 * COIN;
 }
 
