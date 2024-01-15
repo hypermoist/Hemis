@@ -1029,17 +1029,14 @@ int GetSpendHeight(const CCoinsViewCache& inputs)
 namespace Consensus {
 bool CheckTxInputs(const CTransaction& tx, CValidationState& state, const CCoinsViewCache& inputs, int nSpendHeight)
 {
-    bool fSaplingMaintenance =  (block.nTime > sporkManager.GetSporkValue(SPORK_20_SAPLING_MAINTENANCE));
     // This doesn't trigger the DoS code on purpose; if it did, it would make it easier
     // for an attacker to attempt to split the network.
     if (!inputs.HaveInputs(tx))
         return state.Invalid(false, 0, "", "Inputs unavailable");
 
-    if (!fSaplingMaintenance) {
-        // are the Sapling's requirements met?
-        if (!inputs.HaveShieldedRequirements(tx))
-            return state.Invalid(error("CheckInputs(): %s Sapling requirements not met", tx.GetHash().ToString()));
-    }
+    // are the Sapling's requirements met?
+    if (!inputs.HaveShieldedRequirements(tx))
+        return state.Invalid(error("CheckInputs(): %s Sapling requirements not met", tx.GetHash().ToString()));
 
     const Consensus::Params& consensus = ::Params().GetConsensus();
     CAmount nValueIn = 0;
@@ -1062,10 +1059,7 @@ bool CheckTxInputs(const CTransaction& tx, CValidationState& state, const CCoins
             return state.DoS(100, false, REJECT_INVALID, "bad-txns-inputvalues-outofrange");
     }
 
-    if (!fSaplingMaintenance) {
-        // Sapling
-        nValueIn += tx.GetShieldedValueIn();
-    }
+    nValueIn += tx.GetShieldedValueIn();
 
     if (!tx.IsCoinStake()) {
         if (nValueIn < tx.GetValueOut())
@@ -1438,6 +1432,7 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
     const bool isV6UpgradeEnforced = consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_V6_0);
     bool fSaplingMaintenance =  (block.nTime > sporkManager.GetSporkValue(SPORK_20_SAPLING_MAINTENANCE));
 
+
     // Coinbase output should be empty if proof-of-stake block (before v6 enforcement)
     if (!isV6UpgradeEnforced && isPoSBlock && (block.vtx[0]->vout.size() != 1 || !block.vtx[0]->vout[0].IsEmpty()))
         return state.DoS(100, false, REJECT_INVALID, "bad-cb-pos", false, "coinbase output not empty for proof-of-stake block");
@@ -1524,7 +1519,7 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
             return state.DoS(100, error("ConnectBlock() : too many sigops"), REJECT_INVALID, "bad-blk-sigops");
 
         // Check maintenance mode
-        if (!fInitialBlockDownload && fSaplingMaintenance && isShielded) {
+        if (!fInitialBlockDownload && isShielded) {
             return state.DoS(100, error("%s : shielded transactions are currently in maintenance mode", __func__));
         }
 
