@@ -293,7 +293,7 @@ public:
         strNetworkID = "main";
 
 	//findGenesis();
-        genesis = CreateGenesisBlock(1692423000, 4820300, 0x1e00ffff, 1, 0 * COIN);
+        genesis = CreateGenesisBlock(1705298400, 4820300, 0x1e00ffff, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
 	//std::cout << "genesis Block Hash: " << consensus.hashGenesisBlock.GetHex() << std::endl;
