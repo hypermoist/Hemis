@@ -265,7 +265,7 @@ void findGenesisBlock(uint32_t nTime, uint32_t startNonce, uint32_t nBits, int32
 
 void findGenesis() 
 {
-    uint32_t nTime = 1692423000;  
+    uint32_t nTime = 1705298400;  
     int32_t nVersion = 1;  
     const CAmount& genesisReward = 0 * COIN;  
     uint32_t nBits = 0x1e00ffff;
@@ -293,13 +293,13 @@ public:
         strNetworkID = "main";
 
 	//findGenesis();
-        genesis = CreateGenesisBlock(1705298400, 4820300, 0x1e00ffff, 1, 0 * COIN);
+        genesis = CreateGenesisBlock(1705298400, 1356045, 0x1e00ffff, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
 	//std::cout << "genesis Block Hash: " << consensus.hashGenesisBlock.GetHex() << std::endl;
 	//std::cout << "Merkle Root Hash: " << genesis.hashMerkleRoot.GetHex() << std::endl;
 
-        assert(consensus.hashGenesisBlock == uint256S("0x0000009efeaed4a864a417a90065b12da5bd89ac7742c4f88a93d8687a94abb0"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000956c582b70df5d2c9b4b83d05b5331978e40d639739bdc96c29e156ce7"));
         assert(genesis.hashMerkleRoot == uint256S("0x93ad7b455294f429da00d11b656d62f7fb197a72b7315f58de8c9380dbdaa113"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
