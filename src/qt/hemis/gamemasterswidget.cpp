@@ -93,10 +93,6 @@ GameMastersWidget::GameMastersWidget(hemisGUI *parent) :
     this->coinControlDialog = new CoinControlDialog();
 
     /* Options */
-    ui->btnAbout->setTitleClassAndText("btn-title-grey", tr("What is a Gamemaster?"));
-    ui->btnAbout->setSubTitleClassAndText("text-subtitle", tr("FAQ explaining what Gamemasters are"));
-    ui->btnAboutController->setTitleClassAndText("btn-title-grey", tr("What is a Controller?"));
-    ui->btnAboutController->setSubTitleClassAndText("text-subtitle", tr("FAQ explaining what is a Gamemaster Controller"));
     ui->btnCoinControl->setTitleClassAndText("btn-title-grey", "Coin Control");
     ui->btnCoinControl->setSubTitleClassAndText("text-subtitle", "Select the source of coins to create a Gamemaster");
 
@@ -119,8 +115,6 @@ GameMastersWidget::GameMastersWidget(hemisGUI *parent) :
         onStartAllClicked(REQUEST_START_MISSING);
     });
     connect(ui->listGm, &QListView::clicked, this, &GameMastersWidget::onGMClicked);
-    connect(ui->btnAbout, &OptionButton::clicked, [this](){window->openFAQ(SettingsFaqWidget::Section::GAMEMASTER);});
-    connect(ui->btnAboutController, &OptionButton::clicked, [this](){window->openFAQ(SettingsFaqWidget::Section::GMCONTROLLER);});
     connect(ui->btnCoinControl, &OptionButton::clicked, this, &GameMastersWidget::onCoinControlClicked);
 }
 

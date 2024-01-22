@@ -6,7 +6,6 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "optional.h"
-#include "validation.h"
 #if defined(HAVE_CONFIG_H)
 #include "config/hemis-config.h"
 #endif
@@ -1370,7 +1369,7 @@ void CWallet::BlockDisconnected(const std::shared_ptr<const CBlock>& pblock, con
 
     if (Params().GetConsensus().NetworkUpgradeActive(nBlockHeight, Consensus::UPGRADE_V5_0)) {
         // Update Sapling cached incremental witnesses
-        m_sspk_man->DecrementNoteWitnesses(mapBlockIndex[blockHash]);
+        m_sspk_man->DecrementNoteWitnesses(nBlockHeight);
         m_sspk_man->UpdateSaplingNullifierNoteMapForBlock(pblock.get());
     }
 }
@@ -4689,7 +4688,7 @@ void CWallet::IncrementNoteWitnesses(const CBlockIndex* pindex,
                             const CBlock* pblock,
                             SaplingMerkleTree& saplingTree) { m_sspk_man->IncrementNoteWitnesses(pindex, pblock, saplingTree); }
 
-void CWallet::DecrementNoteWitnesses(const CBlockIndex* pindex) { m_sspk_man->DecrementNoteWitnesses(pindex); }
+void CWallet::DecrementNoteWitnesses(const CBlockIndex* pindex) { m_sspk_man->DecrementNoteWitnesses(pindex->nHeight); }
 
 void CWallet::ClearNoteWitnessCache() { m_sspk_man->ClearNoteWitnessCache(); }
 

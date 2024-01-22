@@ -4948,159 +4948,161 @@ m4trace:configure.ac:367: -1- AX_CHECK_COMPILE_FLAG([-Wself-assign], [NOWARN_CXX
 m4trace:configure.ac:368: -1- AX_CHECK_COMPILE_FLAG([-Wunused-local-typedef], [NOWARN_CXXFLAGS="$NOWARN_CXXFLAGS -Wno-unused-local-typedef"], [], [[$CXXFLAG_WERROR]])
 m4trace:configure.ac:369: -1- AX_CHECK_COMPILE_FLAG([-Wdeprecated-register], [NOWARN_CXXFLAGS="$NOWARN_CXXFLAGS -Wno-deprecated-register"], [], [[$CXXFLAG_WERROR]])
 m4trace:configure.ac:370: -1- AX_CHECK_COMPILE_FLAG([-Wimplicit-fallthrough], [NOWARN_CXXFLAGS="$NOWARN_CXXFLAGS -Wno-implicit-fallthrough"], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:385: -1- AX_CHECK_COMPILE_FLAG([-msse4.2], [[SSE42_CXXFLAGS="-msse4.2"]], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:386: -1- AX_CHECK_COMPILE_FLAG([-msse4.1], [[SSE41_CXXFLAGS="-msse4.1"]], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:387: -1- AX_CHECK_COMPILE_FLAG([-mavx -mavx2], [[AVX2_CXXFLAGS="-mavx -mavx2"]], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:388: -1- AX_CHECK_COMPILE_FLAG([-msse4 -msha], [[SHANI_CXXFLAGS="-msse4 -msha"]], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:415: -1- m4_pattern_allow([^ENABLE_SSE41$])
-m4trace:configure.ac:430: -1- m4_pattern_allow([^ENABLE_AVX2$])
-m4trace:configure.ac:445: -1- m4_pattern_allow([^ENABLE_SHANI$])
-m4trace:configure.ac:460: -1- AX_CHECK_COMPILE_FLAG([-march=armv8-a+crc+crypto], [[ARM_CRC_CXXFLAGS="-march=armv8-a+crc+crypto"]], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:507: -1- m4_pattern_allow([^HAVE_LIBMINGWTHRD$])
-m4trace:configure.ac:508: -1- m4_pattern_allow([^HAVE_LIBKERNEL32$])
-m4trace:configure.ac:509: -1- m4_pattern_allow([^HAVE_LIBUSER32$])
-m4trace:configure.ac:510: -1- m4_pattern_allow([^HAVE_LIBGDI32$])
-m4trace:configure.ac:511: -1- m4_pattern_allow([^HAVE_LIBCOMDLG32$])
-m4trace:configure.ac:512: -1- m4_pattern_allow([^HAVE_LIBWINSPOOL$])
-m4trace:configure.ac:513: -1- m4_pattern_allow([^HAVE_LIBWINMM$])
-m4trace:configure.ac:514: -1- m4_pattern_allow([^HAVE_LIBSHELL32$])
-m4trace:configure.ac:515: -1- m4_pattern_allow([^HAVE_LIBCOMCTL32$])
-m4trace:configure.ac:516: -1- m4_pattern_allow([^HAVE_LIBOLE32$])
-m4trace:configure.ac:517: -1- m4_pattern_allow([^HAVE_LIBOLEAUT32$])
-m4trace:configure.ac:518: -1- m4_pattern_allow([^HAVE_LIBUUID$])
-m4trace:configure.ac:519: -1- m4_pattern_allow([^HAVE_LIBRPCRT4$])
-m4trace:configure.ac:520: -1- m4_pattern_allow([^HAVE_LIBADVAPI32$])
-m4trace:configure.ac:521: -1- m4_pattern_allow([^HAVE_LIBWS2_32$])
-m4trace:configure.ac:522: -1- m4_pattern_allow([^HAVE_LIBMSWSOCK$])
-m4trace:configure.ac:523: -1- m4_pattern_allow([^HAVE_LIBSHLWAPI$])
-m4trace:configure.ac:524: -1- m4_pattern_allow([^HAVE_LIBIPHLPAPI$])
-m4trace:configure.ac:525: -1- m4_pattern_allow([^HAVE_LIBCRYPT32$])
-m4trace:configure.ac:526: -1- m4_pattern_allow([^HAVE_LIBBCRYPT$])
-m4trace:configure.ac:530: -1- AX_CHECK_LINK_FLAG([[-static]], [LIBTOOL_APP_LDFLAGS="$LIBTOOL_APP_LDFLAGS -all-static"])
-m4trace:configure.ac:532: -1- m4_pattern_allow([^MAKENSIS$])
-m4trace:configure.ac:537: -1- m4_pattern_allow([^WINDRES$])
-m4trace:configure.ac:560: -1- m4_pattern_allow([^RSVG_CONVERT$])
-m4trace:configure.ac:561: -1- m4_pattern_allow([^BREW$])
-m4trace:configure.ac:591: -1- m4_pattern_allow([^INSTALLNAMETOOL$])
-m4trace:configure.ac:592: -1- m4_pattern_allow([^OTOOL$])
-m4trace:configure.ac:593: -1- m4_pattern_allow([^GENISOIMAGE$])
-m4trace:configure.ac:594: -1- m4_pattern_allow([^RSVG_CONVERT$])
-m4trace:configure.ac:595: -1- m4_pattern_allow([^IMAGEMAGICK_CONVERT$])
-m4trace:configure.ac:596: -1- m4_pattern_allow([^TIFFCP$])
-m4trace:configure.ac:607: -1- AX_CHECK_LINK_FLAG([[-Wl,-headerpad_max_install_names]], [LDFLAGS="$LDFLAGS -Wl,-headerpad_max_install_names"])
-m4trace:configure.ac:608: -1- AX_CHECK_LINK_FLAG([[-framework CoreFoundation]], [LDFLAGS="$LDFLAGS -framework CoreFoundation"], [AC_MSG_ERROR([could not find CoreFoundation framework])])
-m4trace:configure.ac:623: -1- PKG_PROG_PKG_CONFIG
-m4trace:configure.ac:623: -1- m4_pattern_forbid([^_?PKG_[A-Z_]+$])
-m4trace:configure.ac:623: -1- m4_pattern_allow([^PKG_CONFIG(_(PATH|LIBDIR|SYSROOT_DIR|ALLOW_SYSTEM_(CFLAGS|LIBS)))?$])
-m4trace:configure.ac:623: -1- m4_pattern_allow([^PKG_CONFIG_(DISABLE_UNINSTALLED|TOP_BUILD_DIR|DEBUG_SPEW)$])
-m4trace:configure.ac:623: -1- m4_pattern_allow([^PKG_CONFIG$])
-m4trace:configure.ac:623: -1- m4_pattern_allow([^PKG_CONFIG_PATH$])
-m4trace:configure.ac:623: -1- m4_pattern_allow([^PKG_CONFIG_LIBDIR$])
-m4trace:configure.ac:623: -1- m4_pattern_allow([^PKG_CONFIG$])
-m4trace:configure.ac:632: -1- m4_pattern_allow([^EXTENDED_FUNCTIONAL_TESTS$])
-m4trace:configure.ac:649: -1- AX_CHECK_LINK_FLAG([[--coverage]], [LDFLAGS="$LDFLAGS --coverage"], [AC_MSG_ERROR("lcov testing requested but --coverage linker flag does not work")])
-m4trace:configure.ac:651: -1- AX_CHECK_COMPILE_FLAG([--coverage], [CXXFLAGS="$CXXFLAGS --coverage"], [AC_MSG_ERROR("lcov testing requested but --coverage flag does not work")])
-m4trace:configure.ac:653: -1- m4_pattern_allow([^USE_COVERAGE$])
-m4trace:configure.ac:658: -1- m4_pattern_allow([^LCOV_OPTS$])
-m4trace:configure.ac:662: -1- m4_pattern_allow([^WORDS_BIGENDIAN$])
-m4trace:configure.ac:662: -1- m4_pattern_allow([^AC_APPLE_UNIVERSAL_BUILD$])
-m4trace:configure.ac:665: -1- AX_PTHREAD
-m4trace:configure.ac:665: -1- m4_pattern_allow([^ax_pthread_config$])
-m4trace:configure.ac:665: -1- m4_pattern_allow([^PTHREAD_CREATE_JOINABLE$])
-m4trace:configure.ac:665: -1- m4_pattern_allow([^HAVE_PTHREAD_PRIO_INHERIT$])
-m4trace:configure.ac:665: -1- m4_pattern_allow([^PTHREAD_CC$])
-m4trace:configure.ac:665: -1- m4_pattern_allow([^PTHREAD_LIBS$])
-m4trace:configure.ac:665: -1- m4_pattern_allow([^PTHREAD_CFLAGS$])
-m4trace:configure.ac:665: -1- m4_pattern_allow([^PTHREAD_CC$])
-m4trace:configure.ac:665: -1- m4_pattern_allow([^HAVE_PTHREAD$])
-m4trace:configure.ac:670: -1- m4_pattern_allow([^_FILE_OFFSET_BITS$])
-m4trace:configure.ac:670: -1- m4_pattern_allow([^_LARGE_FILES$])
-m4trace:configure.ac:672: -1- m4_pattern_allow([^HAVE_DECL_STRERROR_R$])
-m4trace:configure.ac:672: -1- m4_pattern_allow([^HAVE_STRERROR_R$])
-m4trace:configure.ac:672: -1- m4_pattern_allow([^STRERROR_R_CHAR_P$])
-m4trace:configure.ac:686: -1- AX_CHECK_LINK_FLAG([[-Wl,--large-address-aware]], [LDFLAGS="$LDFLAGS -Wl,--large-address-aware"])
-m4trace:configure.ac:688: -1- AX_GCC_FUNC_ATTRIBUTE([visibility])
-m4trace:configure.ac:688: -1- m4_pattern_allow([^HAVE_FUNC_ATTRIBUTE_VISIBILITY$])
-m4trace:configure.ac:689: -1- AX_GCC_FUNC_ATTRIBUTE([dllexport])
-m4trace:configure.ac:689: -1- m4_pattern_allow([^HAVE_FUNC_ATTRIBUTE_DLLEXPORT$])
-m4trace:configure.ac:690: -1- AX_GCC_FUNC_ATTRIBUTE([dllimport])
-m4trace:configure.ac:690: -1- m4_pattern_allow([^HAVE_FUNC_ATTRIBUTE_DLLIMPORT$])
-m4trace:configure.ac:693: -1- AX_CHECK_LINK_FLAG([[-Wl,--wrap=__divmoddi4]], [COMPAT_LDFLAGS="$COMPAT_LDFLAGS -Wl,--wrap=__divmoddi4"])
-m4trace:configure.ac:694: -1- AX_CHECK_LINK_FLAG([[-Wl,--wrap=log2f]], [COMPAT_LDFLAGS="$COMPAT_LDFLAGS -Wl,--wrap=log2f"])
-m4trace:configure.ac:708: -1- AX_CHECK_COMPILE_FLAG([-pg], [GPROF_CXXFLAGS="-pg"], [AC_MSG_ERROR(gprof profiling requested but not available)], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:711: -1- AX_CHECK_LINK_FLAG([[-no-pie]], [GPROF_LDFLAGS="-no-pie"])
-m4trace:configure.ac:712: -1- AX_CHECK_LINK_FLAG([[-pg]], [GPROF_LDFLAGS="$GPROF_LDFLAGS -pg"], [AC_MSG_ERROR(gprof profiling requested but not available)], [[$GPROF_LDFLAGS]])
-m4trace:configure.ac:718: -1- AX_CHECK_COMPILE_FLAG([-fPIC], [PIC_FLAGS="-fPIC"])
-m4trace:configure.ac:723: -1- AX_CHECK_COMPILE_FLAG([-Wstack-protector], [HARDENED_CXXFLAGS="$HARDENED_CXXFLAGS -Wstack-protector"])
-m4trace:configure.ac:724: -1- AX_CHECK_COMPILE_FLAG([-fstack-protector-all], [HARDENED_CXXFLAGS="$HARDENED_CXXFLAGS -fstack-protector-all"])
-m4trace:configure.ac:726: -1- AX_CHECK_PREPROC_FLAG([-D_FORTIFY_SOURCE=2], [
+m4trace:configure.ac:371: -1- AX_CHECK_COMPILE_FLAG([-Wdeprecated-copy], [CXXFLAGS="$CXXFLAGS -Wno-deprecated-copy"], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:372: -1- AX_CHECK_COMPILE_FLAG([-Wredundant-decls], [CXXFLAGS="$CXXFLAGS -Wno-redundant-decls"], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:387: -1- AX_CHECK_COMPILE_FLAG([-msse4.2], [[SSE42_CXXFLAGS="-msse4.2"]], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:388: -1- AX_CHECK_COMPILE_FLAG([-msse4.1], [[SSE41_CXXFLAGS="-msse4.1"]], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:389: -1- AX_CHECK_COMPILE_FLAG([-mavx -mavx2], [[AVX2_CXXFLAGS="-mavx -mavx2"]], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:390: -1- AX_CHECK_COMPILE_FLAG([-msse4 -msha], [[SHANI_CXXFLAGS="-msse4 -msha"]], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:417: -1- m4_pattern_allow([^ENABLE_SSE41$])
+m4trace:configure.ac:432: -1- m4_pattern_allow([^ENABLE_AVX2$])
+m4trace:configure.ac:447: -1- m4_pattern_allow([^ENABLE_SHANI$])
+m4trace:configure.ac:462: -1- AX_CHECK_COMPILE_FLAG([-march=armv8-a+crc+crypto], [[ARM_CRC_CXXFLAGS="-march=armv8-a+crc+crypto"]], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:509: -1- m4_pattern_allow([^HAVE_LIBMINGWTHRD$])
+m4trace:configure.ac:510: -1- m4_pattern_allow([^HAVE_LIBKERNEL32$])
+m4trace:configure.ac:511: -1- m4_pattern_allow([^HAVE_LIBUSER32$])
+m4trace:configure.ac:512: -1- m4_pattern_allow([^HAVE_LIBGDI32$])
+m4trace:configure.ac:513: -1- m4_pattern_allow([^HAVE_LIBCOMDLG32$])
+m4trace:configure.ac:514: -1- m4_pattern_allow([^HAVE_LIBWINSPOOL$])
+m4trace:configure.ac:515: -1- m4_pattern_allow([^HAVE_LIBWINMM$])
+m4trace:configure.ac:516: -1- m4_pattern_allow([^HAVE_LIBSHELL32$])
+m4trace:configure.ac:517: -1- m4_pattern_allow([^HAVE_LIBCOMCTL32$])
+m4trace:configure.ac:518: -1- m4_pattern_allow([^HAVE_LIBOLE32$])
+m4trace:configure.ac:519: -1- m4_pattern_allow([^HAVE_LIBOLEAUT32$])
+m4trace:configure.ac:520: -1- m4_pattern_allow([^HAVE_LIBUUID$])
+m4trace:configure.ac:521: -1- m4_pattern_allow([^HAVE_LIBRPCRT4$])
+m4trace:configure.ac:522: -1- m4_pattern_allow([^HAVE_LIBADVAPI32$])
+m4trace:configure.ac:523: -1- m4_pattern_allow([^HAVE_LIBWS2_32$])
+m4trace:configure.ac:524: -1- m4_pattern_allow([^HAVE_LIBMSWSOCK$])
+m4trace:configure.ac:525: -1- m4_pattern_allow([^HAVE_LIBSHLWAPI$])
+m4trace:configure.ac:526: -1- m4_pattern_allow([^HAVE_LIBIPHLPAPI$])
+m4trace:configure.ac:527: -1- m4_pattern_allow([^HAVE_LIBCRYPT32$])
+m4trace:configure.ac:528: -1- m4_pattern_allow([^HAVE_LIBBCRYPT$])
+m4trace:configure.ac:532: -1- AX_CHECK_LINK_FLAG([[-static]], [LIBTOOL_APP_LDFLAGS="$LIBTOOL_APP_LDFLAGS -all-static"])
+m4trace:configure.ac:534: -1- m4_pattern_allow([^MAKENSIS$])
+m4trace:configure.ac:539: -1- m4_pattern_allow([^WINDRES$])
+m4trace:configure.ac:562: -1- m4_pattern_allow([^RSVG_CONVERT$])
+m4trace:configure.ac:563: -1- m4_pattern_allow([^BREW$])
+m4trace:configure.ac:593: -1- m4_pattern_allow([^INSTALLNAMETOOL$])
+m4trace:configure.ac:594: -1- m4_pattern_allow([^OTOOL$])
+m4trace:configure.ac:595: -1- m4_pattern_allow([^GENISOIMAGE$])
+m4trace:configure.ac:596: -1- m4_pattern_allow([^RSVG_CONVERT$])
+m4trace:configure.ac:597: -1- m4_pattern_allow([^IMAGEMAGICK_CONVERT$])
+m4trace:configure.ac:598: -1- m4_pattern_allow([^TIFFCP$])
+m4trace:configure.ac:609: -1- AX_CHECK_LINK_FLAG([[-Wl,-headerpad_max_install_names]], [LDFLAGS="$LDFLAGS -Wl,-headerpad_max_install_names"])
+m4trace:configure.ac:610: -1- AX_CHECK_LINK_FLAG([[-framework CoreFoundation]], [LDFLAGS="$LDFLAGS -framework CoreFoundation"], [AC_MSG_ERROR([could not find CoreFoundation framework])])
+m4trace:configure.ac:625: -1- PKG_PROG_PKG_CONFIG
+m4trace:configure.ac:625: -1- m4_pattern_forbid([^_?PKG_[A-Z_]+$])
+m4trace:configure.ac:625: -1- m4_pattern_allow([^PKG_CONFIG(_(PATH|LIBDIR|SYSROOT_DIR|ALLOW_SYSTEM_(CFLAGS|LIBS)))?$])
+m4trace:configure.ac:625: -1- m4_pattern_allow([^PKG_CONFIG_(DISABLE_UNINSTALLED|TOP_BUILD_DIR|DEBUG_SPEW)$])
+m4trace:configure.ac:625: -1- m4_pattern_allow([^PKG_CONFIG$])
+m4trace:configure.ac:625: -1- m4_pattern_allow([^PKG_CONFIG_PATH$])
+m4trace:configure.ac:625: -1- m4_pattern_allow([^PKG_CONFIG_LIBDIR$])
+m4trace:configure.ac:625: -1- m4_pattern_allow([^PKG_CONFIG$])
+m4trace:configure.ac:634: -1- m4_pattern_allow([^EXTENDED_FUNCTIONAL_TESTS$])
+m4trace:configure.ac:651: -1- AX_CHECK_LINK_FLAG([[--coverage]], [LDFLAGS="$LDFLAGS --coverage"], [AC_MSG_ERROR("lcov testing requested but --coverage linker flag does not work")])
+m4trace:configure.ac:653: -1- AX_CHECK_COMPILE_FLAG([--coverage], [CXXFLAGS="$CXXFLAGS --coverage"], [AC_MSG_ERROR("lcov testing requested but --coverage flag does not work")])
+m4trace:configure.ac:655: -1- m4_pattern_allow([^USE_COVERAGE$])
+m4trace:configure.ac:660: -1- m4_pattern_allow([^LCOV_OPTS$])
+m4trace:configure.ac:664: -1- m4_pattern_allow([^WORDS_BIGENDIAN$])
+m4trace:configure.ac:664: -1- m4_pattern_allow([^AC_APPLE_UNIVERSAL_BUILD$])
+m4trace:configure.ac:667: -1- AX_PTHREAD
+m4trace:configure.ac:667: -1- m4_pattern_allow([^ax_pthread_config$])
+m4trace:configure.ac:667: -1- m4_pattern_allow([^PTHREAD_CREATE_JOINABLE$])
+m4trace:configure.ac:667: -1- m4_pattern_allow([^HAVE_PTHREAD_PRIO_INHERIT$])
+m4trace:configure.ac:667: -1- m4_pattern_allow([^PTHREAD_CC$])
+m4trace:configure.ac:667: -1- m4_pattern_allow([^PTHREAD_LIBS$])
+m4trace:configure.ac:667: -1- m4_pattern_allow([^PTHREAD_CFLAGS$])
+m4trace:configure.ac:667: -1- m4_pattern_allow([^PTHREAD_CC$])
+m4trace:configure.ac:667: -1- m4_pattern_allow([^HAVE_PTHREAD$])
+m4trace:configure.ac:672: -1- m4_pattern_allow([^_FILE_OFFSET_BITS$])
+m4trace:configure.ac:672: -1- m4_pattern_allow([^_LARGE_FILES$])
+m4trace:configure.ac:674: -1- m4_pattern_allow([^HAVE_DECL_STRERROR_R$])
+m4trace:configure.ac:674: -1- m4_pattern_allow([^HAVE_STRERROR_R$])
+m4trace:configure.ac:674: -1- m4_pattern_allow([^STRERROR_R_CHAR_P$])
+m4trace:configure.ac:688: -1- AX_CHECK_LINK_FLAG([[-Wl,--large-address-aware]], [LDFLAGS="$LDFLAGS -Wl,--large-address-aware"])
+m4trace:configure.ac:690: -1- AX_GCC_FUNC_ATTRIBUTE([visibility])
+m4trace:configure.ac:690: -1- m4_pattern_allow([^HAVE_FUNC_ATTRIBUTE_VISIBILITY$])
+m4trace:configure.ac:691: -1- AX_GCC_FUNC_ATTRIBUTE([dllexport])
+m4trace:configure.ac:691: -1- m4_pattern_allow([^HAVE_FUNC_ATTRIBUTE_DLLEXPORT$])
+m4trace:configure.ac:692: -1- AX_GCC_FUNC_ATTRIBUTE([dllimport])
+m4trace:configure.ac:692: -1- m4_pattern_allow([^HAVE_FUNC_ATTRIBUTE_DLLIMPORT$])
+m4trace:configure.ac:695: -1- AX_CHECK_LINK_FLAG([[-Wl,--wrap=__divmoddi4]], [COMPAT_LDFLAGS="$COMPAT_LDFLAGS -Wl,--wrap=__divmoddi4"])
+m4trace:configure.ac:696: -1- AX_CHECK_LINK_FLAG([[-Wl,--wrap=log2f]], [COMPAT_LDFLAGS="$COMPAT_LDFLAGS -Wl,--wrap=log2f"])
+m4trace:configure.ac:710: -1- AX_CHECK_COMPILE_FLAG([-pg], [GPROF_CXXFLAGS="-pg"], [AC_MSG_ERROR(gprof profiling requested but not available)], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:713: -1- AX_CHECK_LINK_FLAG([[-no-pie]], [GPROF_LDFLAGS="-no-pie"])
+m4trace:configure.ac:714: -1- AX_CHECK_LINK_FLAG([[-pg]], [GPROF_LDFLAGS="$GPROF_LDFLAGS -pg"], [AC_MSG_ERROR(gprof profiling requested but not available)], [[$GPROF_LDFLAGS]])
+m4trace:configure.ac:720: -1- AX_CHECK_COMPILE_FLAG([-fPIC], [PIC_FLAGS="-fPIC"])
+m4trace:configure.ac:725: -1- AX_CHECK_COMPILE_FLAG([-Wstack-protector], [HARDENED_CXXFLAGS="$HARDENED_CXXFLAGS -Wstack-protector"])
+m4trace:configure.ac:726: -1- AX_CHECK_COMPILE_FLAG([-fstack-protector-all], [HARDENED_CXXFLAGS="$HARDENED_CXXFLAGS -fstack-protector-all"])
+m4trace:configure.ac:728: -1- AX_CHECK_PREPROC_FLAG([-D_FORTIFY_SOURCE=2], [
     AX_CHECK_PREPROC_FLAG([-U_FORTIFY_SOURCE],[
       HARDENED_CPPFLAGS="$HARDENED_CPPFLAGS -U_FORTIFY_SOURCE"
     ])
     HARDENED_CPPFLAGS="$HARDENED_CPPFLAGS -D_FORTIFY_SOURCE=2"
   ])
-m4trace:configure.ac:726: -1- AX_CHECK_PREPROC_FLAG([-U_FORTIFY_SOURCE], [
+m4trace:configure.ac:728: -1- AX_CHECK_PREPROC_FLAG([-U_FORTIFY_SOURCE], [
       HARDENED_CPPFLAGS="$HARDENED_CPPFLAGS -U_FORTIFY_SOURCE"
     ])
-m4trace:configure.ac:733: -1- AX_CHECK_LINK_FLAG([[-Wl,--dynamicbase]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,--dynamicbase"])
-m4trace:configure.ac:734: -1- AX_CHECK_LINK_FLAG([[-Wl,--nxcompat]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,--nxcompat"])
-m4trace:configure.ac:735: -1- AX_CHECK_LINK_FLAG([[-Wl,--high-entropy-va]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,--high-entropy-va"])
-m4trace:configure.ac:736: -1- AX_CHECK_LINK_FLAG([[-Wl,-z,relro]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,-z,relro"])
-m4trace:configure.ac:737: -1- AX_CHECK_LINK_FLAG([[-Wl,-z,now]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,-z,now"])
-m4trace:configure.ac:738: -1- AX_CHECK_LINK_FLAG([[-fPIE -pie]], [PIE_FLAGS="-fPIE"; HARDENED_LDFLAGS="$HARDENED_LDFLAGS -pie"], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:742: -1- m4_pattern_allow([^HAVE_LIBSSP$])
-m4trace:configure.ac:749: -1- AX_CHECK_LINK_FLAG([[-Wl,-dead_strip]], [LDFLAGS="$LDFLAGS -Wl,-dead_strip"])
-m4trace:configure.ac:754: -1- m4_pattern_allow([^HAVE_DECL_GETIFADDRS$])
-m4trace:configure.ac:754: -1- CHECK_SOCKET
-m4trace:configure.ac:754: -1- m4_pattern_allow([^HAVE_DECL_FREEIFADDRS$])
-m4trace:configure.ac:754: -1- CHECK_SOCKET
-m4trace:configure.ac:758: -1- m4_pattern_allow([^HAVE_DECL_STRNLEN$])
-m4trace:configure.ac:761: -1- m4_pattern_allow([^HAVE_DECL_DAEMON$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_LE16TOH$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_LE32TOH$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_LE64TOH$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_HTOLE16$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_HTOLE32$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_HTOLE64$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_BE16TOH$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_BE32TOH$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_BE64TOH$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_HTOBE16$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_HTOBE32$])
-m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_HTOBE64$])
-m4trace:configure.ac:770: -1- m4_pattern_allow([^HAVE_DECL_BSWAP_16$])
-m4trace:configure.ac:770: -1- m4_pattern_allow([^HAVE_DECL_BSWAP_32$])
-m4trace:configure.ac:770: -1- m4_pattern_allow([^HAVE_DECL_BSWAP_64$])
-m4trace:configure.ac:775: -1- m4_pattern_allow([^HAVE_DECL___BUILTIN_CLZ$])
-m4trace:configure.ac:775: -1- m4_pattern_allow([^HAVE_DECL___BUILTIN_CLZL$])
-m4trace:configure.ac:775: -1- m4_pattern_allow([^HAVE_DECL___BUILTIN_CLZLL$])
-m4trace:configure.ac:779: -1- m4_pattern_allow([^HAVE_MSG_NOSIGNAL$])
-m4trace:configure.ac:787: -1- m4_pattern_allow([^HAVE_MSG_DONTWAIT$])
-m4trace:configure.ac:795: -1- m4_pattern_allow([^HAVE_MALLOC_INFO$])
-m4trace:configure.ac:803: -1- m4_pattern_allow([^HAVE_MALLOPT_ARENA_MAX$])
-m4trace:configure.ac:810: -1- m4_pattern_allow([^HAVE_VISIBILITY_ATTRIBUTE$])
-m4trace:configure.ac:830: -1- m4_pattern_allow([^HAVE_THREAD_LOCAL$])
-m4trace:configure.ac:873: -1- m4_pattern_allow([^HAVE_GMTIME_R$])
-m4trace:configure.ac:888: -1- m4_pattern_allow([^HAVE_SYS_GETRANDOM$])
-m4trace:configure.ac:897: -1- m4_pattern_allow([^HAVE_GETENTROPY$])
-m4trace:configure.ac:904: -1- m4_pattern_allow([^HAVE_GETENTROPY_RAND$])
-m4trace:configure.ac:912: -1- m4_pattern_allow([^HAVE_SYSCTL$])
-m4trace:configure.ac:924: -1- m4_pattern_allow([^HAVE_SYSCTL_ARND$])
-m4trace:configure.ac:1000: -1- AX_CHECK_COMPILE_FLAG([-fvisibility=hidden], [RE_CXXFLAGS="-fvisibility=hidden"], [AC_MSG_ERROR([Cannot set default symbol visibility. Use --disable-reduce-exports.])])
-m4trace:configure.ac:1007: -1- AM_CONDITIONAL([EMBEDDED_LEVELDB], [true])
-m4trace:configure.ac:1007: -1- m4_pattern_allow([^EMBEDDED_LEVELDB_TRUE$])
-m4trace:configure.ac:1007: -1- m4_pattern_allow([^EMBEDDED_LEVELDB_FALSE$])
-m4trace:configure.ac:1007: -1- _AM_SUBST_NOTMAKE([EMBEDDED_LEVELDB_TRUE])
-m4trace:configure.ac:1007: -1- _AM_SUBST_NOTMAKE([EMBEDDED_LEVELDB_FALSE])
-m4trace:configure.ac:1008: -1- m4_pattern_allow([^LEVELDB_CPPFLAGS$])
-m4trace:configure.ac:1009: -1- m4_pattern_allow([^LIBLEVELDB$])
-m4trace:configure.ac:1010: -1- m4_pattern_allow([^LIBMEMENV$])
-m4trace:configure.ac:1029: -1- BITCOIN_QT_INIT
-m4trace:configure.ac:1029: -1- m4_pattern_allow([^QT_TRANSLATION_DIR$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CONFIGURE([$use_pkgconfig])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([_BITCOIN_QT_FIND_LIBS_WITH_PKGCONFIG])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_FIND_LIBS_WITH_PKGCONFIG
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:735: -1- AX_CHECK_LINK_FLAG([[-Wl,--dynamicbase]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,--dynamicbase"])
+m4trace:configure.ac:736: -1- AX_CHECK_LINK_FLAG([[-Wl,--nxcompat]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,--nxcompat"])
+m4trace:configure.ac:737: -1- AX_CHECK_LINK_FLAG([[-Wl,--high-entropy-va]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,--high-entropy-va"])
+m4trace:configure.ac:738: -1- AX_CHECK_LINK_FLAG([[-Wl,-z,relro]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,-z,relro"])
+m4trace:configure.ac:739: -1- AX_CHECK_LINK_FLAG([[-Wl,-z,now]], [HARDENED_LDFLAGS="$HARDENED_LDFLAGS -Wl,-z,now"])
+m4trace:configure.ac:740: -1- AX_CHECK_LINK_FLAG([[-fPIE -pie]], [PIE_FLAGS="-fPIE"; HARDENED_LDFLAGS="$HARDENED_LDFLAGS -pie"], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:744: -1- m4_pattern_allow([^HAVE_LIBSSP$])
+m4trace:configure.ac:751: -1- AX_CHECK_LINK_FLAG([[-Wl,-dead_strip]], [LDFLAGS="$LDFLAGS -Wl,-dead_strip"])
+m4trace:configure.ac:756: -1- m4_pattern_allow([^HAVE_DECL_GETIFADDRS$])
+m4trace:configure.ac:756: -1- CHECK_SOCKET
+m4trace:configure.ac:756: -1- m4_pattern_allow([^HAVE_DECL_FREEIFADDRS$])
+m4trace:configure.ac:756: -1- CHECK_SOCKET
+m4trace:configure.ac:760: -1- m4_pattern_allow([^HAVE_DECL_STRNLEN$])
+m4trace:configure.ac:763: -1- m4_pattern_allow([^HAVE_DECL_DAEMON$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_LE16TOH$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_LE32TOH$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_LE64TOH$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_HTOLE16$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_HTOLE32$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_HTOLE64$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_BE16TOH$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_BE32TOH$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_BE64TOH$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_HTOBE16$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_HTOBE32$])
+m4trace:configure.ac:765: -1- m4_pattern_allow([^HAVE_DECL_HTOBE64$])
+m4trace:configure.ac:772: -1- m4_pattern_allow([^HAVE_DECL_BSWAP_16$])
+m4trace:configure.ac:772: -1- m4_pattern_allow([^HAVE_DECL_BSWAP_32$])
+m4trace:configure.ac:772: -1- m4_pattern_allow([^HAVE_DECL_BSWAP_64$])
+m4trace:configure.ac:777: -1- m4_pattern_allow([^HAVE_DECL___BUILTIN_CLZ$])
+m4trace:configure.ac:777: -1- m4_pattern_allow([^HAVE_DECL___BUILTIN_CLZL$])
+m4trace:configure.ac:777: -1- m4_pattern_allow([^HAVE_DECL___BUILTIN_CLZLL$])
+m4trace:configure.ac:781: -1- m4_pattern_allow([^HAVE_MSG_NOSIGNAL$])
+m4trace:configure.ac:789: -1- m4_pattern_allow([^HAVE_MSG_DONTWAIT$])
+m4trace:configure.ac:797: -1- m4_pattern_allow([^HAVE_MALLOC_INFO$])
+m4trace:configure.ac:805: -1- m4_pattern_allow([^HAVE_MALLOPT_ARENA_MAX$])
+m4trace:configure.ac:812: -1- m4_pattern_allow([^HAVE_VISIBILITY_ATTRIBUTE$])
+m4trace:configure.ac:832: -1- m4_pattern_allow([^HAVE_THREAD_LOCAL$])
+m4trace:configure.ac:875: -1- m4_pattern_allow([^HAVE_GMTIME_R$])
+m4trace:configure.ac:890: -1- m4_pattern_allow([^HAVE_SYS_GETRANDOM$])
+m4trace:configure.ac:899: -1- m4_pattern_allow([^HAVE_GETENTROPY$])
+m4trace:configure.ac:906: -1- m4_pattern_allow([^HAVE_GETENTROPY_RAND$])
+m4trace:configure.ac:914: -1- m4_pattern_allow([^HAVE_SYSCTL$])
+m4trace:configure.ac:926: -1- m4_pattern_allow([^HAVE_SYSCTL_ARND$])
+m4trace:configure.ac:1002: -1- AX_CHECK_COMPILE_FLAG([-fvisibility=hidden], [RE_CXXFLAGS="-fvisibility=hidden"], [AC_MSG_ERROR([Cannot set default symbol visibility. Use --disable-reduce-exports.])])
+m4trace:configure.ac:1009: -1- AM_CONDITIONAL([EMBEDDED_LEVELDB], [true])
+m4trace:configure.ac:1009: -1- m4_pattern_allow([^EMBEDDED_LEVELDB_TRUE$])
+m4trace:configure.ac:1009: -1- m4_pattern_allow([^EMBEDDED_LEVELDB_FALSE$])
+m4trace:configure.ac:1009: -1- _AM_SUBST_NOTMAKE([EMBEDDED_LEVELDB_TRUE])
+m4trace:configure.ac:1009: -1- _AM_SUBST_NOTMAKE([EMBEDDED_LEVELDB_FALSE])
+m4trace:configure.ac:1010: -1- m4_pattern_allow([^LEVELDB_CPPFLAGS$])
+m4trace:configure.ac:1011: -1- m4_pattern_allow([^LIBLEVELDB$])
+m4trace:configure.ac:1012: -1- m4_pattern_allow([^LIBMEMENV$])
+m4trace:configure.ac:1031: -1- BITCOIN_QT_INIT
+m4trace:configure.ac:1031: -1- m4_pattern_allow([^QT_TRANSLATION_DIR$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CONFIGURE([$use_pkgconfig])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([_BITCOIN_QT_FIND_LIBS_WITH_PKGCONFIG])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_FIND_LIBS_WITH_PKGCONFIG
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
       PKG_CHECK_MODULES([QT5], [$qt5_modules], [QT_INCLUDES="$QT5_CFLAGS"; QT_LIBS="$QT5_LIBS" have_qt=yes],[have_qt=no])
 
       if test "x$have_qt" != xyes; then
@@ -5108,20 +5110,20 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
         BITCOIN_QT_FAIL([Qt dependencies not found])
       fi
     ])
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QT5], [$qt5_modules], [QT_INCLUDES="$QT5_CFLAGS"; QT_LIBS="$QT5_LIBS" have_qt=yes], [have_qt=no])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT5_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT5_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([$qt5_modules], [pkg_cv_[]QT5_CFLAGS=`$PKG_CONFIG --[]cflags "$qt5_modules" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QT5], [$qt5_modules], [QT_INCLUDES="$QT5_CFLAGS"; QT_LIBS="$QT5_LIBS" have_qt=yes], [have_qt=no])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT5_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT5_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([$qt5_modules], [pkg_cv_[]QT5_CFLAGS=`$PKG_CONFIG --[]cflags "$qt5_modules" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([$qt5_modules], [pkg_cv_[]QT5_LIBS=`$PKG_CONFIG --[]libs "$qt5_modules" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([$qt5_modules], [pkg_cv_[]QT5_LIBS=`$PKG_CONFIG --[]libs "$qt5_modules" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Qt dependencies not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Qt dependencies not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
       PKG_CHECK_MODULES([QT_SVG], [${QT_LIB_PREFIX}Svg], [QT_SVG_INCLUDES="$QT_SVG_CFLAGS"; QT_LIBS="$QT_LIBS $QT_SVG_LIBS"],, BITCOIN_QT_FAIL([QtSvg not found]))
     ])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([QtSvg not found])
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QT_SVG], [${QT_LIB_PREFIX}Svg], [QT_SVG_INCLUDES="$QT_SVG_CFLAGS"; QT_LIBS="$QT_LIBS $QT_SVG_LIBS"], [], [
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([QtSvg not found])
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QT_SVG], [${QT_LIB_PREFIX}Svg], [QT_SVG_INCLUDES="$QT_SVG_CFLAGS"; QT_LIBS="$QT_LIBS $QT_SVG_LIBS"], [], [
   if test "x$bitcoin_qt_want_version" = xauto && test "x$bitcoin_qt_force" != xyes; then
     if test "x$bitcoin_enable_qt" != xno; then
       { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: QtSvg not found; hemis-qt frontend will not be built" >&5
@@ -5133,18 +5135,18 @@ $as_echo "$as_me: WARNING: QtSvg not found; hemis-qt frontend will not be built"
     as_fn_error $? "QtSvg not found" "$LINENO" 5
   fi
 ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_SVG_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_SVG_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Svg], [pkg_cv_[]QT_SVG_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}Svg" 2>/dev/null`
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_SVG_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_SVG_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Svg], [pkg_cv_[]QT_SVG_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}Svg" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Svg], [pkg_cv_[]QT_SVG_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}Svg" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Svg], [pkg_cv_[]QT_SVG_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}Svg" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
       PKG_CHECK_MODULES([QT_CONCURRENT], [${QT_LIB_PREFIX}Concurrent], [QT_INCLUDES="$QT_INCLUDES $QT_CONCURRENT_CFLAGS"; QT_LIBS="$QT_LIBS $QT_CONCURRENT_LIBS"],, BITCOIN_QT_FAIL([QtConcurrent not found]))
     ])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([QtConcurrent not found])
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QT_CONCURRENT], [${QT_LIB_PREFIX}Concurrent], [QT_INCLUDES="$QT_INCLUDES $QT_CONCURRENT_CFLAGS"; QT_LIBS="$QT_LIBS $QT_CONCURRENT_LIBS"], [], [
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([QtConcurrent not found])
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QT_CONCURRENT], [${QT_LIB_PREFIX}Concurrent], [QT_INCLUDES="$QT_INCLUDES $QT_CONCURRENT_CFLAGS"; QT_LIBS="$QT_LIBS $QT_CONCURRENT_LIBS"], [], [
   if test "x$bitcoin_qt_want_version" = xauto && test "x$bitcoin_qt_force" != xyes; then
     if test "x$bitcoin_enable_qt" != xno; then
       { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: QtConcurrent not found; hemis-qt frontend will not be built" >&5
@@ -5156,73 +5158,73 @@ $as_echo "$as_me: WARNING: QtConcurrent not found; hemis-qt frontend will not be
     as_fn_error $? "QtConcurrent not found" "$LINENO" 5
   fi
 ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_CONCURRENT_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_CONCURRENT_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Concurrent], [pkg_cv_[]QT_CONCURRENT_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}Concurrent" 2>/dev/null`
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_CONCURRENT_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_CONCURRENT_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Concurrent], [pkg_cv_[]QT_CONCURRENT_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}Concurrent" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Concurrent], [pkg_cv_[]QT_CONCURRENT_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}Concurrent" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Concurrent], [pkg_cv_[]QT_CONCURRENT_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}Concurrent" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
       PKG_CHECK_MODULES([QT_TEST], [${QT_LIB_PREFIX}Test], [QT_TEST_INCLUDES="$QT_TEST_CFLAGS"; have_qt_test=yes], [have_qt_test=no])
       if test "x$use_dbus" != xno; then
         PKG_CHECK_MODULES([QT_DBUS], [${QT_LIB_PREFIX}DBus], [QT_DBUS_INCLUDES="$QT_DBUS_CFLAGS"; have_qt_dbus=yes], [have_qt_dbus=no])
       fi
     ])
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QT_TEST], [${QT_LIB_PREFIX}Test], [QT_TEST_INCLUDES="$QT_TEST_CFLAGS"; have_qt_test=yes], [have_qt_test=no])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_TEST_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_TEST_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Test], [pkg_cv_[]QT_TEST_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}Test" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QT_TEST], [${QT_LIB_PREFIX}Test], [QT_TEST_INCLUDES="$QT_TEST_CFLAGS"; have_qt_test=yes], [have_qt_test=no])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_TEST_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_TEST_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Test], [pkg_cv_[]QT_TEST_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}Test" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Test], [pkg_cv_[]QT_TEST_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}Test" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}Test], [pkg_cv_[]QT_TEST_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}Test" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QT_DBUS], [${QT_LIB_PREFIX}DBus], [QT_DBUS_INCLUDES="$QT_DBUS_CFLAGS"; have_qt_dbus=yes], [have_qt_dbus=no])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_DBUS_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_DBUS_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}DBus], [pkg_cv_[]QT_DBUS_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}DBus" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QT_DBUS], [${QT_LIB_PREFIX}DBus], [QT_DBUS_INCLUDES="$QT_DBUS_CFLAGS"; have_qt_dbus=yes], [have_qt_dbus=no])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_DBUS_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_DBUS_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}DBus], [pkg_cv_[]QT_DBUS_CFLAGS=`$PKG_CONFIG --[]cflags "${QT_LIB_PREFIX}DBus" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}DBus], [pkg_cv_[]QT_DBUS_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}DBus" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([${QT_LIB_PREFIX}DBus], [pkg_cv_[]QT_DBUS_LIBS=`$PKG_CONFIG --[]libs "${QT_LIB_PREFIX}DBus" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
       AC_CACHE_CHECK([for Qt >= 5.5.1], bitcoin_cv_qt_minimumrequired,
         PKG_CHECK_EXISTS(Qt5Core < 5.5.1, [bitcoin_cv_qt_minimumrequired=no], [bitcoin_cv_qt_minimumrequired=yes])
       )
     ])
-m4trace:configure.ac:1032: -2- PKG_CHECK_EXISTS([Qt5Core < 5.5.1], [bitcoin_cv_qt_minimumrequired=no], [bitcoin_cv_qt_minimumrequired=yes])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -2- PKG_CHECK_EXISTS([Qt5Core < 5.5.1], [bitcoin_cv_qt_minimumrequired=no], [bitcoin_cv_qt_minimumrequired=yes])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
       AC_CACHE_CHECK([for Qt >= 5.8.0], bitcoin_cv_qt58,
         PKG_CHECK_EXISTS(Qt5Core < 5.8.0, [bitcoin_cv_qt58=no], [bitcoin_cv_qt58=yes])
       )
     ])
-m4trace:configure.ac:1032: -2- PKG_CHECK_EXISTS([Qt5Core < 5.8.0], [bitcoin_cv_qt58=no], [bitcoin_cv_qt58=yes])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([_BITCOIN_QT_FIND_LIBS_WITHOUT_PKGCONFIG])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_FIND_LIBS_WITHOUT_PKGCONFIG
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -2- PKG_CHECK_EXISTS([Qt5Core < 5.8.0], [bitcoin_cv_qt58=no], [bitcoin_cv_qt58=yes])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([_BITCOIN_QT_FIND_LIBS_WITHOUT_PKGCONFIG])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_FIND_LIBS_WITHOUT_PKGCONFIG
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$qt_include_path" != x; then
       QT_INCLUDES="-I$qt_include_path -I$qt_include_path/QtCore -I$qt_include_path/QtGui -I$qt_include_path/QtWidgets -I$qt_include_path/QtNetwork -I$qt_include_path/QtTest -I$qt_include_path/QtDBus -I$qt_include_path/QtConcurrent -I$qt_include_path/QtSvg -I$qt_include_path/QtCharts"
       CPPFLAGS="$QT_INCLUDES $CPPFLAGS"
     fi
   ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QtPlugin],,BITCOIN_QT_FAIL([QtCore headers missing]))])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([QtCore headers missing])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QApplication],, BITCOIN_QT_FAIL([QtGui headers missing]))])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([QtGui headers missing])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QLocalSocket],, BITCOIN_QT_FAIL([QtNetwork headers missing]))])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([QtNetwork headers missing])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QtConcurrent],, BITCOIN_QT_FAIL([QtConcurrent headers missing]))])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([QtConcurrent headers missing])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QtPlugin],,BITCOIN_QT_FAIL([QtCore headers missing]))])
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([QtCore headers missing])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QApplication],, BITCOIN_QT_FAIL([QtGui headers missing]))])
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([QtGui headers missing])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QLocalSocket],, BITCOIN_QT_FAIL([QtNetwork headers missing]))])
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([QtNetwork headers missing])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QtConcurrent],, BITCOIN_QT_FAIL([QtConcurrent headers missing]))])
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([QtConcurrent headers missing])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$bitcoin_qt_want_version" = xauto; then
       _BITCOIN_QT_CHECK_MINIMUM_REQUIRED
       _BITCOIN_QT_CHECK_QT58
     fi
     QT_LIB_PREFIX=Qt5
   ])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_MINIMUM_REQUIRED
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_QT58
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_MINIMUM_REQUIRED
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_QT58
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     LIBS=
     if test "x$qt_lib_path" != x; then
       LIBS="$LIBS -L$qt_lib_path"
@@ -5232,10 +5234,10 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
       AC_CHECK_LIB([imm32],      [main],, BITCOIN_QT_FAIL([libimm32 not found]))
     fi
   ])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([libimm32 not found])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^HAVE_LIBIMM32$])
-m4trace:configure.ac:1032: -2- m4_pattern_allow([^HAVE_LIBZ_$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_z ''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([libimm32 not found])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^HAVE_LIBIMM32$])
+m4trace:configure.ac:1034: -2- m4_pattern_allow([^HAVE_LIBZ_$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_z ''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -lz " >&5
 $as_echo_n "checking for main in -lz ... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -5279,7 +5281,7 @@ else
 $as_echo "$as_me: WARNING: zlib not found. Assuming Qt has it built-in" >&2;}
 fi
 ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing jpeg_create_decompress " >&5
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing jpeg_create_decompress " >&5
 $as_echo_n "checking for library containing jpeg_create_decompress ... " >&6; }
 if ${ac_cv_search_jpeg_create_decompress_+:} false; then :
   $as_echo_n "(cached) " >&6
@@ -5338,7 +5340,7 @@ else
 $as_echo "$as_me: WARNING: libjpeg not found. Assuming Qt has it built-in" >&2;}
 fi
 ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing png_error " >&5
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing png_error " >&5
 $as_echo_n "checking for library containing png_error ... " >&6; }
 if ${ac_cv_search_png_error_+:} false; then :
   $as_echo_n "(cached) " >&6
@@ -5397,7 +5399,7 @@ else
 $as_echo "$as_me: WARNING: libpng not found. Assuming Qt has it built-in" >&2;}
 fi
 ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pcre16_exec" >&5
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pcre16_exec" >&5
 $as_echo_n "checking for library containing pcre16_exec... " >&6; }
 if ${ac_cv_search_pcre16_exec+:} false; then :
   $as_echo_n "(cached) " >&6
@@ -5456,7 +5458,7 @@ else
 $as_echo "$as_me: WARNING: libpcre16 not found. Assuming Qt has it built-in" >&2;}
 fi
 ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing png_error " >&5
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing png_error " >&5
 $as_echo_n "checking for library containing png_error ... " >&6; }
 if ${ac_cv_search_png_error_+:} false; then :
   $as_echo_n "(cached) " >&6
@@ -5515,7 +5517,7 @@ else
 $as_echo "$as_me: WARNING: libpng not found. Assuming Qt has it built-in" >&2;}
 fi
 ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pcre2_match_16" >&5
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing pcre2_match_16" >&5
 $as_echo_n "checking for library containing pcre2_match_16... " >&6; }
 if ${ac_cv_search_pcre2_match_16+:} false; then :
   $as_echo_n "(cached) " >&6
@@ -5574,7 +5576,7 @@ else
 $as_echo "$as_me: WARNING: libqtpcre2 not found. Assuming Qt has it built-in" >&2;}
 fi
 ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing hb_ot_tags_from_script " >&5
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing hb_ot_tags_from_script " >&5
 $as_echo_n "checking for library containing hb_ot_tags_from_script ... " >&6; }
 if ${ac_cv_search_hb_ot_tags_from_script_+:} false; then :
   $as_echo_n "(cached) " >&6
@@ -5633,8 +5635,8 @@ else
 $as_echo "$as_me: WARNING: libharfbuzz not found. Assuming Qt has it built-in or support is disabled" >&2;}
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Core not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Core   ''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Core not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Core   ''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}Core   " >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}Core   ... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -5688,8 +5690,8 @@ $as_echo "$as_me: WARNING: lib${QT_LIB_PREFIX}Core not found; hemis-qt frontend 
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Gui not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Gui    ''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Gui not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Gui    ''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}Gui    " >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}Gui    ... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -5743,8 +5745,8 @@ $as_echo "$as_me: WARNING: lib${QT_LIB_PREFIX}Gui not found; hemis-qt frontend w
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Network not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Network''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Network not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Network''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}Network" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}Network... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -5798,8 +5800,8 @@ $as_echo "$as_me: WARNING: lib${QT_LIB_PREFIX}Network not found; hemis-qt fronte
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Widgets not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Widgets''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Widgets not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Widgets''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}Widgets" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}Widgets... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -5853,8 +5855,8 @@ $as_echo "$as_me: WARNING: lib${QT_LIB_PREFIX}Widgets not found; hemis-qt fronte
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Concurrent not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Concurrent''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Concurrent not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}Concurrent''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}Concurrent" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}Concurrent... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -5908,7 +5910,7 @@ $as_echo "$as_me: WARNING: lib${QT_LIB_PREFIX}Concurrent not found; hemis-qt fro
 
 fi
 ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     LIBS=
     if test "x$qt_lib_path" != x; then
       LIBS="-L$qt_lib_path"
@@ -5934,15 +5936,15 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
       QT_DBUS_LIBS="$LIBS"
     fi
   ])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Svg not found])
-m4trace:configure.ac:1032: -2- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Svg not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Svg not found])
+m4trace:configure.ac:1034: -2- BITCOIN_QT_FAIL([lib${QT_LIB_PREFIX}Svg not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$bitcoin_cv_qt_minimumrequired" != xyes; then
       BITCOIN_QT_FAIL([Qt version not supported])
     fi
   ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Qt version not supported])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Qt version not supported])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
   TEMP_CPPFLAGS=$CPPFLAGS
   TEMP_CXXFLAGS=$CXXFLAGS
   CPPFLAGS="$QT_INCLUDES $QT_SVG_INCLUDES $CPPFLAGS"
@@ -5971,98 +5973,98 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
   CPPFLAGS=$TEMP_CPPFLAGS
   CXXFLAGS=$TEMP_CXXFLAGS
   ])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_IS_STATIC
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_FIND_STATIC_PLUGINS
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTPLATFORM], [Qt5PlatformSupport], [QT_LIBS="$QTPLATFORM_LIBS $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTPLATFORM_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTPLATFORM_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5PlatformSupport], [pkg_cv_[]QTPLATFORM_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5PlatformSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_IS_STATIC
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_FIND_STATIC_PLUGINS
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTPLATFORM], [Qt5PlatformSupport], [QT_LIBS="$QTPLATFORM_LIBS $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTPLATFORM_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTPLATFORM_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5PlatformSupport], [pkg_cv_[]QTPLATFORM_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5PlatformSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5PlatformSupport], [pkg_cv_[]QTPLATFORM_LIBS=`$PKG_CONFIG --[]libs "Qt5PlatformSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5PlatformSupport], [pkg_cv_[]QTPLATFORM_LIBS=`$PKG_CONFIG --[]libs "Qt5PlatformSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTFONTDATABASE], [Qt5FontDatabaseSupport], [QT_LIBS="-lQt5FontDatabaseSupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTFONTDATABASE_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTFONTDATABASE_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5FontDatabaseSupport], [pkg_cv_[]QTFONTDATABASE_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5FontDatabaseSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTFONTDATABASE], [Qt5FontDatabaseSupport], [QT_LIBS="-lQt5FontDatabaseSupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTFONTDATABASE_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTFONTDATABASE_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5FontDatabaseSupport], [pkg_cv_[]QTFONTDATABASE_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5FontDatabaseSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5FontDatabaseSupport], [pkg_cv_[]QTFONTDATABASE_LIBS=`$PKG_CONFIG --[]libs "Qt5FontDatabaseSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5FontDatabaseSupport], [pkg_cv_[]QTFONTDATABASE_LIBS=`$PKG_CONFIG --[]libs "Qt5FontDatabaseSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTEVENTDISPATCHER], [Qt5EventDispatcherSupport], [QT_LIBS="-lQt5EventDispatcherSupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTEVENTDISPATCHER_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTEVENTDISPATCHER_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5EventDispatcherSupport], [pkg_cv_[]QTEVENTDISPATCHER_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5EventDispatcherSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTEVENTDISPATCHER], [Qt5EventDispatcherSupport], [QT_LIBS="-lQt5EventDispatcherSupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTEVENTDISPATCHER_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTEVENTDISPATCHER_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5EventDispatcherSupport], [pkg_cv_[]QTEVENTDISPATCHER_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5EventDispatcherSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5EventDispatcherSupport], [pkg_cv_[]QTEVENTDISPATCHER_LIBS=`$PKG_CONFIG --[]libs "Qt5EventDispatcherSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5EventDispatcherSupport], [pkg_cv_[]QTEVENTDISPATCHER_LIBS=`$PKG_CONFIG --[]libs "Qt5EventDispatcherSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTTHEME], [Qt5ThemeSupport], [QT_LIBS="-lQt5ThemeSupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTTHEME_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTTHEME_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5ThemeSupport], [pkg_cv_[]QTTHEME_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5ThemeSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTTHEME], [Qt5ThemeSupport], [QT_LIBS="-lQt5ThemeSupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTTHEME_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTTHEME_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5ThemeSupport], [pkg_cv_[]QTTHEME_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5ThemeSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5ThemeSupport], [pkg_cv_[]QTTHEME_LIBS=`$PKG_CONFIG --[]libs "Qt5ThemeSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5ThemeSupport], [pkg_cv_[]QTTHEME_LIBS=`$PKG_CONFIG --[]libs "Qt5ThemeSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTDEVICEDISCOVERY], [Qt5DeviceDiscoverySupport], [QT_LIBS="-lQt5DeviceDiscoverySupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTDEVICEDISCOVERY_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTDEVICEDISCOVERY_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5DeviceDiscoverySupport], [pkg_cv_[]QTDEVICEDISCOVERY_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5DeviceDiscoverySupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTDEVICEDISCOVERY], [Qt5DeviceDiscoverySupport], [QT_LIBS="-lQt5DeviceDiscoverySupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTDEVICEDISCOVERY_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTDEVICEDISCOVERY_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5DeviceDiscoverySupport], [pkg_cv_[]QTDEVICEDISCOVERY_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5DeviceDiscoverySupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5DeviceDiscoverySupport], [pkg_cv_[]QTDEVICEDISCOVERY_LIBS=`$PKG_CONFIG --[]libs "Qt5DeviceDiscoverySupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5DeviceDiscoverySupport], [pkg_cv_[]QTDEVICEDISCOVERY_LIBS=`$PKG_CONFIG --[]libs "Qt5DeviceDiscoverySupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTACCESSIBILITY], [Qt5AccessibilitySupport], [QT_LIBS="-lQt5AccessibilitySupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTACCESSIBILITY_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTACCESSIBILITY_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5AccessibilitySupport], [pkg_cv_[]QTACCESSIBILITY_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5AccessibilitySupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTACCESSIBILITY], [Qt5AccessibilitySupport], [QT_LIBS="-lQt5AccessibilitySupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTACCESSIBILITY_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTACCESSIBILITY_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5AccessibilitySupport], [pkg_cv_[]QTACCESSIBILITY_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5AccessibilitySupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5AccessibilitySupport], [pkg_cv_[]QTACCESSIBILITY_LIBS=`$PKG_CONFIG --[]libs "Qt5AccessibilitySupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5AccessibilitySupport], [pkg_cv_[]QTACCESSIBILITY_LIBS=`$PKG_CONFIG --[]libs "Qt5AccessibilitySupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTFB], [Qt5FbSupport], [QT_LIBS="-lQt5FbSupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTFB_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTFB_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5FbSupport], [pkg_cv_[]QTFB_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5FbSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTFB], [Qt5FbSupport], [QT_LIBS="-lQt5FbSupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTFB_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTFB_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5FbSupport], [pkg_cv_[]QTFB_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5FbSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5FbSupport], [pkg_cv_[]QTFB_LIBS=`$PKG_CONFIG --[]libs "Qt5FbSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5FbSupport], [pkg_cv_[]QTFB_LIBS=`$PKG_CONFIG --[]libs "Qt5FbSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTXCBQPA], [Qt5XcbQpa], [QT_LIBS="$QTXCBQPA_LIBS $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTXCBQPA_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTXCBQPA_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5XcbQpa], [pkg_cv_[]QTXCBQPA_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5XcbQpa" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTXCBQPA], [Qt5XcbQpa], [QT_LIBS="$QTXCBQPA_LIBS $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTXCBQPA_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTXCBQPA_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5XcbQpa], [pkg_cv_[]QTXCBQPA_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5XcbQpa" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5XcbQpa], [pkg_cv_[]QTXCBQPA_LIBS=`$PKG_CONFIG --[]libs "Qt5XcbQpa" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5XcbQpa], [pkg_cv_[]QTXCBQPA_LIBS=`$PKG_CONFIG --[]libs "Qt5XcbQpa" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTCLIPBOARD], [Qt5ClipboardSupport], [QT_LIBS="-lQt5ClipboardSupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTCLIPBOARD_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTCLIPBOARD_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5ClipboardSupport], [pkg_cv_[]QTCLIPBOARD_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5ClipboardSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTCLIPBOARD], [Qt5ClipboardSupport], [QT_LIBS="-lQt5ClipboardSupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTCLIPBOARD_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTCLIPBOARD_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5ClipboardSupport], [pkg_cv_[]QTCLIPBOARD_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5ClipboardSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5ClipboardSupport], [pkg_cv_[]QTCLIPBOARD_LIBS=`$PKG_CONFIG --[]libs "Qt5ClipboardSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5ClipboardSupport], [pkg_cv_[]QTCLIPBOARD_LIBS=`$PKG_CONFIG --[]libs "Qt5ClipboardSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTGRAPHICS], [Qt5GraphicsSupport], [QT_LIBS="-lQt5GraphicsSupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTGRAPHICS_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTGRAPHICS_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5GraphicsSupport], [pkg_cv_[]QTGRAPHICS_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5GraphicsSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTGRAPHICS], [Qt5GraphicsSupport], [QT_LIBS="-lQt5GraphicsSupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTGRAPHICS_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTGRAPHICS_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5GraphicsSupport], [pkg_cv_[]QTGRAPHICS_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5GraphicsSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5GraphicsSupport], [pkg_cv_[]QTGRAPHICS_LIBS=`$PKG_CONFIG --[]libs "Qt5GraphicsSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5GraphicsSupport], [pkg_cv_[]QTGRAPHICS_LIBS=`$PKG_CONFIG --[]libs "Qt5GraphicsSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -1- PKG_CHECK_MODULES([QTCGL], [Qt5CglSupport], [QT_LIBS="-lQt5CglSupport $QT_LIBS"])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTCGL_CFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QTCGL_LIBS$])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5CglSupport], [pkg_cv_[]QTCGL_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5CglSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -1- PKG_CHECK_MODULES([QTCGL], [Qt5CglSupport], [QT_LIBS="-lQt5CglSupport $QT_LIBS"])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTCGL_CFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QTCGL_LIBS$])
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5CglSupport], [pkg_cv_[]QTCGL_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5CglSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- PKG_CHECK_EXISTS([Qt5CglSupport], [pkg_cv_[]QTCGL_LIBS=`$PKG_CONFIG --[]libs "Qt5CglSupport" 2>/dev/null`
+m4trace:configure.ac:1034: -1- PKG_CHECK_EXISTS([Qt5CglSupport], [pkg_cv_[]QTCGL_LIBS=`$PKG_CONFIG --[]libs "Qt5CglSupport" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1032: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXPlatformSupport not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}PlatformSupport''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXPlatformSupport not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}PlatformSupport''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}PlatformSupport" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}PlatformSupport... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -6116,8 +6118,8 @@ $as_echo "$as_me: WARNING: lib$QT_LIB_PREFIXPlatformSupport not found; hemis-qt 
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXFontDatabaseSupport not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}FontDatabaseSupport''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXFontDatabaseSupport not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}FontDatabaseSupport''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}FontDatabaseSupport" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}FontDatabaseSupport... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -6171,8 +6173,8 @@ $as_echo "$as_me: WARNING: lib$QT_LIB_PREFIXFontDatabaseSupport not found; hemis
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXEventDispatcherSupport not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}EventDispatcherSupport''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXEventDispatcherSupport not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}EventDispatcherSupport''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}EventDispatcherSupport" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}EventDispatcherSupport... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -6226,8 +6228,8 @@ $as_echo "$as_me: WARNING: lib$QT_LIB_PREFIXEventDispatcherSupport not found; he
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXThemeSupport not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}ThemeSupport''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXThemeSupport not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}ThemeSupport''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}ThemeSupport" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}ThemeSupport... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -6281,8 +6283,8 @@ $as_echo "$as_me: WARNING: lib$QT_LIB_PREFIXThemeSupport not found; hemis-qt fro
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXFbSupport not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}FbSupport''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXFbSupport not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}FbSupport''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}FbSupport" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}FbSupport... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -6336,8 +6338,8 @@ $as_echo "$as_me: WARNING: lib$QT_LIB_PREFIXFbSupport not found; hemis-qt fronte
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXDeviceDiscoverySupport not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}DeviceDiscoverySupport''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXDeviceDiscoverySupport not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}DeviceDiscoverySupport''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}DeviceDiscoverySupport" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}DeviceDiscoverySupport... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -6391,8 +6393,8 @@ $as_echo "$as_me: WARNING: lib$QT_LIB_PREFIXDeviceDiscoverySupport not found; he
 
 fi
 ])
-m4trace:configure.ac:1032: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXAccessibilitySupport not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}AccessibilitySupport''_main" | $as_tr_sh`
+m4trace:configure.ac:1034: -3- BITCOIN_QT_FAIL([lib$QT_LIB_PREFIXAccessibilitySupport not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([as_ac_Lib=`$as_echo "ac_cv_lib_${QT_LIB_PREFIX}AccessibilitySupport''_main" | $as_tr_sh`
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -l${QT_LIB_PREFIX}AccessibilitySupport" >&5
 $as_echo_n "checking for main in -l${QT_LIB_PREFIX}AccessibilitySupport... " >&6; }
 if eval \${$as_ac_Lib+:} false; then :
@@ -6446,27 +6448,27 @@ $as_echo "$as_me: WARNING: lib$QT_LIB_PREFIXAccessibilitySupport not found; hemi
 
 fi
 ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_STATICPLUGIN$])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QMinimalIntegrationPlugin)], [-lqminimal])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Could not resolve: -lqminimal])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_QPA_PLATFORM_MINIMAL$])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QSvgPlugin)], [-lqsvg])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Could not resolve: -lqsvg])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QGifPlugin)], [-lqgif])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Could not resolve: -lqgif])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QSvgIconPlugin)], [-lqsvgicon])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Could not resolve: -lqsvgicon])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QWindowsIntegrationPlugin)], [-lqwindows])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Could not resolve: -lqwindows])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_QPA_PLATFORM_WINDOWS$])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QXcbIntegrationPlugin)], [-lqxcb -lxcb-static])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Could not resolve: -lqxcb -lxcb-static])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_QPA_PLATFORM_XCB$])
-m4trace:configure.ac:1032: -1- AX_CHECK_LINK_FLAG([[-framework IOKit]], [QT_LIBS="$QT_LIBS -framework IOKit"], [AC_MSG_ERROR(could not iokit framework)])
-m4trace:configure.ac:1032: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QCocoaIntegrationPlugin)], [-lqcocoa])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([Could not resolve: -lqcocoa])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_QPA_PLATFORM_COCOA$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_STATICPLUGIN$])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QMinimalIntegrationPlugin)], [-lqminimal])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Could not resolve: -lqminimal])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_QPA_PLATFORM_MINIMAL$])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QSvgPlugin)], [-lqsvg])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Could not resolve: -lqsvg])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QGifPlugin)], [-lqgif])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Could not resolve: -lqgif])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QSvgIconPlugin)], [-lqsvgicon])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Could not resolve: -lqsvgicon])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QWindowsIntegrationPlugin)], [-lqwindows])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Could not resolve: -lqwindows])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_QPA_PLATFORM_WINDOWS$])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QXcbIntegrationPlugin)], [-lqxcb -lxcb-static])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Could not resolve: -lqxcb -lxcb-static])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_QPA_PLATFORM_XCB$])
+m4trace:configure.ac:1034: -1- AX_CHECK_LINK_FLAG([[-framework IOKit]], [QT_LIBS="$QT_LIBS -framework IOKit"], [AC_MSG_ERROR(could not iokit framework)])
+m4trace:configure.ac:1034: -1- _BITCOIN_QT_CHECK_STATIC_PLUGINS([Q_IMPORT_PLUGIN(QCocoaIntegrationPlugin)], [-lqcocoa])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([Could not resolve: -lqcocoa])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_QPA_PLATFORM_COCOA$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     AC_MSG_CHECKING([whether -fPIE can be used with this Qt config])
     TEMP_CPPFLAGS=$CPPFLAGS
     TEMP_CXXFLAGS=$CXXFLAGS
@@ -6489,7 +6491,7 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
     CPPFLAGS=$TEMP_CPPFLAGS
     CXXFLAGS=$TEMP_CXXFLAGS
     ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     AC_MSG_CHECKING([whether -fPIC is needed with this Qt config])
     TEMP_CPPFLAGS=$CPPFLAGS
     CPPFLAGS="$QT_INCLUDES $CPPFLAGS"
@@ -6509,8 +6511,8 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
     )
     CPPFLAGS=$TEMP_CPPFLAGS
     ])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_PATH_PROGS([MOC], [moc-qt5 moc5 moc], [$qt_bin_path])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- BITCOIN_QT_PATH_PROGS([MOC], [moc-qt5 moc5 moc], [$qt_bin_path])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$qt_bin_path" != x; then
       AC_PATH_PROGS(MOC,moc-qt5 moc5 moc,,$qt_bin_path)
     else
@@ -6520,11 +6522,11 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
       BITCOIN_QT_FAIL([MOC not found])
     fi
   ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^MOC$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^MOC$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([MOC not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_PATH_PROGS([UIC], [uic-qt5 uic5 uic], [$qt_bin_path])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^MOC$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^MOC$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([MOC not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_PATH_PROGS([UIC], [uic-qt5 uic5 uic], [$qt_bin_path])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$qt_bin_path" != x; then
       AC_PATH_PROGS(UIC,uic-qt5 uic5 uic,,$qt_bin_path)
     else
@@ -6534,11 +6536,11 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
       BITCOIN_QT_FAIL([UIC not found])
     fi
   ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^UIC$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^UIC$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([UIC not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_PATH_PROGS([RCC], [rcc-qt5 rcc5 rcc], [$qt_bin_path])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^UIC$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^UIC$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([UIC not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_PATH_PROGS([RCC], [rcc-qt5 rcc5 rcc], [$qt_bin_path])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$qt_bin_path" != x; then
       AC_PATH_PROGS(RCC,rcc-qt5 rcc5 rcc,,$qt_bin_path)
     else
@@ -6548,11 +6550,11 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
       BITCOIN_QT_FAIL([RCC not found])
     fi
   ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^RCC$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^RCC$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([RCC not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_PATH_PROGS([LRELEASE], [lrelease-qt5 lrelease5 lrelease], [$qt_bin_path])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^RCC$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^RCC$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([RCC not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_PATH_PROGS([LRELEASE], [lrelease-qt5 lrelease5 lrelease], [$qt_bin_path])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$qt_bin_path" != x; then
       AC_PATH_PROGS(LRELEASE,lrelease-qt5 lrelease5 lrelease,,$qt_bin_path)
     else
@@ -6562,11 +6564,11 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
       BITCOIN_QT_FAIL([LRELEASE not found])
     fi
   ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^LRELEASE$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^LRELEASE$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([LRELEASE not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_PATH_PROGS([LUPDATE], [lupdate-qt5 lupdate5 lupdate], [$qt_bin_path], [yes])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^LRELEASE$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^LRELEASE$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([LRELEASE not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_PATH_PROGS([LUPDATE], [lupdate-qt5 lupdate5 lupdate], [$qt_bin_path], [yes])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     if test "x$qt_bin_path" != x; then
       AC_PATH_PROGS(LUPDATE,lupdate-qt5 lupdate5 lupdate,,$qt_bin_path)
     else
@@ -6576,20 +6578,20 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
       BITCOIN_QT_FAIL([LUPDATE not found])
     fi
   ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^LUPDATE$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^LUPDATE$])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_FAIL([LUPDATE not found])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^LUPDATE$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^LUPDATE$])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_FAIL([LUPDATE not found])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
        MOC_DEFS="${MOC_DEFS} -DQ_OS_MAC"
        base_frameworks="-framework Foundation -framework ApplicationServices -framework AppKit"
        AX_CHECK_LINK_FLAG([[$base_frameworks]],[QT_LIBS="$QT_LIBS $base_frameworks"],[AC_MSG_ERROR([could not find base frameworks])])
      ])
-m4trace:configure.ac:1032: -1- AX_CHECK_LINK_FLAG([[$base_frameworks]], [QT_LIBS="$QT_LIBS $base_frameworks"], [AC_MSG_ERROR([could not find base frameworks])])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- AX_CHECK_LINK_FLAG([[$base_frameworks]], [QT_LIBS="$QT_LIBS $base_frameworks"], [AC_MSG_ERROR([could not find base frameworks])])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
          AX_CHECK_LINK_FLAG([[-mwindows]],[QT_LDFLAGS="$QT_LDFLAGS -mwindows"],[AC_MSG_WARN([-mwindows linker support not detected])])
        ])
-m4trace:configure.ac:1032: -1- AX_CHECK_LINK_FLAG([[-mwindows]], [QT_LDFLAGS="$QT_LDFLAGS -mwindows"], [AC_MSG_WARN([-mwindows linker support not detected])])
-m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
+m4trace:configure.ac:1034: -1- AX_CHECK_LINK_FLAG([[-mwindows]], [QT_LDFLAGS="$QT_LDFLAGS -mwindows"], [AC_MSG_WARN([-mwindows linker support not detected])])
+m4trace:configure.ac:1034: -1- BITCOIN_QT_CHECK([
     bitcoin_enable_qt=yes
     bitcoin_enable_qt_test=yes
     if test "x$have_qt_test" = xno; then
@@ -6608,367 +6610,367 @@ m4trace:configure.ac:1032: -1- BITCOIN_QT_CHECK([
   ], [
     bitcoin_enable_qt=no
   ])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_PIE_FLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_INCLUDES$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_LIBS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_LDFLAGS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_SVG_INCLUDES$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_SVG_LIBS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_DBUS_INCLUDES$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_DBUS_LIBS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_TEST_INCLUDES$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_TEST_LIBS$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^QT_SELECT$])
-m4trace:configure.ac:1032: -1- m4_pattern_allow([^MOC_DEFS$])
-m4trace:configure.ac:1037: -1- BITCOIN_FIND_BDB48
-m4trace:configure.ac:1037: -1- m4_pattern_allow([^BDB_CFLAGS$])
-m4trace:configure.ac:1037: -1- m4_pattern_allow([^BDB_LIBS$])
-m4trace:configure.ac:1037: -1- BITCOIN_SUBDIR_TO_INCLUDE([BDB_CPPFLAGS], [${bdbpath}], [db_cxx])
-m4trace:configure.ac:1037: -1- BITCOIN_SUBDIR_TO_INCLUDE([BDB_CPPFLAGS], [${bdb48path}], [db_cxx])
-m4trace:configure.ac:1037: -1- m4_pattern_allow([^BDB_CPPFLAGS$])
-m4trace:configure.ac:1037: -1- m4_pattern_allow([^BDB_LIBS$])
-m4trace:configure.ac:1071: -1- m4_pattern_allow([^HAVE_NATPMP_H$])
-m4trace:configure.ac:1088: -1- AX_BOOST_BASE([MINIMUM_REQUIRED_BOOST])
-m4trace:configure.ac:1088: -1- m4_pattern_allow([^BOOST_CPPFLAGS$])
-m4trace:configure.ac:1088: -1- m4_pattern_allow([^BOOST_LDFLAGS$])
-m4trace:configure.ac:1088: -1- m4_pattern_allow([^HAVE_BOOST$])
-m4trace:configure.ac:1092: -1- AX_BOOST_SYSTEM
-m4trace:configure.ac:1092: -1- m4_pattern_allow([^BOOST_CPPFLAGS$])
-m4trace:configure.ac:1092: -1- m4_pattern_allow([^HAVE_BOOST_SYSTEM$])
-m4trace:configure.ac:1092: -1- m4_pattern_allow([^BOOST_SYSTEM_LIB$])
-m4trace:configure.ac:1092: -1- m4_pattern_allow([^BOOST_SYSTEM_LIB$])
-m4trace:configure.ac:1092: -1- m4_pattern_allow([^BOOST_SYSTEM_LIB$])
-m4trace:configure.ac:1093: -1- AX_BOOST_FILESYSTEM
-m4trace:configure.ac:1093: -1- m4_pattern_allow([^HAVE_BOOST_FILESYSTEM$])
-m4trace:configure.ac:1093: -1- m4_pattern_allow([^BOOST_FILESYSTEM_LIB$])
-m4trace:configure.ac:1093: -1- m4_pattern_allow([^BOOST_FILESYSTEM_LIB$])
-m4trace:configure.ac:1093: -1- m4_pattern_allow([^BOOST_FILESYSTEM_LIB$])
-m4trace:configure.ac:1094: -1- AX_BOOST_THREAD
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_PIE_FLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_INCLUDES$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_LIBS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_LDFLAGS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_SVG_INCLUDES$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_SVG_LIBS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_DBUS_INCLUDES$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_DBUS_LIBS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_TEST_INCLUDES$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_TEST_LIBS$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^QT_SELECT$])
+m4trace:configure.ac:1034: -1- m4_pattern_allow([^MOC_DEFS$])
+m4trace:configure.ac:1039: -1- BITCOIN_FIND_BDB48
+m4trace:configure.ac:1039: -1- m4_pattern_allow([^BDB_CFLAGS$])
+m4trace:configure.ac:1039: -1- m4_pattern_allow([^BDB_LIBS$])
+m4trace:configure.ac:1039: -1- BITCOIN_SUBDIR_TO_INCLUDE([BDB_CPPFLAGS], [${bdbpath}], [db_cxx])
+m4trace:configure.ac:1039: -1- BITCOIN_SUBDIR_TO_INCLUDE([BDB_CPPFLAGS], [${bdb48path}], [db_cxx])
+m4trace:configure.ac:1039: -1- m4_pattern_allow([^BDB_CPPFLAGS$])
+m4trace:configure.ac:1039: -1- m4_pattern_allow([^BDB_LIBS$])
+m4trace:configure.ac:1073: -1- m4_pattern_allow([^HAVE_NATPMP_H$])
+m4trace:configure.ac:1090: -1- AX_BOOST_BASE([MINIMUM_REQUIRED_BOOST])
+m4trace:configure.ac:1090: -1- m4_pattern_allow([^BOOST_CPPFLAGS$])
+m4trace:configure.ac:1090: -1- m4_pattern_allow([^BOOST_LDFLAGS$])
+m4trace:configure.ac:1090: -1- m4_pattern_allow([^HAVE_BOOST$])
+m4trace:configure.ac:1094: -1- AX_BOOST_SYSTEM
 m4trace:configure.ac:1094: -1- m4_pattern_allow([^BOOST_CPPFLAGS$])
-m4trace:configure.ac:1094: -1- m4_pattern_allow([^HAVE_BOOST_THREAD$])
-m4trace:configure.ac:1094: -1- m4_pattern_allow([^BOOST_THREAD_LIB$])
-m4trace:configure.ac:1094: -1- m4_pattern_allow([^BOOST_THREAD_LIB$])
-m4trace:configure.ac:1094: -1- m4_pattern_allow([^BOOST_THREAD_LIB$])
-m4trace:configure.ac:1095: -1- AX_BOOST_CHRONO
-m4trace:configure.ac:1095: -1- m4_pattern_allow([^BOOST_CPPFLAGS$])
-m4trace:configure.ac:1095: -1- m4_pattern_allow([^HAVE_BOOST_CHRONO$])
-m4trace:configure.ac:1095: -1- m4_pattern_allow([^BOOST_CHRONO_LIB$])
-m4trace:configure.ac:1095: -1- m4_pattern_allow([^BOOST_CHRONO_LIB$])
-m4trace:configure.ac:1095: -1- m4_pattern_allow([^BOOST_CHRONO_LIB$])
-m4trace:configure.ac:1099: -1- m4_pattern_allow([DBOOST_AC_USE_STD_ATOMIC])
-m4trace:configure.ac:1105: -1- AX_CHECK_LINK_FLAG([[-Wl,--exclude-libs,ALL]], [RELDFLAGS="-Wl,--exclude-libs,ALL"])
-m4trace:configure.ac:1116: -1- m4_pattern_allow([^USE_CUSTOM_PARAMS$])
-m4trace:configure.ac:1122: -1- AX_BOOST_UNIT_TEST_FRAMEWORK
-m4trace:configure.ac:1122: -1- m4_pattern_allow([^HAVE_BOOST_UNIT_TEST_FRAMEWORK$])
-m4trace:configure.ac:1122: -1- m4_pattern_allow([^BOOST_UNIT_TEST_FRAMEWORK_LIB$])
-m4trace:configure.ac:1122: -1- m4_pattern_allow([^BOOST_UNIT_TEST_FRAMEWORK_LIB$])
-m4trace:configure.ac:1122: -1- m4_pattern_allow([^BOOST_UNIT_TEST_FRAMEWORK_LIB$])
-m4trace:configure.ac:1151: -1- BITCOIN_QT_CHECK([PKG_CHECK_MODULES([QR], [libqrencode],,[BITCOIN_QT_FAIL(libqrencode not found)])])
-m4trace:configure.ac:1151: -1- PKG_CHECK_MODULES([QR], [libqrencode], [], [BITCOIN_QT_FAIL(libqrencode not found)])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^QR_CFLAGS$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^QR_LIBS$])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libqrencode], [pkg_cv_[]QR_CFLAGS=`$PKG_CONFIG --[]cflags "libqrencode" 2>/dev/null`
+m4trace:configure.ac:1094: -1- m4_pattern_allow([^HAVE_BOOST_SYSTEM$])
+m4trace:configure.ac:1094: -1- m4_pattern_allow([^BOOST_SYSTEM_LIB$])
+m4trace:configure.ac:1094: -1- m4_pattern_allow([^BOOST_SYSTEM_LIB$])
+m4trace:configure.ac:1094: -1- m4_pattern_allow([^BOOST_SYSTEM_LIB$])
+m4trace:configure.ac:1095: -1- AX_BOOST_FILESYSTEM
+m4trace:configure.ac:1095: -1- m4_pattern_allow([^HAVE_BOOST_FILESYSTEM$])
+m4trace:configure.ac:1095: -1- m4_pattern_allow([^BOOST_FILESYSTEM_LIB$])
+m4trace:configure.ac:1095: -1- m4_pattern_allow([^BOOST_FILESYSTEM_LIB$])
+m4trace:configure.ac:1095: -1- m4_pattern_allow([^BOOST_FILESYSTEM_LIB$])
+m4trace:configure.ac:1096: -1- AX_BOOST_THREAD
+m4trace:configure.ac:1096: -1- m4_pattern_allow([^BOOST_CPPFLAGS$])
+m4trace:configure.ac:1096: -1- m4_pattern_allow([^HAVE_BOOST_THREAD$])
+m4trace:configure.ac:1096: -1- m4_pattern_allow([^BOOST_THREAD_LIB$])
+m4trace:configure.ac:1096: -1- m4_pattern_allow([^BOOST_THREAD_LIB$])
+m4trace:configure.ac:1096: -1- m4_pattern_allow([^BOOST_THREAD_LIB$])
+m4trace:configure.ac:1097: -1- AX_BOOST_CHRONO
+m4trace:configure.ac:1097: -1- m4_pattern_allow([^BOOST_CPPFLAGS$])
+m4trace:configure.ac:1097: -1- m4_pattern_allow([^HAVE_BOOST_CHRONO$])
+m4trace:configure.ac:1097: -1- m4_pattern_allow([^BOOST_CHRONO_LIB$])
+m4trace:configure.ac:1097: -1- m4_pattern_allow([^BOOST_CHRONO_LIB$])
+m4trace:configure.ac:1097: -1- m4_pattern_allow([^BOOST_CHRONO_LIB$])
+m4trace:configure.ac:1101: -1- m4_pattern_allow([DBOOST_AC_USE_STD_ATOMIC])
+m4trace:configure.ac:1107: -1- AX_CHECK_LINK_FLAG([[-Wl,--exclude-libs,ALL]], [RELDFLAGS="-Wl,--exclude-libs,ALL"])
+m4trace:configure.ac:1118: -1- m4_pattern_allow([^USE_CUSTOM_PARAMS$])
+m4trace:configure.ac:1124: -1- AX_BOOST_UNIT_TEST_FRAMEWORK
+m4trace:configure.ac:1124: -1- m4_pattern_allow([^HAVE_BOOST_UNIT_TEST_FRAMEWORK$])
+m4trace:configure.ac:1124: -1- m4_pattern_allow([^BOOST_UNIT_TEST_FRAMEWORK_LIB$])
+m4trace:configure.ac:1124: -1- m4_pattern_allow([^BOOST_UNIT_TEST_FRAMEWORK_LIB$])
+m4trace:configure.ac:1124: -1- m4_pattern_allow([^BOOST_UNIT_TEST_FRAMEWORK_LIB$])
+m4trace:configure.ac:1153: -1- BITCOIN_QT_CHECK([PKG_CHECK_MODULES([QR], [libqrencode],,[BITCOIN_QT_FAIL(libqrencode not found)])])
+m4trace:configure.ac:1153: -1- PKG_CHECK_MODULES([QR], [libqrencode], [], [BITCOIN_QT_FAIL(libqrencode not found)])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^QR_CFLAGS$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^QR_LIBS$])
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libqrencode], [pkg_cv_[]QR_CFLAGS=`$PKG_CONFIG --[]cflags "libqrencode" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libqrencode], [pkg_cv_[]QR_LIBS=`$PKG_CONFIG --[]libs "libqrencode" 2>/dev/null`
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libqrencode], [pkg_cv_[]QR_LIBS=`$PKG_CONFIG --[]libs "libqrencode" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1151: -1- BITCOIN_QT_FAIL([libqrencode not found])
-m4trace:configure.ac:1151: -1- BITCOIN_QT_FAIL([libqrencode not found])
-m4trace:configure.ac:1151: -1- BITCOIN_QT_CHECK([PKG_CHECK_MODULES([CHARTS], [Qt5Charts],[have_qtcharts=yes], [have_qtcharts=no])])
-m4trace:configure.ac:1151: -1- PKG_CHECK_MODULES([CHARTS], [Qt5Charts], [have_qtcharts=yes], [have_qtcharts=no])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^CHARTS_CFLAGS$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^CHARTS_LIBS$])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([Qt5Charts], [pkg_cv_[]CHARTS_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5Charts" 2>/dev/null`
+m4trace:configure.ac:1153: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1153: -1- BITCOIN_QT_FAIL([libqrencode not found])
+m4trace:configure.ac:1153: -1- BITCOIN_QT_FAIL([libqrencode not found])
+m4trace:configure.ac:1153: -1- BITCOIN_QT_CHECK([PKG_CHECK_MODULES([CHARTS], [Qt5Charts],[have_qtcharts=yes], [have_qtcharts=no])])
+m4trace:configure.ac:1153: -1- PKG_CHECK_MODULES([CHARTS], [Qt5Charts], [have_qtcharts=yes], [have_qtcharts=no])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^CHARTS_CFLAGS$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^CHARTS_LIBS$])
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([Qt5Charts], [pkg_cv_[]CHARTS_CFLAGS=`$PKG_CONFIG --[]cflags "Qt5Charts" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([Qt5Charts], [pkg_cv_[]CHARTS_LIBS=`$PKG_CONFIG --[]libs "Qt5Charts" 2>/dev/null`
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([Qt5Charts], [pkg_cv_[]CHARTS_LIBS=`$PKG_CONFIG --[]libs "Qt5Charts" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1151: -1- PKG_CHECK_MODULES([EVENT], [libevent], [], [AC_MSG_ERROR(libevent not found.)])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^EVENT_CFLAGS$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^EVENT_LIBS$])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libevent], [pkg_cv_[]EVENT_CFLAGS=`$PKG_CONFIG --[]cflags "libevent" 2>/dev/null`
+m4trace:configure.ac:1153: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1153: -1- PKG_CHECK_MODULES([EVENT], [libevent], [], [AC_MSG_ERROR(libevent not found.)])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^EVENT_CFLAGS$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^EVENT_LIBS$])
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libevent], [pkg_cv_[]EVENT_CFLAGS=`$PKG_CONFIG --[]cflags "libevent" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libevent], [pkg_cv_[]EVENT_LIBS=`$PKG_CONFIG --[]libs "libevent" 2>/dev/null`
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libevent], [pkg_cv_[]EVENT_LIBS=`$PKG_CONFIG --[]libs "libevent" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1151: -1- PKG_CHECK_MODULES([EVENT_PTHREADS], [libevent_pthreads], [], [AC_MSG_ERROR(libevent_pthreads not found.)])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^EVENT_PTHREADS_CFLAGS$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^EVENT_PTHREADS_LIBS$])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libevent_pthreads], [pkg_cv_[]EVENT_PTHREADS_CFLAGS=`$PKG_CONFIG --[]cflags "libevent_pthreads" 2>/dev/null`
+m4trace:configure.ac:1153: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1153: -1- PKG_CHECK_MODULES([EVENT_PTHREADS], [libevent_pthreads], [], [AC_MSG_ERROR(libevent_pthreads not found.)])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^EVENT_PTHREADS_CFLAGS$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^EVENT_PTHREADS_LIBS$])
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libevent_pthreads], [pkg_cv_[]EVENT_PTHREADS_CFLAGS=`$PKG_CONFIG --[]cflags "libevent_pthreads" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libevent_pthreads], [pkg_cv_[]EVENT_PTHREADS_LIBS=`$PKG_CONFIG --[]libs "libevent_pthreads" 2>/dev/null`
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libevent_pthreads], [pkg_cv_[]EVENT_PTHREADS_LIBS=`$PKG_CONFIG --[]libs "libevent_pthreads" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1151: -1- PKG_CHECK_MODULES([SODIUM], [libsodium], [], [AC_MSG_ERROR(libsodium not found.)])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^SODIUM_CFLAGS$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^SODIUM_LIBS$])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libsodium], [pkg_cv_[]SODIUM_CFLAGS=`$PKG_CONFIG --[]cflags "libsodium" 2>/dev/null`
+m4trace:configure.ac:1153: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1153: -1- PKG_CHECK_MODULES([SODIUM], [libsodium], [], [AC_MSG_ERROR(libsodium not found.)])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^SODIUM_CFLAGS$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^SODIUM_LIBS$])
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libsodium], [pkg_cv_[]SODIUM_CFLAGS=`$PKG_CONFIG --[]cflags "libsodium" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libsodium], [pkg_cv_[]SODIUM_LIBS=`$PKG_CONFIG --[]libs "libsodium" 2>/dev/null`
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libsodium], [pkg_cv_[]SODIUM_LIBS=`$PKG_CONFIG --[]libs "libsodium" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1151: -1- PKG_CHECK_MODULES([ZMQ], [libzmq >= 4], [AC_DEFINE([ENABLE_ZMQ],[1],[Define to 1 to enable ZMQ functions])], [AC_DEFINE([ENABLE_ZMQ],[0],[Define to 1 to enable ZMQ functions])
+m4trace:configure.ac:1153: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1153: -1- PKG_CHECK_MODULES([ZMQ], [libzmq >= 4], [AC_DEFINE([ENABLE_ZMQ],[1],[Define to 1 to enable ZMQ functions])], [AC_DEFINE([ENABLE_ZMQ],[0],[Define to 1 to enable ZMQ functions])
            AC_MSG_WARN([libzmq version 4.x or greater not found, disabling])
            use_zmq=no])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^ZMQ_CFLAGS$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^ZMQ_LIBS$])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libzmq >= 4], [pkg_cv_[]ZMQ_CFLAGS=`$PKG_CONFIG --[]cflags "libzmq >= 4" 2>/dev/null`
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^ZMQ_CFLAGS$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^ZMQ_LIBS$])
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libzmq >= 4], [pkg_cv_[]ZMQ_CFLAGS=`$PKG_CONFIG --[]cflags "libzmq >= 4" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- PKG_CHECK_EXISTS([libzmq >= 4], [pkg_cv_[]ZMQ_LIBS=`$PKG_CONFIG --[]libs "libzmq >= 4" 2>/dev/null`
+m4trace:configure.ac:1153: -1- PKG_CHECK_EXISTS([libzmq >= 4], [pkg_cv_[]ZMQ_LIBS=`$PKG_CONFIG --[]libs "libzmq >= 4" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1151: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1151: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1191: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1191: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1196: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1201: -1- m4_pattern_allow([^ENABLE_ZMQ$])
-m4trace:configure.ac:1213: -1- BITCOIN_QT_CHECK([AC_CHECK_LIB([qrencode], [main],[QR_LIBS=-lqrencode], BITCOIN_QT_FAIL(libqrencode not found))])
-m4trace:configure.ac:1213: -2- BITCOIN_QT_FAIL([libqrencode not found])
-m4trace:configure.ac:1214: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([qrencode.h],, BITCOIN_QT_FAIL(libqrencode not found))])
-m4trace:configure.ac:1214: -2- BITCOIN_QT_FAIL([libqrencode not found])
-m4trace:configure.ac:1216: -1- BITCOIN_QT_CHECK([AC_CHECK_LIB([Qt5Charts], [main],[CHARTS_LIBS=-lQt5Charts], [have_qtcharts=no])])
-m4trace:configure.ac:1217: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QtCharts/qchartview.h],, have_qtcharts=no)])
-m4trace:configure.ac:1222: -1- GMP_CHECK
-m4trace:configure.ac:1239: -1- PKG_CHECK_MODULES([UNIVALUE], [libunivalue >= 1.0.4], [found_univalue=yes], [true])
-m4trace:configure.ac:1239: -1- m4_pattern_allow([^UNIVALUE_CFLAGS$])
-m4trace:configure.ac:1239: -1- m4_pattern_allow([^UNIVALUE_LIBS$])
-m4trace:configure.ac:1239: -1- PKG_CHECK_EXISTS([libunivalue >= 1.0.4], [pkg_cv_[]UNIVALUE_CFLAGS=`$PKG_CONFIG --[]cflags "libunivalue >= 1.0.4" 2>/dev/null`
+m4trace:configure.ac:1153: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1153: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1193: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1193: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1198: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1203: -1- m4_pattern_allow([^ENABLE_ZMQ$])
+m4trace:configure.ac:1215: -1- BITCOIN_QT_CHECK([AC_CHECK_LIB([qrencode], [main],[QR_LIBS=-lqrencode], BITCOIN_QT_FAIL(libqrencode not found))])
+m4trace:configure.ac:1215: -2- BITCOIN_QT_FAIL([libqrencode not found])
+m4trace:configure.ac:1216: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([qrencode.h],, BITCOIN_QT_FAIL(libqrencode not found))])
+m4trace:configure.ac:1216: -2- BITCOIN_QT_FAIL([libqrencode not found])
+m4trace:configure.ac:1218: -1- BITCOIN_QT_CHECK([AC_CHECK_LIB([Qt5Charts], [main],[CHARTS_LIBS=-lQt5Charts], [have_qtcharts=no])])
+m4trace:configure.ac:1219: -1- BITCOIN_QT_CHECK([AC_CHECK_HEADER([QtCharts/qchartview.h],, have_qtcharts=no)])
+m4trace:configure.ac:1224: -1- GMP_CHECK
+m4trace:configure.ac:1241: -1- PKG_CHECK_MODULES([UNIVALUE], [libunivalue >= 1.0.4], [found_univalue=yes], [true])
+m4trace:configure.ac:1241: -1- m4_pattern_allow([^UNIVALUE_CFLAGS$])
+m4trace:configure.ac:1241: -1- m4_pattern_allow([^UNIVALUE_LIBS$])
+m4trace:configure.ac:1241: -1- PKG_CHECK_EXISTS([libunivalue >= 1.0.4], [pkg_cv_[]UNIVALUE_CFLAGS=`$PKG_CONFIG --[]cflags "libunivalue >= 1.0.4" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1239: -1- PKG_CHECK_EXISTS([libunivalue >= 1.0.4], [pkg_cv_[]UNIVALUE_LIBS=`$PKG_CONFIG --[]libs "libunivalue >= 1.0.4" 2>/dev/null`
+m4trace:configure.ac:1241: -1- PKG_CHECK_EXISTS([libunivalue >= 1.0.4], [pkg_cv_[]UNIVALUE_LIBS=`$PKG_CONFIG --[]libs "libunivalue >= 1.0.4" 2>/dev/null`
 		      test "x$?" != "x0" && pkg_failed=yes ], [pkg_failed=yes])
-m4trace:configure.ac:1239: -1- _PKG_SHORT_ERRORS_SUPPORTED
-m4trace:configure.ac:1271: -1- AM_CONDITIONAL([EMBEDDED_UNIVALUE], [test x$need_bundled_univalue = xyes])
-m4trace:configure.ac:1271: -1- m4_pattern_allow([^EMBEDDED_UNIVALUE_TRUE$])
-m4trace:configure.ac:1271: -1- m4_pattern_allow([^EMBEDDED_UNIVALUE_FALSE$])
-m4trace:configure.ac:1271: -1- _AM_SUBST_NOTMAKE([EMBEDDED_UNIVALUE_TRUE])
-m4trace:configure.ac:1271: -1- _AM_SUBST_NOTMAKE([EMBEDDED_UNIVALUE_FALSE])
-m4trace:configure.ac:1272: -1- m4_pattern_allow([^UNIVALUE_CFLAGS$])
-m4trace:configure.ac:1273: -1- m4_pattern_allow([^UNIVALUE_LIBS$])
-m4trace:configure.ac:1288: -1- AM_CONDITIONAL([HAVE_RUST_TARGET], [test -n "$RUST_TARGET"])
-m4trace:configure.ac:1288: -1- m4_pattern_allow([^HAVE_RUST_TARGET_TRUE$])
-m4trace:configure.ac:1288: -1- m4_pattern_allow([^HAVE_RUST_TARGET_FALSE$])
-m4trace:configure.ac:1288: -1- _AM_SUBST_NOTMAKE([HAVE_RUST_TARGET_TRUE])
-m4trace:configure.ac:1288: -1- _AM_SUBST_NOTMAKE([HAVE_RUST_TARGET_FALSE])
-m4trace:configure.ac:1291: -1- AX_CHECK_COMPILE_FLAG([-fno-strict-aliasing], [CXXFLAGS="$CXXFLAGS -fno-strict-aliasing"])
-m4trace:configure.ac:1292: -1- AX_CHECK_COMPILE_FLAG([-Wno-builtin-declaration-mismatch], [CXXFLAGS="$CXXFLAGS -Wno-builtin-declaration-mismatch"], [], [[$CXXFLAG_WERROR]])
-m4trace:configure.ac:1297: -1- AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
-m4trace:configure.ac:1297: -1- m4_pattern_allow([^BUILD_BITCOIND_TRUE$])
-m4trace:configure.ac:1297: -1- m4_pattern_allow([^BUILD_BITCOIND_FALSE$])
-m4trace:configure.ac:1297: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIND_TRUE])
-m4trace:configure.ac:1297: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIND_FALSE])
-m4trace:configure.ac:1301: -1- AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
-m4trace:configure.ac:1301: -1- m4_pattern_allow([^BUILD_BITCOIN_UTILS_TRUE$])
-m4trace:configure.ac:1301: -1- m4_pattern_allow([^BUILD_BITCOIN_UTILS_FALSE$])
-m4trace:configure.ac:1301: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_UTILS_TRUE])
-m4trace:configure.ac:1301: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_UTILS_FALSE])
-m4trace:configure.ac:1305: -1- AM_CONDITIONAL([BUILD_BITCOIN_LIBS], [test x$build_bitcoin_libs = xyes])
-m4trace:configure.ac:1305: -1- m4_pattern_allow([^BUILD_BITCOIN_LIBS_TRUE$])
-m4trace:configure.ac:1305: -1- m4_pattern_allow([^BUILD_BITCOIN_LIBS_FALSE$])
-m4trace:configure.ac:1305: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_LIBS_TRUE])
-m4trace:configure.ac:1305: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_LIBS_FALSE])
-m4trace:configure.ac:1307: -1- m4_pattern_allow([^HAVE_CONSENSUS_LIB$])
-m4trace:configure.ac:1330: -1- AX_CHECK_PREPROC_FLAG([-Qunused-arguments], [CPPFLAGS="-Qunused-arguments $CPPFLAGS"])
-m4trace:configure.ac:1337: -1- m4_pattern_allow([^ENABLE_WALLET$])
-m4trace:configure.ac:1347: -1- m4_pattern_allow([^ENABLE_MINING_RPC$])
-m4trace:configure.ac:1372: -1- m4_pattern_allow([^USE_UPNP$])
-m4trace:configure.ac:1400: -1- m4_pattern_allow([^USE_NATPMP$])
-m4trace:configure.ac:1415: -1- m4_pattern_allow([^USE_DBUS$])
-m4trace:configure.ac:1430: -1- m4_pattern_allow([^USE_QTCHARTS$])
-m4trace:configure.ac:1450: -1- AM_CONDITIONAL([ENABLE_ZMQ], [test "x$use_zmq" = "xyes"])
-m4trace:configure.ac:1450: -1- m4_pattern_allow([^ENABLE_ZMQ_TRUE$])
-m4trace:configure.ac:1450: -1- m4_pattern_allow([^ENABLE_ZMQ_FALSE$])
-m4trace:configure.ac:1450: -1- _AM_SUBST_NOTMAKE([ENABLE_ZMQ_TRUE])
-m4trace:configure.ac:1450: -1- _AM_SUBST_NOTMAKE([ENABLE_ZMQ_FALSE])
-m4trace:configure.ac:1472: -1- AM_CONDITIONAL([TARGET_DARWIN], [test x$TARGET_OS = xdarwin])
-m4trace:configure.ac:1472: -1- m4_pattern_allow([^TARGET_DARWIN_TRUE$])
-m4trace:configure.ac:1472: -1- m4_pattern_allow([^TARGET_DARWIN_FALSE$])
-m4trace:configure.ac:1472: -1- _AM_SUBST_NOTMAKE([TARGET_DARWIN_TRUE])
-m4trace:configure.ac:1472: -1- _AM_SUBST_NOTMAKE([TARGET_DARWIN_FALSE])
-m4trace:configure.ac:1473: -1- AM_CONDITIONAL([BUILD_DARWIN], [test x$BUILD_OS = xdarwin])
-m4trace:configure.ac:1473: -1- m4_pattern_allow([^BUILD_DARWIN_TRUE$])
-m4trace:configure.ac:1473: -1- m4_pattern_allow([^BUILD_DARWIN_FALSE$])
-m4trace:configure.ac:1473: -1- _AM_SUBST_NOTMAKE([BUILD_DARWIN_TRUE])
-m4trace:configure.ac:1473: -1- _AM_SUBST_NOTMAKE([BUILD_DARWIN_FALSE])
-m4trace:configure.ac:1474: -1- AM_CONDITIONAL([TARGET_WINDOWS], [test x$TARGET_OS = xwindows])
-m4trace:configure.ac:1474: -1- m4_pattern_allow([^TARGET_WINDOWS_TRUE$])
-m4trace:configure.ac:1474: -1- m4_pattern_allow([^TARGET_WINDOWS_FALSE$])
-m4trace:configure.ac:1474: -1- _AM_SUBST_NOTMAKE([TARGET_WINDOWS_TRUE])
-m4trace:configure.ac:1474: -1- _AM_SUBST_NOTMAKE([TARGET_WINDOWS_FALSE])
-m4trace:configure.ac:1475: -1- AM_CONDITIONAL([ENABLE_WALLET], [test x$enable_wallet = xyes])
-m4trace:configure.ac:1475: -1- m4_pattern_allow([^ENABLE_WALLET_TRUE$])
-m4trace:configure.ac:1475: -1- m4_pattern_allow([^ENABLE_WALLET_FALSE$])
-m4trace:configure.ac:1475: -1- _AM_SUBST_NOTMAKE([ENABLE_WALLET_TRUE])
-m4trace:configure.ac:1475: -1- _AM_SUBST_NOTMAKE([ENABLE_WALLET_FALSE])
-m4trace:configure.ac:1476: -1- AM_CONDITIONAL([ENABLE_MINING_RPC], [test x$enable_mining_rpc = xyes])
-m4trace:configure.ac:1476: -1- m4_pattern_allow([^ENABLE_MINING_RPC_TRUE$])
-m4trace:configure.ac:1476: -1- m4_pattern_allow([^ENABLE_MINING_RPC_FALSE$])
-m4trace:configure.ac:1476: -1- _AM_SUBST_NOTMAKE([ENABLE_MINING_RPC_TRUE])
-m4trace:configure.ac:1476: -1- _AM_SUBST_NOTMAKE([ENABLE_MINING_RPC_FALSE])
-m4trace:configure.ac:1477: -1- AM_CONDITIONAL([ENABLE_TESTS], [test x$BUILD_TEST = xyes])
-m4trace:configure.ac:1477: -1- m4_pattern_allow([^ENABLE_TESTS_TRUE$])
-m4trace:configure.ac:1477: -1- m4_pattern_allow([^ENABLE_TESTS_FALSE$])
-m4trace:configure.ac:1477: -1- _AM_SUBST_NOTMAKE([ENABLE_TESTS_TRUE])
-m4trace:configure.ac:1477: -1- _AM_SUBST_NOTMAKE([ENABLE_TESTS_FALSE])
-m4trace:configure.ac:1478: -1- AM_CONDITIONAL([ENABLE_FUZZ], [test x$enable_fuzz = xyes])
-m4trace:configure.ac:1478: -1- m4_pattern_allow([^ENABLE_FUZZ_TRUE$])
-m4trace:configure.ac:1478: -1- m4_pattern_allow([^ENABLE_FUZZ_FALSE$])
-m4trace:configure.ac:1478: -1- _AM_SUBST_NOTMAKE([ENABLE_FUZZ_TRUE])
-m4trace:configure.ac:1478: -1- _AM_SUBST_NOTMAKE([ENABLE_FUZZ_FALSE])
-m4trace:configure.ac:1479: -1- AM_CONDITIONAL([ENABLE_QT], [test x$bitcoin_enable_qt = xyes])
-m4trace:configure.ac:1479: -1- m4_pattern_allow([^ENABLE_QT_TRUE$])
-m4trace:configure.ac:1479: -1- m4_pattern_allow([^ENABLE_QT_FALSE$])
-m4trace:configure.ac:1479: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_TRUE])
-m4trace:configure.ac:1479: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_FALSE])
-m4trace:configure.ac:1480: -1- AM_CONDITIONAL([ENABLE_QT_TESTS], [test x$BUILD_TEST_QT = xyes])
-m4trace:configure.ac:1480: -1- m4_pattern_allow([^ENABLE_QT_TESTS_TRUE$])
-m4trace:configure.ac:1480: -1- m4_pattern_allow([^ENABLE_QT_TESTS_FALSE$])
-m4trace:configure.ac:1480: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_TESTS_TRUE])
-m4trace:configure.ac:1480: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_TESTS_FALSE])
-m4trace:configure.ac:1481: -1- AM_CONDITIONAL([ENABLE_BENCH], [test x$use_bench = xyes])
-m4trace:configure.ac:1481: -1- m4_pattern_allow([^ENABLE_BENCH_TRUE$])
-m4trace:configure.ac:1481: -1- m4_pattern_allow([^ENABLE_BENCH_FALSE$])
-m4trace:configure.ac:1481: -1- _AM_SUBST_NOTMAKE([ENABLE_BENCH_TRUE])
-m4trace:configure.ac:1481: -1- _AM_SUBST_NOTMAKE([ENABLE_BENCH_FALSE])
-m4trace:configure.ac:1482: -1- AM_CONDITIONAL([USE_QTCHARTS], [test x$use_qtcharts = xyes])
-m4trace:configure.ac:1482: -1- m4_pattern_allow([^USE_QTCHARTS_TRUE$])
-m4trace:configure.ac:1482: -1- m4_pattern_allow([^USE_QTCHARTS_FALSE$])
-m4trace:configure.ac:1482: -1- _AM_SUBST_NOTMAKE([USE_QTCHARTS_TRUE])
-m4trace:configure.ac:1482: -1- _AM_SUBST_NOTMAKE([USE_QTCHARTS_FALSE])
-m4trace:configure.ac:1483: -1- AM_CONDITIONAL([USE_CUSTOM_PARAMS], [test x$use_custom_params = xyes])
-m4trace:configure.ac:1483: -1- m4_pattern_allow([^USE_CUSTOM_PARAMS_TRUE$])
-m4trace:configure.ac:1483: -1- m4_pattern_allow([^USE_CUSTOM_PARAMS_FALSE$])
-m4trace:configure.ac:1483: -1- _AM_SUBST_NOTMAKE([USE_CUSTOM_PARAMS_TRUE])
-m4trace:configure.ac:1483: -1- _AM_SUBST_NOTMAKE([USE_CUSTOM_PARAMS_FALSE])
-m4trace:configure.ac:1484: -1- AM_CONDITIONAL([USE_LCOV], [test x$use_lcov = xyes])
-m4trace:configure.ac:1484: -1- m4_pattern_allow([^USE_LCOV_TRUE$])
-m4trace:configure.ac:1484: -1- m4_pattern_allow([^USE_LCOV_FALSE$])
-m4trace:configure.ac:1484: -1- _AM_SUBST_NOTMAKE([USE_LCOV_TRUE])
-m4trace:configure.ac:1484: -1- _AM_SUBST_NOTMAKE([USE_LCOV_FALSE])
-m4trace:configure.ac:1485: -1- AM_CONDITIONAL([GLIBC_BACK_COMPAT], [test x$use_glibc_compat = xyes])
-m4trace:configure.ac:1485: -1- m4_pattern_allow([^GLIBC_BACK_COMPAT_TRUE$])
-m4trace:configure.ac:1485: -1- m4_pattern_allow([^GLIBC_BACK_COMPAT_FALSE$])
-m4trace:configure.ac:1485: -1- _AM_SUBST_NOTMAKE([GLIBC_BACK_COMPAT_TRUE])
-m4trace:configure.ac:1485: -1- _AM_SUBST_NOTMAKE([GLIBC_BACK_COMPAT_FALSE])
-m4trace:configure.ac:1486: -1- AM_CONDITIONAL([HARDEN], [test x$use_hardening = xyes])
-m4trace:configure.ac:1486: -1- m4_pattern_allow([^HARDEN_TRUE$])
-m4trace:configure.ac:1486: -1- m4_pattern_allow([^HARDEN_FALSE$])
-m4trace:configure.ac:1486: -1- _AM_SUBST_NOTMAKE([HARDEN_TRUE])
-m4trace:configure.ac:1486: -1- _AM_SUBST_NOTMAKE([HARDEN_FALSE])
-m4trace:configure.ac:1487: -1- AM_CONDITIONAL([ENABLE_SSE42], [test x$enable_sse42 = xyes])
-m4trace:configure.ac:1487: -1- m4_pattern_allow([^ENABLE_SSE42_TRUE$])
-m4trace:configure.ac:1487: -1- m4_pattern_allow([^ENABLE_SSE42_FALSE$])
-m4trace:configure.ac:1487: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE42_TRUE])
-m4trace:configure.ac:1487: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE42_FALSE])
-m4trace:configure.ac:1488: -1- AM_CONDITIONAL([ENABLE_SSE41], [test x$enable_sse41 = xyes])
-m4trace:configure.ac:1488: -1- m4_pattern_allow([^ENABLE_SSE41_TRUE$])
-m4trace:configure.ac:1488: -1- m4_pattern_allow([^ENABLE_SSE41_FALSE$])
-m4trace:configure.ac:1488: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE41_TRUE])
-m4trace:configure.ac:1488: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE41_FALSE])
-m4trace:configure.ac:1489: -1- AM_CONDITIONAL([ENABLE_AVX2], [test x$enable_avx2 = xyes])
-m4trace:configure.ac:1489: -1- m4_pattern_allow([^ENABLE_AVX2_TRUE$])
-m4trace:configure.ac:1489: -1- m4_pattern_allow([^ENABLE_AVX2_FALSE$])
-m4trace:configure.ac:1489: -1- _AM_SUBST_NOTMAKE([ENABLE_AVX2_TRUE])
-m4trace:configure.ac:1489: -1- _AM_SUBST_NOTMAKE([ENABLE_AVX2_FALSE])
-m4trace:configure.ac:1490: -1- AM_CONDITIONAL([ENABLE_SHANI], [test x$enable_shani = xyes])
-m4trace:configure.ac:1490: -1- m4_pattern_allow([^ENABLE_SHANI_TRUE$])
-m4trace:configure.ac:1490: -1- m4_pattern_allow([^ENABLE_SHANI_FALSE$])
-m4trace:configure.ac:1490: -1- _AM_SUBST_NOTMAKE([ENABLE_SHANI_TRUE])
-m4trace:configure.ac:1490: -1- _AM_SUBST_NOTMAKE([ENABLE_SHANI_FALSE])
-m4trace:configure.ac:1491: -1- AM_CONDITIONAL([ENABLE_ARM_CRC], [test x$enable_arm_crc = xyes])
-m4trace:configure.ac:1491: -1- m4_pattern_allow([^ENABLE_ARM_CRC_TRUE$])
-m4trace:configure.ac:1491: -1- m4_pattern_allow([^ENABLE_ARM_CRC_FALSE$])
-m4trace:configure.ac:1491: -1- _AM_SUBST_NOTMAKE([ENABLE_ARM_CRC_TRUE])
-m4trace:configure.ac:1491: -1- _AM_SUBST_NOTMAKE([ENABLE_ARM_CRC_FALSE])
-m4trace:configure.ac:1492: -1- AM_CONDITIONAL([USE_ASM], [test x$use_asm = xyes])
-m4trace:configure.ac:1492: -1- m4_pattern_allow([^USE_ASM_TRUE$])
-m4trace:configure.ac:1492: -1- m4_pattern_allow([^USE_ASM_FALSE$])
-m4trace:configure.ac:1492: -1- _AM_SUBST_NOTMAKE([USE_ASM_TRUE])
-m4trace:configure.ac:1492: -1- _AM_SUBST_NOTMAKE([USE_ASM_FALSE])
-m4trace:configure.ac:1493: -1- AM_CONDITIONAL([WORDS_BIGENDIAN], [test x$ac_cv_c_bigendian = xyes])
-m4trace:configure.ac:1493: -1- m4_pattern_allow([^WORDS_BIGENDIAN_TRUE$])
-m4trace:configure.ac:1493: -1- m4_pattern_allow([^WORDS_BIGENDIAN_FALSE$])
-m4trace:configure.ac:1493: -1- _AM_SUBST_NOTMAKE([WORDS_BIGENDIAN_TRUE])
-m4trace:configure.ac:1493: -1- _AM_SUBST_NOTMAKE([WORDS_BIGENDIAN_FALSE])
-m4trace:configure.ac:1495: -1- m4_pattern_allow([^CLIENT_VERSION_MAJOR$])
-m4trace:configure.ac:1496: -1- m4_pattern_allow([^CLIENT_VERSION_MINOR$])
-m4trace:configure.ac:1497: -1- m4_pattern_allow([^CLIENT_VERSION_REVISION$])
-m4trace:configure.ac:1498: -1- m4_pattern_allow([^CLIENT_VERSION_BUILD$])
-m4trace:configure.ac:1499: -1- m4_pattern_allow([^CLIENT_VERSION_IS_RELEASE$])
-m4trace:configure.ac:1500: -1- m4_pattern_allow([^COPYRIGHT_YEAR$])
-m4trace:configure.ac:1501: -1- m4_pattern_allow([^PARAMS_DIR$])
-m4trace:configure.ac:1502: -1- m4_pattern_allow([^CLIENT_VERSION_MAJOR$])
-m4trace:configure.ac:1503: -1- m4_pattern_allow([^CLIENT_VERSION_MINOR$])
-m4trace:configure.ac:1504: -1- m4_pattern_allow([^CLIENT_VERSION_REVISION$])
-m4trace:configure.ac:1505: -1- m4_pattern_allow([^CLIENT_VERSION_BUILD$])
-m4trace:configure.ac:1506: -1- m4_pattern_allow([^CLIENT_VERSION_IS_RELEASE$])
-m4trace:configure.ac:1507: -1- m4_pattern_allow([^COPYRIGHT_YEAR$])
-m4trace:configure.ac:1508: -1- m4_pattern_allow([^BITCOIN_DAEMON_NAME$])
-m4trace:configure.ac:1509: -1- m4_pattern_allow([^BITCOIN_GUI_NAME$])
-m4trace:configure.ac:1510: -1- m4_pattern_allow([^BITCOIN_CLI_NAME$])
-m4trace:configure.ac:1511: -1- m4_pattern_allow([^BITCOIN_TX_NAME$])
-m4trace:configure.ac:1513: -1- m4_pattern_allow([^RUST_TARGET$])
-m4trace:configure.ac:1514: -1- m4_pattern_allow([^RUST_VENDORED_SOURCES$])
-m4trace:configure.ac:1515: -1- m4_pattern_allow([^RELDFLAGS$])
-m4trace:configure.ac:1516: -1- m4_pattern_allow([^DEBUG_CPPFLAGS$])
-m4trace:configure.ac:1517: -1- m4_pattern_allow([^WARN_CXXFLAGS$])
-m4trace:configure.ac:1518: -1- m4_pattern_allow([^NOWARN_CXXFLAGS$])
-m4trace:configure.ac:1519: -1- m4_pattern_allow([^DEBUG_CXXFLAGS$])
-m4trace:configure.ac:1520: -1- m4_pattern_allow([^COMPAT_LDFLAGS$])
-m4trace:configure.ac:1521: -1- m4_pattern_allow([^ERROR_CXXFLAGS$])
-m4trace:configure.ac:1522: -1- m4_pattern_allow([^GPROF_CXXFLAGS$])
-m4trace:configure.ac:1523: -1- m4_pattern_allow([^GPROF_LDFLAGS$])
-m4trace:configure.ac:1524: -1- m4_pattern_allow([^HARDENED_CXXFLAGS$])
-m4trace:configure.ac:1525: -1- m4_pattern_allow([^HARDENED_CPPFLAGS$])
-m4trace:configure.ac:1526: -1- m4_pattern_allow([^HARDENED_LDFLAGS$])
-m4trace:configure.ac:1527: -1- m4_pattern_allow([^PIC_FLAGS$])
-m4trace:configure.ac:1528: -1- m4_pattern_allow([^PIE_FLAGS$])
-m4trace:configure.ac:1529: -1- m4_pattern_allow([^SANITIZER_CXXFLAGS$])
-m4trace:configure.ac:1530: -1- m4_pattern_allow([^SANITIZER_LDFLAGS$])
-m4trace:configure.ac:1531: -1- m4_pattern_allow([^SSE42_CXXFLAGS$])
-m4trace:configure.ac:1532: -1- m4_pattern_allow([^SSE41_CXXFLAGS$])
-m4trace:configure.ac:1533: -1- m4_pattern_allow([^AVX2_CXXFLAGS$])
-m4trace:configure.ac:1534: -1- m4_pattern_allow([^SHANI_CXXFLAGS$])
-m4trace:configure.ac:1535: -1- m4_pattern_allow([^ARM_CRC_CXXFLAGS$])
-m4trace:configure.ac:1536: -1- m4_pattern_allow([^LIBTOOL_APP_LDFLAGS$])
-m4trace:configure.ac:1537: -1- m4_pattern_allow([^USE_UPNP$])
-m4trace:configure.ac:1538: -1- m4_pattern_allow([^USE_QTCHARTS$])
-m4trace:configure.ac:1539: -1- m4_pattern_allow([^BOOST_LIBS$])
-m4trace:configure.ac:1540: -1- m4_pattern_allow([^TESTDEFS$])
-m4trace:configure.ac:1541: -1- m4_pattern_allow([^MINIUPNPC_CPPFLAGS$])
-m4trace:configure.ac:1542: -1- m4_pattern_allow([^MINIUPNPC_LIBS$])
-m4trace:configure.ac:1543: -1- m4_pattern_allow([^NATPMP_CPPFLAGS$])
-m4trace:configure.ac:1544: -1- m4_pattern_allow([^NATPMP_LIBS$])
-m4trace:configure.ac:1545: -1- m4_pattern_allow([^EVENT_LIBS$])
-m4trace:configure.ac:1546: -1- m4_pattern_allow([^EVENT_PTHREADS_LIBS$])
-m4trace:configure.ac:1547: -1- m4_pattern_allow([^SODIUM_LIBS$])
-m4trace:configure.ac:1548: -1- m4_pattern_allow([^ZMQ_LIBS$])
-m4trace:configure.ac:1549: -1- m4_pattern_allow([^LIBZCASH_LIBS$])
-m4trace:configure.ac:1550: -1- m4_pattern_allow([^QR_LIBS$])
-m4trace:configure.ac:1551: -1- m4_pattern_allow([^HAVE_GMTIME_R$])
-m4trace:configure.ac:1552: -1- m4_pattern_allow([^HAVE_FDATASYNC$])
-m4trace:configure.ac:1553: -1- m4_pattern_allow([^HAVE_FULLFSYNC$])
-m4trace:configure.ac:1554: -1- m4_pattern_allow([^HAVE_O_CLOEXEC$])
-m4trace:configure.ac:1555: -1- m4_pattern_allow([^HAVE_BUILTIN_PREFETCH$])
-m4trace:configure.ac:1556: -1- m4_pattern_allow([^HAVE_MM_PREFETCH$])
-m4trace:configure.ac:1557: -1- m4_pattern_allow([^HAVE_STRONG_GETAUXVAL$])
-m4trace:configure.ac:1558: -1- m4_pattern_allow([^HAVE_WEAK_GETAUXVAL$])
-m4trace:configure.ac:1561: -1- AM_COND_IF([HAVE_DOXYGEN], [AC_CONFIG_FILES([doc/Doxyfile])])
-m4trace:configure.ac:1591: -1- m4_pattern_allow([^subdirs$])
-m4trace:configure.ac:1594: -1- m4_pattern_allow([^subdirs$])
-m4trace:configure.ac:1597: -1- m4_pattern_allow([^subdirs$])
-m4trace:configure.ac:1599: -1- m4_pattern_allow([^LIB@&t@OBJS$])
-m4trace:configure.ac:1599: -1- m4_pattern_allow([^LTLIBOBJS$])
-m4trace:configure.ac:1599: -1- AM_CONDITIONAL([am__EXEEXT], [test -n "$EXEEXT"])
-m4trace:configure.ac:1599: -1- m4_pattern_allow([^am__EXEEXT_TRUE$])
-m4trace:configure.ac:1599: -1- m4_pattern_allow([^am__EXEEXT_FALSE$])
-m4trace:configure.ac:1599: -1- _AM_SUBST_NOTMAKE([am__EXEEXT_TRUE])
-m4trace:configure.ac:1599: -1- _AM_SUBST_NOTMAKE([am__EXEEXT_FALSE])
-m4trace:configure.ac:1599: -1- _AC_AM_CONFIG_HEADER_HOOK(["$ac_file"])
-m4trace:configure.ac:1599: -1- _AM_OUTPUT_DEPENDENCY_COMMANDS
-m4trace:configure.ac:1599: -1- AM_RUN_LOG([cd "$am_dirpart" \
+m4trace:configure.ac:1241: -1- _PKG_SHORT_ERRORS_SUPPORTED
+m4trace:configure.ac:1273: -1- AM_CONDITIONAL([EMBEDDED_UNIVALUE], [test x$need_bundled_univalue = xyes])
+m4trace:configure.ac:1273: -1- m4_pattern_allow([^EMBEDDED_UNIVALUE_TRUE$])
+m4trace:configure.ac:1273: -1- m4_pattern_allow([^EMBEDDED_UNIVALUE_FALSE$])
+m4trace:configure.ac:1273: -1- _AM_SUBST_NOTMAKE([EMBEDDED_UNIVALUE_TRUE])
+m4trace:configure.ac:1273: -1- _AM_SUBST_NOTMAKE([EMBEDDED_UNIVALUE_FALSE])
+m4trace:configure.ac:1274: -1- m4_pattern_allow([^UNIVALUE_CFLAGS$])
+m4trace:configure.ac:1275: -1- m4_pattern_allow([^UNIVALUE_LIBS$])
+m4trace:configure.ac:1290: -1- AM_CONDITIONAL([HAVE_RUST_TARGET], [test -n "$RUST_TARGET"])
+m4trace:configure.ac:1290: -1- m4_pattern_allow([^HAVE_RUST_TARGET_TRUE$])
+m4trace:configure.ac:1290: -1- m4_pattern_allow([^HAVE_RUST_TARGET_FALSE$])
+m4trace:configure.ac:1290: -1- _AM_SUBST_NOTMAKE([HAVE_RUST_TARGET_TRUE])
+m4trace:configure.ac:1290: -1- _AM_SUBST_NOTMAKE([HAVE_RUST_TARGET_FALSE])
+m4trace:configure.ac:1293: -1- AX_CHECK_COMPILE_FLAG([-fno-strict-aliasing], [CXXFLAGS="$CXXFLAGS -fno-strict-aliasing"])
+m4trace:configure.ac:1294: -1- AX_CHECK_COMPILE_FLAG([-Wno-builtin-declaration-mismatch], [CXXFLAGS="$CXXFLAGS -Wno-builtin-declaration-mismatch"], [], [[$CXXFLAG_WERROR]])
+m4trace:configure.ac:1299: -1- AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
+m4trace:configure.ac:1299: -1- m4_pattern_allow([^BUILD_BITCOIND_TRUE$])
+m4trace:configure.ac:1299: -1- m4_pattern_allow([^BUILD_BITCOIND_FALSE$])
+m4trace:configure.ac:1299: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIND_TRUE])
+m4trace:configure.ac:1299: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIND_FALSE])
+m4trace:configure.ac:1303: -1- AM_CONDITIONAL([BUILD_BITCOIN_UTILS], [test x$build_bitcoin_utils = xyes])
+m4trace:configure.ac:1303: -1- m4_pattern_allow([^BUILD_BITCOIN_UTILS_TRUE$])
+m4trace:configure.ac:1303: -1- m4_pattern_allow([^BUILD_BITCOIN_UTILS_FALSE$])
+m4trace:configure.ac:1303: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_UTILS_TRUE])
+m4trace:configure.ac:1303: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_UTILS_FALSE])
+m4trace:configure.ac:1307: -1- AM_CONDITIONAL([BUILD_BITCOIN_LIBS], [test x$build_bitcoin_libs = xyes])
+m4trace:configure.ac:1307: -1- m4_pattern_allow([^BUILD_BITCOIN_LIBS_TRUE$])
+m4trace:configure.ac:1307: -1- m4_pattern_allow([^BUILD_BITCOIN_LIBS_FALSE$])
+m4trace:configure.ac:1307: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_LIBS_TRUE])
+m4trace:configure.ac:1307: -1- _AM_SUBST_NOTMAKE([BUILD_BITCOIN_LIBS_FALSE])
+m4trace:configure.ac:1309: -1- m4_pattern_allow([^HAVE_CONSENSUS_LIB$])
+m4trace:configure.ac:1332: -1- AX_CHECK_PREPROC_FLAG([-Qunused-arguments], [CPPFLAGS="-Qunused-arguments $CPPFLAGS"])
+m4trace:configure.ac:1339: -1- m4_pattern_allow([^ENABLE_WALLET$])
+m4trace:configure.ac:1349: -1- m4_pattern_allow([^ENABLE_MINING_RPC$])
+m4trace:configure.ac:1374: -1- m4_pattern_allow([^USE_UPNP$])
+m4trace:configure.ac:1402: -1- m4_pattern_allow([^USE_NATPMP$])
+m4trace:configure.ac:1417: -1- m4_pattern_allow([^USE_DBUS$])
+m4trace:configure.ac:1432: -1- m4_pattern_allow([^USE_QTCHARTS$])
+m4trace:configure.ac:1452: -1- AM_CONDITIONAL([ENABLE_ZMQ], [test "x$use_zmq" = "xyes"])
+m4trace:configure.ac:1452: -1- m4_pattern_allow([^ENABLE_ZMQ_TRUE$])
+m4trace:configure.ac:1452: -1- m4_pattern_allow([^ENABLE_ZMQ_FALSE$])
+m4trace:configure.ac:1452: -1- _AM_SUBST_NOTMAKE([ENABLE_ZMQ_TRUE])
+m4trace:configure.ac:1452: -1- _AM_SUBST_NOTMAKE([ENABLE_ZMQ_FALSE])
+m4trace:configure.ac:1474: -1- AM_CONDITIONAL([TARGET_DARWIN], [test x$TARGET_OS = xdarwin])
+m4trace:configure.ac:1474: -1- m4_pattern_allow([^TARGET_DARWIN_TRUE$])
+m4trace:configure.ac:1474: -1- m4_pattern_allow([^TARGET_DARWIN_FALSE$])
+m4trace:configure.ac:1474: -1- _AM_SUBST_NOTMAKE([TARGET_DARWIN_TRUE])
+m4trace:configure.ac:1474: -1- _AM_SUBST_NOTMAKE([TARGET_DARWIN_FALSE])
+m4trace:configure.ac:1475: -1- AM_CONDITIONAL([BUILD_DARWIN], [test x$BUILD_OS = xdarwin])
+m4trace:configure.ac:1475: -1- m4_pattern_allow([^BUILD_DARWIN_TRUE$])
+m4trace:configure.ac:1475: -1- m4_pattern_allow([^BUILD_DARWIN_FALSE$])
+m4trace:configure.ac:1475: -1- _AM_SUBST_NOTMAKE([BUILD_DARWIN_TRUE])
+m4trace:configure.ac:1475: -1- _AM_SUBST_NOTMAKE([BUILD_DARWIN_FALSE])
+m4trace:configure.ac:1476: -1- AM_CONDITIONAL([TARGET_WINDOWS], [test x$TARGET_OS = xwindows])
+m4trace:configure.ac:1476: -1- m4_pattern_allow([^TARGET_WINDOWS_TRUE$])
+m4trace:configure.ac:1476: -1- m4_pattern_allow([^TARGET_WINDOWS_FALSE$])
+m4trace:configure.ac:1476: -1- _AM_SUBST_NOTMAKE([TARGET_WINDOWS_TRUE])
+m4trace:configure.ac:1476: -1- _AM_SUBST_NOTMAKE([TARGET_WINDOWS_FALSE])
+m4trace:configure.ac:1477: -1- AM_CONDITIONAL([ENABLE_WALLET], [test x$enable_wallet = xyes])
+m4trace:configure.ac:1477: -1- m4_pattern_allow([^ENABLE_WALLET_TRUE$])
+m4trace:configure.ac:1477: -1- m4_pattern_allow([^ENABLE_WALLET_FALSE$])
+m4trace:configure.ac:1477: -1- _AM_SUBST_NOTMAKE([ENABLE_WALLET_TRUE])
+m4trace:configure.ac:1477: -1- _AM_SUBST_NOTMAKE([ENABLE_WALLET_FALSE])
+m4trace:configure.ac:1478: -1- AM_CONDITIONAL([ENABLE_MINING_RPC], [test x$enable_mining_rpc = xyes])
+m4trace:configure.ac:1478: -1- m4_pattern_allow([^ENABLE_MINING_RPC_TRUE$])
+m4trace:configure.ac:1478: -1- m4_pattern_allow([^ENABLE_MINING_RPC_FALSE$])
+m4trace:configure.ac:1478: -1- _AM_SUBST_NOTMAKE([ENABLE_MINING_RPC_TRUE])
+m4trace:configure.ac:1478: -1- _AM_SUBST_NOTMAKE([ENABLE_MINING_RPC_FALSE])
+m4trace:configure.ac:1479: -1- AM_CONDITIONAL([ENABLE_TESTS], [test x$BUILD_TEST = xyes])
+m4trace:configure.ac:1479: -1- m4_pattern_allow([^ENABLE_TESTS_TRUE$])
+m4trace:configure.ac:1479: -1- m4_pattern_allow([^ENABLE_TESTS_FALSE$])
+m4trace:configure.ac:1479: -1- _AM_SUBST_NOTMAKE([ENABLE_TESTS_TRUE])
+m4trace:configure.ac:1479: -1- _AM_SUBST_NOTMAKE([ENABLE_TESTS_FALSE])
+m4trace:configure.ac:1480: -1- AM_CONDITIONAL([ENABLE_FUZZ], [test x$enable_fuzz = xyes])
+m4trace:configure.ac:1480: -1- m4_pattern_allow([^ENABLE_FUZZ_TRUE$])
+m4trace:configure.ac:1480: -1- m4_pattern_allow([^ENABLE_FUZZ_FALSE$])
+m4trace:configure.ac:1480: -1- _AM_SUBST_NOTMAKE([ENABLE_FUZZ_TRUE])
+m4trace:configure.ac:1480: -1- _AM_SUBST_NOTMAKE([ENABLE_FUZZ_FALSE])
+m4trace:configure.ac:1481: -1- AM_CONDITIONAL([ENABLE_QT], [test x$bitcoin_enable_qt = xyes])
+m4trace:configure.ac:1481: -1- m4_pattern_allow([^ENABLE_QT_TRUE$])
+m4trace:configure.ac:1481: -1- m4_pattern_allow([^ENABLE_QT_FALSE$])
+m4trace:configure.ac:1481: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_TRUE])
+m4trace:configure.ac:1481: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_FALSE])
+m4trace:configure.ac:1482: -1- AM_CONDITIONAL([ENABLE_QT_TESTS], [test x$BUILD_TEST_QT = xyes])
+m4trace:configure.ac:1482: -1- m4_pattern_allow([^ENABLE_QT_TESTS_TRUE$])
+m4trace:configure.ac:1482: -1- m4_pattern_allow([^ENABLE_QT_TESTS_FALSE$])
+m4trace:configure.ac:1482: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_TESTS_TRUE])
+m4trace:configure.ac:1482: -1- _AM_SUBST_NOTMAKE([ENABLE_QT_TESTS_FALSE])
+m4trace:configure.ac:1483: -1- AM_CONDITIONAL([ENABLE_BENCH], [test x$use_bench = xyes])
+m4trace:configure.ac:1483: -1- m4_pattern_allow([^ENABLE_BENCH_TRUE$])
+m4trace:configure.ac:1483: -1- m4_pattern_allow([^ENABLE_BENCH_FALSE$])
+m4trace:configure.ac:1483: -1- _AM_SUBST_NOTMAKE([ENABLE_BENCH_TRUE])
+m4trace:configure.ac:1483: -1- _AM_SUBST_NOTMAKE([ENABLE_BENCH_FALSE])
+m4trace:configure.ac:1484: -1- AM_CONDITIONAL([USE_QTCHARTS], [test x$use_qtcharts = xyes])
+m4trace:configure.ac:1484: -1- m4_pattern_allow([^USE_QTCHARTS_TRUE$])
+m4trace:configure.ac:1484: -1- m4_pattern_allow([^USE_QTCHARTS_FALSE$])
+m4trace:configure.ac:1484: -1- _AM_SUBST_NOTMAKE([USE_QTCHARTS_TRUE])
+m4trace:configure.ac:1484: -1- _AM_SUBST_NOTMAKE([USE_QTCHARTS_FALSE])
+m4trace:configure.ac:1485: -1- AM_CONDITIONAL([USE_CUSTOM_PARAMS], [test x$use_custom_params = xyes])
+m4trace:configure.ac:1485: -1- m4_pattern_allow([^USE_CUSTOM_PARAMS_TRUE$])
+m4trace:configure.ac:1485: -1- m4_pattern_allow([^USE_CUSTOM_PARAMS_FALSE$])
+m4trace:configure.ac:1485: -1- _AM_SUBST_NOTMAKE([USE_CUSTOM_PARAMS_TRUE])
+m4trace:configure.ac:1485: -1- _AM_SUBST_NOTMAKE([USE_CUSTOM_PARAMS_FALSE])
+m4trace:configure.ac:1486: -1- AM_CONDITIONAL([USE_LCOV], [test x$use_lcov = xyes])
+m4trace:configure.ac:1486: -1- m4_pattern_allow([^USE_LCOV_TRUE$])
+m4trace:configure.ac:1486: -1- m4_pattern_allow([^USE_LCOV_FALSE$])
+m4trace:configure.ac:1486: -1- _AM_SUBST_NOTMAKE([USE_LCOV_TRUE])
+m4trace:configure.ac:1486: -1- _AM_SUBST_NOTMAKE([USE_LCOV_FALSE])
+m4trace:configure.ac:1487: -1- AM_CONDITIONAL([GLIBC_BACK_COMPAT], [test x$use_glibc_compat = xyes])
+m4trace:configure.ac:1487: -1- m4_pattern_allow([^GLIBC_BACK_COMPAT_TRUE$])
+m4trace:configure.ac:1487: -1- m4_pattern_allow([^GLIBC_BACK_COMPAT_FALSE$])
+m4trace:configure.ac:1487: -1- _AM_SUBST_NOTMAKE([GLIBC_BACK_COMPAT_TRUE])
+m4trace:configure.ac:1487: -1- _AM_SUBST_NOTMAKE([GLIBC_BACK_COMPAT_FALSE])
+m4trace:configure.ac:1488: -1- AM_CONDITIONAL([HARDEN], [test x$use_hardening = xyes])
+m4trace:configure.ac:1488: -1- m4_pattern_allow([^HARDEN_TRUE$])
+m4trace:configure.ac:1488: -1- m4_pattern_allow([^HARDEN_FALSE$])
+m4trace:configure.ac:1488: -1- _AM_SUBST_NOTMAKE([HARDEN_TRUE])
+m4trace:configure.ac:1488: -1- _AM_SUBST_NOTMAKE([HARDEN_FALSE])
+m4trace:configure.ac:1489: -1- AM_CONDITIONAL([ENABLE_SSE42], [test x$enable_sse42 = xyes])
+m4trace:configure.ac:1489: -1- m4_pattern_allow([^ENABLE_SSE42_TRUE$])
+m4trace:configure.ac:1489: -1- m4_pattern_allow([^ENABLE_SSE42_FALSE$])
+m4trace:configure.ac:1489: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE42_TRUE])
+m4trace:configure.ac:1489: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE42_FALSE])
+m4trace:configure.ac:1490: -1- AM_CONDITIONAL([ENABLE_SSE41], [test x$enable_sse41 = xyes])
+m4trace:configure.ac:1490: -1- m4_pattern_allow([^ENABLE_SSE41_TRUE$])
+m4trace:configure.ac:1490: -1- m4_pattern_allow([^ENABLE_SSE41_FALSE$])
+m4trace:configure.ac:1490: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE41_TRUE])
+m4trace:configure.ac:1490: -1- _AM_SUBST_NOTMAKE([ENABLE_SSE41_FALSE])
+m4trace:configure.ac:1491: -1- AM_CONDITIONAL([ENABLE_AVX2], [test x$enable_avx2 = xyes])
+m4trace:configure.ac:1491: -1- m4_pattern_allow([^ENABLE_AVX2_TRUE$])
+m4trace:configure.ac:1491: -1- m4_pattern_allow([^ENABLE_AVX2_FALSE$])
+m4trace:configure.ac:1491: -1- _AM_SUBST_NOTMAKE([ENABLE_AVX2_TRUE])
+m4trace:configure.ac:1491: -1- _AM_SUBST_NOTMAKE([ENABLE_AVX2_FALSE])
+m4trace:configure.ac:1492: -1- AM_CONDITIONAL([ENABLE_SHANI], [test x$enable_shani = xyes])
+m4trace:configure.ac:1492: -1- m4_pattern_allow([^ENABLE_SHANI_TRUE$])
+m4trace:configure.ac:1492: -1- m4_pattern_allow([^ENABLE_SHANI_FALSE$])
+m4trace:configure.ac:1492: -1- _AM_SUBST_NOTMAKE([ENABLE_SHANI_TRUE])
+m4trace:configure.ac:1492: -1- _AM_SUBST_NOTMAKE([ENABLE_SHANI_FALSE])
+m4trace:configure.ac:1493: -1- AM_CONDITIONAL([ENABLE_ARM_CRC], [test x$enable_arm_crc = xyes])
+m4trace:configure.ac:1493: -1- m4_pattern_allow([^ENABLE_ARM_CRC_TRUE$])
+m4trace:configure.ac:1493: -1- m4_pattern_allow([^ENABLE_ARM_CRC_FALSE$])
+m4trace:configure.ac:1493: -1- _AM_SUBST_NOTMAKE([ENABLE_ARM_CRC_TRUE])
+m4trace:configure.ac:1493: -1- _AM_SUBST_NOTMAKE([ENABLE_ARM_CRC_FALSE])
+m4trace:configure.ac:1494: -1- AM_CONDITIONAL([USE_ASM], [test x$use_asm = xyes])
+m4trace:configure.ac:1494: -1- m4_pattern_allow([^USE_ASM_TRUE$])
+m4trace:configure.ac:1494: -1- m4_pattern_allow([^USE_ASM_FALSE$])
+m4trace:configure.ac:1494: -1- _AM_SUBST_NOTMAKE([USE_ASM_TRUE])
+m4trace:configure.ac:1494: -1- _AM_SUBST_NOTMAKE([USE_ASM_FALSE])
+m4trace:configure.ac:1495: -1- AM_CONDITIONAL([WORDS_BIGENDIAN], [test x$ac_cv_c_bigendian = xyes])
+m4trace:configure.ac:1495: -1- m4_pattern_allow([^WORDS_BIGENDIAN_TRUE$])
+m4trace:configure.ac:1495: -1- m4_pattern_allow([^WORDS_BIGENDIAN_FALSE$])
+m4trace:configure.ac:1495: -1- _AM_SUBST_NOTMAKE([WORDS_BIGENDIAN_TRUE])
+m4trace:configure.ac:1495: -1- _AM_SUBST_NOTMAKE([WORDS_BIGENDIAN_FALSE])
+m4trace:configure.ac:1497: -1- m4_pattern_allow([^CLIENT_VERSION_MAJOR$])
+m4trace:configure.ac:1498: -1- m4_pattern_allow([^CLIENT_VERSION_MINOR$])
+m4trace:configure.ac:1499: -1- m4_pattern_allow([^CLIENT_VERSION_REVISION$])
+m4trace:configure.ac:1500: -1- m4_pattern_allow([^CLIENT_VERSION_BUILD$])
+m4trace:configure.ac:1501: -1- m4_pattern_allow([^CLIENT_VERSION_IS_RELEASE$])
+m4trace:configure.ac:1502: -1- m4_pattern_allow([^COPYRIGHT_YEAR$])
+m4trace:configure.ac:1503: -1- m4_pattern_allow([^PARAMS_DIR$])
+m4trace:configure.ac:1504: -1- m4_pattern_allow([^CLIENT_VERSION_MAJOR$])
+m4trace:configure.ac:1505: -1- m4_pattern_allow([^CLIENT_VERSION_MINOR$])
+m4trace:configure.ac:1506: -1- m4_pattern_allow([^CLIENT_VERSION_REVISION$])
+m4trace:configure.ac:1507: -1- m4_pattern_allow([^CLIENT_VERSION_BUILD$])
+m4trace:configure.ac:1508: -1- m4_pattern_allow([^CLIENT_VERSION_IS_RELEASE$])
+m4trace:configure.ac:1509: -1- m4_pattern_allow([^COPYRIGHT_YEAR$])
+m4trace:configure.ac:1510: -1- m4_pattern_allow([^BITCOIN_DAEMON_NAME$])
+m4trace:configure.ac:1511: -1- m4_pattern_allow([^BITCOIN_GUI_NAME$])
+m4trace:configure.ac:1512: -1- m4_pattern_allow([^BITCOIN_CLI_NAME$])
+m4trace:configure.ac:1513: -1- m4_pattern_allow([^BITCOIN_TX_NAME$])
+m4trace:configure.ac:1515: -1- m4_pattern_allow([^RUST_TARGET$])
+m4trace:configure.ac:1516: -1- m4_pattern_allow([^RUST_VENDORED_SOURCES$])
+m4trace:configure.ac:1517: -1- m4_pattern_allow([^RELDFLAGS$])
+m4trace:configure.ac:1518: -1- m4_pattern_allow([^DEBUG_CPPFLAGS$])
+m4trace:configure.ac:1519: -1- m4_pattern_allow([^WARN_CXXFLAGS$])
+m4trace:configure.ac:1520: -1- m4_pattern_allow([^NOWARN_CXXFLAGS$])
+m4trace:configure.ac:1521: -1- m4_pattern_allow([^DEBUG_CXXFLAGS$])
+m4trace:configure.ac:1522: -1- m4_pattern_allow([^COMPAT_LDFLAGS$])
+m4trace:configure.ac:1523: -1- m4_pattern_allow([^ERROR_CXXFLAGS$])
+m4trace:configure.ac:1524: -1- m4_pattern_allow([^GPROF_CXXFLAGS$])
+m4trace:configure.ac:1525: -1- m4_pattern_allow([^GPROF_LDFLAGS$])
+m4trace:configure.ac:1526: -1- m4_pattern_allow([^HARDENED_CXXFLAGS$])
+m4trace:configure.ac:1527: -1- m4_pattern_allow([^HARDENED_CPPFLAGS$])
+m4trace:configure.ac:1528: -1- m4_pattern_allow([^HARDENED_LDFLAGS$])
+m4trace:configure.ac:1529: -1- m4_pattern_allow([^PIC_FLAGS$])
+m4trace:configure.ac:1530: -1- m4_pattern_allow([^PIE_FLAGS$])
+m4trace:configure.ac:1531: -1- m4_pattern_allow([^SANITIZER_CXXFLAGS$])
+m4trace:configure.ac:1532: -1- m4_pattern_allow([^SANITIZER_LDFLAGS$])
+m4trace:configure.ac:1533: -1- m4_pattern_allow([^SSE42_CXXFLAGS$])
+m4trace:configure.ac:1534: -1- m4_pattern_allow([^SSE41_CXXFLAGS$])
+m4trace:configure.ac:1535: -1- m4_pattern_allow([^AVX2_CXXFLAGS$])
+m4trace:configure.ac:1536: -1- m4_pattern_allow([^SHANI_CXXFLAGS$])
+m4trace:configure.ac:1537: -1- m4_pattern_allow([^ARM_CRC_CXXFLAGS$])
+m4trace:configure.ac:1538: -1- m4_pattern_allow([^LIBTOOL_APP_LDFLAGS$])
+m4trace:configure.ac:1539: -1- m4_pattern_allow([^USE_UPNP$])
+m4trace:configure.ac:1540: -1- m4_pattern_allow([^USE_QTCHARTS$])
+m4trace:configure.ac:1541: -1- m4_pattern_allow([^BOOST_LIBS$])
+m4trace:configure.ac:1542: -1- m4_pattern_allow([^TESTDEFS$])
+m4trace:configure.ac:1543: -1- m4_pattern_allow([^MINIUPNPC_CPPFLAGS$])
+m4trace:configure.ac:1544: -1- m4_pattern_allow([^MINIUPNPC_LIBS$])
+m4trace:configure.ac:1545: -1- m4_pattern_allow([^NATPMP_CPPFLAGS$])
+m4trace:configure.ac:1546: -1- m4_pattern_allow([^NATPMP_LIBS$])
+m4trace:configure.ac:1547: -1- m4_pattern_allow([^EVENT_LIBS$])
+m4trace:configure.ac:1548: -1- m4_pattern_allow([^EVENT_PTHREADS_LIBS$])
+m4trace:configure.ac:1549: -1- m4_pattern_allow([^SODIUM_LIBS$])
+m4trace:configure.ac:1550: -1- m4_pattern_allow([^ZMQ_LIBS$])
+m4trace:configure.ac:1551: -1- m4_pattern_allow([^LIBZCASH_LIBS$])
+m4trace:configure.ac:1552: -1- m4_pattern_allow([^QR_LIBS$])
+m4trace:configure.ac:1553: -1- m4_pattern_allow([^HAVE_GMTIME_R$])
+m4trace:configure.ac:1554: -1- m4_pattern_allow([^HAVE_FDATASYNC$])
+m4trace:configure.ac:1555: -1- m4_pattern_allow([^HAVE_FULLFSYNC$])
+m4trace:configure.ac:1556: -1- m4_pattern_allow([^HAVE_O_CLOEXEC$])
+m4trace:configure.ac:1557: -1- m4_pattern_allow([^HAVE_BUILTIN_PREFETCH$])
+m4trace:configure.ac:1558: -1- m4_pattern_allow([^HAVE_MM_PREFETCH$])
+m4trace:configure.ac:1559: -1- m4_pattern_allow([^HAVE_STRONG_GETAUXVAL$])
+m4trace:configure.ac:1560: -1- m4_pattern_allow([^HAVE_WEAK_GETAUXVAL$])
+m4trace:configure.ac:1563: -1- AM_COND_IF([HAVE_DOXYGEN], [AC_CONFIG_FILES([doc/Doxyfile])])
+m4trace:configure.ac:1593: -1- m4_pattern_allow([^subdirs$])
+m4trace:configure.ac:1596: -1- m4_pattern_allow([^subdirs$])
+m4trace:configure.ac:1599: -1- m4_pattern_allow([^subdirs$])
+m4trace:configure.ac:1601: -1- m4_pattern_allow([^LIB@&t@OBJS$])
+m4trace:configure.ac:1601: -1- m4_pattern_allow([^LTLIBOBJS$])
+m4trace:configure.ac:1601: -1- AM_CONDITIONAL([am__EXEEXT], [test -n "$EXEEXT"])
+m4trace:configure.ac:1601: -1- m4_pattern_allow([^am__EXEEXT_TRUE$])
+m4trace:configure.ac:1601: -1- m4_pattern_allow([^am__EXEEXT_FALSE$])
+m4trace:configure.ac:1601: -1- _AM_SUBST_NOTMAKE([am__EXEEXT_TRUE])
+m4trace:configure.ac:1601: -1- _AM_SUBST_NOTMAKE([am__EXEEXT_FALSE])
+m4trace:configure.ac:1601: -1- _AC_AM_CONFIG_HEADER_HOOK(["$ac_file"])
+m4trace:configure.ac:1601: -1- _AM_OUTPUT_DEPENDENCY_COMMANDS
+m4trace:configure.ac:1601: -1- AM_RUN_LOG([cd "$am_dirpart" \
       && sed -e '/# am--include-marker/d' "$am_filepart" \
         | $MAKE -f - am--depfiles])
-m4trace:configure.ac:1599: -1- _LT_PROG_LTMAIN
+m4trace:configure.ac:1601: -1- _LT_PROG_LTMAIN

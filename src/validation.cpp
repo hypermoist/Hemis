@@ -1430,7 +1430,6 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
     const bool isPoSActive = consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_POS);
     const bool isV5UpgradeEnforced = consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_V5_0);
     const bool isV6UpgradeEnforced = consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_V6_0);
-    bool fSaplingMaintenance =  (block.nTime > sporkManager.GetSporkValue(SPORK_20_SAPLING_MAINTENANCE));
 
 
     // Coinbase output should be empty if proof-of-stake block (before v6 enforcement)
@@ -1509,9 +1508,9 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
     std::vector<PrecomputedTransactionData> precomTxData;
     precomTxData.reserve(block.vtx.size()); // Required so that pointers to individual precomTxData don't get invalidated
     bool fInitialBlockDownload = IsInitialBlockDownload();
+    bool fSaplingMaintenance =  (block.nTime > sporkManager.GetSporkValue(SPORK_20_SAPLING_MAINTENANCE));
     for (unsigned int i = 0; i < block.vtx.size(); i++) {
         const CTransaction& tx = *block.vtx[i];
-        bool isShielded = tx.IsShieldedTx();
 
         nInputs += tx.vin.size();
         nSigOps += GetLegacySigOpCount(tx);
@@ -1519,7 +1518,7 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
             return state.DoS(100, error("ConnectBlock() : too many sigops"), REJECT_INVALID, "bad-blk-sigops");
 
         // Check maintenance mode
-        if (!fInitialBlockDownload && isShielded) {
+        if (!fInitialBlockDownload && tx.IsShieldedTx()) {
             return state.DoS(100, error("%s : shielded transactions are currently in maintenance mode", __func__));
         }
 
@@ -1533,12 +1532,10 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
             if (!view.HaveInputs(tx)) {
                 return state.DoS(100, false, REJECT_INVALID, "bad-txns-inputs-missingorspent");
             }
-            if (!fSaplingMaintenance) {
-                // Sapling: are the sapling spends' requirements met in tx(valid anchors/nullifiers)?
-                if (!view.HaveShieldedRequirements(tx))
-                    return state.DoS(100, error("%s: spends requirements not met", __func__),
-                                 REJECT_INVALID, "bad-txns-sapling-requirements-not-met");
-            }
+            // Sapling: are the sapling spends' requirements met in tx(valid anchors/nullifiers)?
+            if (!view.HaveShieldedRequirements(tx))
+                return state.DoS(100, error("%s: spends requirements not met", __func__),
+                             REJECT_INVALID, "bad-txns-sapling-requirements-not-met");
 
             // Add in sigops done by pay-to-script-hash inputs;
             // this is to prevent a "rogue miner" from creating
@@ -1578,13 +1575,10 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
         const bool fSkipInvalid = SkipInvalidUTXOS(pindex->nHeight);
         UpdateCoins(tx, view, i == 0 ? undoDummy : blockundo.vtxundo.back(), pindex->nHeight, fSkipInvalid);
 
-        if (!fSaplingMaintenance) {
-
-            // Sapling update tree
-            if (isShielded && !tx.sapData->vShieldedOutput.empty()) {
-                for(const OutputDescription &outputDescription : tx.sapData->vShieldedOutput) {
-                    sapling_tree.append(outputDescription.cmu);
-                }
+        // Sapling update tree
+        if (tx.IsShieldedTx() && !tx.sapData->vShieldedOutput.empty()) {
+            for(const OutputDescription &outputDescription : tx.sapData->vShieldedOutput) {
+                sapling_tree.append(outputDescription.cmu);
             }
         }
 
@@ -1592,13 +1586,11 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
         pos.nTxOffset += ::GetSerializeSize(tx, CLIENT_VERSION);
     }
 
-    if (!fSaplingMaintenance) {
-        // Push new tree anchor
-        view.PushAnchor(sapling_tree);
-    }
+    // Push new tree anchor
+    view.PushAnchor(sapling_tree);
 
     // Verify header correctness
-    if (isV5UpgradeEnforced && !fSaplingMaintenance) {
+    if (isV5UpgradeEnforced) {
         // If Sapling is active, block.hashFinalSaplingRoot must be the
         // same as the root of the Sapling tree
         if (block.hashFinalSaplingRoot != sapling_tree.root()) {

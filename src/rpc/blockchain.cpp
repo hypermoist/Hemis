@@ -6,7 +6,6 @@
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #include "budget/budgetmanager.h"
-#include "chainparams.h"
 #include "checkpoints.h"
 #include "clientversion.h"
 #include "consensus/upgrades.h"
@@ -25,7 +24,6 @@
 #include "util/system.h"
 #include "utilmoneystr.h"
 #include "utilstrencodings.h"
-#include "validation.h"
 #include "validationinterface.h"
 #include "wallet/wallet.h"
 #include "warnings.h"
@@ -1233,16 +1231,6 @@ UniValue invalidateblock(const JSONRPCRequest& request)
             throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found");
 
         CBlockIndex* pblockindex = mapBlockIndex[hash];
-        // For each wallet in your wallet list
-        std::string errString = "";
-        for (auto* pwallet : vpwallets) {
-            //Do we need to recreate the witnesscache or is the current one enough?
-            if (pwallet->GetSaplingScriptPubKeyMan()->nWitnessCacheSize <= (chainActive.Height() - pblockindex->nHeight + 1)) {
-                if (!pwallet->GetSaplingScriptPubKeyMan()->BuildWitnessChain(pblockindex, Params().GetConsensus(), errString)) {
-                    throw JSONRPCError(RPC_DATABASE_ERROR, errString);
-                }
-            }
-        }
         InvalidateBlock(state, Params(), pblockindex);
     }
 

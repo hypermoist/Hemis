@@ -2233,16 +2233,16 @@ am__depfiles_remade = ./$(DEPDIR)/hemis_cli-hemis-cli.Po \
 	./$(DEPDIR)/libbitcoin_common_a-compressor.Po \
 	./$(DEPDIR)/libbitcoin_common_a-core_read.Po \
 	./$(DEPDIR)/libbitcoin_common_a-core_write.Po \
-	./$(DEPDIR)/libbitcoin_common_a-hash.Po \
-	./$(DEPDIR)/libbitcoin_common_a-invalid.Po \
-	./$(DEPDIR)/libbitcoin_common_a-key.Po \
-	./$(DEPDIR)/libbitcoin_common_a-key_io.Po \
-	./$(DEPDIR)/libbitcoin_common_a-keystore.Po \
 	./$(DEPDIR)/libbitcoin_common_a-gamemaster-payments.Po \
 	./$(DEPDIR)/libbitcoin_common_a-gamemaster-sync.Po \
 	./$(DEPDIR)/libbitcoin_common_a-gamemaster.Po \
 	./$(DEPDIR)/libbitcoin_common_a-gamemasterconfig.Po \
 	./$(DEPDIR)/libbitcoin_common_a-gamemasterman.Po \
+	./$(DEPDIR)/libbitcoin_common_a-hash.Po \
+	./$(DEPDIR)/libbitcoin_common_a-invalid.Po \
+	./$(DEPDIR)/libbitcoin_common_a-key.Po \
+	./$(DEPDIR)/libbitcoin_common_a-key_io.Po \
+	./$(DEPDIR)/libbitcoin_common_a-keystore.Po \
 	./$(DEPDIR)/libbitcoin_common_a-messagesigner.Po \
 	./$(DEPDIR)/libbitcoin_common_a-netaddress.Po \
 	./$(DEPDIR)/libbitcoin_common_a-netbase.Po \
@@ -2534,18 +2534,18 @@ am__depfiles_remade = ./$(DEPDIR)/hemis_cli-hemis-cli.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-expandablebutton.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-focuseddialog.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-furabstractlistitemdelegate.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterswidget.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterwizarddialog.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-gminfodialog.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmmodel.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmrow.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmselectiondialog.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addnewcontactdialog.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresseswidget.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresslabelrow.Po \
@@ -2560,16 +2560,16 @@ am__depfiles_remade = ./$(DEPDIR)/hemis_cli-hemis-cli.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_expandablebutton.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_focuseddialog.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_furabstractlistitemdelegate.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po \
-	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterswidget.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterwizarddialog.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gminfodialog.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmmodel.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmrow.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmselectiondialog.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po \
+	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_myaddressrow.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_navmenuwidget.Po \
 	qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_optionbutton.Po \
@@ -2709,6 +2709,7 @@ am__depfiles_remade = ./$(DEPDIR)/hemis_cli-hemis-cli.Po \
 	test/$(DEPDIR)/test_hemis-flatfile_tests.Po \
 	test/$(DEPDIR)/test_hemis-fs_tests.Po \
 	test/$(DEPDIR)/test_hemis-getarg_tests.Po \
+	test/$(DEPDIR)/test_hemis-gmpayments_tests.Po \
 	test/$(DEPDIR)/test_hemis-hash_tests.Po \
 	test/$(DEPDIR)/test_hemis-key_tests.Po \
 	test/$(DEPDIR)/test_hemis-main_tests.Po \
@@ -2716,7 +2717,6 @@ am__depfiles_remade = ./$(DEPDIR)/hemis_cli-hemis-cli.Po \
 	test/$(DEPDIR)/test_hemis-merkle_tests.Po \
 	test/$(DEPDIR)/test_hemis-merkleblock_tests.Po \
 	test/$(DEPDIR)/test_hemis-miner_tests.Po \
-	test/$(DEPDIR)/test_hemis-gmpayments_tests.Po \
 	test/$(DEPDIR)/test_hemis-multisig_tests.Po \
 	test/$(DEPDIR)/test_hemis-net_quorums_tests.Po \
 	test/$(DEPDIR)/test_hemis-net_tests.Po \
@@ -2828,8 +2828,8 @@ am__depfiles_remade = ./$(DEPDIR)/hemis_cli-hemis-cli.Po \
 	test/util/$(DEPDIR)/test_hemis-blocksutil.Po \
 	tiertwo/$(DEPDIR)/libbitcoin_common_a-netfulfilledman.Po \
 	tiertwo/$(DEPDIR)/libbitcoin_common_a-tiertwo_sync_state.Po \
-	tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po \
 	tiertwo/$(DEPDIR)/libbitcoin_server_a-gamemaster_meta_manager.Po \
+	tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po \
 	tiertwo/$(DEPDIR)/libbitcoin_server_a-net_gamemasters.Po \
 	util/$(DEPDIR)/libbitcoin_util_a-asmap.Po \
 	util/$(DEPDIR)/libbitcoin_util_a-string.Po \
@@ -7235,16 +7235,16 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-compressor.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-core_read.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-core_write.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-hash.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-invalid.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-key.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-key_io.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-keystore.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-gamemaster-payments.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-gamemaster-sync.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-gamemaster.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-gamemasterconfig.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-gamemasterman.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-hash.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-invalid.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-key.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-key_io.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-keystore.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-messagesigner.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-netaddress.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-netbase.Po@am__quote@ # am--include-marker
@@ -7536,18 +7536,18 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-expandablebutton.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-focuseddialog.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-furabstractlistitemdelegate.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterswidget.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterwizarddialog.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-gminfodialog.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmmodel.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmrow.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmselectiondialog.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addnewcontactdialog.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresseswidget.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresslabelrow.Po@am__quote@ # am--include-marker
@@ -7562,16 +7562,16 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_expandablebutton.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_focuseddialog.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_furabstractlistitemdelegate.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterswidget.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterwizarddialog.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gminfodialog.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmmodel.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmrow.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmselectiondialog.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_myaddressrow.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_navmenuwidget.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_optionbutton.Po@am__quote@ # am--include-marker
@@ -7711,6 +7711,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-flatfile_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-fs_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-getarg_tests.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-gmpayments_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-hash_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-key_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-main_tests.Po@am__quote@ # am--include-marker
@@ -7718,7 +7719,6 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-merkle_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-merkleblock_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-miner_tests.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-gmpayments_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-multisig_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-net_quorums_tests.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@test/$(DEPDIR)/test_hemis-net_tests.Po@am__quote@ # am--include-marker
@@ -7830,8 +7830,8 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@test/util/$(DEPDIR)/test_hemis-blocksutil.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@tiertwo/$(DEPDIR)/libbitcoin_common_a-netfulfilledman.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@tiertwo/$(DEPDIR)/libbitcoin_common_a-tiertwo_sync_state.Po@am__quote@ # am--include-marker
-@AMDEP_TRUE@@am__include@ @am__quote@tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@tiertwo/$(DEPDIR)/libbitcoin_server_a-gamemaster_meta_manager.Po@am__quote@ # am--include-marker
+@AMDEP_TRUE@@am__include@ @am__quote@tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@tiertwo/$(DEPDIR)/libbitcoin_server_a-net_gamemasters.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@util/$(DEPDIR)/libbitcoin_util_a-asmap.Po@am__quote@ # am--include-marker
 @AMDEP_TRUE@@am__include@ @am__quote@util/$(DEPDIR)/libbitcoin_util_a-string.Po@am__quote@ # am--include-marker
@@ -17250,16 +17250,16 @@ distclean: distclean-recursive
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-compressor.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-core_read.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-core_write.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-hash.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-invalid.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key_io.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-keystore.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemaster-payments.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemaster-sync.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemaster.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemasterconfig.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemasterman.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-hash.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-invalid.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key_io.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-keystore.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-messagesigner.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-netaddress.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-netbase.Po
@@ -17551,18 +17551,18 @@ distclean: distclean-recursive
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-expandablebutton.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-focuseddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-furabstractlistitemdelegate.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterswidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterwizarddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gminfodialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmmodel.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmrow.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmselectiondialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addnewcontactdialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresseswidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresslabelrow.Po
@@ -17577,16 +17577,16 @@ distclean: distclean-recursive
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_expandablebutton.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_focuseddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_furabstractlistitemdelegate.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterswidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterwizarddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gminfodialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmmodel.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmrow.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmselectiondialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_myaddressrow.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_navmenuwidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_optionbutton.Po
@@ -17726,6 +17726,7 @@ distclean: distclean-recursive
 	-rm -f test/$(DEPDIR)/test_hemis-flatfile_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-fs_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-getarg_tests.Po
+	-rm -f test/$(DEPDIR)/test_hemis-gmpayments_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-hash_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-key_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-main_tests.Po
@@ -17733,7 +17734,6 @@ distclean: distclean-recursive
 	-rm -f test/$(DEPDIR)/test_hemis-merkle_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-merkleblock_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-miner_tests.Po
-	-rm -f test/$(DEPDIR)/test_hemis-gmpayments_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-multisig_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-net_quorums_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-net_tests.Po
@@ -17845,8 +17845,8 @@ distclean: distclean-recursive
 	-rm -f test/util/$(DEPDIR)/test_hemis-blocksutil.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_common_a-netfulfilledman.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_common_a-tiertwo_sync_state.Po
-	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-gamemaster_meta_manager.Po
+	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-net_gamemasters.Po
 	-rm -f util/$(DEPDIR)/libbitcoin_util_a-asmap.Po
 	-rm -f util/$(DEPDIR)/libbitcoin_util_a-string.Po
@@ -17931,16 +17931,16 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-compressor.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-core_read.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-core_write.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-hash.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-invalid.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key_io.Po
-	-rm -f ./$(DEPDIR)/libbitcoin_common_a-keystore.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemaster-payments.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemaster-sync.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemaster.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemasterconfig.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-gamemasterman.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-hash.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-invalid.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-key_io.Po
+	-rm -f ./$(DEPDIR)/libbitcoin_common_a-keystore.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-messagesigner.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-netaddress.Po
 	-rm -f ./$(DEPDIR)/libbitcoin_common_a-netbase.Po
@@ -18232,18 +18232,18 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-expandablebutton.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-focuseddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-furabstractlistitemdelegate.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterswidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gamemasterwizarddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gminfodialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmmodel.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmrow.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-gmselectiondialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancemodel.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-governancewidget.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-guitransactionsutils.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-hemisgui.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-loadingdialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addnewcontactdialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresseswidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_addresslabelrow.Po
@@ -18258,16 +18258,16 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_expandablebutton.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_focuseddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_furabstractlistitemdelegate.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po
-	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterswidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gamemasterwizarddialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gminfodialog.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmmodel.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmrow.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_gmselectiondialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_governancewidget.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_hemisgui.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_loadingdialog.Po
+	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_lockunlock.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_myaddressrow.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_navmenuwidget.Po
 	-rm -f qt/hemis/$(DEPDIR)/libbitcoinqt_a-moc_optionbutton.Po
@@ -18407,6 +18407,7 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f test/$(DEPDIR)/test_hemis-flatfile_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-fs_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-getarg_tests.Po
+	-rm -f test/$(DEPDIR)/test_hemis-gmpayments_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-hash_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-key_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-main_tests.Po
@@ -18414,7 +18415,6 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f test/$(DEPDIR)/test_hemis-merkle_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-merkleblock_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-miner_tests.Po
-	-rm -f test/$(DEPDIR)/test_hemis-gmpayments_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-multisig_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-net_quorums_tests.Po
 	-rm -f test/$(DEPDIR)/test_hemis-net_tests.Po
@@ -18526,8 +18526,8 @@ maintainer-clean: maintainer-clean-recursive
 	-rm -f test/util/$(DEPDIR)/test_hemis-blocksutil.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_common_a-netfulfilledman.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_common_a-tiertwo_sync_state.Po
-	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-gamemaster_meta_manager.Po
+	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-init.Po
 	-rm -f tiertwo/$(DEPDIR)/libbitcoin_server_a-net_gamemasters.Po
 	-rm -f util/$(DEPDIR)/libbitcoin_util_a-asmap.Po
 	-rm -f util/$(DEPDIR)/libbitcoin_util_a-string.Po

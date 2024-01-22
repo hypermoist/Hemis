@@ -5,7 +5,7 @@ time {
 make clean
 echo "compiling for linux"
 ./autogen.sh
-./configure --enable-mining-rpc --enable-debug --enable-zmq --enable-glibc-back-compat --enable-reduce-exports --with-incompatible-bdb --disable-shared --disable-tests --disable-bench CPPFLAGS='-DARENA_DEBUG -DDEBUG_LOCKORDER' 
+./configure --enable-debug --with-incompatible-bdb --disable-shared --disable-tests --disable-bench
 make -j$cores
 
 cp ./src/hemisd /var/www/html/builds/linux/hemisd
@@ -20,7 +20,7 @@ cd depends
 make HOST=x86_64-w64-mingw32 -j$cores
 cd ..
 ./autogen.sh
-CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --enable-reduce-exports --enable-debug --disable-shared --disable-online-rust --disable-tests --disable-bench
+CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --enable-debug --disable-shared --disable-online-rust --disable-tests --disable-bench
 make -j$cores
 make deploy
 
@@ -29,8 +29,8 @@ cp ./src/hemis-cli.exe /var/www/html/builds/windows/hemis-cli.exe
 cp ./src/hemis-tx.exe /var/www/html/builds/windows/hemis-tx.exe
 
 cp ./src/qt/hemis-qt.exe /var/www/html/builds/windows/hemis-qt.exe
-cp ./hemis-*.exe /var/www/html/builds/windows/hemis-installer.exe
-
+cp ./hemis-*-win64-setup-unsigned.exe /var/www/html/builds/windows/hemis-installer.exe
+hemis-1.0.0rc1-win64-setup.exe
 
 
 echo "Compiling for ARM"
