@@ -350,7 +350,7 @@ public:
         consensus.ZC_MinMintConfirmations = 20;
         consensus.ZC_MinMintFee = 1 * CENT;
         consensus.ZC_MinStakeDepth = 200;
-        consensus.ZC_TimeStart = 4070908800;        // October 17, 2017 4:30:00 AM
+        consensus.ZC_TimeStart = 1808214600;        // October 17, 2017 4:30:00 AM
         consensus.ZC_HeightStart = 1;
 
         // Network upgrades

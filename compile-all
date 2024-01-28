@@ -1,11 +1,12 @@
+#!/bin/sh
 cores=$(getconf _NPROCESSORS_ONLN)
 echo "We have "$cores" Cores"
 TIMEFORMAT='It took %R seconds to build Hemis.'
 time {
-make clean
+make distclean
 echo "compiling for linux"
 ./autogen.sh
-./configure --enable-debug --with-incompatible-bdb --disable-shared --disable-tests --disable-bench
+./configure --disable-tests --disable-bench --enable-mining-rpc --disable-debug
 make -j$cores
 
 cp ./src/hemisd /var/www/html/builds/linux/hemisd
@@ -14,13 +15,13 @@ cp ./src/hemis-tx /var/www/html/builds/linux/hemis-tx
 cp ./src/qt/hemis-qt /var/www/html/builds/linux/hemis-qt
 
 echo "Compiling for Windows"
-make clean
+make distclean
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 cd depends
 make HOST=x86_64-w64-mingw32 -j$cores
 cd ..
 ./autogen.sh
-CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --enable-debug --disable-shared --disable-online-rust --disable-tests --disable-bench
+CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust --disable-tests --disable-bench
 make -j$cores
 make deploy
 
@@ -32,9 +33,8 @@ cp ./src/qt/hemis-qt.exe /var/www/html/builds/windows/hemis-qt.exe
 cp ./hemis-*-win64-setup-unsigned.exe /var/www/html/builds/windows/hemis-installer.exe
 hemis-1.0.0rc1-win64-setup.exe
 
-
 echo "Compiling for ARM"
-make clean
+make distclean
 echo "Compiling for ARM"
 cd depends
 make HOST=arm-linux-gnueabihf NO_QT=1 -j$cores
@@ -46,4 +46,3 @@ make -j$cores
 cp ./src/hemisd /var/www/html/builds/arm/hemisd
 cp ./src/hemis-cli /var/www/html/builds/arm/hemis-cli
 cp ./src/hemis-tx /var/www/html/builds/arm/hemis-tx
-}
