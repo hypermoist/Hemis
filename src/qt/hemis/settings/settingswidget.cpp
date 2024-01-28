@@ -56,7 +56,6 @@ SettingsWidget::SettingsWidget(hemisGUI* parent) :
     setCssProperty(ui->pushButtonTools5, "btn-settings-options");
 
     setCssProperty(ui->pushButtonHelp, "btn-settings-check");
-    setCssProperty(ui->pushButtonHelp1, "btn-settings-options");
     setCssProperty(ui->pushButtonHelp2, "btn-settings-options");
 
     options = {
@@ -127,7 +126,6 @@ SettingsWidget::SettingsWidget(hemisGUI* parent) :
 
     // Help
     connect(ui->pushButtonHelp, &QPushButton::clicked, this, &SettingsWidget::onHelpClicked);
-    connect(ui->pushButtonHelp1, &QPushButton::clicked, [this](){window->openFAQ();});
     connect(ui->pushButtonHelp2, &QPushButton::clicked, this, &SettingsWidget::onAboutClicked);
 
     // Get restart command-line parameters and handle restart

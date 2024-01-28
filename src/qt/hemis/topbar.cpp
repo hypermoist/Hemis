@@ -89,9 +89,6 @@ TopBar::TopBar(hemisGUI* _mainWindow, QWidget *parent) :
     progressBar->raise();
     progressBar->move(0, 34);
 
-    ui->pushButtonFAQ->setButtonClassStyle("cssClass", "btn-check-faq");
-    ui->pushButtonFAQ->setButtonText(tr("FAQ"));
-
     ui->pushButtonHDUpgrade->setButtonClassStyle("cssClass", "btn-check-hd-upgrade");
     ui->pushButtonHDUpgrade->setButtonText(tr("Upgrade to HD Wallet"));
     ui->pushButtonHDUpgrade->setNoIconText("HD");
@@ -137,7 +134,6 @@ TopBar::TopBar(hemisGUI* _mainWindow, QWidget *parent) :
     connect(ui->btnQr, &QPushButton::clicked, this, &TopBar::onBtnReceiveClicked);
     connect(ui->pushButtonBalanceInfo, &QPushButton::clicked, this, &TopBar::onBtnBalanceInfoClicked);
     connect(ui->pushButtonLock, &ExpandableButton::Mouse_Pressed, this, &TopBar::onBtnLockClicked);
-    connect(ui->pushButtonFAQ, &ExpandableButton::Mouse_Pressed, [this](){window->openFAQ();});
     connect(ui->pushButtonColdStaking, &ExpandableButton::Mouse_Pressed, this, &TopBar::onColdStakingClicked);
     connect(ui->pushButtonSync, &ExpandableButton::Mouse_HoverLeave, this, &TopBar::refreshProgressBarSize);
     connect(ui->pushButtonSync, &ExpandableButton::Mouse_Hover, this, &TopBar::refreshProgressBarSize);
