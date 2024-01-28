@@ -195,9 +195,6 @@ public:
     /// Create splash screen
     void createSplashScreen(const NetworkStyle* networkStyle);
 
-    /// Create tutorial screen
-    bool createTutorialScreen();
-
     /// Request core initialization
     void requestInitialize();
     /// Request core shutdown
@@ -386,20 +383,6 @@ void BitcoinApplication::createSplashScreen(const NetworkStyle* networkStyle)
     splash->show();
     connect(this, &BitcoinApplication::splashFinished, splash, &Splash::slotFinish);
     connect(this, &BitcoinApplication::requestedShutdown, splash, &QWidget::close);
-}
-
-bool BitcoinApplication::createTutorialScreen()
-{
-    WelcomeContentWidget* widget = new WelcomeContentWidget();
-
-    connect(widget, &WelcomeContentWidget::onLanguageSelected, [this](){
-        updateTranslation(true);
-    });
-
-    widget->exec();
-    bool ret = widget->isOk;
-    widget->deleteLater();
-    return ret;
 }
 
 void BitcoinApplication::updateTranslation(bool forceLangFromSettings){
@@ -687,7 +670,6 @@ int main(int argc, char* argv[])
     bool ret = true;
 #ifdef ENABLE_WALLET
     // Check if at least one wallet exists, otherwise prompt tutorial
-    bool createTutorial{true};
     const fs::path wallet_dir = GetWalletDir();
     gArgs.SoftSetArg("-wallet", "");
     for (const std::string& wallet_name : gArgs.GetArgs("-wallet")) {
@@ -697,13 +679,6 @@ int main(int argc, char* argv[])
         if (!fs::is_regular_file(wallet_path)) {
             wallet_path /= "wallet.dat";
         }
-        if (createTutorial && fs::exists(wallet_path)) {
-            // some wallet already exists, don't create tutorial
-            createTutorial = false;
-        }
-    }
-    if (createTutorial) {
-        ret = app.createTutorialScreen();
     }
 #endif
     if(!ret){
