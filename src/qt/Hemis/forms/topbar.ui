@@ -139,32 +139,6 @@
               </property>
              </spacer>
             </item>
-            <item alignment="Qt::AlignVCenter">
-             <widget class="QLabel" name="typeSpacerTop">
-              <property name="minimumSize">
-               <size>
-                <width>1</width>
-                <height>30</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>1</width>
-                <height>30</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">
-                background-color:white;
-                padding:0px;
-                border:none;
-              </string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
             <item>
              <spacer name="horizontalSpacer_12">
               <property name="orientation">

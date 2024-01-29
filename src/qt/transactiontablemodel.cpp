@@ -376,28 +376,28 @@ QString TransactionTableModel::formatTxStatus(const TransactionRecord* wtx) cons
 
     switch (wtx->status.status) {
     case TransactionStatus::OpenUntilBlock:
-        status = tr("Open for %n more block(s)", "", wtx->status.open_for);
+        status = tr("Open for %n more block(s)  ", "", wtx->status.open_for);
         break;
     case TransactionStatus::OpenUntilDate:
-        status = tr("Open until %1").arg(GUIUtil::dateTimeStr(wtx->status.open_for));
+        status = tr("Open until %1  ").arg(GUIUtil::dateTimeStr(wtx->status.open_for));
         break;
     case TransactionStatus::Unconfirmed:
-        status = tr("Unconfirmed");
+        status = tr("Unconfirmed  ");
         break;
     case TransactionStatus::Confirming:
-        status = tr("Confirming (%1 of %2 recommended confirmations)").arg(wtx->status.depth).arg(TransactionRecord::RecommendedNumConfirmations);
+        status = tr("Confirming (%1 of %2 recommended confirmations)  ").arg(wtx->status.depth).arg(TransactionRecord::RecommendedNumConfirmations);
         break;
     case TransactionStatus::Confirmed:
-        status = tr("Confirmed (%1 confirmations)").arg(wtx->status.depth);
+        status = tr("Confirmed (%1 confirmations)  ").arg(wtx->status.depth);
         break;
     case TransactionStatus::Conflicted:
-        status = tr("Conflicted");
+        status = tr("Conflicted  ");
         break;
     case TransactionStatus::Immature:
-        status = tr("Immature (%1 confirmations, will be available after %2)").arg(wtx->status.depth).arg(wtx->status.depth + wtx->status.matures_in);
+        status = tr("Immature (%1 confirmations, will be available after %2)  ").arg(wtx->status.depth).arg(wtx->status.depth + wtx->status.matures_in);
         break;
     case TransactionStatus::NotAccepted:
-        status = tr("Orphan Block - Generated but not accepted. This does not impact your holdings.");
+        status = tr("Orphan Block - Generated but not accepted. This does not impact your holdings.  ");
         break;
     }
 

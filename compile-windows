@@ -1,11 +1,12 @@
 #!/bin/sh
+cores=$(getconf _NPROCESSORS_ONLN)
 echo "Compiling for Windows"
 make distclean
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
 cd depends
-make HOST=x86_64-w64-mingw32 -j6
+make HOST=x86_64-w64-mingw32 -j$cores
 cd ..
 ./autogen.sh
-CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust --disable-tests --disable-bench
-make -j6
+CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust --disable-tests --disable-bench --enable-zmq --enable-reduce-exports --disable-shared
+make -j$cores
 make deploy
