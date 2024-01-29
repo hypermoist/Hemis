@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2022 The Dash Core developers
-// Copyright (c) 2023 The hemis Core developers
+// Copyright (c) 2023 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_QUORUMS_SIGNING_H
-#define hemis_QUORUMS_SIGNING_H
+#ifndef Hemis_QUORUMS_SIGNING_H
+#define Hemis_QUORUMS_SIGNING_H
 
 #include "llmq/quorums.h"
 
@@ -160,4 +160,4 @@ extern CSigningManager* quorumSigningManager;
 
 } // namespace llmq
 
-#endif // hemis_QUORUMS_SIGNING_H
+#endif // Hemis_QUORUMS_SIGNING_H

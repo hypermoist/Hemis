@@ -1,11 +1,11 @@
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #ifndef PROPOSALCARD_H
 #define PROPOSALCARD_H
 
-#include "qt/hemis/governancemodel.h"
+#include "qt/Hemis/governancemodel.h"
 
 #include <QGridLayout>
 #include <QWidget>

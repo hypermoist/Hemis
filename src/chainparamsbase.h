@@ -1,17 +1,17 @@
 // Copyright (c) 2014-2021 The Bitcoin developers
-// Copyright (c) 2017-2021 The hemis Core developers
+// Copyright (c) 2017-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_CHAINPARAMSBASE_H
-#define hemis_CHAINPARAMSBASE_H
+#ifndef Hemis_CHAINPARAMSBASE_H
+#define Hemis_CHAINPARAMSBASE_H
 
 #include <memory>
 #include <string>
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between hemis-cli and hemisd)
+ * CBaseChainParams defines the base parameters (shared between Hemis-cli and Hemisd)
  * of a given instance of the Hemis system.
  */
 class CBaseChainParams
@@ -63,4 +63,4 @@ void SelectBaseParams(const std::string& chain);
  */
 std::string ChainNameFromCommandLine();
 
-#endif // hemis_CHAINPARAMSBASE_H
+#endif // Hemis_CHAINPARAMSBASE_H

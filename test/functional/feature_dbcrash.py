@@ -52,8 +52,8 @@ class ChainstateWriteCrashTest(HemisTestFramework):
         self.setup_clean_chain = False
         # Need a bit of extra time for the nodes to start up for this test
 
-        self.chain_params = ['-nuparams=v5_shield:90000', '-nuparams=hemis_v4.0:90000',
-                             '-nuparams=hemis_v3.4:90000', '-nuparams=Zerocoin_Public:90000',
+        self.chain_params = ['-nuparams=v5_shield:90000', '-nuparams=Hemis_v4.0:90000',
+                             '-nuparams=Hemis_v3.4:90000', '-nuparams=Zerocoin_Public:90000',
                              '-nuparams=Zerocoin_v2:90000', '-nuparams=Zerocoin:90000',
                              '-nuparams=PoS_v2:90000', '-nuparams=PoS:90000']
         # Set -maxmempool=0 to turn off mempool memory sharing with dbcache
@@ -92,14 +92,14 @@ class ChainstateWriteCrashTest(HemisTestFramework):
                 return utxo_hash
             except:
                 # An exception here should mean the node is about to crash.
-                # If hemisd exits, then try again.  wait_for_node_exit()
-                # should raise an exception if hemisd doesn't exit.
+                # If Hemisd exits, then try again.  wait_for_node_exit()
+                # should raise an exception if Hemisd doesn't exit.
                 self.wait_for_node_exit(node_index, timeout=10)
             self.crashed_on_restart += 1
             time.sleep(1)
 
-        # If we got here, hemisd isn't coming back up on restart.  Could be a
-        # bug in hemisd, or we've gotten unlucky with our dbcrash ratio --
+        # If we got here, Hemisd isn't coming back up on restart.  Could be a
+        # bug in Hemisd, or we've gotten unlucky with our dbcrash ratio --
         # perhaps we generated a test case that blew up our cache?
         # TODO: If this happens a lot, we should try to restart without -dbcrashratio
         # and make sure that recovery happens.

@@ -1,9 +1,9 @@
-// Copyright (c) 2019 The hemis Core developers
+// Copyright (c) 2019 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_CORE_NEW_GUI_PRUNNABLE_H
-#define hemis_CORE_NEW_GUI_PRUNNABLE_H
+#ifndef Hemis_CORE_NEW_GUI_PRUNNABLE_H
+#define Hemis_CORE_NEW_GUI_PRUNNABLE_H
 
 class Runnable {
 public:
@@ -11,4 +11,4 @@ public:
     virtual void onError(QString error, int type) = 0;
 };
 
-#endif //hemis_CORE_NEW_GUI_PRUNNABLE_H
+#endif //Hemis_CORE_NEW_GUI_PRUNNABLE_H

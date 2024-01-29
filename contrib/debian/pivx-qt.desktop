@@ -1,13 +1,13 @@
 [Desktop Entry]
 Version=1.0
-Name=hemis Core
-Comment=hemis P2P Cryptocurrency
-Comment[fr]=hemis, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=hemis, eşten eşe kriptografik sanal para birimi
-Exec=hemis-qt %u
+Name=Hemis Core
+Comment=Hemis P2P Cryptocurrency
+Comment[fr]=Hemis, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Hemis, eşten eşe kriptografik sanal para birimi
+Exec=Hemis-qt %u
 Terminal=false
 Type=Application
-Icon=hemis128
-MimeType=x-scheme-handler/hemis;
+Icon=Hemis128
+MimeType=x-scheme-handler/Hemis;
 Categories=Office;Finance;
 StartupWMClass=Hemis-qt

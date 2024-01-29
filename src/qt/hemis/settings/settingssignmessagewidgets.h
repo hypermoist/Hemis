@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The hemis Core developers
+// Copyright (c) 2019 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,8 +6,8 @@
 #define SETTINGSSIGNMESSAGEWIDGETS_H
 
 #include <QWidget>
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/contactsdropdown.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/contactsdropdown.h"
 
 namespace Ui {
 class SettingsSignMessageWidgets;
@@ -18,7 +18,7 @@ class SettingsSignMessageWidgets : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsSignMessageWidgets(hemisGUI* _window, QWidget *parent = nullptr);
+    explicit SettingsSignMessageWidgets(HemisGUI* _window, QWidget *parent = nullptr);
     ~SettingsSignMessageWidgets();
 
     void setAddress_SM(const QString& address);

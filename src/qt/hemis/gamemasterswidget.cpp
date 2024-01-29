@@ -1,20 +1,20 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/gamemasterswidget.h"
+#include "qt/Hemis/gamemasterswidget.h"
 #include "coincontrol.h"
-#include "qt/hemis/forms/ui_gamemasterswidget.h"
+#include "qt/Hemis/forms/ui_gamemasterswidget.h"
 
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/gmrow.h"
-#include "qt/hemis/gminfodialog.h"
-#include "qt/hemis/gamemasterwizarddialog.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/gmrow.h"
+#include "qt/Hemis/gminfodialog.h"
+#include "qt/Hemis/gamemasterwizarddialog.h"
 
 #include "clientmodel.h"
 #include "guiutil.h"
-#include "qt/hemis/gmmodel.h"
-#include "qt/hemis/optionbutton.h"
+#include "qt/Hemis/gmmodel.h"
+#include "qt/Hemis/optionbutton.h"
 #include "qt/walletmodel.h"
 
 #define DECORATION_SIZE 65
@@ -54,7 +54,7 @@ public:
     GMRow* cachedRow = nullptr;
 };
 
-GameMastersWidget::GameMastersWidget(hemisGUI *parent) :
+GameMastersWidget::GameMastersWidget(HemisGUI *parent) :
     PWidget(parent),
     ui(new Ui::GameMastersWidget),
     isLoading(false)
@@ -309,7 +309,7 @@ void GameMastersWidget::onInfoGMClicked()
     if (dialog->exportGM) {
         if (ask(tr("Remote Gamemaster Data"),
                 tr("You are just about to export the required data to run a Gamemaster\non a remote server to your clipboard.\n\n\n"
-                   "You will only have to paste the data in the hemis.conf file\nof your remote server and start it, "
+                   "You will only have to paste the data in the Hemis.conf file\nof your remote server and start it, "
                    "then start the Gamemaster using\nthis controller wallet (select the Gamemaster in the list and press \"start\").\n"
                 ))) {
             // export data

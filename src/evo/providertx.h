@@ -1,9 +1,9 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_PROVIDERTX_H
-#define hemis_PROVIDERTX_H
+#ifndef Hemis_PROVIDERTX_H
+#define Hemis_PROVIDERTX_H
 
 #include "bls/bls_wrapper.h"
 #include "primitives/transaction.h"
@@ -161,4 +161,4 @@ public:
 // If tx is a ProRegTx, return the collateral outpoint in outRet.
 bool GetProRegCollateral(const CTransactionRef& tx, COutPoint& outRet);
 
-#endif  //hemis_PROVIDERTX_H
+#endif  //Hemis_PROVIDERTX_H

@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_EVODB_H
-#define hemis_EVODB_H
+#ifndef Hemis_EVODB_H
+#define Hemis_EVODB_H
 
 #include "dbwrapper.h"
 #include "sync.h"
@@ -110,4 +110,4 @@ private:
 
 extern std::unique_ptr<CEvoDB> evoDb;
 
-#endif//hemis_EVODB_H
+#endif//Hemis_EVODB_H

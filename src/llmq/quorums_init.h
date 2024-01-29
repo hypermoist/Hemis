@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_LLMQ_INIT_H
-#define hemis_LLMQ_INIT_H
+#ifndef Hemis_LLMQ_INIT_H
+#define Hemis_LLMQ_INIT_H
 
 #include "scheduler.h"
 
@@ -24,4 +24,4 @@ void StopLLMQSystem();
 
 } // namespace llmq
 
-#endif // hemis_LLMQ_INIT_H
+#endif // Hemis_LLMQ_INIT_H

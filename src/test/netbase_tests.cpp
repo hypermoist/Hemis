@@ -7,11 +7,11 @@
 
 #include "test/test_pivx.h"
 =======
-// Copyright (c) 2015-2021 The hemis Core developers
+// Copyright (c) 2015-2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "test/test_hemis.h"
+#include "test/test_Hemis.h"
 >>>>>>> 1f345019d (first step)
 
 #include "net.h"    // validateGamemasterIP

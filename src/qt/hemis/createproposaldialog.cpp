@@ -1,15 +1,15 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/createproposaldialog.h"
-#include "qt/hemis/forms/ui_createproposaldialog.h"
+#include "qt/Hemis/createproposaldialog.h"
+#include "qt/Hemis/forms/ui_createproposaldialog.h"
 
-#include "qt/hemis/contactsdropdown.h"
-#include "qt/hemis/governancemodel.h"
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/snackbar.h"
+#include "qt/Hemis/contactsdropdown.h"
+#include "qt/Hemis/governancemodel.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/snackbar.h"
 
 void initPageIndexBtn(QPushButton* btn)
 {
@@ -23,7 +23,7 @@ void initPageIndexBtn(QPushButton* btn)
     btn->setVisible(false);
 }
 
-CreateProposalDialog::CreateProposalDialog(hemisGUI* parent, GovernanceModel* _govModel, WalletModel* _walletModel) :
+CreateProposalDialog::CreateProposalDialog(HemisGUI* parent, GovernanceModel* _govModel, WalletModel* _walletModel) :
     QDialog(parent),
     ui(new Ui::CreateProposalDialog),
     govModel(_govModel),
@@ -85,7 +85,7 @@ void CreateProposalDialog::setupPageOne()
     setCssProperty(ui->labelTitle1, "text-title-dialog");
     setCssProperty(ui->labelMessage1b, "dialog-proposal-message");
     setEditBoxStyle(ui->labelName, ui->lineEditPropName, "e.g Best proposal ever!");
-    setEditBoxStyle(ui->labelURL, ui->lineEditURL, "e.g https://forum.hemis/proposals/best_proposal_ever");
+    setEditBoxStyle(ui->labelURL, ui->lineEditURL, "e.g https://forum.Hemis/proposals/best_proposal_ever");
 
     connect(ui->lineEditPropName, &QLineEdit::textChanged, this, &CreateProposalDialog::propNameChanged);
     connect(ui->lineEditURL, &QLineEdit::textChanged, this, &CreateProposalDialog::propUrlChanged);
@@ -347,7 +347,7 @@ void CreateProposalDialog::onAddrListClicked()
         menuContacts = new ContactsDropdown(
                 width,
                 height,
-                dynamic_cast<hemisGUI*>(parent()),
+                dynamic_cast<HemisGUI*>(parent()),
                 this
         );
         menuContacts->setWalletModel(walletModel, {AddressTableModel::Send, AddressTableModel::Receive});

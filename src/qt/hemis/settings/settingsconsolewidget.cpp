@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingsconsolewidget.h"
-#include "qt/hemis/settings/forms/ui_settingsconsolewidget.h"
+#include "qt/Hemis/settings/settingsconsolewidget.h"
+#include "qt/Hemis/settings/forms/ui_settingsconsolewidget.h"
 
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 #include "qt/rpcexecutor.h"
 
 #include "clientmodel.h"
@@ -47,7 +47,7 @@ const struct {
         {"misc", ":/icons/ic-transaction-staked"},
         {nullptr, nullptr}};
 
-SettingsConsoleWidget::SettingsConsoleWidget(hemisGUI* _window, QWidget *parent) :
+SettingsConsoleWidget::SettingsConsoleWidget(HemisGUI* _window, QWidget *parent) :
     PWidget(_window,parent),
     ui(new Ui::SettingsConsoleWidget)
 {
@@ -220,7 +220,7 @@ void SettingsConsoleWidget::clear(bool clearHistory)
     QString clsKey = "Ctrl-L";
 #endif
 
-    messageInternal(RPCExecutor::CMD_REPLY, (tr("Welcome to the hemis RPC console.") + "<br>" +
+    messageInternal(RPCExecutor::CMD_REPLY, (tr("Welcome to the Hemis RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
                         tr("Type %1 for an overview of available commands.").arg("<b>help</b>") + "<br>" +
                         tr("For more information on using this console type %1.").arg("<b>help-console</b>") +

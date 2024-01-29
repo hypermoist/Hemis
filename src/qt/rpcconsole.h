@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2017-2021 The hemis Core developers
+// Copyright (c) 2017-2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -101,7 +101,7 @@ public Q_SLOTS:
     void showPeers();
     /** Switch to wallet-repair tab and show */
     void showRepair();
-    /** Open external (default) editor with hemis.conf */
+    /** Open external (default) editor with Hemis.conf */
     void showConfEditor();
     /** Open external (default) editor with gamemaster.conf */
     void showGMConfEditor();

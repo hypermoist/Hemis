@@ -1,10 +1,10 @@
 // Copyright (c) 2019 The Bitcoin Core developers
-// Copyright (c) 2020-2021 The hemis Core developers
+// Copyright (c) 2020-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_SCRIPTPUBKEYMAN_H
-#define hemis_SCRIPTPUBKEYMAN_H
+#ifndef Hemis_SCRIPTPUBKEYMAN_H
+#define Hemis_SCRIPTPUBKEYMAN_H
 
 #include "wallet/hdchain.h"
 #include "wallet/wallet.h"
@@ -160,4 +160,4 @@ private:
 };
 
 
-#endif //hemis_SCRIPTPUBKEYMAN_H
+#endif //Hemis_SCRIPTPUBKEYMAN_H

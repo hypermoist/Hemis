@@ -818,7 +818,7 @@ padding-top:2px;
   <customwidget>
    <class>OptionButton</class>
    <extends>QWidget</extends>
-   <header>qt/hemis/optionbutton.h</header>
+   <header>qt/Hemis/optionbutton.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

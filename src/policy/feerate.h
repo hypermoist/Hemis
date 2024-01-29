@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2017 The Bitcoin Core developers
-// Copyright (c) 2017-2020 The hemis Core developers
+// Copyright (c) 2017-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_POLICY_FEERATE_H
-#define hemis_POLICY_FEERATE_H
+#ifndef Hemis_POLICY_FEERATE_H
+#define Hemis_POLICY_FEERATE_H
 
 #include "amount.h"
 #include "serialize.h"
@@ -39,4 +39,4 @@ public:
     SERIALIZE_METHODS(CFeeRate, obj) { READWRITE(obj.nSatoshisPerK); }
 };
 
-#endif //  hemis_POLICY_FEERATE_H
+#endif //  Hemis_POLICY_FEERATE_H

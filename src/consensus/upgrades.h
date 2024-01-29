@@ -1,10 +1,10 @@
 // Copyright (c) 2018 The Zcash developers
-// Copyright (c) 2020 The hemis Core developers
+// Copyright (c) 2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_CONSENSUS_UPGRADES_H
-#define hemis_CONSENSUS_UPGRADES_H
+#ifndef Hemis_CONSENSUS_UPGRADES_H
+#define Hemis_CONSENSUS_UPGRADES_H
 
 #include "consensus/params.h"
 #include "optional.h"
@@ -81,4 +81,4 @@ Optional<int> NextActivationHeight(
         int nHeight,
         const Consensus::Params& params);
 
-#endif // hemis_CONSENSUS_UPGRADES_H
+#endif // Hemis_CONSENSUS_UPGRADES_H

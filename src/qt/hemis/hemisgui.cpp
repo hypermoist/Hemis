@@ -1,8 +1,8 @@
-// Copyright (c) 2019-2022 The HEMIS Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/hemisgui.h"
+#include "qt/Hemis/Hemisgui.h"
 
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
@@ -15,8 +15,8 @@
 #include "networkstyle.h"
 #include "notificator.h"
 #include "guiinterface.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/defaultdialog.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/defaultdialog.h"
 #include "shutdown.h"
 #include "util/system.h"
 
@@ -35,9 +35,9 @@
 #define BASE_WINDOW_MIN_WIDTH 1100
 
 
-const QString hemisGUI::DEFAULT_WALLET = "~Default";
+const QString HemisGUI::DEFAULT_WALLET = "~Default";
 
-hemisGUI::hemisGUI(const NetworkStyle* networkStyle, QWidget* parent) :
+HemisGUI::HemisGUI(const NetworkStyle* networkStyle, QWidget* parent) :
         QMainWindow(parent),
         clientModel(0){
 
@@ -166,7 +166,7 @@ hemisGUI::hemisGUI(const NetworkStyle* networkStyle, QWidget* parent) :
 
 }
 
-void hemisGUI::createActions(const NetworkStyle* networkStyle)
+void HemisGUI::createActions(const NetworkStyle* networkStyle)
 {
     toggleHideAction = new QAction(networkStyle->getAppIcon(), tr("&Show / Hide"), this);
     toggleHideAction->setStatusTip(tr("Show or hide the main Window"));
@@ -176,14 +176,14 @@ void hemisGUI::createActions(const NetworkStyle* networkStyle)
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
 
-    connect(toggleHideAction, &QAction::triggered, this, &hemisGUI::toggleHidden);
+    connect(toggleHideAction, &QAction::triggered, this, &HemisGUI::toggleHidden);
     connect(quitAction, &QAction::triggered, qApp, &QApplication::quit);
 }
 
 /**
  * Here add every event connection
  */
-void hemisGUI::connectActions()
+void HemisGUI::connectActions()
 {
     QShortcut *consoleShort = new QShortcut(this);
     consoleShort->setKey(QKeySequence(SHORT_KEY + Qt::Key_C));
@@ -192,24 +192,24 @@ void hemisGUI::connectActions()
         settingsWidget->showDebugConsole();
         goToSettings();
     });
-    connect(topBar, &TopBar::showHide, this, &hemisGUI::showHide);
-    connect(topBar, &TopBar::themeChanged, this, &hemisGUI::changeTheme);
+    connect(topBar, &TopBar::showHide, this, &HemisGUI::showHide);
+    connect(topBar, &TopBar::themeChanged, this, &HemisGUI::changeTheme);
     connect(topBar, &TopBar::onShowHideColdStakingChanged, navMenu, &NavMenuWidget::onShowHideColdStakingChanged);
-    connect(settingsWidget, &SettingsWidget::showHide, this, &hemisGUI::showHide);
-    connect(sendWidget, &SendWidget::showHide, this, &hemisGUI::showHide);
-    connect(receiveWidget, &ReceiveWidget::showHide, this, &hemisGUI::showHide);
-    connect(addressesWidget, &AddressesWidget::showHide, this, &hemisGUI::showHide);
-    connect(gamemaStersWidget, &GameMastersWidget::showHide, this, &hemisGUI::showHide);
-    connect(gamemaStersWidget, &GameMastersWidget::execDialog, this, &hemisGUI::execDialog);
-    connect(coldStakingWidget, &ColdStakingWidget::showHide, this, &hemisGUI::showHide);
-    connect(coldStakingWidget, &ColdStakingWidget::execDialog, this, &hemisGUI::execDialog);
-    connect(governancewidget, &GovernanceWidget::showHide, this, &hemisGUI::showHide);
-    connect(governancewidget, &GovernanceWidget::execDialog, this, &hemisGUI::execDialog);
-    connect(settingsWidget, &SettingsWidget::execDialog, this, &hemisGUI::execDialog);
+    connect(settingsWidget, &SettingsWidget::showHide, this, &HemisGUI::showHide);
+    connect(sendWidget, &SendWidget::showHide, this, &HemisGUI::showHide);
+    connect(receiveWidget, &ReceiveWidget::showHide, this, &HemisGUI::showHide);
+    connect(addressesWidget, &AddressesWidget::showHide, this, &HemisGUI::showHide);
+    connect(gamemaStersWidget, &GameMastersWidget::showHide, this, &HemisGUI::showHide);
+    connect(gamemaStersWidget, &GameMastersWidget::execDialog, this, &HemisGUI::execDialog);
+    connect(coldStakingWidget, &ColdStakingWidget::showHide, this, &HemisGUI::showHide);
+    connect(coldStakingWidget, &ColdStakingWidget::execDialog, this, &HemisGUI::execDialog);
+    connect(governancewidget, &GovernanceWidget::showHide, this, &HemisGUI::showHide);
+    connect(governancewidget, &GovernanceWidget::execDialog, this, &HemisGUI::execDialog);
+    connect(settingsWidget, &SettingsWidget::execDialog, this, &HemisGUI::execDialog);
 }
 
 
-void hemisGUI::createTrayIcon(const NetworkStyle* networkStyle)
+void HemisGUI::createTrayIcon(const NetworkStyle* networkStyle)
 {
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
@@ -221,7 +221,7 @@ void hemisGUI::createTrayIcon(const NetworkStyle* networkStyle)
     notificator = new Notificator(QApplication::applicationName(), trayIcon, this);
 }
 
-hemisGUI::~hemisGUI()
+HemisGUI::~HemisGUI()
 {
     // Unsubscribe from notifications from core
     unsubscribeFromCoreSignals();
@@ -236,14 +236,14 @@ hemisGUI::~hemisGUI()
 
 
 /** Get restart command-line parameters and request restart */
-void hemisGUI::handleRestart(QStringList args)
+void HemisGUI::handleRestart(QStringList args)
 {
     if (!ShutdownRequested())
         Q_EMIT requestedRestart(args);
 }
 
 
-void hemisGUI::setClientModel(ClientModel* _clientModel)
+void HemisGUI::setClientModel(ClientModel* _clientModel)
 {
     this->clientModel = _clientModel;
     if (this->clientModel) {
@@ -259,7 +259,7 @@ void hemisGUI::setClientModel(ClientModel* _clientModel)
         governancewidget->setClientModel(clientModel);
 
         // Receive and report messages from client model
-        connect(clientModel, &ClientModel::message, this, &hemisGUI::message);
+        connect(clientModel, &ClientModel::message, this, &HemisGUI::message);
         connect(clientModel, &ClientModel::alertsChanged, [this](const QString& _alertStr) {
             message(tr("Alert!"), _alertStr, CClientUIInterface::MSG_WARNING);
         });
@@ -287,7 +287,7 @@ void hemisGUI::setClientModel(ClientModel* _clientModel)
     }
 }
 
-void hemisGUI::createTrayIconMenu()
+void HemisGUI::createTrayIconMenu()
 {
 #ifndef Q_OS_MAC
     // return if trayIcon is unset (only on non-macOSes)
@@ -297,11 +297,11 @@ void hemisGUI::createTrayIconMenu()
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
 
-    connect(trayIcon, &QSystemTrayIcon::activated, this, &hemisGUI::trayIconActivated);
+    connect(trayIcon, &QSystemTrayIcon::activated, this, &HemisGUI::trayIconActivated);
 #else
     // Note: On macOS, the Dock icon is used to provide the tray's functionality.
     MacDockIconHandler* dockIconHandler = MacDockIconHandler::instance();
-    connect(dockIconHandler, &MacDockIconHandler::dockIconClicked, this, &hemisGUI::macosDockIconActivated);
+    connect(dockIconHandler, &MacDockIconHandler::dockIconClicked, this, &HemisGUI::macosDockIconActivated);
 
     trayIconMenu = new QMenu(this);
     trayIconMenu->setAsDockMenu();
@@ -318,7 +318,7 @@ void hemisGUI::createTrayIconMenu()
 }
 
 #ifndef Q_OS_MAC
-void hemisGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
+void HemisGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
 {
     if (reason == QSystemTrayIcon::Trigger) {
         // Click on system tray icon triggers show/hide of the main window
@@ -326,14 +326,14 @@ void hemisGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
     }
 }
 #else
-void hemisGUI::macosDockIconActivated()
+void HemisGUI::macosDockIconActivated()
  {
      show();
      activateWindow();
  }
 #endif
 
-void hemisGUI::changeEvent(QEvent* e)
+void HemisGUI::changeEvent(QEvent* e)
 {
     QMainWindow::changeEvent(e);
 #ifndef Q_OS_MAC // Ignored on Mac
@@ -341,10 +341,10 @@ void hemisGUI::changeEvent(QEvent* e)
         if (clientModel && clientModel->getOptionsModel() && clientModel->getOptionsModel()->getMinimizeToTray()) {
             QWindowStateChangeEvent* wsevt = static_cast<QWindowStateChangeEvent*>(e);
             if (!(wsevt->oldState() & Qt::WindowMinimized) && isMinimized()) {
-                QTimer::singleShot(0, this, &hemisGUI::hide);
+                QTimer::singleShot(0, this, &HemisGUI::hide);
                 e->ignore();
             } else if ((wsevt->oldState() & Qt::WindowMinimized) && !isMinimized()) {
-                QTimer::singleShot(0, this, &hemisGUI::show);
+                QTimer::singleShot(0, this, &HemisGUI::show);
                 e->ignore();
             }
         }
@@ -352,7 +352,7 @@ void hemisGUI::changeEvent(QEvent* e)
 #endif
 }
 
-void hemisGUI::closeEvent(QCloseEvent* event)
+void HemisGUI::closeEvent(QCloseEvent* event)
 {
 #ifndef Q_OS_MAC // Ignored on Mac
     if (clientModel && clientModel->getOptionsModel()) {
@@ -369,7 +369,7 @@ void hemisGUI::closeEvent(QCloseEvent* event)
 }
 
 
-void hemisGUI::messageInfo(const QString& text)
+void HemisGUI::messageInfo(const QString& text)
 {
     if (!this->snackBar) this->snackBar = new SnackBar(this, this);
     this->snackBar->setText(text);
@@ -378,7 +378,7 @@ void hemisGUI::messageInfo(const QString& text)
 }
 
 
-void hemisGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret)
+void HemisGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret)
 {
     QString strTitle = QString{PACKAGE_NAME}; // default title
     // Default to information icon
@@ -430,14 +430,14 @@ void hemisGUI::message(const QString& title, const QString& message, unsigned in
     } else if (style & CClientUIInterface::MSG_INFORMATION_SNACK) {
         messageInfo(message);
     } else {
-        // Append title to "HEMIS - "
+        // Append title to "Hemis - "
         if (!msgType.isEmpty())
             strTitle += " - " + msgType;
         notificator->notify(static_cast<Notificator::Class>(nNotifyIcon), strTitle, message);
     }
 }
 
-bool hemisGUI::openStandardDialog(QString title, QString body, QString okBtn, QString cancelBtn)
+bool HemisGUI::openStandardDialog(QString title, QString body, QString okBtn, QString cancelBtn)
 {
     DefaultDialog *dialog;
     if (isVisible()) {
@@ -460,7 +460,7 @@ bool hemisGUI::openStandardDialog(QString title, QString body, QString okBtn, QS
 }
 
 
-void hemisGUI::showNormalIfMinimized(bool fToggleHidden)
+void HemisGUI::showNormalIfMinimized(bool fToggleHidden)
 {
     if (!clientModel)
         return;
@@ -471,12 +471,12 @@ void hemisGUI::showNormalIfMinimized(bool fToggleHidden)
     }
 }
 
-void hemisGUI::toggleHidden()
+void HemisGUI::toggleHidden()
 {
     showNormalIfMinimized(true);
 }
 
-void hemisGUI::detectShutdown()
+void HemisGUI::detectShutdown()
 {
     if (ShutdownRequested()) {
         if (rpcConsole)
@@ -485,7 +485,7 @@ void hemisGUI::detectShutdown()
     }
 }
 
-void hemisGUI::goToDashboard()
+void HemisGUI::goToDashboard()
 {
     if (stackedContainer->currentWidget() != dashboard) {
         stackedContainer->setCurrentWidget(dashboard);
@@ -493,54 +493,54 @@ void hemisGUI::goToDashboard()
     }
 }
 
-void hemisGUI::goToSend()
+void HemisGUI::goToSend()
 {
     showTop(sendWidget);
 }
 
-void hemisGUI::goToAddresses()
+void HemisGUI::goToAddresses()
 {
     showTop(addressesWidget);
 }
 
-void hemisGUI::goToGameMasters()
+void HemisGUI::goToGameMasters()
 {
     gamemaStersWidget->resetCoinControl();
     showTop(gamemaStersWidget);
 }
 
-void hemisGUI::goToColdStaking()
+void HemisGUI::goToColdStaking()
 {
     showTop(coldStakingWidget);
 }
 
-void hemisGUI::goToGovernance()
+void HemisGUI::goToGovernance()
 {
     showTop(governancewidget);
 }
 
-void hemisGUI::goToSettings(){
+void HemisGUI::goToSettings(){
     showTop(settingsWidget);
 }
 
-void hemisGUI::goToSettingsInfo()
+void HemisGUI::goToSettingsInfo()
 {
     navMenu->selectSettings();
     settingsWidget->showInformation();
     goToSettings();
 }
 
-void hemisGUI::goToReceive()
+void HemisGUI::goToReceive()
 {
     showTop(receiveWidget);
 }
 
-void hemisGUI::openNetworkMonitor()
+void HemisGUI::openNetworkMonitor()
 {
     settingsWidget->openNetworkMonitor();
 }
 
-void hemisGUI::showTop(QWidget* view)
+void HemisGUI::showTop(QWidget* view)
 {
     if (stackedContainer->currentWidget() != view) {
         stackedContainer->setCurrentWidget(view);
@@ -548,7 +548,7 @@ void hemisGUI::showTop(QWidget* view)
     }
 }
 
-void hemisGUI::changeTheme(bool isLightTheme)
+void HemisGUI::changeTheme(bool isLightTheme)
 {
 
     QString css = GUIUtil::loadStyleSheet();
@@ -561,7 +561,7 @@ void hemisGUI::changeTheme(bool isLightTheme)
     updateStyle(this);
 }
 
-void hemisGUI::resizeEvent(QResizeEvent* event)
+void HemisGUI::resizeEvent(QResizeEvent* event)
 {
     // Parent..
     QMainWindow::resizeEvent(event);
@@ -571,12 +571,12 @@ void hemisGUI::resizeEvent(QResizeEvent* event)
     Q_EMIT windowResizeEvent(event);
 }
 
-bool hemisGUI::execDialog(QDialog *dialog, int xDiv, int yDiv)
+bool HemisGUI::execDialog(QDialog *dialog, int xDiv, int yDiv)
 {
     return openDialogWithOpaqueBackgroundY(dialog, this);
 }
 
-void hemisGUI::showHide(bool show)
+void HemisGUI::showHide(bool show)
 {
     if (!op) op = new QLabel(this);
     if (!show) {
@@ -604,12 +604,12 @@ void hemisGUI::showHide(bool show)
     }
 }
 
-int hemisGUI::getNavWidth()
+int HemisGUI::getNavWidth()
 {
     return this->navMenu->width();
 }
 
-void hemisGUI::openFAQ(SettingsFaqWidget::Section section)
+void HemisGUI::openFAQ(SettingsFaqWidget::Section section)
 {
     showHide(true);
     SettingsFaqWidget* dialog = new SettingsFaqWidget(this, gmModel);
@@ -620,13 +620,13 @@ void hemisGUI::openFAQ(SettingsFaqWidget::Section section)
 
 
 #ifdef ENABLE_WALLET
-void hemisGUI::setGovModel(GovernanceModel* govModel)
+void HemisGUI::setGovModel(GovernanceModel* govModel)
 {
     if (!stackedContainer || !clientModel) return;
     governancewidget->setGovModel(govModel);
 }
 
-void hemisGUI::setGMModel(GMModel* _gmModel)
+void HemisGUI::setGMModel(GMModel* _gmModel)
 {
     if (!stackedContainer || !clientModel) return;
     gmModel = _gmModel;
@@ -634,7 +634,7 @@ void hemisGUI::setGMModel(GMModel* _gmModel)
     gamemaStersWidget->setGMModel(gmModel);
 }
 
-bool hemisGUI::addWallet(const QString& name, WalletModel* walletModel)
+bool HemisGUI::addWallet(const QString& name, WalletModel* walletModel)
 {
     // Single wallet supported for now..
     if (!stackedContainer || !clientModel || !walletModel)
@@ -653,34 +653,34 @@ bool hemisGUI::addWallet(const QString& name, WalletModel* walletModel)
     settingsWidget->setWalletModel(walletModel);
 
     // Connect actions..
-    connect(walletModel, &WalletModel::message, this, &hemisGUI::message);
-    connect(gamemaStersWidget, &GameMastersWidget::message, this, &hemisGUI::message);
-    connect(coldStakingWidget, &ColdStakingWidget::message, this, &hemisGUI::message);
-    connect(topBar, &TopBar::message, this, &hemisGUI::message);
-    connect(sendWidget, &SendWidget::message,this, &hemisGUI::message);
-    connect(receiveWidget, &ReceiveWidget::message,this, &hemisGUI::message);
-    connect(addressesWidget, &AddressesWidget::message,this, &hemisGUI::message);
-    connect(governancewidget, &GovernanceWidget::message,this, &hemisGUI::message);
-    connect(settingsWidget, &SettingsWidget::message, this, &hemisGUI::message);
+    connect(walletModel, &WalletModel::message, this, &HemisGUI::message);
+    connect(gamemaStersWidget, &GameMastersWidget::message, this, &HemisGUI::message);
+    connect(coldStakingWidget, &ColdStakingWidget::message, this, &HemisGUI::message);
+    connect(topBar, &TopBar::message, this, &HemisGUI::message);
+    connect(sendWidget, &SendWidget::message,this, &HemisGUI::message);
+    connect(receiveWidget, &ReceiveWidget::message,this, &HemisGUI::message);
+    connect(addressesWidget, &AddressesWidget::message,this, &HemisGUI::message);
+    connect(governancewidget, &GovernanceWidget::message,this, &HemisGUI::message);
+    connect(settingsWidget, &SettingsWidget::message, this, &HemisGUI::message);
 
     // Pass through transaction notifications
-    connect(dashboard, &DashboardWidget::incomingTransaction, this, &hemisGUI::incomingTransaction);
+    connect(dashboard, &DashboardWidget::incomingTransaction, this, &HemisGUI::incomingTransaction);
 
     return true;
 }
 
-bool hemisGUI::setCurrentWallet(const QString& name)
+bool HemisGUI::setCurrentWallet(const QString& name)
 {
     // Single wallet supported.
     return true;
 }
 
-void hemisGUI::removeAllWallets()
+void HemisGUI::removeAllWallets()
 {
     // Single wallet supported.
 }
 
-void hemisGUI::incomingTransaction(const QString& date, int unit, const CAmount& amount, const QString& type, const QString& address)
+void HemisGUI::incomingTransaction(const QString& date, int unit, const CAmount& amount, const QString& type, const QString& address)
 {
     // Only send notifications when not disabled
     if (!bdisableSystemnotifications) {
@@ -701,7 +701,7 @@ void hemisGUI::incomingTransaction(const QString& date, int unit, const CAmount&
 #endif // ENABLE_WALLET
 
 
-static bool ThreadSafeMessageBox(hemisGUI* gui, const std::string& message, const std::string& caption, unsigned int style)
+static bool ThreadSafeMessageBox(HemisGUI* gui, const std::string& message, const std::string& caption, unsigned int style)
 {
     bool modal = (style & CClientUIInterface::MODAL);
     // The SECURE flag has no effect in the Qt GUI.
@@ -720,13 +720,13 @@ static bool ThreadSafeMessageBox(hemisGUI* gui, const std::string& message, cons
 }
 
 
-void hemisGUI::subscribeToCoreSignals()
+void HemisGUI::subscribeToCoreSignals()
 {
     // Connect signals to client
     m_handler_message_box = interfaces::MakeHandler(uiInterface.ThreadSafeMessageBox.connect(std::bind(ThreadSafeMessageBox, this, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)));
 }
 
-void hemisGUI::unsubscribeFromCoreSignals()
+void HemisGUI::unsubscribeFromCoreSignals()
 {
     // Disconnect signals from client
     m_handler_message_box->disconnect();

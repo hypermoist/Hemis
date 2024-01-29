@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,7 +6,7 @@
 #define SETTINGSINFORMATIONWIDGET_H
 
 #include <QWidget>
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 #include "rpcconsole.h"
 
 namespace Ui {
@@ -18,7 +18,7 @@ class SettingsInformationWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsInformationWidget(hemisGUI* _window, QWidget *parent = nullptr);
+    explicit SettingsInformationWidget(HemisGUI* _window, QWidget *parent = nullptr);
     ~SettingsInformationWidget() override;
 
     void loadClientModel() override;

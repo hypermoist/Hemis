@@ -1,4 +1,4 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +14,7 @@ class QPushButton;
 
 class ContactsDropdown;
 class GovernanceModel;
-class hemisGUI;
+class HemisGUI;
 class SnackBar;
 class WalletModel;
 
@@ -23,7 +23,7 @@ class CreateProposalDialog : public QDialog
     Q_OBJECT
 
 public:
-    explicit CreateProposalDialog(hemisGUI* parent, GovernanceModel* _govModel, WalletModel* _walletModel);
+    explicit CreateProposalDialog(HemisGUI* parent, GovernanceModel* _govModel, WalletModel* _walletModel);
     ~CreateProposalDialog() override;
 protected:
     void keyPressEvent(QKeyEvent* e) override;

@@ -1,20 +1,20 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingsmainoptionswidget.h"
-#include "qt/hemis/settings/forms/ui_settingsmainoptionswidget.h"
+#include "qt/Hemis/settings/settingsmainoptionswidget.h"
+#include "qt/Hemis/settings/forms/ui_settingsmainoptionswidget.h"
 #include "QListView"
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include "bitcoinunits.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
 #include "clientmodel.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
 #include "netbase.h"
 #include "txdb.h" // for -dbcache defaults
@@ -29,7 +29,7 @@
 #include <QTimer>
 
 
-SettingsMainOptionsWidget::SettingsMainOptionsWidget(hemisGUI* _window, QWidget *parent) :
+SettingsMainOptionsWidget::SettingsMainOptionsWidget(HemisGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsMainOptionsWidget)
 {

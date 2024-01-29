@@ -122,12 +122,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše hemis adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše Hemis adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše hemis adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
+        <source>These are your Hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše Hemis adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -364,8 +364,8 @@ za staking</translation>
         <translation>PONIŠTI</translation>
     </message>
     <message>
-        <source>hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
-        <translation>hemis će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše HMS od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>Hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
+        <translation>Hemis će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše HMS od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -439,8 +439,8 @@ za staking</translation>
         <translation>Transparentno</translation>
     </message>
     <message>
-        <source>0.00 hemis</source>
-        <translation>0.00 hemis</translation>
+        <source>0.00 Hemis</source>
+        <translation>0.00 Hemis</translation>
     </message>
     <message>
         <source>Shielded</source>
@@ -1076,8 +1076,8 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>Uredi adresu pošiljatelja</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid hemis address.</source>
-        <translation>Unesena adresa "%1" nije ispravna hemis adresa.</translation>
+        <source>The entered address "%1" is not a valid Hemis address.</source>
+        <translation>Unesena adresa "%1" nije ispravna Hemis adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1129,16 +1129,16 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>verzija</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About hemis Core</source>
-        <translation>O hemis Core-u</translation>
+        <source>About Hemis Core</source>
+        <translation>O Hemis Core-u</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1192,16 +1192,16 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to hemis Core.</source>
-        <translation>Dobrodošli u hemis Core.</translation>
+        <source>Welcome to Hemis Core.</source>
+        <translation>Dobrodošli u Hemis Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where hemis Core will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će hemis Core pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where Hemis Core will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Hemis Core pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>hemis Core will download and store a copy of the hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>hemis Core preuzima i pohranjuje kopiju hemis blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>Hemis Core will download and store a copy of the Hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Hemis Core preuzima i pohranjuje kopiju Hemis blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1220,8 +1220,8 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>OK</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1328,8 +1328,8 @@ Staking će se automatski pokrenuti čim novčanik dobije dovoljno potvrda o nep
         <translation>Stvori novi Gamemaster Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti hemis Gamemaster, morate odvojiti 10,000 HMS (jedinica hemis-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Hemis Gamemaster you must dedicate 10,000 HMS (the unit of Hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti Hemis Gamemaster, morate odvojiti 10,000 HMS (jedinica Hemis-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Gamemaster Name</source>
@@ -1555,7 +1555,7 @@ Molimo pričekajte nekoliko minuta (zalog za Gamemaster zahtjeva %1 potvrda).</t
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the hemis.conf file
+You will only have to paste the data in the Hemis.conf file
 of your remote server and start it, then start the Gamemaster using
 this controller wallet (select the Gamemaster in the list and press "start").
 </source>
@@ -1563,7 +1563,7 @@ this controller wallet (select the Gamemaster in the list and press "start").
 na udaljenom poslužitelju u medjuspremnik.
 
 
-Podatke ćete morati zalijepiti u datoteku hemis.conf
+Podatke ćete morati zalijepiti u datoteku Hemis.conf
 na udaljenom poslužitelju i pokrenuti ga, a zatim pokrenite Gamemaster
 koristeći ovaj controller novčanik (na popisu odaberite Gamemaster i pritisnite "start").
 </translation>
@@ -1753,8 +1753,8 @@ STAKING</translation>
         <translation>Parsirani podaci preveliki</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "hemis" prefix</source>
-        <translation>Nevažeći URI, ne počinje "hemis" prefiksom</translation>
+        <source>Invalid URI, not starting with "Hemis" prefix</source>
+        <translation>Nevažeći URI, ne počinje "Hemis" prefiksom</translation>
     </message>
 </context>
 <context>
@@ -1799,8 +1799,8 @@ STAKING</translation>
         <translation>Ako onemogućite potrošnju nepotvrđjenog ostatka, ostatak od transakcije &lt;br/&gt;ne može se koristiti dok ta transakcija nema barem jednu potvrdu. &lt;br/&gt;Ovo takođjer utječe na izračun vašeg salda.</translation>
     </message>
     <message>
-        <source>Automatically open the hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvorite hemis klijentski ulaz na ruteru. To funkcionira samo kada vaš ruter podržava UPnP i omogućen je.</translation>
+        <source>Automatically open the Hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvorite Hemis klijentski ulaz na ruteru. To funkcionira samo kada vaš ruter podržava UPnP i omogućen je.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1819,12 +1819,12 @@ STAKING</translation>
         <translation>Stručnjak</translation>
     </message>
     <message>
-        <source>Automatically start hemis after logging in to the system.</source>
-        <translation>Automatski pokrenite hemis nakon prijave u sustav.</translation>
+        <source>Automatically start Hemis after logging in to the system.</source>
+        <translation>Automatski pokrenite Hemis nakon prijave u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start hemis on system login</source>
-        <translation>&amp;Pokrenite hemis pri pokretanju sustava</translation>
+        <source>&amp;Start Hemis on system login</source>
+        <translation>&amp;Pokrenite Hemis pri pokretanju sustava</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1851,14 +1851,14 @@ STAKING</translation>
         <translation>&amp;Mreža</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting hemis.</source>
-        <translation>Jezik korisničkog sučelja možete postaviti ovdje. Postavke će stupiti na snagu nakon ponovnog pokretanja hemis novčanika.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Hemis.</source>
+        <translation>Jezik korisničkog sučelja možete postaviti ovdje. Postavke će stupiti na snagu nakon ponovnog pokretanja Hemis novčanika.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/hemis-project/hemis-project-translations</source>
+https://www.transifex.com/Hemis-project/Hemis-project-translations</source>
         <translation>Jezik nedostaje ili prijevod nije potpun? Pomozite s prijevodom ovdje:
-https://www.transifex.com/hemis-project/hemis-project-translations</translation>
+https://www.transifex.com/Hemis-project/Hemis-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1901,8 +1901,8 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
         <translation>Prag dijeljenja Stake-a:</translation>
     </message>
     <message>
-        <source>Connect to the hemis network through a SOCKS5 proxy.</source>
-        <translation>Povežite se s hemis mrežom putem SOCKS5 proxy poslužitelja.</translation>
+        <source>Connect to the Hemis network through a SOCKS5 proxy.</source>
+        <translation>Povežite se s Hemis mrežom putem SOCKS5 proxy poslužitelja.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2046,10 +2046,10 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>hemisGUI</name>
+    <name>HemisGUI</name>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2076,7 +2076,7 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
         <translation>Napusti aplikaciju</translation>
     </message>
     <message>
-        <source>hemis Core client</source>
+        <source>Hemis Core client</source>
         <translation>HMSIX Core Klijent</translation>
     </message>
     <message>
@@ -2143,12 +2143,12 @@ Adresa: %4
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>Cannot start hemis: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti hemis: clik-to-pay handler</translation>
+        <source>Cannot start Hemis: click-to-pay handler</source>
+        <translation>Ne može se pokrenuti Hemis: clik-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid hemis address or malformed URI parameters.</source>
-        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom hemis adresom ili nepravilnim URI parametrima.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Hemis address or malformed URI parameters.</source>
+        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom Hemis adresom ili nepravilnim URI parametrima.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2237,8 +2237,8 @@ Adresa: %4
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter hemis address (e.g. %1)</source>
-        <translation>Upišite hemis adresu (npr. %1)</translation>
+        <source>Enter Hemis address (e.g. %1)</source>
+        <translation>Upišite Hemis adresu (npr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2281,12 +2281,12 @@ Adresa: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. hemis can no longer continue safely and will quit.</source>
-        <translation>Dogodila se fatalna pogreška. hemis ne može sigurno nastaviti i izaći će.</translation>
+        <source>A fatal error occurred. Hemis can no longer continue safely and will quit.</source>
+        <translation>Dogodila se fatalna pogreška. Hemis ne može sigurno nastaviti i izaći će.</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2305,8 +2305,8 @@ Adresa: %4
         <translation>Greška pri čitanju gamemaster konfiguracijske datoteke: %1</translation>
     </message>
     <message>
-        <source>hemis Core didn't yet exit safely...</source>
-        <translation>hemis Core nije ugašen sigurno...</translation>
+        <source>Hemis Core didn't yet exit safely...</source>
+        <translation>Hemis Core nije ugašen sigurno...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2564,8 +2564,8 @@ Adresa: %4
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorite hemis debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
+        <source>Open the Hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorite Hemis debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
     </message>
     <message>
         <source>Number of Gamemasters</source>
@@ -2788,8 +2788,8 @@ Adresa: %4
         <translation>Iz:</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Dobrodošli na hemis RPC konzolu.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Dobrodošli na Hemis RPC konzolu.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3074,8 +3074,8 @@ pokušajte otključati novčanik</translation>
         <translation>HMS</translation>
     </message>
     <message>
-        <source>Instead of sharing only a hemis address, you can create a payment request, bundling up more information</source>
-        <translation>Umjesto da dijelite samo hemis adresu, možete stvoriti zahtjev za plaćanjem, skupljajući više informacija</translation>
+        <source>Instead of sharing only a Hemis address, you can create a payment request, bundling up more information</source>
+        <translation>Umjesto da dijelite samo Hemis adresu, možete stvoriti zahtjev za plaćanjem, skupljajući više informacija</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3165,8 +3165,8 @@ pokušajte otključati novčanik</translation>
         <translation>Prilagođjena adresa za ostatak</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" hemis address</source>
-        <translation>Ostatak vrijednosti koja proizlazi iz ulaza umanjen za izlaznu vrijednost ide na hemis adresu za "ostatak"</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Hemis address</source>
+        <translation>Ostatak vrijednosti koja proizlazi iz ulaza umanjen za izlaznu vrijednost ide na Hemis adresu za "ostatak"</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3598,9 +3598,9 @@ Ne zaboravite zapisati i sigurno pohraniti lozinku, jer u protivnom možete izgu
         <translation>BIP38 alat</translation>
     </message>
     <message>
-        <source>Encrypt your hemis addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your Hemis addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Kriptirajte vašu hemis adresu (odnosno par ključeva) koristeći BIP38 enkripciju.
+        <translation>Kriptirajte vašu Hemis adresu (odnosno par ključeva) koristeći BIP38 enkripciju.
 Korištenjem ovog mehanizma možete dijeliti vaše ključeve bez rizika posredništva, samo trebate sigurno pohraniti lozinku</translation>
     </message>
     <message>
@@ -3636,8 +3636,8 @@ Korištenjem ovog mehanizma možete dijeliti vaše ključeve bez rizika posredni
         <translation>DEŠIFRIRAJ KLJUČ</translation>
     </message>
     <message>
-        <source>hemis address</source>
-        <translation>hemis adresa</translation>
+        <source>Hemis address</source>
+        <translation>Hemis adresa</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3769,8 +3769,8 @@ Verify that you have installed a predetermined text editor.</source>
 Provjerite jeste li instalirali unaprijed određjeni uređjivač teksta.</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Dobrodošli na hemis RPC konzolu.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Dobrodošli na Hemis RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3879,12 +3879,12 @@ Provjerite jeste li instalirali unaprijed određjeni uređjivač teksta.</transl
         <translation>Izvezi popis adresa</translation>
     </message>
     <message>
-        <source>hemis_tx_csv_export(*.csv)</source>
-        <translation>hemis_transakcije_csv_izvoz(*.csv)</translation>
+        <source>Hemis_tx_csv_export(*.csv)</source>
+        <translation>Hemis_transakcije_csv_izvoz(*.csv)</translation>
     </message>
     <message>
-        <source>hemis_addresses_csv_export(*.csv)</source>
-        <translation>hemis_adrese_csv_izvoz(*.csv)</translation>
+        <source>Hemis_addresses_csv_export(*.csv)</source>
+        <translation>Hemis_adrese_csv_izvoz(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3954,24 +3954,24 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>Obrazac</translation>
     </message>
     <message>
-        <source>1) What is hemis?</source>
-        <translation>1) Što je hemis?</translation>
+        <source>1) What is Hemis?</source>
+        <translation>1) Što je Hemis?</translation>
     </message>
     <message>
         <source>2) Why are my HMS unspendable?</source>
         <translation>2) Zašto se moji HMS ne mogu potrošiti?</translation>
     </message>
     <message>
-        <source>https://hemis.org/</source>
-        <translation>https://hemis.org/</translation>
+        <source>https://Hemis.org/</source>
+        <translation>https://Hemis.org/</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is hemis?</source>
-        <translation>Što je hemis?</translation>
+        <source>What is Hemis?</source>
+        <translation>Što je Hemis?</translation>
     </message>
     <message>
         <source>2</source>
@@ -3984,19 +3984,19 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received hemis requires 6 confirmations on the network
+                           Newly received Hemis requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your hemis wallet also needs to be completely synchronized
+                           Your Hemis wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Novoprimljeni hemis zahtjeva 6 potvrda na mreži
+Novoprimljeni Hemis zahtjeva 6 potvrda na mreži
 da bi se mogao potrošiti što može potrajati ~6 minuta.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Vaš hemis novčanik takođjer treba biti u potpunosti sinkroniziran
+Vaš Hemis novčanik takođjer treba biti u potpunosti sinkroniziran
 da biste vidjeli i mogli potrošiti sredstva na mreži.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -4010,8 +4010,8 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
         <translation>Kako stakeat HMS?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Provjerite da je vaš novčanik u potpunosti sinkroniziran i da koristite najnoviju verziju novčanika. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Morate imati iznos hemis novčića s najmanje 600 potvrda na blockchainu. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Novčanik mora biti upaljen i otključan za staking. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Kada se prate svi ti koraci, staking bi trebao biti omogućen. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Status stakinga možete vidjeti prolaskom miša preko staking ikonice u gornjem desnom kutu. Staking ikona (kutija) će svijetliti i prikazivati &amp;quot;Staking omogućen&amp;quot; i naznačiti da se aktivno stake-a. Koristeći sučelje naredbene trake (hemis-cli); naredba &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; će potvrditi da je staking aktivan. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of Hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (Hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Provjerite da je vaš novčanik u potpunosti sinkroniziran i da koristite najnoviju verziju novčanika. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Morate imati iznos Hemis novčića s najmanje 600 potvrda na blockchainu. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Novčanik mora biti upaljen i otključan za staking. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Kada se prate svi ti koraci, staking bi trebao biti omogućen. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Status stakinga možete vidjeti prolaskom miša preko staking ikonice u gornjem desnom kutu. Staking ikona (kutija) će svijetliti i prikazivati &amp;quot;Staking omogućen&amp;quot; i naznačiti da se aktivno stake-a. Koristeći sučelje naredbene trake (Hemis-cli); naredba &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; će potvrditi da je staking aktivan. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>4</source>
@@ -4032,14 +4032,14 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           hemis is a form of digital online money using blockchain technology
+                           Hemis is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  hemis incorporates market leading security &amp;
+                           zero fees.  Hemis incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
                            to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           hemis utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of hemis to participate in earning block rewards
+                           Hemis utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of Hemis to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Gamemasters to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4047,14 +4047,14 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
         <translation>
 
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-hemis je oblik digitalnog online novca koji koristi blockchain tehnologiju
+Hemis je oblik digitalnog online novca koji koristi blockchain tehnologiju
 koji se lako može slati i primati globalno, trenutno, i gotovo bez naknade.
-hemis uključuje vodeću sigurnost  i privatnost na tržištu
+Hemis uključuje vodeću sigurnost  i privatnost na tržištu
 i takođjer je prva PoS (Proof of Stake) kriptovaluta
 koja je implementirala Sapling (SHIELD) i anoniman zk-SNARKs baziran protokol.
 &lt;/p&gt;&lt;p align="justify"&gt;
-hemis koristi algoritam konsenzusa Proof of Stake (PoS),
-omogućujući svim vlasnicima hemis-a sudjelovanje u zarađi blokovih nagrada
+Hemis koristi algoritam konsenzusa Proof of Stake (PoS),
+omogućujući svim vlasnicima Hemis-a sudjelovanje u zarađi blokovih nagrada
 dok osiguravaju mrežu full node novčanicima, kao i
 vodjenje Gamemaster-ova za stvaranje i glasanje o prijedlozima.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4064,20 +4064,20 @@ vodjenje Gamemaster-ova za stvaranje i glasanje o prijedlozima.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #FF9000' href='https://discord.hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
-                           &lt;a style='color: #FF9000' href='https://hemis.freshdesk.com'&gt;
+                           &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
                            our Freshdesk support site&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Imamo korisničku podršku u većini naših službenih chat grupa, na primjer
-&lt;a style='color: #FF9000' href='https://discord.hemis.org'&gt;
+&lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
 #support na Discordu&lt;/a&gt;.
 Možete i podnijeti zahtjev, a to možete
-&lt;a style='color: #FF9000' href='https://hemis.freshdesk.com'&gt;
+&lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
 na našoj Freshdesk stranici za podršku&lt;/a&gt;.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -4097,7 +4097,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A gamemaster is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node Hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -4120,10 +4120,10 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                            Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Hemis Governance&lt;/li&gt;
                            &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the hemis network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Hemis network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4139,7 +4139,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Gamemaster je računalo koje pokreće full node hemis Core novčanik sa
+Gamemaster je računalo koje pokreće full node Hemis Core novčanik sa
 zahtjevanih 10,000 HMS-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
@@ -4162,10 +4162,10 @@ vlasnicima gamemaster-ova umanjeno za troškove održavanja.
 Povlastice gamemaster-ova:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;Sudjelovanje u upravljanju hemis-a&lt;/li&gt;
+&lt;li&gt;Sudjelovanje u upravljanju Hemis-a&lt;/li&gt;
 &lt;li&gt;Zaradjivanje Gamemaster nagrada&lt;/li&gt;
 &lt;li&gt;Robna opcija za buduću prodaju&lt;/li&gt;
-&lt;li&gt;Pomaže u osiguravanju hemis mreže&lt;/li&gt;
+&lt;li&gt;Pomaže u osiguravanju Hemis mreže&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4308,8 +4308,8 @@ Zahtjevi:
         <translation>Ne može se otvoriti mapa sigurnosne kopije</translation>
     </message>
     <message>
-        <source>Unable to open hemis.conf with default application</source>
-        <translation>Nije moguće otvoriti hemis.conf sa zadanom aplikacijom</translation>
+        <source>Unable to open Hemis.conf with default application</source>
+        <translation>Nije moguće otvoriti Hemis.conf sa zadanom aplikacijom</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4363,8 +4363,8 @@ Zahtjevi:
         <translation>Number of script verification threads</translation>
     </message>
     <message>
-        <source>Start hemis on system login</source>
-        <translation>Pokrenite hemis pri pokretanju računala</translation>
+        <source>Start Hemis on system login</source>
+        <translation>Pokrenite Hemis pri pokretanju računala</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4451,8 +4451,8 @@ Jeste li sigurni?
         <translation>PotvrdniOkvir</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade gamemaster na popis drugih hemis adresa nakon što sazriju.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other Hemis addresses after it matures.</source>
+        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade gamemaster na popis drugih Hemis adresa nakon što sazriju.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4578,8 +4578,8 @@ Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili gamemast
         <translation>Poruka</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>hemis adresa ili naziv kontakta</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Hemis adresa ili naziv kontakta</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4899,8 +4899,8 @@ Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili gamemast
         <translation>Najčešće postavljena pitanja</translation>
     </message>
     <message>
-        <source>About hemis</source>
-        <translation>O hemis-u</translation>
+        <source>About Hemis</source>
+        <translation>O Hemis-u</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4970,8 +4970,8 @@ Jeste li sigurni?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>hemis Core is shutting down...</source>
-        <translation>hemis Core se zatvara...</translation>
+        <source>Hemis Core is shutting down...</source>
+        <translation>Hemis Core se zatvara...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -5000,8 +5000,8 @@ Jeste li sigurni?
         <translation>Učitavanje...</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
 </context>
 <context>
@@ -5639,25 +5639,25 @@ Odaberite manje ulaza pomoću Upravljanja novčićima.</translation>
     </message>
     <message>
         <source>Welcome to
-hemis Core Wallet</source>
+Hemis Core Wallet</source>
         <translation>Dobrodošli u
-hemis temeljni novčanik</translation>
+Hemis temeljni novčanik</translation>
     </message>
     <message>
-        <source>hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>hemis je najinovativnija blockchain tehnologija na svijetu bazirana na Proof of Stake tehnologiji. Razvijena je od strane vrlo iskusnih programera i kriptografa.</translation>
+        <source>Hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Hemis je najinovativnija blockchain tehnologija na svijetu bazirana na Proof of Stake tehnologiji. Razvijena je od strane vrlo iskusnih programera i kriptografa.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kao što naš manifest kaže: Privatnost je osnovno ljudsko pravo o kojemu se ne pregovara; korisnicima daje slobodu dijeljenja svojih podataka kad god i s kim god žele - hemis vjeruje u suverenitet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kao što naš manifest kaže: Privatnost je osnovno ljudsko pravo o kojemu se ne pregovara; korisnicima daje slobodu dijeljenja svojih podataka kad god i s kim god žele - Hemis vjeruje u suverenitet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Gamemaster mreža je mreža drugog sloja hemis-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
+        <source>The gamemaster network is Hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Gamemaster mreža je mreža drugog sloja Hemis-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
     </message>
     <message>
-        <source>How hemis respects your privacy?</source>
-        <translation>Kako hemis poštuje Vašu privatnost?</translation>
+        <source>How Hemis respects your privacy?</source>
+        <translation>Kako Hemis poštuje Vašu privatnost?</translation>
     </message>
     <message>
         <source>What is a Gamemaster?</source>
@@ -5669,7 +5669,7 @@ hemis temeljni novčanik</translation>
     </message>
 </context>
 <context>
-    <name>hemis-core</name>
+    <name>Hemis-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Dopusti JSON-RPC veze od određenog izvora. Vrijedi za jednu IP (npr. 1.2.3.4), mrežu / mrežnu masku (npr. 1.2.3.4/255.255.255.0) ili mrežu / CIDR (npr. 1.2.3.4/24). Ova se opcija može odrediti više puta</translation>
@@ -5687,8 +5687,8 @@ hemis temeljni novčanik</translation>
         <translation>Pridržavajte se na navedenu adresu da biste slušali veze JSON-RPC. Koristite [host]: port notation za IPv6. Ova se opcija može odrediti više puta (zadano: vezati se na sva sučelja)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. hemis Core is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. hemis Core vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. Hemis Core is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Hemis Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5835,8 +5835,8 @@ hemis temeljni novčanik</translation>
         <translation>Ukupna duljina teksta mrežne verzije (%i) prelazi maksimalnu duljinu (%i). Smanjite broj ili veličinu uacommentsa.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. hemis Core is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. hemis Core vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. Hemis Core is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. Hemis Core vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5851,8 +5851,8 @@ hemis temeljni novčanik</translation>
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, hemis Core neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Hemis Core neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5923,8 +5923,8 @@ hemis temeljni novčanik</translation>
         <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The hemis Core Developers</source>
-        <translation>Autorska prava (C) 2015-%i The hemis Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Hemis Core Developers</source>
+        <translation>Autorska prava (C) 2015-%i The Hemis Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -6044,8 +6044,8 @@ hemis temeljni novčanik</translation>
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. hemis Core is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. hemis Core se zatvara.</translation>
+        <source>Initialization sanity check failed. Hemis Core is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Hemis Core se zatvara.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -6140,8 +6140,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Nije moguće nadograditi na novčanik Sapling (već ima Sapling podršku). Verzija: %d</translation>
     </message>
     <message>
-        <source>Disable all hemis specific functionality (Gamemasters, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogućite sve hemis specifične funkcionalnosti (Gamemaster, proračun) (0-1, zadano: %u)</translation>
+        <source>Disable all Hemis specific functionality (Gamemasters, Budgeting) (0-1, default: %u)</source>
+        <translation>Onemogućite sve Hemis specifične funkcionalnosti (Gamemaster, proračun) (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>This file contains all of your private keys in plain text. DO NOT send this file to anyone!</source>
@@ -6176,8 +6176,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Greška pri učitavanju %s: Novčanik oštećen</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet requires newer version of hemis Core</source>
-        <translation>Pogreška pri učitavanju %s: Novčanik zahtijeva noviju verziju hemis Core</translation>
+        <source>Error loading %s: Wallet requires newer version of Hemis Core</source>
+        <translation>Pogreška pri učitavanju %s: Novčanik zahtijeva noviju verziju Hemis Core</translation>
     </message>
     <message>
         <source>Error loading %s
@@ -6378,8 +6378,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Najmanji dozvoljeni iznos (u HMS) kroz GUI RPC za prag dijeljenja stake-a (default: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, hemis Core neće raditi ispravno.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Hemis Core neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6744,8 +6744,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Provjera novčanika...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart hemis Core to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite hemis Core</translation>
+        <source>Wallet needed to be rewritten: restart Hemis Core to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Hemis Core</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -6815,8 +6815,8 @@ Pokrenite 'sapling-fetch-params' ili '.util/fetch-params.sh' te ponovno pokrenit
         <translation>Odaberi koje novčiće ćeš trošiti</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>hemis adresa ili naziv kontakta</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Hemis adresa ili naziv kontakta</translation>
     </message>
     <message>
         <source>Amount</source>

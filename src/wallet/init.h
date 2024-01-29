@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2017 The Bitcoin Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_WALLET_INIT_H
-#define hemis_WALLET_INIT_H
+#ifndef Hemis_WALLET_INIT_H
+#define Hemis_WALLET_INIT_H
 
 #include <string>
 
@@ -23,4 +23,4 @@ bool WalletVerify();
 //! Load wallet databases.
 bool InitLoadWallet();
 
-#endif // hemis_WALLET_INIT_H
+#endif // Hemis_WALLET_INIT_H

@@ -72,13 +72,13 @@ TEST_EXIT_PASSED = 0
 TEST_EXIT_FAILED = 1
 TEST_EXIT_SKIPPED = 77
 
-TMPDIR_PREFIX = "hemis_func_test_"
+TMPDIR_PREFIX = "Hemis_func_test_"
 
 
 class HemisTestFramework():
-    """Base class for a hemis test script.
+    """Base class for a Hemis test script.
 
-    Individual hemis test scripts should subclass this class and override the set_test_params() and run_test() methods.
+    Individual Hemis test scripts should subclass this class and override the set_test_params() and run_test() methods.
 
     Individual tests can also override the following methods to customize the test setup:
 
@@ -109,11 +109,11 @@ class HemisTestFramework():
 
         parser = optparse.OptionParser(usage="%prog [options]")
         parser.add_option("--nocleanup", dest="nocleanup", default=False, action="store_true",
-                          help="Leave hemisds and test.* datadir on exit or error")
+                          help="Leave Hemisds and test.* datadir on exit or error")
         parser.add_option("--noshutdown", dest="noshutdown", default=False, action="store_true",
-                          help="Don't stop hemisds after the test execution")
+                          help="Don't stop Hemisds after the test execution")
         parser.add_option("--srcdir", dest="srcdir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__))+"/../../../src"),
-                          help="Source directory containing hemisd/hemis-cli (default: %default)")
+                          help="Source directory containing Hemisd/Hemis-cli (default: %default)")
         parser.add_option("--cachedir", dest="cachedir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__)) + "/../../cache"),
                           help="Directory for caching pregenerated datadirs")
         parser.add_option("--tmpdir", dest="tmpdir", help="Root directory for datadirs")
@@ -136,7 +136,7 @@ class HemisTestFramework():
         parser.add_option("--pdbonfailure", dest="pdbonfailure", default=False, action="store_true",
                           help="Attach a python debugger if test fails")
         parser.add_option("--usecli", dest="usecli", default=False, action="store_true",
-                          help="use hemis-cli instead of RPC for all commands")
+                          help="use Hemis-cli instead of RPC for all commands")
         self.add_options(parser)
         (self.options, self.args) = parser.parse_args()
 
@@ -197,7 +197,7 @@ class HemisTestFramework():
         else:
             for node in self.nodes:
                 node.cleanup_on_exit = False
-            self.log.info("Note: hemisds were not stopped and may still be running")
+            self.log.info("Note: Hemisds were not stopped and may still be running")
 
         if not self.options.nocleanup and not self.options.noshutdown and success != TestStatus.FAILED:
             self.log.info("Cleaning up")
@@ -292,7 +292,7 @@ class HemisTestFramework():
             self.nodes.append(TestNode(i, self.options.tmpdir, rpchost=rpchost, timewait=self.rpc_timewait, binary=binary[i], stderr=None, mocktime=self.mocktime, coverage_dir=self.options.coveragedir, extra_conf=extra_confs[i], extra_args=extra_args[i], use_cli=self.options.usecli))
 
     def start_node(self, i, *args, **kwargs):
-        """Start a hemisd"""
+        """Start a Hemisd"""
 
         node = self.nodes[i]
 
@@ -305,7 +305,7 @@ class HemisTestFramework():
             coverage.write_all_rpc_commands(self.options.coveragedir, node.rpc)
 
     def start_nodes(self, extra_args=None, *args, **kwargs):
-        """Start multiple hemisds"""
+        """Start multiple Hemisds"""
 
         if extra_args is None:
             extra_args = [None] * self.num_nodes
@@ -327,12 +327,12 @@ class HemisTestFramework():
                 coverage.write_all_rpc_commands(self.options.coveragedir, node.rpc)
 
     def stop_node(self, i):
-        """Stop a hemisd test node"""
+        """Stop a Hemisd test node"""
         self.nodes[i].stop_node()
         self.nodes[i].wait_until_stopped()
 
     def stop_nodes(self):
-        """Stop multiple hemisd test nodes"""
+        """Stop multiple Hemisd test nodes"""
         for node in self.nodes:
             # Issue RPC to stop nodes
             node.stop_node()
@@ -441,7 +441,7 @@ class HemisTestFramework():
         # User can provide log level as a number or string (eg DEBUG). loglevel was caught as a string, so try to convert it to an int
         ll = int(self.options.loglevel) if self.options.loglevel.isdigit() else self.options.loglevel.upper()
         ch.setLevel(ll)
-        # Format logs the same as hemisd's debug.log with microprecision (so log files can be concatenated and sorted)
+        # Format logs the same as Hemisd's debug.log with microprecision (so log files can be concatenated and sorted)
         formatter = logging.Formatter(fmt='%(asctime)s.%(msecs)03d000Z %(name)s (%(levelname)s): %(message)s', datefmt='%Y-%m-%dT%H:%M:%S')
         formatter.converter = time.gmtime
         fh.setFormatter(formatter)
@@ -470,7 +470,7 @@ class HemisTestFramework():
                 from_dir = get_datadir_path(origin, i)
                 to_dir = get_datadir_path(destination, i)
                 shutil.copytree(from_dir, to_dir)
-                initialize_datadir(destination, i)  # Overwrite port/rpcport in hemis.conf
+                initialize_datadir(destination, i)  # Overwrite port/rpcport in Hemis.conf
 
         def clone_cache_from_node_1(cachedir, from_num=4):
             """ Clones cache subdir from node 1 to nodes from 'from_num' to MAX_NODES"""
@@ -485,7 +485,7 @@ class HemisTestFramework():
                 for subdir in ["blocks", "chainstate", "evodb", "sporks", "zerocoin"]:
                     copy_and_overwrite(os.path.join(node_0_datadir, subdir),
                                     os.path.join(node_i_datadir, subdir))
-                initialize_datadir(cachedir, i)  # Overwrite port/rpcport in hemis.conf
+                initialize_datadir(cachedir, i)  # Overwrite port/rpcport in Hemis.conf
 
         def cachedir_valid(cachedir):
             for i in range(MAX_NODES):
@@ -532,7 +532,7 @@ class HemisTestFramework():
                     # Add .incomplete flagfile
                     # (removed at the end during clean_cache_subdir)
                     open(os.path.join(datadir, ".incomplete"), 'a', encoding="utf8").close()
-                args = [os.getenv("BITCOIND", "hemisd"), "-spendzeroconfchange=1", "-server", "-keypool=1",
+                args = [os.getenv("BITCOIND", "Hemisd"), "-spendzeroconfchange=1", "-server", "-keypool=1",
                         "-datadir=" + datadir, "-discover=0"]
                 self.nodes.append(
                     TestNode(i, ddir, extra_conf=["bind=127.0.0.1"], extra_args=[], rpchost=None, timewait=self.rpc_timewait, binary=None, stderr=None,
@@ -566,7 +566,7 @@ class HemisTestFramework():
             # blocks are created with timestamps 1 minutes apart
             # starting from 331 minutes in the past
 
-            # Create cache directories, run hemisds:
+            # Create cache directories, run Hemisds:
             create_cachedir(powcachedir)
             self.log.info("Creating 'PoW-chain': 200 blocks")
             start_nodes_from_dir(powcachedir, 4)
@@ -618,7 +618,7 @@ class HemisTestFramework():
         for i in range(self.num_nodes):
             initialize_datadir(self.options.tmpdir, i)
 
-    # hemis Specific TestFramework
+    # Hemis Specific TestFramework
     def init_dummy_key(self):
         self.DUMMY_KEY = ECKey()
         self.DUMMY_KEY.generate()
@@ -1641,7 +1641,7 @@ class HemisTier2TestFramework(HemisTestFramework):
         self.minerPos = 4
         self.remoteDGM1Pos = 5
 
-        self.extra_args = [["-nuparams=v5_shield:249", "-nuparams=hemis_v5.5:250", "-nuparams=v6_evo:250", "-whitelist=127.0.0.1"]] * self.num_nodes
+        self.extra_args = [["-nuparams=v5_shield:249", "-nuparams=Hemis_v5.5:250", "-nuparams=v6_evo:250", "-whitelist=127.0.0.1"]] * self.num_nodes
         for i in [self.remoteOnePos, self.remoteTwoPos, self.remoteDGM1Pos]:
             self.extra_args[i] += ["-listen", "-externalip=127.0.0.1"]
         self.extra_args[self.minerPos].append("-sporkkey=932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi")

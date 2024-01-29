@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include <QAction>
 #include "walletmodel.h"
 #include "amount.h"
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 
 class WalletModel;
 class SendCoinsRecipient;
@@ -25,7 +25,7 @@ class SendMultiRow : public PWidget
     Q_OBJECT
 
 public:
-    explicit SendMultiRow(hemisGUI* _window, PWidget *parent = nullptr);
+    explicit SendMultiRow(HemisGUI* _window, PWidget *parent = nullptr);
     ~SendMultiRow();
 
     void hideLabels();

@@ -1,10 +1,10 @@
 // Copyright (c) 2018 The Dash Core developers
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_CRYPTO_BLS_H
-#define hemis_CRYPTO_BLS_H
+#ifndef Hemis_CRYPTO_BLS_H
+#define Hemis_CRYPTO_BLS_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -419,4 +419,4 @@ typedef std::shared_ptr<BLSSignatureVector> BLSSignatureVectorPtr;
 
 bool BLSInit();
 
-#endif // hemis_CRYPTO_BLS_H
+#endif // Hemis_CRYPTO_BLS_H

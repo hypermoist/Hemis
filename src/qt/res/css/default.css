@@ -913,11 +913,11 @@ background-color:#ffffff;
 
 QLabel#labelOverviewHeaderRight {
 qproperty-alignment: 'AlignVCenter | AlignRight';
-background-image: url(':/images/hemis_logo_horizontal');
+background-image: url(':/images/Hemis_logo_horizontal');
 background-repeat: no-repeat;
 }
 
-QWidget .QFrame#frame_Header { /* Header with Page-Title and hemis-image */
+QWidget .QFrame#frame_Header { /* Header with Page-Title and Hemis-image */
 min-width:400px;
 background-color:#ffffff;
 }

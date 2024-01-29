@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2020-2021 The hemis Core developers
+# Copyright (c) 2020-2021 The Hemis Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or https://www.opensource.org/licenses/mit-license.php.
 """
@@ -201,7 +201,7 @@ class GamemasterGovernanceBasicTest(HemisTier2TestFramework):
         self.log.info("preparing budget proposal..")
         firstProposal = Proposal(
             "super-cool",
-            "https://forum.hemis.org/t/test-proposal",
+            "https://forum.Hemis.org/t/test-proposal",
             2,
             self.miner.getnewaddress(),
             300

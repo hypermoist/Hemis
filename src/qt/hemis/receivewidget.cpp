@@ -1,14 +1,14 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/receivewidget.h"
-#include "qt/hemis/forms/ui_receivewidget.h"
-#include "qt/hemis/requestdialog.h"
-#include "qt/hemis/addnewcontactdialog.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/myaddressrow.h"
-#include "qt/hemis/addressholder.h"
+#include "qt/Hemis/receivewidget.h"
+#include "qt/Hemis/forms/ui_receivewidget.h"
+#include "qt/Hemis/requestdialog.h"
+#include "qt/Hemis/addnewcontactdialog.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/myaddressrow.h"
+#include "qt/Hemis/addressholder.h"
 #include "walletmodel.h"
 #include "guiutil.h"
 
@@ -19,7 +19,7 @@
 #define DECORATION_SIZE 70
 #define NUM_ITEMS 3
 
-ReceiveWidget::ReceiveWidget(hemisGUI* parent) :
+ReceiveWidget::ReceiveWidget(HemisGUI* parent) :
     PWidget(parent),
     ui(new Ui::ReceiveWidget)
 {

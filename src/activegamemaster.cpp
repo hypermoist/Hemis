@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2016 The Dash developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -301,7 +301,7 @@ OperationResult initGamemaster(const std::string& _strGameMasterPrivKey, const s
 }
 
 //
-// Bootup the Gamemaster, look for a 10000 hemis input and register on the network
+// Bootup the Gamemaster, look for a 10000 Hemis input and register on the network
 //
 void CActiveGamemaster::ManageStatus()
 {

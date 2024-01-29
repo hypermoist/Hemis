@@ -1,23 +1,23 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/coldstakingwidget.h"
-#include "qt/hemis/forms/ui_coldstakingwidget.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/coldstakingwidget.h"
+#include "qt/Hemis/forms/ui_coldstakingwidget.h"
+#include "qt/Hemis/qtutils.h"
 #include "amount.h"
 #include "guiutil.h"
-#include "qt/hemis/requestdialog.h"
-#include "qt/hemis/tooltipmenu.h"
-#include "qt/hemis/furlistrow.h"
-#include "qt/hemis/sendconfirmdialog.h"
-#include "qt/hemis/addnewcontactdialog.h"
-#include "qt/hemis/guitransactionsutils.h"
+#include "qt/Hemis/requestdialog.h"
+#include "qt/Hemis/tooltipmenu.h"
+#include "qt/Hemis/furlistrow.h"
+#include "qt/Hemis/sendconfirmdialog.h"
+#include "qt/Hemis/addnewcontactdialog.h"
+#include "qt/Hemis/guitransactionsutils.h"
 #include "walletmodel.h"
 #include "optionsmodel.h"
 #include "coincontroldialog.h"
 #include "coincontrol.h"
-#include "qt/hemis/csrow.h"
+#include "qt/Hemis/csrow.h"
 
 #define DECORATION_SIZE 70
 #define NUM_ITEMS 3
@@ -71,7 +71,7 @@ private:
     CSRow *cachedRow = nullptr;
 };
 
-ColdStakingWidget::ColdStakingWidget(hemisGUI* parent) :
+ColdStakingWidget::ColdStakingWidget(HemisGUI* parent) :
     PWidget(parent),
     ui(new Ui::ColdStakingWidget),
     isLoading(false)

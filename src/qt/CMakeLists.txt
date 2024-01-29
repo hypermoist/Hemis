@@ -2,7 +2,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.14)
 
 set(QT_MINIMUM_VERSION 5.5.1)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/forms ${CMAKE_CURRENT_SOURCE_DIR}/hemis/forms ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/forms)
+set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/forms ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/forms ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/forms)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
@@ -90,75 +90,75 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/transactiontablemodel.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/walletmodel.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/walletmodeltransaction.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/hemisgui.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/loadingdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/pwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/focuseddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/guitransactionsutils.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/snackbar.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/navmenuwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/lockunlock.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/receivedialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/furabstractlistitemdelegate.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/txviewholder.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/qtutils.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/balancebubble.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/expandablebutton.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/topbar.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/txrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/addressfilterproxymodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/dashboardwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/addresslabelrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/contactdropdownrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/contactsdropdown.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/optionbutton.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/gminfodialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/coldstakingmodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/gmmodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/gamemasterwizarddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/gmrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/gamemasterswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/sendchangeaddressdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/sendconfirmdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/sendcustomfeedialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/sendmemodialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/sendmultirow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/send.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/addnewcontactdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/requestdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/receivewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/myaddressrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/csrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/addressholder.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/tooltipmenu.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/addresseswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/defaultdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/coldstakingwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/gmselectiondialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/proposalcard.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/votedialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/createproposaldialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/proposalinfodialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/governancewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsbackupwallet.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsbittoolwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsconsolewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsdisplayoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsfaqwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsinformationwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsmainoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingssignmessagewidgets.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingswalletoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingswalletrepairwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingsexportcsv.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings/settingswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/welcomecontentwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/splash.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/governancemodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/Hemisgui.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/loadingdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/pwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/focuseddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/guitransactionsutils.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/snackbar.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/navmenuwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/lockunlock.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/receivedialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/furabstractlistitemdelegate.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/txviewholder.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/qtutils.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/balancebubble.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/expandablebutton.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/topbar.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/txrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/addressfilterproxymodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/dashboardwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/addresslabelrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/contactdropdownrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/contactsdropdown.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/optionbutton.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/gminfodialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/coldstakingmodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/gmmodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/gamemasterwizarddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/gmrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/gamemasterswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/sendchangeaddressdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/sendconfirmdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/sendcustomfeedialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/sendmemodialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/sendmultirow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/send.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/addnewcontactdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/requestdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/receivewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/myaddressrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/csrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/addressholder.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/tooltipmenu.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/addresseswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/defaultdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/coldstakingwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/gmselectiondialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/proposalcard.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/votedialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/createproposaldialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/proposalinfodialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/governancewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsbackupwallet.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsbittoolwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsconsolewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsdisplayoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsfaqwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsinformationwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsmainoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingssignmessagewidgets.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingswalletoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingswalletrepairwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingsexportcsv.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings/settingswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/welcomecontentwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/splash.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/governancemodel.cpp
         )
 
-qt5_generate_moc(hemis/pfborderimage.h ${CMAKE_CURRENT_SOURCE_DIR}/hemis/moc_pfborderimage.cpp)
-list(APPEND QT_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/hemis/moc_pfborderimage.cpp)
+qt5_generate_moc(Hemis/pfborderimage.h ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/moc_pfborderimage.cpp)
+list(APPEND QT_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/moc_pfborderimage.cpp)
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     list(APPEND QT_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/macdockiconhandler.mm)
@@ -174,8 +174,8 @@ target_include_directories(qt_stuff PUBLIC ${CMAKE_SOURCE_DIR}/src
         ${relic_SOURCE_DIR}/include
         ${relic_BINARY_DIR}/include
         ${CMAKE_CURRENT_SOURCE_DIR}
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis
-        ${CMAKE_CURRENT_SOURCE_DIR}/hemis/settings
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis
+        ${CMAKE_CURRENT_SOURCE_DIR}/Hemis/settings
         ${BerkeleyDB_INCLUDE_DIRS}
         )
 set_property(TARGET qt_stuff PROPERTY CXX_STANDARD 14)
@@ -188,13 +188,13 @@ set_source_files_properties(${QT_TRANSLATIONS_FILES} PROPERTIES OUTPUT_LOCATION 
 QT5_ADD_TRANSLATION(QM ${QT_TRANSLATIONS_FILES})
 add_custom_target(translations_target ALL DEPENDS ${QM})
 
-QT5_ADD_RESOURCES(QRC_RESOURCE hemis.qrc)
-QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE hemis_locale.qrc)
+QT5_ADD_RESOURCES(QRC_RESOURCE Hemis.qrc)
+QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE Hemis_locale.qrc)
 
-add_executable(hemis-qt hemis.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
-add_dependencies(hemis-qt translations_target libunivalue libsecp256k1 libzcashrust leveldb crc32c bls)
-target_include_directories(hemis-qt PUBLIC ${ENDIAN_INCLUDES} ${GMP_INCLUDE_DIR})
-target_link_libraries(hemis-qt
+add_executable(Hemis-qt Hemis.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
+add_dependencies(Hemis-qt translations_target libunivalue libsecp256k1 libzcashrust leveldb crc32c bls)
+target_include_directories(Hemis-qt PUBLIC ${ENDIAN_INCLUDES} ${GMP_INCLUDE_DIR})
+target_link_libraries(Hemis-qt
         qt_stuff
         univalue
         SERVER_A WALLET_A COMMON_A ZEROCOIN_A UTIL_A SAPLING_A BITCOIN_CRYPTO_A CLI_A
@@ -204,30 +204,30 @@ target_link_libraries(hemis-qt
         -ldl pthread
         )
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    target_link_libraries(hemis-qt "-framework Cocoa")
+    target_link_libraries(Hemis-qt "-framework Cocoa")
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(hemis-qt ZMQ_A ${ZMQ_LIB})
-    target_include_directories(hemis-qt PUBLIC ${ZMQ_INCLUDE_DIR})
+    target_link_libraries(Hemis-qt ZMQ_A ${ZMQ_LIB})
+    target_include_directories(Hemis-qt PUBLIC ${ZMQ_INCLUDE_DIR})
 endif()
 if (QRCODE_FOUND)
-    target_link_libraries(hemis-qt ${QRCODE_LIB})
-    target_include_directories(hemis-qt PUBLIC ${QRCODE_INCLUDE_DIR})
+    target_link_libraries(Hemis-qt ${QRCODE_LIB})
+    target_include_directories(Hemis-qt PUBLIC ${QRCODE_INCLUDE_DIR})
 endif()
 if(MINIUPNP_FOUND)
-    target_compile_definitions(hemis-qt PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
-    target_link_libraries(hemis-qt ${MINIUPNP_LIBRARY})
-    target_include_directories(hemis-qt PUBLIC ${MINIUPNP_INCLUDE_DIR})
+    target_compile_definitions(Hemis-qt PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
+    target_link_libraries(Hemis-qt ${MINIUPNP_LIBRARY})
+    target_include_directories(Hemis-qt PUBLIC ${MINIUPNP_INCLUDE_DIR})
 endif()
 if(NAT-PMP_FOUND)
-    target_link_libraries(hemis-qt ${NAT-PMP_LIBRARY})
-    target_include_directories(hemis-qt PUBLIC ${NAT-PMP_INCLUDE_DIR})
+    target_link_libraries(Hemis-qt ${NAT-PMP_LIBRARY})
+    target_include_directories(Hemis-qt PUBLIC ${NAT-PMP_INCLUDE_DIR})
 endif()
 
-target_link_libraries(hemis-qt Qt5::Gui Qt5::Core Qt5::Widgets Qt5::Network Qt5::Svg ${QT_LIBRARIES})
+target_link_libraries(Hemis-qt Qt5::Gui Qt5::Core Qt5::Widgets Qt5::Network Qt5::Svg ${QT_LIBRARIES})
 if (Qt5DBus_FOUND)
-    target_link_libraries(hemis-qt Qt5::DBus ${QT_LIBRARIES})
+    target_link_libraries(Hemis-qt Qt5::DBus ${QT_LIBRARIES})
 endif()
 if (Qt5Charts_FOUND)
-    target_link_libraries(hemis-qt Qt5::Charts ${QT_LIBRARIES})
+    target_link_libraries(Hemis-qt Qt5::Charts ${QT_LIBRARIES})
 endif()

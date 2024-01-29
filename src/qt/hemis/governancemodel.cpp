@@ -1,8 +1,8 @@
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/governancemodel.h"
+#include "qt/Hemis/governancemodel.h"
 
 #include "budget/budgetmanager.h"
 #include "budget/budgetutil.h"
@@ -10,7 +10,7 @@
 #include "guiconstants.h"
 #include "qt/transactiontablemodel.h"
 #include "qt/transactionrecord.h"
-#include "qt/hemis/gmmodel.h"
+#include "qt/Hemis/gmmodel.h"
 #include "tiertwo/tiertwo_sync_state.h"
 #include "utilmoneystr.h"
 #include "utilstrencodings.h"

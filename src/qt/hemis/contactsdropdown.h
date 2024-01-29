@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,10 +6,10 @@
 #define CONTACTSDROPDOWN_H
 
 #include "addresstablemodel.h"
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/contactdropdownrow.h"
-#include "qt/hemis/furabstractlistitemdelegate.h"
-#include "qt/hemis/addressfilterproxymodel.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/contactdropdownrow.h"
+#include "qt/Hemis/furabstractlistitemdelegate.h"
+#include "qt/Hemis/addressfilterproxymodel.h"
 #include <QListView>
 #include <QObject>
 #include <QWidget>
@@ -29,7 +29,7 @@ class ContactsDropdown : public PWidget
     Q_OBJECT
 public:
     explicit ContactsDropdown(int minWidth, int minHeight, PWidget* parent = nullptr);
-    ContactsDropdown(int minWidth, int minHeight, hemisGUI* _window = nullptr,
+    ContactsDropdown(int minWidth, int minHeight, HemisGUI* _window = nullptr,
                      QWidget* parent = nullptr);
 
     void resizeList(int minWidth, int mintHeight);

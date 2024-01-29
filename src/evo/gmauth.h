@@ -1,10 +1,10 @@
 // Copyright (c) 2019-2020 The Dash Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_EVO_GMAUTH_H
-#define hemis_EVO_GMAUTH_H
+#ifndef Hemis_EVO_GMAUTH_H
+#define Hemis_EVO_GMAUTH_H
 
 #include "bls/bls_wrapper.h"
 #include "serialize.h"
@@ -48,4 +48,4 @@ public:
 };
 
 
-#endif // hemis_EVO_GMAUTH_H
+#endif // Hemis_EVO_GMAUTH_H

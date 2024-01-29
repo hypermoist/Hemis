@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The hemis Core developers
+// Copyright (c) 2018 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_SPENDTYPE_H
-#define hemis_SPENDTYPE_H
+#ifndef Hemis_SPENDTYPE_H
+#define Hemis_SPENDTYPE_H
 
 #include <cstdint>
 
@@ -16,4 +16,4 @@ namespace libzerocoin {
     };
 }
 
-#endif //hemis_SPENDTYPE_H
+#endif //Hemis_SPENDTYPE_H

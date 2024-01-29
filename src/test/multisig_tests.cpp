@@ -2,7 +2,7 @@
 <<<<<<< HEAD
 // Copyright (c) 2019-2021 The PIVX Core developers
 =======
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 >>>>>>> 1f345019d (first step)
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -19,7 +19,7 @@
 <<<<<<< HEAD
 #include "test_pivx.h"
 =======
-#include "test_hemis.h"
+#include "test_Hemis.h"
 >>>>>>> 1f345019d (first step)
 
 

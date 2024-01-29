@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2022 The HEMIS Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HEMIS_CORE_NEW_GUI_hemisGUI_H
-#define HEMIS_CORE_NEW_GUI_hemisGUI_H
+#ifndef Hemis_CORE_NEW_GUI_HemisGUI_H
+#define Hemis_CORE_NEW_GUI_HemisGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include <QMainWindow>
@@ -14,18 +14,18 @@
 #include <QSystemTrayIcon>
 #include <QLabel>
 
-#include "qt/hemis/navmenuwidget.h"
-#include "qt/hemis/topbar.h"
-#include "qt/hemis/dashboardwidget.h"
-#include "qt/hemis/send.h"
-#include "qt/hemis/receivewidget.h"
-#include "qt/hemis/addresseswidget.h"
-#include "qt/hemis/coldstakingwidget.h"
-#include "qt/hemis/governancewidget.h"
-#include "qt/hemis/gamemasterswidget.h"
-#include "qt/hemis/snackbar.h"
-#include "qt/hemis/settings/settingswidget.h"
-#include "qt/hemis/settings/settingsfaqwidget.h"
+#include "qt/Hemis/navmenuwidget.h"
+#include "qt/Hemis/topbar.h"
+#include "qt/Hemis/dashboardwidget.h"
+#include "qt/Hemis/send.h"
+#include "qt/Hemis/receivewidget.h"
+#include "qt/Hemis/addresseswidget.h"
+#include "qt/Hemis/coldstakingwidget.h"
+#include "qt/Hemis/governancewidget.h"
+#include "qt/Hemis/gamemasterswidget.h"
+#include "qt/Hemis/snackbar.h"
+#include "qt/Hemis/settings/settingswidget.h"
+#include "qt/Hemis/settings/settingsfaqwidget.h"
 #include "qt/rpcconsole.h"
 
 namespace interfaces {
@@ -39,18 +39,18 @@ class WalletModel;
 
 
 /**
-  HEMIS GUI main class. This class represents the main window of the HEMIS UI. It communicates with both the client and
+  Hemis GUI main class. This class represents the main window of the Hemis UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
-class hemisGUI : public QMainWindow
+class HemisGUI : public QMainWindow
 {
     Q_OBJECT
 
 public:
     static const QString DEFAULT_WALLET;
 
-    explicit hemisGUI(const NetworkStyle* networkStyle, QWidget* parent = 0);
-    ~hemisGUI();
+    explicit HemisGUI(const NetworkStyle* networkStyle, QWidget* parent = 0);
+    ~HemisGUI();
 
     /** Set the client model.
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
@@ -201,4 +201,4 @@ Q_SIGNALS:
 };
 
 
-#endif //HEMIS_CORE_NEW_GUI_hemisGUI_H
+#endif //Hemis_CORE_NEW_GUI_HemisGUI_H

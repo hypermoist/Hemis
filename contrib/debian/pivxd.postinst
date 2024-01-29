@@ -1,15 +1,15 @@
 
 #!/bin/sh
 
-# setup hemis account, homedir etc
+# setup Hemis account, homedir etc
 
 set -e
 
-BCUSER="hemis"
-BCHOME="/var/lib/hemis"
+BCUSER="Hemis"
+BCHOME="/var/lib/Hemis"
 
 if [ "$1" = "configure" ]; then
-	# Add hemis user/group - this will gracefully abort if the user already exists.
+	# Add Hemis user/group - this will gracefully abort if the user already exists.
 	# A homedir is never created.
 	set +e
 	adduser --system --home "${BCHOME}" --no-create-home --group "${BCUSER}" 2>/dev/null

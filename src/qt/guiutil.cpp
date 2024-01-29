@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2021 The hemis Core developers
+// Copyright (c) 2015-2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -55,7 +55,7 @@
 #include <QUrlQuery>
 #include <QMouseEvent>
 
-#define URI_SCHEME "hemis"
+#define URI_SCHEME "Hemis"
 
 #if defined(Q_OS_MAC)
 
@@ -133,7 +133,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
     widget->setFont(bitcoinAddressFont());
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter hemis address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
+    widget->setPlaceholderText(QObject::tr("Enter Hemis address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
 }
@@ -155,7 +155,7 @@ void updateWidgetTextAndCursorPosition(QLineEdit* widget, const QString& str)
 
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 {
-    // return if URI is not valid or is no hemis: URI
+    // return if URI is not valid or is no Hemis: URI
     if (!uri.isValid() || uri.scheme() != QString(URI_SCHEME))
         return false;
 
@@ -204,9 +204,9 @@ bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient* out)
 {
-    // Convert hemis:// to hemis:
+    // Convert Hemis:// to Hemis:
     //
-    //    Cannot handle this later, because hemis:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because Hemis:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
     if (uri.startsWith(URI_SCHEME "://", Qt::CaseInsensitive)) {
         uri.replace(0, std::strlen(URI_SCHEME) + 3, URI_SCHEME ":");
@@ -417,7 +417,7 @@ bool openDebugLogfile()
 
 bool openConfigfile()
 {
-    return openFile(GetConfigFile(gArgs.GetArg("-conf", hemis_CONF_FILENAME)), true);
+    return openFile(GetConfigFile(gArgs.GetArg("-conf", Hemis_CONF_FILENAME)), true);
 }
 
 bool openGMConfigfile()
@@ -459,16 +459,16 @@ fs::path static StartupShortcutPath()
 {
     std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::TESTNET)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "hemis (testnet).lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Hemis (testnet).lnk";
     else if (chain == CBaseChainParams::REGTEST)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "hemis (regtest).lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Hemis (regtest).lnk";
 
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "hemis.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Hemis.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for hemis*.lnk
+    // check for Hemis*.lnk
     return fs::exists(StartupShortcutPath());
 }
 
@@ -539,7 +539,7 @@ fs::path static GetAutostartDir()
 
 fs::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "hemis.desktop";
+    return GetAutostartDir() / "Hemis.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -576,15 +576,15 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         fsbridge::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out | std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a hemis.desktop file to the autostart directory:
+        // Write a Hemis.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (gArgs.GetBoolArg("-testnet", false))
-            optionFile << "Name=hemis (testnet)\n";
+            optionFile << "Name=Hemis (testnet)\n";
         else if (gArgs.GetBoolArg("-regtest", false))
-            optionFile << "Name=hemis (regtest)\n";
+            optionFile << "Name=Hemis (regtest)\n";
         else
-            optionFile << "Name=hemis\n";
+            optionFile << "Name=Hemis\n";
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

@@ -1,11 +1,11 @@
-// Copyright (c) 2019 The hemis Core developers
+// Copyright (c) 2019 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef SETTINGSMAINOPTIONSWIDGET_H
 #define SETTINGSMAINOPTIONSWIDGET_H
 
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 
 #include <QWidget>
 
@@ -22,7 +22,7 @@ class SettingsMainOptionsWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsMainOptionsWidget(hemisGUI* _window, QWidget *parent = nullptr);
+    explicit SettingsMainOptionsWidget(HemisGUI* _window, QWidget *parent = nullptr);
     ~SettingsMainOptionsWidget();
 
     void setMapper(QDataWidgetMapper *mapper);

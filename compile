@@ -4,8 +4,8 @@
 #./autogen.sh
 #./configure --disable-tests --disable-bench
 #make -j6
-#cp ./src/hemisd ./hemisd
-#cp ./src/hemis-cli ./hemis-cli
+#cp ./src/Hemisd ./Hemisd
+#cp ./src/Hemis-cli ./Hemis-cli
 
 
 

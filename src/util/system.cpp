@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include "util/system.h"
@@ -78,11 +78,11 @@
 #include <CoreFoundation/CoreFoundation.h>
 #endif
 
-const char * const hemis_CONF_FILENAME = "hemis.conf";
-const char * const hemis_GAMEMASTER_CONF_FILENAME = "gamemaster.conf";
+const char * const Hemis_CONF_FILENAME = "Hemis.conf";
+const char * const Hemis_GAMEMASTER_CONF_FILENAME = "gamemaster.conf";
 
 
-// hemis only features
+// Hemis only features
 // Gamemaster
 std::atomic<bool> fGameMaster{false};
 
@@ -230,7 +230,7 @@ public:
         std::pair<bool,std::string> found_result(false, std::string());
 
         // We pass "true" to GetArgHelper in order to return the last
-        // argument value seen from the command line (so "hemisd -foo=bar
+        // argument value seen from the command line (so "Hemisd -foo=bar
         // -foo=baz" gives GetArg(am,"foo")=={true,"baz"}
         found_result = GetArgHelper(am.m_override_args, arg, true);
         if (found_result.first) {
@@ -513,7 +513,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "hemis";
+    const char* pszModule = "Hemis";
 #endif
     if (pex)
         return strprintf(
@@ -532,13 +532,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\hemis
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\hemis
-// Mac: ~/Library/Application Support/hemis
-// Unix: ~/.hemis
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Hemis
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Hemis
+// Mac: ~/Library/Application Support/Hemis
+// Unix: ~/.Hemis
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "hemis";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Hemis";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -550,10 +550,10 @@ fs::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectories(pathRet);
-    return pathRet / "hemis";
+    return pathRet / "Hemis";
 #else
     // Unix
-    return pathRet / ".hemis";
+    return pathRet / ".Hemis";
 #endif
 #endif
 }
@@ -567,13 +567,13 @@ static RecursiveMutex csPathCached;
 static fs::path ZC_GetBaseParamsDir()
 {
     // Copied from GetDefaultDataDir and adapter for zcash params.
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\hemisParams
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\hemisParams
-    // Mac: ~/Library/Application Support/hemisParams
-    // Unix: ~/.hemis-params
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\HemisParams
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\HemisParams
+    // Mac: ~/Library/Application Support/HemisParams
+    // Unix: ~/.Hemis-params
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "hemisParams";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "HemisParams";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -585,10 +585,10 @@ static fs::path ZC_GetBaseParamsDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectories(pathRet);
-    return pathRet / "hemisParams";
+    return pathRet / "HemisParams";
 #else
     // Unix
-    return pathRet / ".hemis-params";
+    return pathRet / ".Hemis-params";
 #endif
 #endif
 }
@@ -654,14 +654,14 @@ void initZKSNARKS()
         CFRelease(mainBundle);
 #else
         // Linux fallback path for debuild/ppa based installs
-        sapling_spend = "/usr/share/hemis/sapling-spend.params";
-        sapling_output = "/usr/share/hemis/sapling-output.params";
+        sapling_spend = "/usr/share/Hemis/sapling-spend.params";
+        sapling_output = "/usr/share/Hemis/sapling-output.params";
         if (fs::exists(sapling_spend) && fs::exists(sapling_output)) {
             fParamsFound = true;
         } else {
             // Linux fallback for local installs
-            sapling_spend = "/usr/local/share/hemis/sapling-spend.params";
-            sapling_output = "/usr/local/share/hemis/sapling-output.params";
+            sapling_spend = "/usr/local/share/Hemis/sapling-spend.params";
+            sapling_output = "/usr/local/share/Hemis/sapling-output.params";
         }
 #endif
         if (fs::exists(sapling_spend) && fs::exists(sapling_output))
@@ -775,7 +775,7 @@ fs::path GetConfigFile(const std::string& confPath)
 
 fs::path GetGamemasterConfigFile()
 {
-    fs::path pathConfigFile(gArgs.GetArg("-gmconf", hemis_GAMEMASTER_CONF_FILENAME));
+    fs::path pathConfigFile(gArgs.GetArg("-gmconf", Hemis_GAMEMASTER_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile);
 }
 

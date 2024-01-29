@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/txrow.h"
-#include "qt/hemis/forms/ui_txrow.h"
+#include "qt/Hemis/txrow.h"
+#include "qt/Hemis/forms/ui_txrow.h"
 
 #include "guiutil.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
 TxRow::TxRow(QWidget *parent) :
     QWidget(parent),

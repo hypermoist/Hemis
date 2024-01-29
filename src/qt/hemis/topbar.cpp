@@ -1,17 +1,17 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/topbar.h"
-#include "qt/hemis/forms/ui_topbar.h"
-#include "qt/hemis/lockunlock.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/receivedialog.h"
-#include "qt/hemis/loadingdialog.h"
+#include "qt/Hemis/topbar.h"
+#include "qt/Hemis/forms/ui_topbar.h"
+#include "qt/Hemis/lockunlock.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/receivedialog.h"
+#include "qt/Hemis/loadingdialog.h"
 #include "askpassphrasedialog.h"
 
 #include "bitcoinunits.h"
-#include "qt/hemis/balancebubble.h"
+#include "qt/Hemis/balancebubble.h"
 #include "clientmodel.h"
 #include "qt/guiutil.h"
 #include "optionsmodel.h"
@@ -48,7 +48,7 @@ public:
     }
 };
 
-TopBar::TopBar(hemisGUI* _mainWindow, QWidget *parent) :
+TopBar::TopBar(HemisGUI* _mainWindow, QWidget *parent) :
     PWidget(_mainWindow, parent),
     ui(new Ui::TopBar)
 {
@@ -572,7 +572,7 @@ void TopBar::loadWalletModel()
     connect(walletModel, &WalletModel::encryptionStatusChanged, this, &TopBar::refreshStatus);
     // Ask for passphrase if needed
     connect(walletModel, &WalletModel::requireUnlock, this, &TopBar::unlockWallet);
-    // update the display unit, to not use the default ("hemis")
+    // update the display unit, to not use the default ("Hemis")
     updateDisplayUnit();
 
     refreshStatus();

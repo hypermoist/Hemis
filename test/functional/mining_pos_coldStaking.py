@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019-2022 The hemis Core developers
+# Copyright (c) 2019-2022 The Hemis Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -23,7 +23,7 @@ def getDelegatedUtxos(utxos):
     return [x for x in utxos if x["scriptPubKey"][:10] == '76a97b63d1' or x["scriptPubKey"][:10] == '76a97b63d2']
 
 
-class hemis_ColdStakingTest(HemisTestFramework):
+class Hemis_ColdStakingTest(HemisTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 3
@@ -472,4 +472,4 @@ class hemis_ColdStakingTest(HemisTestFramework):
 
 
 if __name__ == '__main__':
-    hemis_ColdStakingTest().main()
+    Hemis_ColdStakingTest().main()

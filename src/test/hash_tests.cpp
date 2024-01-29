@@ -5,7 +5,7 @@
 #include "crypto/siphash.h"
 #include "hash.h"
 #include "utilstrencodings.h"
-#include "test/test_hemis.h"
+#include "test/test_Hemis.h"
 
 #include <vector>
 

@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include "chainparams.h"
@@ -26,8 +26,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called hemis (http://www.hemis.org),
- * which enables instant payments to anyone, anywhere in the world. hemis uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Hemis (http://www.Hemis.org),
+ * which enables instant payments to anyone, anywhere in the world. Hemis uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -55,7 +55,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/hemis.conf are parsed in qt/hemis.cpp's main()
+    // If Qt is used, parameters/Hemis.conf are parsed in qt/Hemis.cpp's main()
     gArgs.ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
         if (gArgs.IsArgSet("-version")) {
             strUsage += LicenseInfo();
         } else {
-            strUsage += "\nUsage:  hemisd [options]                     Start " PACKAGE_NAME " Daemon\n";
+            strUsage += "\nUsage:  Hemisd [options]                     Start " PACKAGE_NAME " Daemon\n";
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
 
@@ -79,7 +79,7 @@ bool AppInit(int argc, char* argv[])
             return false;
         }
         try {
-            gArgs.ReadConfigFile(gArgs.GetArg("-conf", hemis_CONF_FILENAME));
+            gArgs.ReadConfigFile(gArgs.GetArg("-conf", Hemis_CONF_FILENAME));
         } catch (const std::exception& e) {
             fprintf(stderr, "Error reading configuration file: %s\n", e.what());
             return false;
@@ -95,12 +95,12 @@ bool AppInit(int argc, char* argv[])
         // Error out when loose non-argument tokens are encountered on command line
         for (int i = 1; i < argc; i++) {
             if (!IsSwitchChar(argv[i][0])) {
-                fprintf(stderr, "Error: Command line contains unexpected token '%s', see hemisd -h for a list of options.\n", argv[i]);
+                fprintf(stderr, "Error: Command line contains unexpected token '%s', see Hemisd -h for a list of options.\n", argv[i]);
                 return false;
             }
         }
 
-        // -server defaults to true for hemisd but not for the GUI so do this here
+        // -server defaults to true for Hemisd but not for the GUI so do this here
         gArgs.SoftSetBoolArg("-server", true);
         // Set this early so that parameter interactions go to console
         InitLogging();
@@ -120,7 +120,7 @@ bool AppInit(int argc, char* argv[])
 
 #ifndef WIN32
         if (gArgs.GetBoolArg("-daemon", false)) {
-            fprintf(stdout, "hemis server starting\n");
+            fprintf(stdout, "Hemis server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -166,7 +166,7 @@ int main(int argc, char* argv[])
 #endif
     SetupEnvironment();
 
-    // Connect hemisd signal handlers
+    // Connect Hemisd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

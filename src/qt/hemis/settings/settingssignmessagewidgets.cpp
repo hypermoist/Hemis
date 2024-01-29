@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingssignmessagewidgets.h"
+#include "qt/Hemis/settings/settingssignmessagewidgets.h"
 
 #include "key_io.h"
 #include "messagesigner.h"
 #include "qt/askpassphrasedialog.h"
 #include "qt/addressbookpage.h"
-#include "qt/hemis/settings/forms/ui_settingssignmessagewidgets.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/settings/forms/ui_settingssignmessagewidgets.h"
+#include "qt/Hemis/qtutils.h"
 #include "qt/walletmodel.h"
 #include "util/validation.h"
 
@@ -18,7 +18,7 @@
 
 #include <QClipboard>
 
-SettingsSignMessageWidgets::SettingsSignMessageWidgets(hemisGUI* _window, QWidget *parent) :
+SettingsSignMessageWidgets::SettingsSignMessageWidgets(HemisGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsSignMessageWidgets)
 {

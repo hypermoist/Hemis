@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef QTUTILS_H
 #define QTUTILS_H
 
-#include "qt/hemis/hemisgui.h"
+#include "qt/Hemis/Hemisgui.h"
 
 #include <QAbstractAnimation>
 #include <QColor>
@@ -33,11 +33,11 @@ const QString RESYNC("-resync");
 extern Qt::Modifier SHORT_KEY;
 
 bool openDialog(QDialog* widget, QWidget* gui);
-void closeDialog(QDialog* widget, hemisGUI* gui);
+void closeDialog(QDialog* widget, HemisGUI* gui);
 void openDialogFullScreen(QWidget* parent, QWidget* dialog);
-bool openDialogWithOpaqueBackgroundY(QDialog* widget, hemisGUI* gui, double posX = 3, int posY = 5, bool hideOpaqueBackground = true);
-bool openDialogWithOpaqueBackground(QDialog* widget, hemisGUI* gui, double posX = 3);
-bool openDialogWithOpaqueBackgroundFullScreen(QDialog* widget, hemisGUI* gui);
+bool openDialogWithOpaqueBackgroundY(QDialog* widget, HemisGUI* gui, double posX = 3, int posY = 5, bool hideOpaqueBackground = true);
+bool openDialogWithOpaqueBackground(QDialog* widget, HemisGUI* gui, double posX = 3);
+bool openDialogWithOpaqueBackgroundFullScreen(QDialog* widget, HemisGUI* gui);
 
 //
 QPixmap encodeToQr(const QString& str, QString& errorStr, const QColor& qrColor = Qt::black);

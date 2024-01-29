@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_DETERMINISTICGMS_H
-#define hemis_DETERMINISTICGMS_H
+#ifndef Hemis_DETERMINISTICGMS_H
+#define Hemis_DETERMINISTICGMS_H
 
 #include "arith_uint256.h"
 #include "bls/bls_wrapper.h"
@@ -601,4 +601,4 @@ private:
 
 extern std::unique_ptr<CDeterministicGMManager> deterministicGMManager;
 
-#endif //hemis_DETERMINISTICGMS_H
+#endif //Hemis_DETERMINISTICGMS_H

@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingswalletoptionswidget.h"
-#include "qt/hemis/settings/forms/ui_settingswalletoptionswidget.h"
+#include "qt/Hemis/settings/settingswalletoptionswidget.h"
+#include "qt/Hemis/settings/forms/ui_settingswalletoptionswidget.h"
 #include <QListView>
 #include "optionsmodel.h"
 #include "clientmodel.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
-SettingsWalletOptionsWidget::SettingsWalletOptionsWidget(hemisGUI* _window, QWidget *parent) :
+SettingsWalletOptionsWidget::SettingsWalletOptionsWidget(HemisGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsWalletOptionsWidget)
 {

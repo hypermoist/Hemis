@@ -113,11 +113,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += hemisd
+  bin_PROGRAMS += Hemisd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += hemis-cli hemis-tx
+  bin_PROGRAMS += Hemis-cli Hemis-tx
 endif
 
 LIBSAPLING_H = \
@@ -138,7 +138,7 @@ LIBSAPLING_H = \
   sapling/sapling_operation.h
 
 .PHONY: FORCE cargo-build check-symbols check-security
-# hemis core #
+# Hemis core #
 BITCOIN_CORE_H = \
   activegamemaster.h \
   addrdb.h \
@@ -348,7 +348,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between hemisd and hemis-qt
+# server: shared between Hemisd and Hemis-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(NATPMP_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -438,7 +438,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between hemisd and hemis-qt, but only linked
+# wallet: shared between Hemisd and Hemis-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -533,7 +533,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   zpiv/zpivmodule.cpp
 
-# common: shared between hemisd, and hemis-qt and non-server tools
+# common: shared between Hemisd, and Hemis-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -652,7 +652,7 @@ libsapling_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between hemis-cli and hemis-qt
+# cli: shared between Hemis-cli and Hemis-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -663,16 +663,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# hemisd binary #
-hemisd_SOURCES = hemisd.cpp
-hemisd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-hemisd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-hemisd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# Hemisd binary #
+Hemisd_SOURCES = Hemisd.cpp
+Hemisd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+Hemisd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Hemisd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-hemisd_SOURCES += hemisd-res.rc
+Hemisd_SOURCES += Hemisd-res.rc
 endif
-hemisd_LDADD = \
+Hemisd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -689,19 +689,19 @@ hemisd_LDADD = \
   $(LIBRUSTZCASH) \
   $(LIBZCASH_LIBS)
 
-hemisd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(MINIUPNPC_LIBS) $(NATPMP_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS) $(BLS_LIBS)
+Hemisd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(MINIUPNPC_LIBS) $(NATPMP_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS) $(BLS_LIBS)
 
-# hemis-cli binary #
-hemis_cli_SOURCES = hemis-cli.cpp
-hemis_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-hemis_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-hemis_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# Hemis-cli binary #
+Hemis_cli_SOURCES = Hemis-cli.cpp
+Hemis_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+Hemis_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Hemis_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-hemis_cli_SOURCES += hemis-cli-res.rc
+Hemis_cli_SOURCES += Hemis-cli-res.rc
 endif
 
-hemis_cli_LDADD = \
+Hemis_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -710,20 +710,20 @@ hemis_cli_LDADD = \
   $(LIBRUSTZCASH) \
   $(LIBZCASH_LIBS)
 
-hemis_cli_LDADD += $(BOOST_LIBS) $(EVENT_LIBS) $(BLS_LIBS)
+Hemis_cli_LDADD += $(BOOST_LIBS) $(EVENT_LIBS) $(BLS_LIBS)
 #
 
-# hemis-tx binary #
-hemis_tx_SOURCES = hemis-tx.cpp
-hemis_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-hemis_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-hemis_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# Hemis-tx binary #
+Hemis_tx_SOURCES = Hemis-tx.cpp
+Hemis_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+Hemis_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Hemis_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-hemis_tx_SOURCES += hemis-tx-res.rc
+Hemis_tx_SOURCES += Hemis-tx-res.rc
 endif
 
-hemis_tx_LDADD = \
+Hemis_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -734,7 +734,7 @@ hemis_tx_LDADD = \
   $(LIBRUSTZCASH) \
   $(LIBZCASH_LIBS)
 
-hemis_tx_LDADD += $(BOOST_LIBS) $(BLS_LIBS)
+Hemis_tx_LDADD += $(BOOST_LIBS) $(BLS_LIBS)
 #
 
 # bitcoinconsensus library #
@@ -810,12 +810,12 @@ EXTRA_DIST = $(CTAES_DIST) rust
 EXTRA_DIST += $(IMMER_DIST)
 
 
-config/hemis-config.h: config/stamp-h1
+config/Hemis-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-config/stamp-h1: $(top_srcdir)/$(subdir)/config/hemis-config.h.in $(top_builddir)/config.status
+config/stamp-h1: $(top_srcdir)/$(subdir)/config/Hemis-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-$(top_srcdir)/$(subdir)/config/hemis-config.h.in:  $(am__configure_deps)
-	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/hemis-config.h.in
+$(top_srcdir)/$(subdir)/config/Hemis-config.h.in:  $(am__configure_deps)
+	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/Hemis-config.h.in
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

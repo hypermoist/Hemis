@@ -1,5 +1,5 @@
 // Copyright (c) 2018 The Zcash developers
-// Copyright (c) 2020-2022 The hemis Core developers
+// Copyright (c) 2020-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,7 +15,7 @@
 const struct NUInfo NetworkUpgradeInfo[Consensus::MAX_NETWORK_UPGRADES] = {
         {
                 /*.strName =*/ "Base",
-                /*.strInfo =*/ "hemis network",
+                /*.strInfo =*/ "Hemis network",
         },
         {
                 /*.strName =*/ "PoS",
@@ -42,11 +42,11 @@ const struct NUInfo NetworkUpgradeInfo[Consensus::MAX_NETWORK_UPGRADES] = {
                 /*.strInfo =*/ "Activation of zerocoin public spends (spend v3)",
         },
         {
-                /*.strName =*/ "hemis_v3.4",
+                /*.strName =*/ "Hemis_v3.4",
                 /*.strInfo =*/ "New 256-bit stake modifier - start block v6",
         },
         {
-                /*.strName =*/ "hemis_v4.0",
+                /*.strName =*/ "Hemis_v4.0",
                 /*.strInfo =*/ "New message sigs - start block v7 - time protocol - zc spend v4",
         },
         {
@@ -54,15 +54,15 @@ const struct NUInfo NetworkUpgradeInfo[Consensus::MAX_NETWORK_UPGRADES] = {
                 /*.strInfo =*/ "Sapling Shield - start block v8 - start transaction v3",
         },
         {
-                /*.strName =*/ "hemis_v5.2",
+                /*.strName =*/ "Hemis_v5.2",
                 /*.strInfo =*/ "New cold-staking rules",
         },
         {
-                /*.strName =*/ "hemis_v5.3",
+                /*.strName =*/ "Hemis_v5.3",
                 /*.strInfo =*/ "New staking rules",
         },
         {
-                /*.strName =*/ "hemis_v5.5",
+                /*.strName =*/ "Hemis_v5.5",
                 /*.strInfo =*/ "New rewards structure",
         },
         {

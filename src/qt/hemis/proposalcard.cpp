@@ -1,11 +1,11 @@
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/proposalcard.h"
-#include "qt/hemis/forms/ui_proposalcard.h"
+#include "qt/Hemis/proposalcard.h"
+#include "qt/Hemis/forms/ui_proposalcard.h"
 
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
 ProposalCard::ProposalCard(QWidget *parent) :
     QWidget(parent),

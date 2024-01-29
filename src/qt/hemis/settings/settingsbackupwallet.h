@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,7 +6,7 @@
 #define SETTINGSBACKUPWALLET_H
 
 #include <QWidget>
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 
 namespace Ui {
 class SettingsBackupWallet;
@@ -17,7 +17,7 @@ class SettingsBackupWallet : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsBackupWallet(hemisGUI* _window, QWidget *parent = nullptr);
+    explicit SettingsBackupWallet(HemisGUI* _window, QWidget *parent = nullptr);
     ~SettingsBackupWallet();
 
 private Q_SLOTS:

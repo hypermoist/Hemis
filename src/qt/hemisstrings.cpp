@@ -8,232 +8,232 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *hemis_strings[] = {
-QT_TRANSLATE_NOOP("hemis-core", ""
+static const char UNUSED *Hemis_strings[] = {
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Cannot find the Sapling parameters in the following directory:\n"
 "%s\n"
 "Please run 'sapling-fetch-params' or './util/fetch-params.sh' and then "
 "restart."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Cannot obtain a lock on data directory %s. %s is probably already running."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Cannot start deterministic gamemaster before enforcement. Remove %s to start "
 "as legacy gamemaster"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Cannot upgrade to Sapling wallet (already running Sapling support). Version: "
 "%d"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Enabling Gamemaster support requires turning on transaction indexing.Please "
 "add %s to your configuration and start with %s"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Error: Listening for incoming connections failed (listen returned error %s)"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Error: Unsupported argument %s found. Setting SOCKS version isn't possible "
 "anymore, only SOCKS5 proxies are supported."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Failed to create backup, file already exists! This could happen if you "
 "restarted wallet in less than 60 seconds. You can continue if you are ok "
 "with this."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Invalid -wallet path '%s'. -wallet path should point to a directory where "
 "wallet.dat and database/log.?????????? files can be stored, a location where "
 "such a directory could be created or (for backwards compatibility) the name "
 "of an existing data file in -walletdir (%s)"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Invalid amount for %s: '%s' (must be at least the minimum relay fee of %s to "
 "prevent stuck transactions)"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Legacy gamemaster system disabled. Use %s to start as deterministic "
 "gamemaster"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Please check that your computer's date and time are correct! If your clock "
 "is wrong %s will not work properly."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "System error while flushing the chainstate after pruning invalid entries. "
 "Possible corrupt database."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "The block database contains a block which appears to be from the future. "
 "This may be due to your computer's date and time being set incorrectly. Only "
 "rebuild the block database if you are sure that your computer's date and "
 "time are correct"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "This file contains all of your private keys in plain text. DO NOT send this "
 "file to anyone!"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "staking or merchant applications!"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Total length of network version string (%i) exceeds maximum length (%i). "
 "Reduce the number or size of %s."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Unable to replay blocks. You will need to rebuild the database using %s."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "WARNING: The transaction has been signed and recorded, so the wallet will "
 "try to re-send it. Use 'abandontransaction' to cancel it. (txid: %s)"),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Warning: %s is set very high! Fees this large could be paid on a single "
 "transaction."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Warning: %s is set very high! This is the transaction fee you will pay if "
 "you send a transaction."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
 "your clock is wrong %s will not work properly."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; "
 "if your balance or transactions are incorrect you should restore from a "
 "backup."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Warning: We do not appear to fully agree with our peers! You may need to "
 "upgrade, or other nodes may need to upgrade."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "Warning: error reading %s! All keys read correctly, but transaction data or "
 "address book entries might be missing or incorrect."),
-QT_TRANSLATE_NOOP("hemis-core", ""
+QT_TRANSLATE_NOOP("Hemis-core", ""
 "\"local\" vote is no longer available with DGMs. Use \"alias\" from the "
 "wallet with the voting key."),
-QT_TRANSLATE_NOOP("hemis-core", "%s Invalid %s address or hostname: '%s'"),
-QT_TRANSLATE_NOOP("hemis-core", "%s corrupt, salvage failed"),
-QT_TRANSLATE_NOOP("hemis-core", "%s is not allowed in combination with enabled wallet functionality"),
-QT_TRANSLATE_NOOP("hemis-core", "%s is only allowed with a single wallet file"),
-QT_TRANSLATE_NOOP("hemis-core", "(must be %d for %s-net)"),
-QT_TRANSLATE_NOOP("hemis-core", "A fatal internal error occurred, see debug.log for details"),
-QT_TRANSLATE_NOOP("hemis-core", "Active Gamemaster not initialized."),
-QT_TRANSLATE_NOOP("hemis-core", "Calculating money supply..."),
-QT_TRANSLATE_NOOP("hemis-core", "Can't generate a change-address key. Please call keypoolrefill first."),
-QT_TRANSLATE_NOOP("hemis-core", "Cannot downgrade wallet."),
-QT_TRANSLATE_NOOP("hemis-core", "Cannot resolve -%s address: '%s'"),
-QT_TRANSLATE_NOOP("hemis-core", "Cannot set %s or %s together with %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Cannot upgrade a locked wallet."),
-QT_TRANSLATE_NOOP("hemis-core", "Cannot write to data directory '%s'; check permissions."),
-QT_TRANSLATE_NOOP("hemis-core", "Change index out of range"),
-QT_TRANSLATE_NOOP("hemis-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("hemis-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("hemis-core", "Copyright (C) 2015-%i The %s Developers"),
-QT_TRANSLATE_NOOP("hemis-core", "Corrupted block database detected"),
-QT_TRANSLATE_NOOP("hemis-core", "Could not find asmap file %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Could not open debug log file %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Could not parse asmap file %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Could not parse gamemaster.conf"),
-QT_TRANSLATE_NOOP("hemis-core", "Deterministic gamemasters are not enforced yet"),
-QT_TRANSLATE_NOOP("hemis-core", "Do you want to rebuild the block database now?"),
-QT_TRANSLATE_NOOP("hemis-core", "Done loading"),
-QT_TRANSLATE_NOOP("hemis-core", "Elliptic curve cryptography sanity check failure. Aborting."),
-QT_TRANSLATE_NOOP("hemis-core", "Error initializing block database"),
-QT_TRANSLATE_NOOP("hemis-core", "Error initializing wallet database environment %s!"),
-QT_TRANSLATE_NOOP("hemis-core", "Error loading %s: Wallet corrupted"),
-QT_TRANSLATE_NOOP("hemis-core", "Error loading %s: Wallet requires newer version of %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Error loading %s\n"),
-QT_TRANSLATE_NOOP("hemis-core", "Error loading block database"),
-QT_TRANSLATE_NOOP("hemis-core", "Error loading wallet %s. Duplicate %s filename specified."),
-QT_TRANSLATE_NOOP("hemis-core", "Error opening block database"),
-QT_TRANSLATE_NOOP("hemis-core", "Error reading from database, shutting down."),
-QT_TRANSLATE_NOOP("hemis-core", "Error upgrading chainstate database"),
-QT_TRANSLATE_NOOP("hemis-core", "Error"),
-QT_TRANSLATE_NOOP("hemis-core", "Error: %s must be at least %d MB"),
-QT_TRANSLATE_NOOP("hemis-core", "Error: %s must be true if %s is set."),
-QT_TRANSLATE_NOOP("hemis-core", "Error: A fatal internal error occured, see debug.log for details"),
-QT_TRANSLATE_NOOP("hemis-core", "Error: A fatal internal error occurred, see debug.log for details"),
-QT_TRANSLATE_NOOP("hemis-core", "Error: Disk space is low for %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Error: Disk space is low!"),
-QT_TRANSLATE_NOOP("hemis-core", "Error: Initializing networking failed"),
-QT_TRANSLATE_NOOP("hemis-core", "Error: Unsupported argument %s found, use %s."),
-QT_TRANSLATE_NOOP("hemis-core", "Error: Unsupported argument %s found. Checklevel must be level 4."),
-QT_TRANSLATE_NOOP("hemis-core", "Failed to accept tx in the memory pool (reason: %s)\n"),
-QT_TRANSLATE_NOOP("hemis-core", "Failed to delete backup, error: %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Failed to listen on any port. Use %s if you want this."),
-QT_TRANSLATE_NOOP("hemis-core", "Failed to parse host:port string"),
-QT_TRANSLATE_NOOP("hemis-core", "Failed to rescan the wallet during initialization"),
-QT_TRANSLATE_NOOP("hemis-core", "Importing..."),
-QT_TRANSLATE_NOOP("hemis-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
-QT_TRANSLATE_NOOP("hemis-core", "Information"),
-QT_TRANSLATE_NOOP("hemis-core", "Initialization sanity check failed. %s is shutting down."),
-QT_TRANSLATE_NOOP("hemis-core", "Insufficient funds."),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid -gamemasteraddr address: %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid -gamemasteraddr port %d, isn't the same as the peer port %d"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid -gamemasteraddr port %d, only %d is supported on %s-net."),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid activation height (%s)"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid amount for %s: '%s' (must be at least %s)"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid amount for -%s=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid gamemasterprivkey. Please see the documentation."),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid gmoperatorprivatekey. Please see the documentation."),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid netmask specified in %s: '%s'"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid network upgrade (%s)"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid port %d detected in gamemaster.conf"),
-QT_TRANSLATE_NOOP("hemis-core", "Invalid status error."),
-QT_TRANSLATE_NOOP("hemis-core", "Keypool ran out, please call keypoolrefill first, or unlock the wallet."),
-QT_TRANSLATE_NOOP("hemis-core", "Legacy Gamemaster is obsolete."),
-QT_TRANSLATE_NOOP("hemis-core", "Line: %d"),
-QT_TRANSLATE_NOOP("hemis-core", "Loading addresses..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading banlist..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading block index..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading budget cache..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading gamemaster cache..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading gamemaster payment cache..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading sporks..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading wallet..."),
-QT_TRANSLATE_NOOP("hemis-core", "Loading/Pruning invalid outputs..."),
-QT_TRANSLATE_NOOP("hemis-core", "GMs synchronization pending..."),
-QT_TRANSLATE_NOOP("hemis-core", "Need to specify a port with %s: '%s'"),
-QT_TRANSLATE_NOOP("hemis-core", "Network upgrade parameters malformed, expecting %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Network upgrade parameters may only be overridden on regtest."),
-QT_TRANSLATE_NOOP("hemis-core", "No error"),
-QT_TRANSLATE_NOOP("hemis-core", "Not enough file descriptors available."),
-QT_TRANSLATE_NOOP("hemis-core", "OS cryptographic RNG sanity check failure. Aborting."),
-QT_TRANSLATE_NOOP("hemis-core", "Peers are being disconnected due time differences."),
-QT_TRANSLATE_NOOP("hemis-core", "Preparing for resync..."),
-QT_TRANSLATE_NOOP("hemis-core", "Reaccepting wallet transactions..."),
-QT_TRANSLATE_NOOP("hemis-core", "Replaying blocks..."),
-QT_TRANSLATE_NOOP("hemis-core", "Rescanning..."),
-QT_TRANSLATE_NOOP("hemis-core", "Shutdown requested over the txs scan. Exiting."),
-QT_TRANSLATE_NOOP("hemis-core", "Signing transaction failed"),
-QT_TRANSLATE_NOOP("hemis-core", "Specified -walletdir \"%s\" does not exist"),
-QT_TRANSLATE_NOOP("hemis-core", "Specified -walletdir \"%s\" is a relative path"),
-QT_TRANSLATE_NOOP("hemis-core", "Specified -walletdir \"%s\" is not a directory"),
-QT_TRANSLATE_NOOP("hemis-core", "Specified blocks directory \"%s\" does not exist."),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronization failed"),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronization finished"),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronizing budgets..."),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronizing gamemaster winners..."),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronizing gamemasters..."),
-QT_TRANSLATE_NOOP("hemis-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("hemis-core", "The threshold value cannot be less than %s"),
-QT_TRANSLATE_NOOP("hemis-core", "This is experimental software."),
-QT_TRANSLATE_NOOP("hemis-core", "This is not a deterministic gamemaster. 'local' option disabled."),
-QT_TRANSLATE_NOOP("hemis-core", "This is not a gamemaster. 'local' option disabled."),
-QT_TRANSLATE_NOOP("hemis-core", "This is not a gamemaster."),
-QT_TRANSLATE_NOOP("hemis-core", "This product includes UPnP software written by Thomas Bernard."),
-QT_TRANSLATE_NOOP("hemis-core", "Transaction amount too small"),
-QT_TRANSLATE_NOOP("hemis-core", "Transaction amounts must be positive"),
-QT_TRANSLATE_NOOP("hemis-core", "Transaction canceled."),
-QT_TRANSLATE_NOOP("hemis-core", "Transaction must have at least one recipient"),
-QT_TRANSLATE_NOOP("hemis-core", "Transaction too large for fee policy"),
-QT_TRANSLATE_NOOP("hemis-core", "Transaction too large"),
-QT_TRANSLATE_NOOP("hemis-core", "Unable to bind to %s on this computer (bind returned error %s)"),
-QT_TRANSLATE_NOOP("hemis-core", "Unable to bind to %s on this computer. %s is probably already running."),
-QT_TRANSLATE_NOOP("hemis-core", "Unable to generate initial key!"),
-QT_TRANSLATE_NOOP("hemis-core", "Unable to generate keys"),
-QT_TRANSLATE_NOOP("hemis-core", "Unable to sign spork message, wrong key?"),
-QT_TRANSLATE_NOOP("hemis-core", "Unable to start HTTP server. See debug log for details."),
-QT_TRANSLATE_NOOP("hemis-core", "Unknown network specified in %s: '%s'"),
-QT_TRANSLATE_NOOP("hemis-core", "Unsupported logging category %s=%s."),
-QT_TRANSLATE_NOOP("hemis-core", "Upgrading coins database if needed..."),
-QT_TRANSLATE_NOOP("hemis-core", "User Agent comment (%s) contains unsafe characters."),
-QT_TRANSLATE_NOOP("hemis-core", "Verifying blocks..."),
-QT_TRANSLATE_NOOP("hemis-core", "Verifying wallet(s)..."),
-QT_TRANSLATE_NOOP("hemis-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Wallet needed to be rewritten: restart %s to complete"),
-QT_TRANSLATE_NOOP("hemis-core", "Warning"),
-QT_TRANSLATE_NOOP("hemis-core", "Warning: This version is obsolete, upgrade required!"),
-QT_TRANSLATE_NOOP("hemis-core", "Warning: Unsupported argument %s ignored, use %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Warning: Unsupported argument %s ignored, use %s."),
-QT_TRANSLATE_NOOP("hemis-core", "You can not start a gamemaster in litemode"),
-QT_TRANSLATE_NOOP("hemis-core", "You need to rebuild the database using %s to change %s"),
-QT_TRANSLATE_NOOP("hemis-core", "Zapping all transactions from wallet..."),
+QT_TRANSLATE_NOOP("Hemis-core", "%s Invalid %s address or hostname: '%s'"),
+QT_TRANSLATE_NOOP("Hemis-core", "%s corrupt, salvage failed"),
+QT_TRANSLATE_NOOP("Hemis-core", "%s is not allowed in combination with enabled wallet functionality"),
+QT_TRANSLATE_NOOP("Hemis-core", "%s is only allowed with a single wallet file"),
+QT_TRANSLATE_NOOP("Hemis-core", "(must be %d for %s-net)"),
+QT_TRANSLATE_NOOP("Hemis-core", "A fatal internal error occurred, see debug.log for details"),
+QT_TRANSLATE_NOOP("Hemis-core", "Active Gamemaster not initialized."),
+QT_TRANSLATE_NOOP("Hemis-core", "Calculating money supply..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Can't generate a change-address key. Please call keypoolrefill first."),
+QT_TRANSLATE_NOOP("Hemis-core", "Cannot downgrade wallet."),
+QT_TRANSLATE_NOOP("Hemis-core", "Cannot resolve -%s address: '%s'"),
+QT_TRANSLATE_NOOP("Hemis-core", "Cannot set %s or %s together with %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Cannot upgrade a locked wallet."),
+QT_TRANSLATE_NOOP("Hemis-core", "Cannot write to data directory '%s'; check permissions."),
+QT_TRANSLATE_NOOP("Hemis-core", "Change index out of range"),
+QT_TRANSLATE_NOOP("Hemis-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
+QT_TRANSLATE_NOOP("Hemis-core", "Copyright (C) 2014-%i The Dash Core Developers"),
+QT_TRANSLATE_NOOP("Hemis-core", "Copyright (C) 2015-%i The %s Developers"),
+QT_TRANSLATE_NOOP("Hemis-core", "Corrupted block database detected"),
+QT_TRANSLATE_NOOP("Hemis-core", "Could not find asmap file %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Could not open debug log file %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Could not parse asmap file %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Could not parse gamemaster.conf"),
+QT_TRANSLATE_NOOP("Hemis-core", "Deterministic gamemasters are not enforced yet"),
+QT_TRANSLATE_NOOP("Hemis-core", "Do you want to rebuild the block database now?"),
+QT_TRANSLATE_NOOP("Hemis-core", "Done loading"),
+QT_TRANSLATE_NOOP("Hemis-core", "Elliptic curve cryptography sanity check failure. Aborting."),
+QT_TRANSLATE_NOOP("Hemis-core", "Error initializing block database"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error initializing wallet database environment %s!"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error loading %s: Wallet corrupted"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error loading %s: Wallet requires newer version of %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error loading %s\n"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error loading block database"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error loading wallet %s. Duplicate %s filename specified."),
+QT_TRANSLATE_NOOP("Hemis-core", "Error opening block database"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error reading from database, shutting down."),
+QT_TRANSLATE_NOOP("Hemis-core", "Error upgrading chainstate database"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: %s must be at least %d MB"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: %s must be true if %s is set."),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: A fatal internal error occured, see debug.log for details"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: A fatal internal error occurred, see debug.log for details"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: Disk space is low for %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: Disk space is low!"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: Initializing networking failed"),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: Unsupported argument %s found, use %s."),
+QT_TRANSLATE_NOOP("Hemis-core", "Error: Unsupported argument %s found. Checklevel must be level 4."),
+QT_TRANSLATE_NOOP("Hemis-core", "Failed to accept tx in the memory pool (reason: %s)\n"),
+QT_TRANSLATE_NOOP("Hemis-core", "Failed to delete backup, error: %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Failed to listen on any port. Use %s if you want this."),
+QT_TRANSLATE_NOOP("Hemis-core", "Failed to parse host:port string"),
+QT_TRANSLATE_NOOP("Hemis-core", "Failed to rescan the wallet during initialization"),
+QT_TRANSLATE_NOOP("Hemis-core", "Importing..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
+QT_TRANSLATE_NOOP("Hemis-core", "Information"),
+QT_TRANSLATE_NOOP("Hemis-core", "Initialization sanity check failed. %s is shutting down."),
+QT_TRANSLATE_NOOP("Hemis-core", "Insufficient funds."),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid -gamemasteraddr address: %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid -gamemasteraddr port %d, isn't the same as the peer port %d"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid -gamemasteraddr port %d, only %d is supported on %s-net."),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid activation height (%s)"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid amount for %s: '%s' (must be at least %s)"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid amount for -%s=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid gamemasterprivkey. Please see the documentation."),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid gmoperatorprivatekey. Please see the documentation."),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid netmask specified in %s: '%s'"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid network upgrade (%s)"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid port %d detected in gamemaster.conf"),
+QT_TRANSLATE_NOOP("Hemis-core", "Invalid status error."),
+QT_TRANSLATE_NOOP("Hemis-core", "Keypool ran out, please call keypoolrefill first, or unlock the wallet."),
+QT_TRANSLATE_NOOP("Hemis-core", "Legacy Gamemaster is obsolete."),
+QT_TRANSLATE_NOOP("Hemis-core", "Line: %d"),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading addresses..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading banlist..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading block index..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading budget cache..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading gamemaster cache..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading gamemaster payment cache..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading sporks..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading wallet..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Loading/Pruning invalid outputs..."),
+QT_TRANSLATE_NOOP("Hemis-core", "GMs synchronization pending..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Need to specify a port with %s: '%s'"),
+QT_TRANSLATE_NOOP("Hemis-core", "Network upgrade parameters malformed, expecting %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Network upgrade parameters may only be overridden on regtest."),
+QT_TRANSLATE_NOOP("Hemis-core", "No error"),
+QT_TRANSLATE_NOOP("Hemis-core", "Not enough file descriptors available."),
+QT_TRANSLATE_NOOP("Hemis-core", "OS cryptographic RNG sanity check failure. Aborting."),
+QT_TRANSLATE_NOOP("Hemis-core", "Peers are being disconnected due time differences."),
+QT_TRANSLATE_NOOP("Hemis-core", "Preparing for resync..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Reaccepting wallet transactions..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Replaying blocks..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Rescanning..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Shutdown requested over the txs scan. Exiting."),
+QT_TRANSLATE_NOOP("Hemis-core", "Signing transaction failed"),
+QT_TRANSLATE_NOOP("Hemis-core", "Specified -walletdir \"%s\" does not exist"),
+QT_TRANSLATE_NOOP("Hemis-core", "Specified -walletdir \"%s\" is a relative path"),
+QT_TRANSLATE_NOOP("Hemis-core", "Specified -walletdir \"%s\" is not a directory"),
+QT_TRANSLATE_NOOP("Hemis-core", "Specified blocks directory \"%s\" does not exist."),
+QT_TRANSLATE_NOOP("Hemis-core", "Synchronization failed"),
+QT_TRANSLATE_NOOP("Hemis-core", "Synchronization finished"),
+QT_TRANSLATE_NOOP("Hemis-core", "Synchronizing budgets..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Synchronizing gamemaster winners..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Synchronizing gamemasters..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Synchronizing sporks..."),
+QT_TRANSLATE_NOOP("Hemis-core", "The threshold value cannot be less than %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "This is experimental software."),
+QT_TRANSLATE_NOOP("Hemis-core", "This is not a deterministic gamemaster. 'local' option disabled."),
+QT_TRANSLATE_NOOP("Hemis-core", "This is not a gamemaster. 'local' option disabled."),
+QT_TRANSLATE_NOOP("Hemis-core", "This is not a gamemaster."),
+QT_TRANSLATE_NOOP("Hemis-core", "This product includes UPnP software written by Thomas Bernard."),
+QT_TRANSLATE_NOOP("Hemis-core", "Transaction amount too small"),
+QT_TRANSLATE_NOOP("Hemis-core", "Transaction amounts must be positive"),
+QT_TRANSLATE_NOOP("Hemis-core", "Transaction canceled."),
+QT_TRANSLATE_NOOP("Hemis-core", "Transaction must have at least one recipient"),
+QT_TRANSLATE_NOOP("Hemis-core", "Transaction too large for fee policy"),
+QT_TRANSLATE_NOOP("Hemis-core", "Transaction too large"),
+QT_TRANSLATE_NOOP("Hemis-core", "Unable to bind to %s on this computer (bind returned error %s)"),
+QT_TRANSLATE_NOOP("Hemis-core", "Unable to bind to %s on this computer. %s is probably already running."),
+QT_TRANSLATE_NOOP("Hemis-core", "Unable to generate initial key!"),
+QT_TRANSLATE_NOOP("Hemis-core", "Unable to generate keys"),
+QT_TRANSLATE_NOOP("Hemis-core", "Unable to sign spork message, wrong key?"),
+QT_TRANSLATE_NOOP("Hemis-core", "Unable to start HTTP server. See debug log for details."),
+QT_TRANSLATE_NOOP("Hemis-core", "Unknown network specified in %s: '%s'"),
+QT_TRANSLATE_NOOP("Hemis-core", "Unsupported logging category %s=%s."),
+QT_TRANSLATE_NOOP("Hemis-core", "Upgrading coins database if needed..."),
+QT_TRANSLATE_NOOP("Hemis-core", "User Agent comment (%s) contains unsafe characters."),
+QT_TRANSLATE_NOOP("Hemis-core", "Verifying blocks..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Verifying wallet(s)..."),
+QT_TRANSLATE_NOOP("Hemis-core", "Wallet %s resides outside data directory %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Wallet needed to be rewritten: restart %s to complete"),
+QT_TRANSLATE_NOOP("Hemis-core", "Warning"),
+QT_TRANSLATE_NOOP("Hemis-core", "Warning: This version is obsolete, upgrade required!"),
+QT_TRANSLATE_NOOP("Hemis-core", "Warning: Unsupported argument %s ignored, use %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Warning: Unsupported argument %s ignored, use %s."),
+QT_TRANSLATE_NOOP("Hemis-core", "You can not start a gamemaster in litemode"),
+QT_TRANSLATE_NOOP("Hemis-core", "You need to rebuild the database using %s to change %s"),
+QT_TRANSLATE_NOOP("Hemis-core", "Zapping all transactions from wallet..."),
 };

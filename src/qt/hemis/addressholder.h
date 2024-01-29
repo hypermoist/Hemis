@@ -1,14 +1,14 @@
-// Copyright (c) 2019 The hemis Core developers
+// Copyright (c) 2019 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_ADDRESSHOLDER_H
-#define hemis_ADDRESSHOLDER_H
+#ifndef Hemis_ADDRESSHOLDER_H
+#define Hemis_ADDRESSHOLDER_H
 
 #include <QWidget>
 #include <QColor>
-#include "qt/hemis/myaddressrow.h"
-#include "qt/hemis/furlistrow.h"
+#include "qt/Hemis/myaddressrow.h"
+#include "qt/Hemis/furlistrow.h"
 #include "guiutil.h"
 
 
@@ -38,4 +38,4 @@ public:
 };
 
 
-#endif //hemis_ADDRESSHOLDER_H
+#endif //Hemis_ADDRESSHOLDER_H

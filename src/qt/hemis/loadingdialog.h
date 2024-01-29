@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include <QPointer>
 #include <iostream>
 #include <QTimer>
-#include "qt/hemis/prunnable.h"
+#include "qt/Hemis/prunnable.h"
 #include "qt/walletmodel.h"
 
 namespace Ui {

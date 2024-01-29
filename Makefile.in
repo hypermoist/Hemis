@@ -128,7 +128,7 @@ DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure \
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
 mkinstalldirs = $(install_sh) -d
-CONFIG_HEADER = $(top_builddir)/src/config/hemis-config.h
+CONFIG_HEADER = $(top_builddir)/src/config/Hemis-config.h
 CONFIG_CLEAN_FILES = libbitcoinconsensus.pc share/setup.nsi \
 	share/qt/Info.plist test/config.ini \
 	contrib/devtools/split-debug.sh doc/Doxyfile
@@ -234,7 +234,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/doc/Doxyfile.in \
 	$(top_srcdir)/share/qt/Info.plist.in \
 	$(top_srcdir)/share/setup.nsi.in \
-	$(top_srcdir)/src/config/hemis-config.h.in \
+	$(top_srcdir)/src/config/Hemis-config.h.in \
 	$(top_srcdir)/test/config.ini.in \
 	$(top_srcdir)/test/functional/test_runner.py \
 	$(top_srcdir)/test/util/bitcoin-util-test.py \
@@ -580,7 +580,7 @@ BITCOIN_CLI_BIN = $(top_builddir)/src/$(BITCOIN_CLI_NAME)$(EXEEXT)
 BITCOIN_WIN_INSTALLER = $(PACKAGE)-$(PACKAGE_VERSION)-win64-setup$(EXEEXT)
 empty := 
 space := $(empty) $(empty)
-OSX_APP = hemis-Qt.app
+OSX_APP = Hemis-Qt.app
 OSX_VOLNAME = $(subst $(space),-,$(PACKAGE_NAME))
 OSX_DMG = $(OSX_VOLNAME).dmg
 OSX_BACKGROUND_SVG = background.svg
@@ -594,9 +594,9 @@ DIST_DOCS = \
   $(wildcard doc/*.md) \
   $(wildcard doc/release-notes/*.md)
 
-DIST_CONTRIB = $(top_srcdir)/contrib/hemis-cli.bash-completion \
-	       $(top_srcdir)/contrib/hemis-tx.bash-completion \
-	       $(top_srcdir)/contrib/hemisd.bash-completion \
+DIST_CONTRIB = $(top_srcdir)/contrib/Hemis-cli.bash-completion \
+	       $(top_srcdir)/contrib/Hemis-tx.bash-completion \
+	       $(top_srcdir)/contrib/Hemisd.bash-completion \
            $(top_srcdir)/contrib/init \
            $(top_srcdir)/contrib/install_db4.sh
 
@@ -614,14 +614,14 @@ DIST_CARGO = \
 BIN_CHECKS = $(top_srcdir)/contrib/devtools/symbol-check.py \
            $(top_srcdir)/contrib/devtools/security-check.py
 
-WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/hemis.ico \
+WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/Hemis.ico \
   $(top_srcdir)/share/pixmaps/nsis-header.bmp \
   $(top_srcdir)/share/pixmaps/nsis-wizard.bmp \
   $(top_srcdir)/doc/README_windows.txt
 
-LINUX_PACKAGING = $(top_srcdir)/share/pixmaps/hemis16.xpm \
-  $(top_srcdir)/share/pixmaps/hemis32.xpm \
-  $(top_srcdir)/share/pixmaps/hemis128.png
+LINUX_PACKAGING = $(top_srcdir)/share/pixmaps/Hemis16.xpm \
+  $(top_srcdir)/share/pixmaps/Hemis32.xpm \
+  $(top_srcdir)/share/pixmaps/Hemis128.png
 
 OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/$(OSX_BACKGROUND_SVG) \
@@ -631,13 +631,13 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_INSTALLER_ICONS) \
 SPEND_PARAMS = $(top_srcdir)/params/sapling-spend.params
 OUTPUT_PARAMS = $(top_srcdir)/params/sapling-output.params
 COVERAGE_INFO = baseline.info \
-  test_hemis_filtered.info total_coverage.info \
+  test_Hemis_filtered.info total_coverage.info \
   baseline_filtered.info functional_test.info functional_test_filtered.info \
-  test_hemis_coverage.info test_hemis.info
+  test_Hemis_coverage.info test_Hemis.info
 
 OSX_APP_BUILT = $(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitcoin.icns $(OSX_APP)/Contents/Info.plist \
-  $(OSX_APP)/Contents/MacOS/hemis-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings \
+  $(OSX_APP)/Contents/MacOS/Hemis-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings \
   $(OSX_APP)/Contents/Resources/sapling-spend.params $(OSX_APP)/Contents/Resources/sapling-output.params
 
 @BUILD_DARWIN_FALSE@APP_DIST_DIR = $(top_builddir)/dist
@@ -716,20 +716,20 @@ $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	$(am__cd) $(srcdir) && $(ACLOCAL) $(ACLOCAL_AMFLAGS)
 $(am__aclocal_m4_deps):
 
-src/config/hemis-config.h: src/config/stamp-h1
+src/config/Hemis-config.h: src/config/stamp-h1
 	@test -f $@ || rm -f src/config/stamp-h1
 	@test -f $@ || $(MAKE) $(AM_MAKEFLAGS) src/config/stamp-h1
 
-src/config/stamp-h1: $(top_srcdir)/src/config/hemis-config.h.in $(top_builddir)/config.status
+src/config/stamp-h1: $(top_srcdir)/src/config/Hemis-config.h.in $(top_builddir)/config.status
 	@rm -f src/config/stamp-h1
-	cd $(top_builddir) && $(SHELL) ./config.status src/config/hemis-config.h
-$(top_srcdir)/src/config/hemis-config.h.in: @MAINTAINER_MODE_TRUE@ $(am__configure_deps) 
+	cd $(top_builddir) && $(SHELL) ./config.status src/config/Hemis-config.h
+$(top_srcdir)/src/config/Hemis-config.h.in: @MAINTAINER_MODE_TRUE@ $(am__configure_deps) 
 	($(am__cd) $(top_srcdir) && $(AUTOHEADER))
 	rm -f src/config/stamp-h1
 	touch $@
 
 distclean-hdr:
-	-rm -f src/config/hemis-config.h src/config/stamp-h1
+	-rm -f src/config/Hemis-config.h src/config/stamp-h1
 libbitcoinconsensus.pc: $(top_builddir)/config.status $(srcdir)/libbitcoinconsensus.pc.in
 	cd $(top_builddir) && $(SHELL) ./config.status $@
 share/setup.nsi: $(top_builddir)/config.status $(top_srcdir)/share/setup.nsi.in
@@ -1240,7 +1240,7 @@ $(OSX_APP)/Contents/Resources/bitcoin.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/MacOS/hemis-Qt: all-recursive
+$(OSX_APP)/Contents/MacOS/Hemis-Qt: all-recursive
 	$(MKDIR_P) $(@D)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $(BITCOIN_QT_BIN) $@
 
@@ -1275,7 +1275,7 @@ osx_volname:
 @BUILD_DARWIN_FALSE@	@rm -f $@
 @BUILD_DARWIN_FALSE@	@cd $(@D); $(LN_S) /Applications $(@F)
 
-@BUILD_DARWIN_FALSE@$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/hemis-Qt
+@BUILD_DARWIN_FALSE@$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Hemis-Qt
 
 @BUILD_DARWIN_FALSE@$(OSX_DMG): $(APP_DIST_EXTRAS)
 @BUILD_DARWIN_FALSE@	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "$(OSX_VOLNAME)" -no-pad -r -dir-mode 0755 -apple -o $@ dist
@@ -1286,7 +1286,7 @@ osx_volname:
 @BUILD_DARWIN_FALSE@	$(MKDIR_P) $(@D)
 @BUILD_DARWIN_FALSE@	$(TIFFCP) -c none $(OSX_BACKGROUND_IMAGE_DPIFILES) $@
 
-@BUILD_DARWIN_FALSE@$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/hemis-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
+@BUILD_DARWIN_FALSE@$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Hemis-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
 @BUILD_DARWIN_FALSE@	INSTALLNAMETOOL=$(INSTALLNAMETOOL) OTOOL=$(OTOOL) STRIP=$(STRIP) $(PYTHON) $(OSX_DEPLOY_SCRIPT) $(OSX_APP) $(OSX_VOLNAME) -translations-dir=$(QT_TRANSLATION_DIR)
 
 @BUILD_DARWIN_FALSE@deploydir: $(APP_DIST_EXTRAS)
@@ -1311,16 +1311,16 @@ $(BITCOIN_CLI_BIN): FORCE
 @USE_LCOV_TRUE@	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 @USE_LCOV_TRUE@	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-@USE_LCOV_TRUE@test_hemis.info: baseline_filtered.info
+@USE_LCOV_TRUE@test_Hemis.info: baseline_filtered.info
 @USE_LCOV_TRUE@	$(MAKE) -C src/ check
-@USE_LCOV_TRUE@	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src -t test_hemis -o $@
+@USE_LCOV_TRUE@	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src -t test_Hemis -o $@
 @USE_LCOV_TRUE@	$(LCOV) -z $(LCOV_OPTS) -d $(abs_builddir)/src
 
-@USE_LCOV_TRUE@test_hemis_filtered.info: test_hemis.info
+@USE_LCOV_TRUE@test_Hemis_filtered.info: test_Hemis.info
 @USE_LCOV_TRUE@	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 @USE_LCOV_TRUE@	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-@USE_LCOV_TRUE@functional_test.info: test_hemis_filtered.info
+@USE_LCOV_TRUE@functional_test.info: test_Hemis_filtered.info
 @USE_LCOV_TRUE@	-@TIMEOUT=15 test/functional/test_runner.py $(EXTENDED_FUNCTIONAL_TESTS)
 @USE_LCOV_TRUE@	$(LCOV) -c $(LCOV_OPTS) -d $(abs_builddir)/src --t functional-tests -o $@
 @USE_LCOV_TRUE@	$(LCOV) -z $(LCOV_OPTS) -d $(abs_builddir)/src
@@ -1329,13 +1329,13 @@ $(BITCOIN_CLI_BIN): FORCE
 @USE_LCOV_TRUE@	$(abs_builddir)/contrib/filter-lcov.py $(LCOV_FILTER_PATTERN) $< $@
 @USE_LCOV_TRUE@	$(LCOV) -a $@ $(LCOV_OPTS) -o $@
 
-@USE_LCOV_TRUE@test_hemis_coverage.info: baseline_filtered.info test_hemis_filtered.info
-@USE_LCOV_TRUE@	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_hemis_filtered.info -o $@
+@USE_LCOV_TRUE@test_Hemis_coverage.info: baseline_filtered.info test_Hemis_filtered.info
+@USE_LCOV_TRUE@	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_Hemis_filtered.info -o $@
 
-@USE_LCOV_TRUE@total_coverage.info: test_hemis_filtered.info functional_test_filtered.info
-@USE_LCOV_TRUE@	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_hemis_filtered.info -a functional_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+@USE_LCOV_TRUE@total_coverage.info: test_Hemis_filtered.info functional_test_filtered.info
+@USE_LCOV_TRUE@	$(LCOV) -a $(LCOV_OPTS) baseline_filtered.info -a test_Hemis_filtered.info -a functional_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-@USE_LCOV_TRUE@test_hemis.coverage/.dirstamp:  test_hemis_coverage.info
+@USE_LCOV_TRUE@test_Hemis.coverage/.dirstamp:  test_Hemis_coverage.info
 @USE_LCOV_TRUE@	$(GENHTML) -s $(LCOV_OPTS) $< -o $(@D)
 @USE_LCOV_TRUE@	@touch $@
 
@@ -1343,7 +1343,7 @@ $(BITCOIN_CLI_BIN): FORCE
 @USE_LCOV_TRUE@	$(GENHTML) -s $(LCOV_OPTS) $< -o $(@D)
 @USE_LCOV_TRUE@	@touch $@
 
-@USE_LCOV_TRUE@cov: test_hemis.coverage/.dirstamp total.coverage/.dirstamp
+@USE_LCOV_TRUE@cov: test_Hemis.coverage/.dirstamp total.coverage/.dirstamp
 
 .INTERMEDIATE: $(COVERAGE_INFO)
 
@@ -1360,7 +1360,7 @@ clean-docs:
 	rm -rf doc/doxygen
 
 clean-local: clean-docs
-	rm -rf coverage_percent.txt test_hemis.coverage/ total.coverage/ test/tmp/ cache/ $(OSX_APP)
+	rm -rf coverage_percent.txt test_Hemis.coverage/ total.coverage/ test/tmp/ cache/ $(OSX_APP)
 	rm -rf test/functional/__pycache__ test/functional/test_framework/__pycache__ test/cache share/rpcauth/__pycache__
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,19 +6,19 @@
 #define SETTINGSWIDGET_H
 
 #include <QWidget>
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/settings/settingsbackupwallet.h"
-#include "qt/hemis/settings/settingsexportcsv.h"
-#include "qt/hemis/settings/settingsbittoolwidget.h"
-#include "qt/hemis/settings/settingssignmessagewidgets.h"
-#include "qt/hemis/settings/settingswalletrepairwidget.h"
-#include "qt/hemis/settings/settingswalletoptionswidget.h"
-#include "qt/hemis/settings/settingsmainoptionswidget.h"
-#include "qt/hemis/settings/settingsdisplayoptionswidget.h"
-#include "qt/hemis/settings/settingsinformationwidget.h"
-#include "qt/hemis/settings/settingsconsolewidget.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/settings/settingsbackupwallet.h"
+#include "qt/Hemis/settings/settingsexportcsv.h"
+#include "qt/Hemis/settings/settingsbittoolwidget.h"
+#include "qt/Hemis/settings/settingssignmessagewidgets.h"
+#include "qt/Hemis/settings/settingswalletrepairwidget.h"
+#include "qt/Hemis/settings/settingswalletoptionswidget.h"
+#include "qt/Hemis/settings/settingsmainoptionswidget.h"
+#include "qt/Hemis/settings/settingsdisplayoptionswidget.h"
+#include "qt/Hemis/settings/settingsinformationwidget.h"
+#include "qt/Hemis/settings/settingsconsolewidget.h"
 
-class hemisGUI;
+class HemisGUI;
 
 QT_BEGIN_NAMESPACE
 class QDataWidgetMapper;
@@ -33,7 +33,7 @@ class SettingsWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsWidget(hemisGUI* parent);
+    explicit SettingsWidget(HemisGUI* parent);
     ~SettingsWidget();
 
     void loadClientModel() override;

@@ -122,12 +122,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw hemis adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
+        <source>These are your Hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Hemis adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw hemis adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your Hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Hemis adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -364,8 +364,8 @@ voor bewijs van Inzet</translation>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <source>hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
-        <translation>hemis zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw HMS's kunnen stelen.</translation>
+        <source>Hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
+        <translation>Hemis zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw HMS's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1061,8 +1061,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Wijzig verzend adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid hemis address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig hemis adres.</translation>
+        <source>The entered address "%1" is not a valid Hemis address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig Hemis adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1114,16 +1114,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>versie</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About hemis Core</source>
-        <translation>Over hemis Core</translation>
+        <source>About Hemis Core</source>
+        <translation>Over Hemis Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1177,16 +1177,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to hemis Core.</source>
-        <translation>Welkom bij hemis Core.</translation>
+        <source>Welcome to Hemis Core.</source>
+        <translation>Welkom bij Hemis Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where hemis Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar hemis Core zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where Hemis Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Hemis Core zijn data opslaat.</translation>
     </message>
     <message>
-        <source>hemis Core will download and store a copy of the hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>hemis Core zal een kopie van de hemis blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>Hemis Core will download and store a copy of the Hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Hemis Core zal een kopie van de Hemis blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1205,8 +1205,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Akkoord</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1313,8 +1313,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Creëer Nieuwe Gamemaster Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een hemis Gamemaster te creëren moet u 10.000 HMS (de eenheid van hemis) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Hemis Gamemaster you must dedicate 10,000 HMS (the unit of Hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een Hemis Gamemaster te creëren moet u 10.000 HMS (de eenheid van Hemis) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Gamemaster Name</source>
@@ -1540,7 +1540,7 @@ Gelieve nog enkele minuten te wachten (het onderpand van een gamemaster vereist 
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the hemis.conf file
+You will only have to paste the data in the Hemis.conf file
 of your remote server and start it, then start the Gamemaster using
 this controller wallet (select the Gamemaster in the list and press "start").
 </source>
@@ -1548,7 +1548,7 @@ this controller wallet (select the Gamemaster in the list and press "start").
 op een externe server aan uw klembord.
 
 
-U hoeft alleen de gegevens in het hemis.conf bestand te plakken
+U hoeft alleen de gegevens in het Hemis.conf bestand te plakken
 van uw externe server en start deze vervolgens de Gamemaster met
 deze controller portemonnee (selecteer de Gamemaster in de lijst en druk op "start").
 </translation>
@@ -1738,8 +1738,8 @@ STAKING</translation>
         <translation>Ingelezen data te groot</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "hemis" prefix</source>
-        <translation>Ongeldige URI, begint niet met de "hemis" prefix</translation>
+        <source>Invalid URI, not starting with "Hemis" prefix</source>
+        <translation>Ongeldige URI, begint niet met de "Hemis" prefix</translation>
     </message>
 </context>
 <context>
@@ -1784,8 +1784,8 @@ STAKING</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de hemis client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the Hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Hemis client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1804,12 +1804,12 @@ STAKING</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start hemis after logging in to the system.</source>
-        <translation>hemis automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start Hemis after logging in to the system.</source>
+        <translation>Hemis automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start hemis on system login</source>
-        <translation>&amp;hemis starten bij systeemlogin</translation>
+        <source>&amp;Start Hemis on system login</source>
+        <translation>&amp;Hemis starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1836,14 +1836,14 @@ STAKING</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting hemis.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van hemis.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Hemis.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Hemis.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/hemis-project/hemis-project-translations</source>
+https://www.transifex.com/Hemis-project/Hemis-project-translations</source>
         <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
-https://www.transifex.com/hemis-project/hemis-project-translations</translation>
+https://www.transifex.com/Hemis-project/Hemis-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1886,8 +1886,8 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
         <translation>Stake splitsdrempel:</translation>
     </message>
     <message>
-        <source>Connect to the hemis network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het hemis netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the Hemis network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het Hemis netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2031,10 +2031,10 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>hemisGUI</name>
+    <name>HemisGUI</name>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2061,8 +2061,8 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>hemis Core client</source>
-        <translation>hemis Core client</translation>
+        <source>Hemis Core client</source>
+        <translation>Hemis Core client</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2128,12 +2128,12 @@ Adres: %4
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>Cannot start hemis: click-to-pay handler</source>
-        <translation>Kan hemis niet starten: click-to-pay handler</translation>
+        <source>Cannot start Hemis: click-to-pay handler</source>
+        <translation>Kan Hemis niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid hemis address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig hemis adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Hemis address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig Hemis adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2222,8 +2222,8 @@ Adres: %4
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter hemis address (e.g. %1)</source>
-        <translation>Voer een hemis adres in (b.v. %1)</translation>
+        <source>Enter Hemis address (e.g. %1)</source>
+        <translation>Voer een Hemis adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2266,12 +2266,12 @@ Adres: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. hemis can no longer continue safely and will quit.</source>
-        <translation>Een kritieke fout is opgelopen. hemis kan niet langer veilig uitgevoerd worden en zal afsluiten.</translation>
+        <source>A fatal error occurred. Hemis can no longer continue safely and will quit.</source>
+        <translation>Een kritieke fout is opgelopen. Hemis kan niet langer veilig uitgevoerd worden en zal afsluiten.</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2290,8 +2290,8 @@ Adres: %4
         <translation>Fout bij het lezen van het gamemaster configuratiebestand: %1</translation>
     </message>
     <message>
-        <source>hemis Core didn't yet exit safely...</source>
-        <translation>hemis Core is nog niet veilig afgesloten...</translation>
+        <source>Hemis Core didn't yet exit safely...</source>
+        <translation>Hemis Core is nog niet veilig afgesloten...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2529,8 +2529,8 @@ Adres: %4
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het hemis debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the Hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Hemis debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Gamemasters</source>
@@ -2753,8 +2753,8 @@ Adres: %4
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Welkom bij de hemis RPC console.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Welkom bij de Hemis RPC console.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3021,8 +3021,8 @@ Adres: %4
         <translation>HMS</translation>
     </message>
     <message>
-        <source>Instead of sharing only a hemis address, you can create a payment request, bundling up more information</source>
-        <translation>In plaats van een hemis-adres te delen, kunt u een betalingsverzoek creëren dat meer informatie bundelt.</translation>
+        <source>Instead of sharing only a Hemis address, you can create a payment request, bundling up more information</source>
+        <translation>In plaats van een Hemis-adres te delen, kunt u een betalingsverzoek creëren dat meer informatie bundelt.</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3112,8 +3112,8 @@ Adres: %4
         <translation>Aangepast wijzigingsadres</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" hemis address</source>
-        <translation>De rest van de waarde die resulteert uit de ingangen minus de waarde van de uitgangen gaat naar het "wijzig" hemis-adres</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Hemis address</source>
+        <translation>De rest van de waarde die resulteert uit de ingangen minus de waarde van de uitgangen gaat naar het "wijzig" Hemis-adres</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3442,9 +3442,9 @@ Vergeet deze niet op te schrijven en veilig te bewaren, anders verlies je mogeli
         <translation>BIP38 Tool</translation>
     </message>
     <message>
-        <source>Encrypt your hemis addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your Hemis addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Encrypteer uw hemis-adressen (met key pair) gebruikmakende van BIP38 versleuteling.
+        <translation>Encrypteer uw Hemis-adressen (met key pair) gebruikmakende van BIP38 versleuteling.
 Door gebruik te maken van dit mechanisme kan je jouw sleutels delen zonder het risico van een tussenpersoon, je moet enkel je wachtwoordzin veilig opbergen</translation>
     </message>
     <message>
@@ -3480,8 +3480,8 @@ Door gebruik te maken van dit mechanisme kan je jouw sleutels delen zonder het r
         <translation>DECRYPTEER SLEUTEL</translation>
     </message>
     <message>
-        <source>hemis address</source>
-        <translation>hemis adres</translation>
+        <source>Hemis address</source>
+        <translation>Hemis adres</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3613,8 +3613,8 @@ Verify that you have installed a predetermined text editor.</source>
 Controleer of u een vooraf bepaalde teksteditor hebt geïnstalleerd.</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Welkom bij de hemis RPC console.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Welkom bij de Hemis RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3723,12 +3723,12 @@ Controleer of u een vooraf bepaalde teksteditor hebt geïnstalleerd.</translatio
         <translation>Exporteer Adreslijst</translation>
     </message>
     <message>
-        <source>hemis_tx_csv_export(*.csv)</source>
-        <translation>hemis_tx_csv_export(*.csv)</translation>
+        <source>Hemis_tx_csv_export(*.csv)</source>
+        <translation>Hemis_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>hemis_addresses_csv_export(*.csv)</source>
-        <translation>hemis_addresses_csv_export(*.csv)</translation>
+        <source>Hemis_addresses_csv_export(*.csv)</source>
+        <translation>Hemis_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3798,24 +3798,24 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>1) What is hemis?</source>
-        <translation>1) Wat is hemis?</translation>
+        <source>1) What is Hemis?</source>
+        <translation>1) Wat is Hemis?</translation>
     </message>
     <message>
         <source>2) Why are my HMS unspendable?</source>
         <translation>2) Waarom is mijn HMS niet besteedbaar?</translation>
     </message>
     <message>
-        <source>https://hemis.org/</source>
-        <translation>https://hemis.org/</translation>
+        <source>https://Hemis.org/</source>
+        <translation>https://Hemis.org/</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is hemis?</source>
-        <translation>Wat is hemis?</translation>
+        <source>What is Hemis?</source>
+        <translation>Wat is Hemis?</translation>
     </message>
     <message>
         <source>2</source>
@@ -3828,19 +3828,19 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received hemis requires 6 confirmations on the network
+                           Newly received Hemis requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your hemis wallet also needs to be completely synchronized
+                           Your Hemis wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Nieuw ontvangen hemis vereist 6 bevestigingen op het netwerk
+                           Nieuw ontvangen Hemis vereist 6 bevestigingen op het netwerk
                            om in aanmerking te komen voor uitgaven die ongeveer 6 minuten in beslag kunnen nemen.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Uw hemis portemonnee moet ook volledig gesynchroniseerd zijn
+                           Uw Hemis portemonnee moet ook volledig gesynchroniseerd zijn
                            om de balans te zien en uit te geven op het netwerk.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3854,8 +3854,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Hoe stake ik HMS?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Zorg ervoor dat uw portemonnee volledig gesynchroniseerd is en je op de juiste versie zit. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je moet een balans van hemis hebben met een minimum van 600 bevestigingen. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Uw portemonnee moet steeds online en ontgrendeld blijven voor stakingsdoeleinden. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Van zodra al deze stappen gevolgd zijn, zou staking ingeschakeld moeten zijn. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je kan de stakingsstatus controleren door over het pakketicoontje te gaan gaan met je muis. Deze staat op de linker van de portemonnee interface. Dit pakketje zal oplichten en zal &amp;quot;Staking Inschakeld&amp;quot; vermelden om aan te geven dat staking actief is. Als je gebruik maakt van de command line interface (hemis-cli); het commando &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; zal bevestigen dat staking actief is. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of Hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (Hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Zorg ervoor dat uw portemonnee volledig gesynchroniseerd is en je op de juiste versie zit. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je moet een balans van Hemis hebben met een minimum van 600 bevestigingen. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Uw portemonnee moet steeds online en ontgrendeld blijven voor stakingsdoeleinden. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Van zodra al deze stappen gevolgd zijn, zou staking ingeschakeld moeten zijn. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je kan de stakingsstatus controleren door over het pakketicoontje te gaan gaan met je muis. Deze staat op de linker van de portemonnee interface. Dit pakketje zal oplichten en zal &amp;quot;Staking Inschakeld&amp;quot; vermelden om aan te geven dat staking actief is. Als je gebruik maakt van de command line interface (Hemis-cli); het commando &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; zal bevestigen dat staking actief is. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>4</source>
@@ -3877,20 +3877,20 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #FF9000' href='https://discord.hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
-                           &lt;a style='color: #FF9000' href='https://hemis.freshdesk.com'&gt;
+                           &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
                            our Freshdesk support site&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We hebben ondersteuningskanalen in de meeste van onze officiële chatgroepen, bijvoorbeeld
-                           &lt;a style='color: #FF9000' href='https://discord.hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
                            #support in onze Discord&lt;/a&gt;.
                            Als u liever een ticket indient, kan jedat
-                           &lt;a style='color: #FF9000' href='https://hemis.freshdesk.com'&gt;
+                           &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
                            op onze Freshdesk ondersteuningssite.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3910,7 +3910,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A gamemaster is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node Hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3933,10 +3933,10 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Hemis Governance&lt;/li&gt;
                            &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the hemis network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Hemis network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -3952,7 +3952,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Een gamemaster is een computer met een volledige node hemis core portemonnee met een
+                           Een gamemaster is een computer met een volledige node Hemis core portemonnee met een
                            vereiste van 10.000 HMS onderpand om extra diensten te kunnen verlenen
                            aan het netwerk en in ruil daarvoor ontvangt u regelmatig een deel van de blokbeloning.
                            Deze diensten omvatten::
@@ -3975,10 +3975,10 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Gamemaster Voordelen:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Deelnemen in het hemis Bestuur&lt;/li&gt;
+                           &lt;li&gt;Deelnemen in het Hemis Bestuur&lt;/li&gt;
                            &lt;li&gt;Verdien Gamemaster Beloningen&lt;/li&gt;
                            &lt;li&gt;Commodity-optie voor toekomstige verkoop&lt;/li&gt;
-                           &lt;li&gt;Helpt bij het beveiligen van het hemis netwerk&lt;/li&gt;
+                           &lt;li&gt;Helpt bij het beveiligen van het Hemis netwerk&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4117,8 +4117,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Kan de back-upmap niet openen</translation>
     </message>
     <message>
-        <source>Unable to open hemis.conf with default application</source>
-        <translation>Kan hemis.conf niet openen met de standaard applicatie</translation>
+        <source>Unable to open Hemis.conf with default application</source>
+        <translation>Kan Hemis.conf niet openen met de standaard applicatie</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4172,8 +4172,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Aantal van script verificatiethreads</translation>
     </message>
     <message>
-        <source>Start hemis on system login</source>
-        <translation>Start hemis bij systeemlogin</translation>
+        <source>Start Hemis on system login</source>
+        <translation>Start Hemis bij systeemlogin</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4260,8 +4260,8 @@ Weet u het zeker?
         <translation>Selectievakje</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
-        <translation>Met MultiSend kunt u automatisch tot 100% van uw inzet of gamemaster beloning naar een lijst met andere hemis-adressen sturen nadat deze volwaardig zijn geworden.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other Hemis addresses after it matures.</source>
+        <translation>Met MultiSend kunt u automatisch tot 100% van uw inzet of gamemaster beloning naar een lijst met andere Hemis-adressen sturen nadat deze volwaardig zijn geworden.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4387,8 +4387,8 @@ Vink één of beide selectievakjes aan om beloningen op de inzet en/of gamemaste
         <translation>Bericht</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>hemis adres of contactlabel</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Hemis adres of contactlabel</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4708,8 +4708,8 @@ Vink één of beide selectievakjes aan om beloningen op de inzet en/of gamemaste
         <translation>Veelgestelde vragen</translation>
     </message>
     <message>
-        <source>About hemis</source>
-        <translation>Over hemis</translation>
+        <source>About Hemis</source>
+        <translation>Over Hemis</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4779,8 +4779,8 @@ Weet je zeker dat?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>hemis Core is shutting down...</source>
-        <translation>hemis Core is aan het afsluiten...</translation>
+        <source>Hemis Core is shutting down...</source>
+        <translation>Hemis Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4809,8 +4809,8 @@ Weet je zeker dat?
         <translation>Laden...</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
 </context>
 <context>
@@ -5353,25 +5353,25 @@ Selecteer minder invoeren met muntcontrole.</translation>
     </message>
     <message>
         <source>Welcome to
-hemis Core Wallet</source>
+Hemis Core Wallet</source>
         <translation>Welkom bij
-hemis Core Portemonnee</translation>
+Hemis Core Portemonnee</translation>
     </message>
     <message>
-        <source>hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>hemis is 's werelds meest innovatieve Proof of Stake blockchain gebaseerde technologie. Ontwikkeld door een team van zeer ervaren ontwikkelaars en cryptografen.</translation>
+        <source>Hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Hemis is 's werelds meest innovatieve Proof of Stake blockchain gebaseerde technologie. Ontwikkeld door een team van zeer ervaren ontwikkelaars en cryptografen.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zoals ons manifest zegt: Privacy is een niet-onderhandelbaar fundamenteel mensenrecht; het geeft gebruikers de vrijheid om hun gegevens te delen wanneer en met wie ze maar willen - hemis gelooft in soevereiniteit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zoals ons manifest zegt: Privacy is een niet-onderhandelbaar fundamenteel mensenrecht; het geeft gebruikers de vrijheid om hun gegevens te delen wanneer en met wie ze maar willen - Hemis gelooft in soevereiniteit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Het gamemaster netwerk is hemis's tweedelaagse netwerk bovenop de blockchain die onze DAO in staat stelt om gedecentraliseerd bestuur, treasury te leveren</translation>
+        <source>The gamemaster network is Hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Het gamemaster netwerk is Hemis's tweedelaagse netwerk bovenop de blockchain die onze DAO in staat stelt om gedecentraliseerd bestuur, treasury te leveren</translation>
     </message>
     <message>
-        <source>How hemis respects your privacy?</source>
-        <translation>Hoe respecteert hemis uw privacy?</translation>
+        <source>How Hemis respects your privacy?</source>
+        <translation>Hoe respecteert Hemis uw privacy?</translation>
     </message>
     <message>
         <source>What is a Gamemaster?</source>
@@ -5383,7 +5383,7 @@ hemis Core Portemonnee</translation>
     </message>
 </context>
 <context>
-    <name>hemis-core</name>
+    <name>Hemis-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Sta JSON-RPC connecties toe van de opgegeven bron. Geldig voor&lt;ip&gt;zijn een enkel IP (bijvoorbeeld 1.2.3.4), een netwerk/netmask (bijvoorbeeld 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijvoorbeeld 1.2.3.4/24). Deze optie kan meerdere keren worden opgegeven</translation>
@@ -5401,8 +5401,8 @@ hemis Core Portemonnee</translation>
         <translation>Bind naar het opgegeven adres om te luisteren naar JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. hemis Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. hemis Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. Hemis Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Hemis Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5549,8 +5549,8 @@ hemis Core Portemonnee</translation>
         <translation>De totale lengte van de netwerkversie (%i) overschrijdt de maximale lengte (%i). Verminder het aantal of de grootte van uacommentaren.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. hemis Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. hemis Core loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. Hemis Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. Hemis Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5565,8 +5565,8 @@ hemis Core Portemonnee</translation>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt hemis Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Hemis Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5637,8 +5637,8 @@ hemis Core Portemonnee</translation>
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The hemis Core Developers</source>
-        <translation>Copyright (C) 2015-%i The hemis Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The Hemis Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Hemis Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5757,8 +5757,8 @@ hemis Core Portemonnee</translation>
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. hemis Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. hemis Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. Hemis Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. Hemis Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5865,8 +5865,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Error bij het laden van %s: Portemonnee beschadigd</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet requires newer version of hemis Core</source>
-        <translation>Error bij het laden van %s: Portemonnee vereist een nieuwere versie van hemis Core</translation>
+        <source>Error loading %s: Wallet requires newer version of Hemis Core</source>
+        <translation>Error bij het laden van %s: Portemonnee vereist een nieuwere versie van Hemis Core</translation>
     </message>
     <message>
         <source>Error loading %s
@@ -6063,8 +6063,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Minimum geldige waarde (in HMS) toegestaan bij GUI en RPC voor de staking splitsdrempel (standaard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt hemis Core niet goed.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt Hemis Core niet goed.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6429,8 +6429,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Portemonnee verifiëren...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart hemis Core to complete</source>
-        <translation>Wallet moest worden herschreven: start hemis Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Hemis Core to complete</source>
+        <translation>Wallet moest worden herschreven: start Hemis Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -6484,8 +6484,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Zenden</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>hemis adres of contactlabel</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Hemis adres of contactlabel</translation>
     </message>
     <message>
         <source>Amount</source>

@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -177,7 +177,7 @@ UniValue listgamemasters(const JSONRPCRequest& request)
             "    \"outidx\": n,                           (numeric) Collateral transaction output index\n"
             "    \"pubkey\": \"key\",                     (string) Gamemaster public key used for message broadcasting\n"
             "    \"status\": s,                           (string) Status (ENABLED/EXPIRED/REMOVE/etc)\n"
-            "    \"addr\": \"addr\",                      (string) Gamemaster hemis address\n"
+            "    \"addr\": \"addr\",                      (string) Gamemaster Hemis address\n"
             "    \"version\": v,                          (numeric) Gamemaster protocol version\n"
             "    \"lastseen\": ttt,     (numeric) The time in seconds since epoch (Jan 1 1970 GMT) of the last seen\n"
             "    \"activetime\": ttt,   (numeric) The time in seconds since epoch (Jan 1 1970 GMT) gamemaster has been active\n"
@@ -681,7 +681,7 @@ UniValue getgamemasterstatus(const JSONRPCRequest& request)
             "  \"txhash\": \"xxxx\",      (string) Collateral transaction hash\n"
             "  \"outputidx\": n,          (numeric) Collateral transaction output index number\n"
             "  \"netaddr\": \"xxxx\",     (string) Gamemaster network address\n"
-            "  \"addr\": \"xxxx\",        (string) hemis address for gamemaster payments\n"
+            "  \"addr\": \"xxxx\",        (string) Hemis address for gamemaster payments\n"
             "  \"status\": \"xxxx\",      (string) Gamemaster status\n"
             "  \"message\": \"xxxx\"      (string) Gamemaster status message\n"
             "}\n"
@@ -757,7 +757,7 @@ UniValue getgamemasterwinners(const JSONRPCRequest& request)
             "  {\n"
             "    \"nHeight\": n,           (numeric) block height\n"
             "    \"winner\": {\n"
-            "      \"address\": \"xxxx\",    (string) hemis GM Address\n"
+            "      \"address\": \"xxxx\",    (string) Hemis GM Address\n"
             "      \"nVotes\": n,          (numeric) Number of votes for winner\n"
             "    }\n"
             "  }\n"
@@ -770,7 +770,7 @@ UniValue getgamemasterwinners(const JSONRPCRequest& request)
             "    \"nHeight\": n,           (numeric) block height\n"
             "    \"winner\": [\n"
             "      {\n"
-            "        \"address\": \"xxxx\",  (string) hemis GM Address\n"
+            "        \"address\": \"xxxx\",  (string) Hemis GM Address\n"
             "        \"nVotes\": n,        (numeric) Number of votes for winner\n"
             "      }\n"
             "      ,...\n"

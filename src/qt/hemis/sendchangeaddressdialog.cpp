@@ -1,10 +1,10 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/sendchangeaddressdialog.h"
-#include "qt/hemis/forms/ui_sendchangeaddressdialog.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/sendchangeaddressdialog.h"
+#include "qt/Hemis/forms/ui_sendchangeaddressdialog.h"
+#include "qt/Hemis/qtutils.h"
 
 SendChangeAddressDialog::SendChangeAddressDialog(QWidget* parent, WalletModel* model) :
     FocusedDialog(parent),

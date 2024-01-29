@@ -1,9 +1,9 @@
-// Copyright (c) 2017-2020 The hemis Core developers
+// Copyright (c) 2017-2020 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_CSPORKDB_H
-#define hemis_CSPORKDB_H
+#ifndef Hemis_CSPORKDB_H
+#define Hemis_CSPORKDB_H
 
 #include "fs.h"
 #include "dbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //hemis_CSPORKDB_H
+#endif //Hemis_CSPORKDB_H

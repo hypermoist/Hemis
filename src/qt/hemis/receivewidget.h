@@ -1,20 +1,20 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef RECEIVEWIDGET_H
 #define RECEIVEWIDGET_H
 
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 #include "addresstablemodel.h"
-#include "qt/hemis/furabstractlistitemdelegate.h"
-#include "qt/hemis/addressfilterproxymodel.h"
+#include "qt/Hemis/furabstractlistitemdelegate.h"
+#include "qt/Hemis/addressfilterproxymodel.h"
 
 #include <QSpacerItem>
 #include <QWidget>
 #include <QPixmap>
 
-class hemisGUI;
+class HemisGUI;
 class SendCoinsRecipient;
 
 namespace Ui {
@@ -30,7 +30,7 @@ class ReceiveWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit ReceiveWidget(hemisGUI* parent);
+    explicit ReceiveWidget(HemisGUI* parent);
     ~ReceiveWidget();
 
     void loadWalletModel() override;

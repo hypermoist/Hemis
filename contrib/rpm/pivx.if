@@ -1,10 +1,10 @@
 
-## <summary>policy for hemis</summary>
+## <summary>policy for Hemis</summary>
 
 
 ########################################
 ## <summary>
-##	Transition to hemis.
+##	Transition to Hemis.
 ## </summary>
 ## <param name="domain">
 ## <summary>
@@ -12,19 +12,19 @@
 ## </summary>
 ## </param>
 #
-interface(`hemis_domtrans',`
+interface(`Hemis_domtrans',`
 	gen_require(`
-		type hemis_t, hemis_exec_t;
+		type Hemis_t, Hemis_exec_t;
 	')
 
 	corecmd_search_bin($1)
-	domtrans_pattern($1, hemis_exec_t, hemis_t)
+	domtrans_pattern($1, Hemis_exec_t, Hemis_t)
 ')
 
 
 ########################################
 ## <summary>
-##	Execute hemis server in the hemis domain.
+##	Execute Hemis server in the Hemis domain.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -32,18 +32,18 @@ interface(`hemis_domtrans',`
 ##	</summary>
 ## </param>
 #
-interface(`hemis_initrc_domtrans',`
+interface(`Hemis_initrc_domtrans',`
 	gen_require(`
-		type hemis_initrc_exec_t;
+		type Hemis_initrc_exec_t;
 	')
 
-	init_labeled_script_domtrans($1, hemis_initrc_exec_t)
+	init_labeled_script_domtrans($1, Hemis_initrc_exec_t)
 ')
 
 
 ########################################
 ## <summary>
-##	Search hemis lib directories.
+##	Search Hemis lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -51,18 +51,18 @@ interface(`hemis_initrc_domtrans',`
 ##	</summary>
 ## </param>
 #
-interface(`hemis_search_lib',`
+interface(`Hemis_search_lib',`
 	gen_require(`
-		type hemis_var_lib_t;
+		type Hemis_var_lib_t;
 	')
 
-	allow $1 hemis_var_lib_t:dir search_dir_perms;
+	allow $1 Hemis_var_lib_t:dir search_dir_perms;
 	files_search_var_lib($1)
 ')
 
 ########################################
 ## <summary>
-##	Read hemis lib files.
+##	Read Hemis lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -70,18 +70,18 @@ interface(`hemis_search_lib',`
 ##	</summary>
 ## </param>
 #
-interface(`hemis_read_lib_files',`
+interface(`Hemis_read_lib_files',`
 	gen_require(`
-		type hemis_var_lib_t;
+		type Hemis_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	read_files_pattern($1, hemis_var_lib_t, hemis_var_lib_t)
+	read_files_pattern($1, Hemis_var_lib_t, Hemis_var_lib_t)
 ')
 
 ########################################
 ## <summary>
-##	Manage hemis lib files.
+##	Manage Hemis lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -89,18 +89,18 @@ interface(`hemis_read_lib_files',`
 ##	</summary>
 ## </param>
 #
-interface(`hemis_manage_lib_files',`
+interface(`Hemis_manage_lib_files',`
 	gen_require(`
-		type hemis_var_lib_t;
+		type Hemis_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	manage_files_pattern($1, hemis_var_lib_t, hemis_var_lib_t)
+	manage_files_pattern($1, Hemis_var_lib_t, Hemis_var_lib_t)
 ')
 
 ########################################
 ## <summary>
-##	Manage hemis lib directories.
+##	Manage Hemis lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -108,20 +108,20 @@ interface(`hemis_manage_lib_files',`
 ##	</summary>
 ## </param>
 #
-interface(`hemis_manage_lib_dirs',`
+interface(`Hemis_manage_lib_dirs',`
 	gen_require(`
-		type hemis_var_lib_t;
+		type Hemis_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	manage_dirs_pattern($1, hemis_var_lib_t, hemis_var_lib_t)
+	manage_dirs_pattern($1, Hemis_var_lib_t, Hemis_var_lib_t)
 ')
 
 
 ########################################
 ## <summary>
 ##	All of the rules required to administrate
-##	a hemis environment
+##	a Hemis environment
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -135,23 +135,23 @@ interface(`hemis_manage_lib_dirs',`
 ## </param>
 ## <rolecap/>
 #
-interface(`hemis_admin',`
+interface(`Hemis_admin',`
 	gen_require(`
-		type hemis_t;
-		type hemis_initrc_exec_t;
-		type hemis_var_lib_t;
+		type Hemis_t;
+		type Hemis_initrc_exec_t;
+		type Hemis_var_lib_t;
 	')
 
-	allow $1 hemis_t:process { ptrace signal_perms };
-	ps_process_pattern($1, hemis_t)
+	allow $1 Hemis_t:process { ptrace signal_perms };
+	ps_process_pattern($1, Hemis_t)
 
-	hemis_initrc_domtrans($1)
+	Hemis_initrc_domtrans($1)
 	domain_system_change_exemption($1)
-	role_transition $2 hemis_initrc_exec_t system_r;
+	role_transition $2 Hemis_initrc_exec_t system_r;
 	allow $2 system_r;
 
 	files_search_var_lib($1)
-	admin_pattern($1, hemis_var_lib_t)
+	admin_pattern($1, Hemis_var_lib_t)
 
 ')
 

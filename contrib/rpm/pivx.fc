@@ -1,8 +1,8 @@
-/usr/bin/hemis-cli		--	gen_context(system_u:object_r:hemis_exec_t,s0)
-/usr/sbin/hemisd		--	gen_context(system_u:object_r:hemis_exec_t,s0)
-/usr/lib(64)?/hemis/hemisd		--	gen_context(system_u:object_r:hemis_exec_t,s0)
+/usr/bin/Hemis-cli		--	gen_context(system_u:object_r:Hemis_exec_t,s0)
+/usr/sbin/Hemisd		--	gen_context(system_u:object_r:Hemis_exec_t,s0)
+/usr/lib(64)?/Hemis/Hemisd		--	gen_context(system_u:object_r:Hemis_exec_t,s0)
 
-/etc/hemis(/.*)?		gen_context(system_u:object_r:hemis_conf_t,s0)
-/var/lib/hemis(/.*)?		gen_context(system_u:object_r:hemis_var_lib_t,s0)
+/etc/Hemis(/.*)?		gen_context(system_u:object_r:Hemis_conf_t,s0)
+/var/lib/Hemis(/.*)?		gen_context(system_u:object_r:Hemis_var_lib_t,s0)
 
-(/var)?/run/hemisd(/.*)?   gen_context(system_u:object_r:hemis_var_run_t,s0)
+(/var)?/run/Hemisd(/.*)?   gen_context(system_u:object_r:Hemis_var_run_t,s0)

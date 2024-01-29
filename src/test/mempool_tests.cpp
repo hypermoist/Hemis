@@ -5,7 +5,7 @@
 <<<<<<< HEAD
 #include "test/test_pivx.h"
 =======
-#include "test/test_hemis.h"
+#include "test/test_Hemis.h"
 >>>>>>> 1f345019d (first step)
 
 #include "policy/feerate.h"

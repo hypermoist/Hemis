@@ -1,18 +1,18 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef COLDSTAKINGWIDGET_H
 #define COLDSTAKINGWIDGET_H
 
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/furabstractlistitemdelegate.h"
-#include "qt/hemis/txviewholder.h"
-#include "qt/hemis/tooltipmenu.h"
-#include "qt/hemis/sendmultirow.h"
-#include "qt/hemis/coldstakingmodel.h"
-#include "qt/hemis/contactsdropdown.h"
-#include "qt/hemis/addressholder.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/furabstractlistitemdelegate.h"
+#include "qt/Hemis/txviewholder.h"
+#include "qt/Hemis/tooltipmenu.h"
+#include "qt/Hemis/sendmultirow.h"
+#include "qt/Hemis/coldstakingmodel.h"
+#include "qt/Hemis/contactsdropdown.h"
+#include "qt/Hemis/addressholder.h"
 #include "transactiontablemodel.h"
 #include "addresstablemodel.h"
 #include "addressfilterproxymodel.h"
@@ -24,7 +24,7 @@
 #include <QSpacerItem>
 #include <atomic>
 
-class hemisGUI;
+class HemisGUI;
 class WalletModel;
 class CSDelegationHolder;
 
@@ -41,7 +41,7 @@ class ColdStakingWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit ColdStakingWidget(hemisGUI* parent);
+    explicit ColdStakingWidget(HemisGUI* parent);
     ~ColdStakingWidget();
 
     void loadWalletModel() override;

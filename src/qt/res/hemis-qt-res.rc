@@ -19,13 +19,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "hemis"
-            VALUE "FileDescription",    PACKAGE_NAME " (OSS GUI client for hemis)"
+            VALUE "CompanyName",        "Hemis"
+            VALUE "FileDescription",    PACKAGE_NAME " (OSS GUI client for Hemis)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "hemis-qt"
+            VALUE "InternalName",       "Hemis-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "hemis-qt.exe"
+            VALUE "OriginalFilename",   "Hemis-qt.exe"
             VALUE "ProductName",        PACKAGE_NAME
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

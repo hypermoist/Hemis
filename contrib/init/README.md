@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: hemisd.service
-Upstart: hemisd.conf
-OpenRC:  hemisd.openrc
-         hemisd.openrcconf
-CentOS:  hemisd.init
-macOS:    org.hemis.hemisd.plist
+SystemD: Hemisd.service
+Upstart: Hemisd.conf
+OpenRC:  Hemisd.openrc
+         Hemisd.openrcconf
+CentOS:  Hemisd.init
+macOS:    org.Hemis.Hemisd.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

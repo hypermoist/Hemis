@@ -1,9 +1,9 @@
-// Copyright (c) 2018-2021 The hemis Core developers
+// Copyright (c) 2018-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_INVALID_H
-#define hemis_INVALID_H
+#ifndef Hemis_INVALID_H
+#define Hemis_INVALID_H
 
 #include <set>
 #include <string>
@@ -21,4 +21,4 @@ namespace invalid_out
     bool LoadOutpoints();
 }
 
-#endif //hemis_INVALID_H
+#endif //Hemis_INVALID_H

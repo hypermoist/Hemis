@@ -1,9 +1,9 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_TIERTWO_SYNC_STATE_H
-#define hemis_TIERTWO_SYNC_STATE_H
+#ifndef Hemis_TIERTWO_SYNC_STATE_H
+#define Hemis_TIERTWO_SYNC_STATE_H
 
 #include <atomic>
 #include <map>
@@ -80,4 +80,4 @@ private:
 
 extern TierTwoSyncState g_tiertwo_sync_state;
 
-#endif //hemis_TIERTWO_SYNC_STATE_H
+#endif //Hemis_TIERTWO_SYNC_STATE_H

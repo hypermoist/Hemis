@@ -1,9 +1,9 @@
-// Copyright (c) 2019 The hemis Core developers
+// Copyright (c) 2019 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/contactdropdownrow.h"
-#include "qt/hemis/forms/ui_contactdropdownrow.h"
+#include "qt/Hemis/contactdropdownrow.h"
+#include "qt/Hemis/forms/ui_contactdropdownrow.h"
 
 ContactDropdownRow::ContactDropdownRow(QWidget *parent) :
     QWidget(parent),

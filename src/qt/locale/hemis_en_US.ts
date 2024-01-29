@@ -122,12 +122,12 @@
         <translation>Receiving addresses</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your Hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your Hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -364,8 +364,8 @@ for staking</translation>
         <translation>CANCEL</translation>
     </message>
     <message>
-        <source>hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
-        <translation>hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</translation>
+        <source>Hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
+        <translation>Hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -439,8 +439,8 @@ for staking</translation>
         <translation>Transparent</translation>
     </message>
     <message>
-        <source>0.00 hemis</source>
-        <translation>0.00 hemis</translation>
+        <source>0.00 Hemis</source>
+        <translation>0.00 Hemis</translation>
     </message>
     <message>
         <source>Shielded</source>
@@ -1082,8 +1082,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Edit sending address</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid hemis address.</source>
-        <translation>The entered address "%1" is not a valid hemis address.</translation>
+        <source>The entered address "%1" is not a valid Hemis address.</source>
+        <translation>The entered address "%1" is not a valid Hemis address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1135,16 +1135,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>version</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About hemis Core</source>
-        <translation>About hemis Core</translation>
+        <source>About Hemis Core</source>
+        <translation>About Hemis Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1198,16 +1198,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Welcome</translation>
     </message>
     <message>
-        <source>Welcome to hemis Core.</source>
-        <translation>Welcome to hemis Core.</translation>
+        <source>Welcome to Hemis Core.</source>
+        <translation>Welcome to Hemis Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where hemis Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where hemis Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Hemis Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Hemis Core will store its data.</translation>
     </message>
     <message>
-        <source>hemis Core will download and store a copy of the hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>hemis Core will download and store a copy of the hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Hemis Core will download and store a copy of the Hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Hemis Core will download and store a copy of the Hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1226,8 +1226,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>OK</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1334,8 +1334,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Create New Gamemaster Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Hemis Gamemaster you must dedicate 10,000 HMS (the unit of Hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Hemis Gamemaster you must dedicate 10,000 HMS (the unit of Hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Gamemaster Name</source>
@@ -1561,7 +1561,7 @@ Please wait few more minutes (gamemaster collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the hemis.conf file
+You will only have to paste the data in the Hemis.conf file
 of your remote server and start it, then start the Gamemaster using
 this controller wallet (select the Gamemaster in the list and press "start").
 </source>
@@ -1569,7 +1569,7 @@ this controller wallet (select the Gamemaster in the list and press "start").
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the hemis.conf file
+You will only have to paste the data in the Hemis.conf file
 of your remote server and start it, then start the Gamemaster using
 this controller wallet (select the Gamemaster in the list and press "start").
 </translation>
@@ -1759,8 +1759,8 @@ STAKING</translation>
         <translation>Parsed data too large</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "hemis" prefix</source>
-        <translation>Invalid URI, not starting with "hemis" prefix</translation>
+        <source>Invalid URI, not starting with "Hemis" prefix</source>
+        <translation>Invalid URI, not starting with "Hemis" prefix</translation>
     </message>
 </context>
 <context>
@@ -1805,8 +1805,8 @@ STAKING</translation>
         <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
-        <source>Automatically open the hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the hemis client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Hemis client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1825,12 +1825,12 @@ STAKING</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start hemis after logging in to the system.</source>
-        <translation>Automatically start hemis after logging in to the system.</translation>
+        <source>Automatically start Hemis after logging in to the system.</source>
+        <translation>Automatically start Hemis after logging in to the system.</translation>
     </message>
     <message>
-        <source>&amp;Start hemis on system login</source>
-        <translation>&amp;Start hemis on system login</translation>
+        <source>&amp;Start Hemis on system login</source>
+        <translation>&amp;Start Hemis on system login</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1857,14 +1857,14 @@ STAKING</translation>
         <translation>&amp;Network</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting hemis.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting hemis.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Hemis.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Hemis.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/hemis-project/hemis-project-translations</source>
+https://www.transifex.com/Hemis-project/Hemis-project-translations</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/hemis-project/hemis-project-translations</translation>
+https://www.transifex.com/Hemis-project/Hemis-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1907,8 +1907,8 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
         <translation>Stake split threshold:</translation>
     </message>
     <message>
-        <source>Connect to the hemis network through a SOCKS5 proxy.</source>
-        <translation>Connect to the hemis network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Hemis network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Hemis network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2052,10 +2052,10 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>hemisGUI</name>
+    <name>HemisGUI</name>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2082,8 +2082,8 @@ https://www.transifex.com/hemis-project/hemis-project-translations</translation>
         <translation>Quit application</translation>
     </message>
     <message>
-        <source>hemis Core client</source>
-        <translation>hemis Core client</translation>
+        <source>Hemis Core client</source>
+        <translation>Hemis Core client</translation>
     </message>
     <message>
         <source>Alert!</source>
@@ -2153,12 +2153,12 @@ Address: %4
         <translation>Invalid payment address %1</translation>
     </message>
     <message>
-        <source>Cannot start hemis: click-to-pay handler</source>
-        <translation>Cannot start hemis: click-to-pay handler</translation>
+        <source>Cannot start Hemis: click-to-pay handler</source>
+        <translation>Cannot start Hemis: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid hemis address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid hemis address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Hemis address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid Hemis address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2247,8 +2247,8 @@ Address: %4
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter hemis address (e.g. %1)</source>
-        <translation>Enter hemis address (e.g. %1)</translation>
+        <source>Enter Hemis address (e.g. %1)</source>
+        <translation>Enter Hemis address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2291,12 +2291,12 @@ Address: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. hemis can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. hemis can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Hemis can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Hemis can no longer continue safely and will quit.</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2315,8 +2315,8 @@ Address: %4
         <translation>Error reading gamemaster configuration file: %1</translation>
     </message>
     <message>
-        <source>hemis Core didn't yet exit safely...</source>
-        <translation>hemis Core didn't yet exit safely...</translation>
+        <source>Hemis Core didn't yet exit safely...</source>
+        <translation>Hemis Core didn't yet exit safely...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2574,8 +2574,8 @@ Address: %4
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the hemis debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Hemis debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Number of Gamemasters</source>
@@ -2798,8 +2798,8 @@ Address: %4
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Welcome to the hemis RPC console.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Welcome to the Hemis RPC console.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3084,8 +3084,8 @@ try unlocking the wallet</translation>
         <translation>HMS</translation>
     </message>
     <message>
-        <source>Instead of sharing only a hemis address, you can create a payment request, bundling up more information</source>
-        <translation>Instead of sharing only a hemis address, you can create a payment request, bundling up more information</translation>
+        <source>Instead of sharing only a Hemis address, you can create a payment request, bundling up more information</source>
+        <translation>Instead of sharing only a Hemis address, you can create a payment request, bundling up more information</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3175,8 +3175,8 @@ try unlocking the wallet</translation>
         <translation>Custom Change Address</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" hemis address</source>
-        <translation>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" hemis address</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Hemis address</source>
+        <translation>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Hemis address</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3609,9 +3609,9 @@ Remember to write it down and store it safely, otherwise you might lose access t
         <translation>BIP38 Tool</translation>
     </message>
     <message>
-        <source>Encrypt your hemis addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your Hemis addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Encrypt your hemis addresses (key pair actually) using BIP38 encryption.
+        <translation>Encrypt your Hemis addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</translation>
     </message>
     <message>
@@ -3647,8 +3647,8 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation>DECRYPT KEY</translation>
     </message>
     <message>
-        <source>hemis address</source>
-        <translation>hemis address</translation>
+        <source>Hemis address</source>
+        <translation>Hemis address</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3780,8 +3780,8 @@ Verify that you have installed a predetermined text editor.</source>
 Verify that you have installed a predetermined text editor.</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Welcome to the hemis RPC console.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Welcome to the Hemis RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3890,12 +3890,12 @@ Verify that you have installed a predetermined text editor.</translation>
         <translation>Export Address List</translation>
     </message>
     <message>
-        <source>hemis_tx_csv_export(*.csv)</source>
-        <translation>hemis_tx_csv_export(*.csv)</translation>
+        <source>Hemis_tx_csv_export(*.csv)</source>
+        <translation>Hemis_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>hemis_addresses_csv_export(*.csv)</source>
-        <translation>hemis_addresses_csv_export(*.csv)</translation>
+        <source>Hemis_addresses_csv_export(*.csv)</source>
+        <translation>Hemis_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3965,24 +3965,24 @@ There was an error trying to save the address list to %1. Please try again.</tra
         <translation>Form</translation>
     </message>
     <message>
-        <source>1) What is hemis?</source>
-        <translation>1) What is hemis?</translation>
+        <source>1) What is Hemis?</source>
+        <translation>1) What is Hemis?</translation>
     </message>
     <message>
         <source>2) Why are my HMS unspendable?</source>
         <translation>2) Why are my HMS unspendable?</translation>
     </message>
     <message>
-        <source>https://hemis.org/</source>
-        <translation>https://hemis.org/</translation>
+        <source>https://Hemis.org/</source>
+        <translation>https://Hemis.org/</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is hemis?</source>
-        <translation>What is hemis?</translation>
+        <source>What is Hemis?</source>
+        <translation>What is Hemis?</translation>
     </message>
     <message>
         <source>2</source>
@@ -3995,19 +3995,19 @@ There was an error trying to save the address list to %1. Please try again.</tra
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received hemis requires 6 confirmations on the network
+                           Newly received Hemis requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your hemis wallet also needs to be completely synchronized
+                           Your Hemis wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received hemis requires 6 confirmations on the network
+                           Newly received Hemis requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your hemis wallet also needs to be completely synchronized
+                           Your Hemis wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -4021,8 +4021,8 @@ There was an error trying to save the address list to %1. Please try again.</tra
         <translation>How do I stake HMS?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of Hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (Hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of Hemis with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (Hemis-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>4</source>
@@ -4043,28 +4043,28 @@ There was an error trying to save the address list to %1. Please try again.</tra
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           hemis is a form of digital online money using blockchain technology
+                           Hemis is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  hemis incorporates market leading security &amp;
+                           zero fees.  Hemis incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
                            to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           hemis utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of hemis to participate in earning block rewards
+                           Hemis utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of Hemis to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Gamemasters to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           hemis is a form of digital online money using blockchain technology
+                           Hemis is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  hemis incorporates market leading security &amp;
+                           zero fees.  Hemis incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
                            to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           hemis utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of hemis to participate in earning block rewards
+                           Hemis utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of Hemis to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Gamemasters to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4074,20 +4074,20 @@ There was an error trying to save the address list to %1. Please try again.</tra
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #FF9000' href='https://discord.hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
-                           &lt;a style='color: #FF9000' href='https://hemis.freshdesk.com'&gt;
+                           &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
                            our Freshdesk support site&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #FF9000' href='https://discord.hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
-                           &lt;a style='color: #FF9000' href='https://hemis.freshdesk.com'&gt;
+                           &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
                            our Freshdesk support site&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -4107,7 +4107,7 @@ There was an error trying to save the address list to %1. Please try again.</tra
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A gamemaster is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node Hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -4130,10 +4130,10 @@ There was an error trying to save the address list to %1. Please try again.</tra
                            Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Hemis Governance&lt;/li&gt;
                            &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the hemis network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Hemis network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4149,7 +4149,7 @@ There was an error trying to save the address list to %1. Please try again.</tra
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A gamemaster is a computer running a full node hemis core wallet with a
+                           A gamemaster is a computer running a full node Hemis core wallet with a
                            requirement of 10,000 HMS secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -4172,10 +4172,10 @@ There was an error trying to save the address list to %1. Please try again.</tra
                            Gamemaster Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in hemis Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in Hemis Governance&lt;/li&gt;
                            &lt;li&gt;Earn Gamemaster Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the hemis network&lt;/li&gt;
+                           &lt;li&gt;Help secure the Hemis network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4318,8 +4318,8 @@ There was an error trying to save the address list to %1. Please try again.</tra
         <translation>Unable to open backups folder</translation>
     </message>
     <message>
-        <source>Unable to open hemis.conf with default application</source>
-        <translation>Unable to open hemis.conf with default application</translation>
+        <source>Unable to open Hemis.conf with default application</source>
+        <translation>Unable to open Hemis.conf with default application</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4377,8 +4377,8 @@ There was an error trying to save the address list to %1. Please try again.</tra
         <translation>Number of script verification threads</translation>
     </message>
     <message>
-        <source>Start hemis on system login</source>
-        <translation>Start hemis on system login</translation>
+        <source>Start Hemis on system login</source>
+        <translation>Start Hemis on system login</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4465,8 +4465,8 @@ Are you sure?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
-        <translation>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other Hemis addresses after it matures.</source>
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other Hemis addresses after it matures.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4592,8 +4592,8 @@ Check one or both of the check boxes to send on stake and/or gamemaster rewards<
         <translation>Message</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>hemis address or contact label</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Hemis address or contact label</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4913,8 +4913,8 @@ Check one or both of the check boxes to send on stake and/or gamemaster rewards<
         <translation>FAQ</translation>
     </message>
     <message>
-        <source>About hemis</source>
-        <translation>About hemis</translation>
+        <source>About Hemis</source>
+        <translation>About Hemis</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4984,8 +4984,8 @@ Are you sure?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>hemis Core is shutting down...</source>
-        <translation>hemis Core is shutting down...</translation>
+        <source>Hemis Core is shutting down...</source>
+        <translation>Hemis Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -5014,8 +5014,8 @@ Are you sure?
         <translation>Loading…</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
 </context>
 <context>
@@ -5658,25 +5658,25 @@ Select fewer inputs with coin control.</translation>
     </message>
     <message>
         <source>Welcome to
-hemis Core Wallet</source>
+Hemis Core Wallet</source>
         <translation>Welcome to
-hemis Core Wallet</translation>
+Hemis Core Wallet</translation>
     </message>
     <message>
-        <source>hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</translation>
+        <source>Hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</translation>
+        <source>The gamemaster network is Hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>The gamemaster network is Hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</translation>
     </message>
     <message>
-        <source>How hemis respects your privacy?</source>
-        <translation>How hemis respects your privacy?</translation>
+        <source>How Hemis respects your privacy?</source>
+        <translation>How Hemis respects your privacy?</translation>
     </message>
     <message>
         <source>What is a Gamemaster?</source>
@@ -5688,7 +5688,7 @@ hemis Core Wallet</translation>
     </message>
 </context>
 <context>
-    <name>hemis-core</name>
+    <name>Hemis-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</translation>
@@ -5706,8 +5706,8 @@ hemis Core Wallet</translation>
         <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. hemis Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. hemis Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Hemis Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Hemis Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5854,8 +5854,8 @@ hemis Core Wallet</translation>
         <translation>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. hemis Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. hemis Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Hemis Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Hemis Core is probably already running.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5870,8 +5870,8 @@ hemis Core Wallet</translation>
         <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5942,8 +5942,8 @@ hemis Core Wallet</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The hemis Core Developers</source>
-        <translation>Copyright (C) 2015-%i The hemis Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Hemis Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Hemis Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -6062,8 +6062,8 @@ hemis Core Wallet</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. hemis Core is shutting down.</source>
-        <translation>Initialization sanity check failed. hemis Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Hemis Core is shutting down.</source>
+        <translation>Initialization sanity check failed. Hemis Core is shutting down.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -6162,8 +6162,8 @@ Please run 'sapling-fetch-params' or './util/fetch-params.sh' and then restart.<
         <translation>Cannot upgrade to Sapling wallet (already running Sapling support). Version: %d</translation>
     </message>
     <message>
-        <source>Disable all hemis specific functionality (Gamemasters, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all hemis specific functionality (Gamemasters, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all Hemis specific functionality (Gamemasters, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all Hemis specific functionality (Gamemasters, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>This file contains all of your private keys in plain text. DO NOT send this file to anyone!</source>
@@ -6198,8 +6198,8 @@ Please run 'sapling-fetch-params' or './util/fetch-params.sh' and then restart.<
         <translation>Error loading %s: Wallet corrupted</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet requires newer version of hemis Core</source>
-        <translation>Error loading %s: Wallet requires newer version of hemis Core</translation>
+        <source>Error loading %s: Wallet requires newer version of Hemis Core</source>
+        <translation>Error loading %s: Wallet requires newer version of Hemis Core</translation>
     </message>
     <message>
         <source>Error loading %s
@@ -6400,8 +6400,8 @@ Please run 'sapling-fetch-params' or './util/fetch-params.sh' and then restart.<
         <translation>Minimum positive amount (in HMS) allowed by GUI and RPC for the stake split threshold (default: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6766,8 +6766,8 @@ Please run 'sapling-fetch-params' or './util/fetch-params.sh' and then restart.<
         <translation>Verifying wallet...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart hemis Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart hemis Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Hemis Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart Hemis Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -6837,8 +6837,8 @@ Please run 'sapling-fetch-params' or './util/fetch-params.sh' and then restart.<
         <translation>Select which coins to spend</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>hemis address or contact label</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Hemis address or contact label</translation>
     </message>
     <message>
         <source>Amount</source>

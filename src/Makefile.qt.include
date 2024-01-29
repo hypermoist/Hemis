@@ -2,10 +2,10 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-bin_PROGRAMS += qt/hemis-qt
+bin_PROGRAMS += qt/Hemis-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# hemis qt core #
+# Hemis qt core #
 include Makefile.qt_locale.include
 
 QT_FORMS_UI = \
@@ -17,58 +17,58 @@ QT_FORMS_UI = \
   qt/forms/intro.ui \
   qt/forms/openuridialog.ui \
   qt/forms/rpcconsole.ui \
-  qt/hemis/forms/loadingdialog.ui \
-  qt/hemis/forms/snackbar.ui \
-  qt/hemis/forms/navmenuwidget.ui \
-  qt/hemis/forms/lockunlock.ui \
-  qt/hemis/forms/expandablebutton.ui \
-  qt/hemis/forms/receivedialog.ui \
-  qt/hemis/forms/balancebubble.ui \
-  qt/hemis/forms/topbar.ui \
-  qt/hemis/forms/txrow.ui \
-  qt/hemis/forms/dashboardwidget.ui \
-  qt/hemis/forms/addresslabelrow.ui \
-  qt/hemis/forms/contactdropdownrow.ui \
-  qt/hemis/forms/gminfodialog.ui \
-  qt/hemis/forms/optionbutton.ui \
-  qt/hemis/forms/gamemasterwizarddialog.ui \
-  qt/hemis/forms/gmrow.ui \
-  qt/hemis/forms/gamemasterswidget.ui \
-  qt/hemis/forms/myaddressrow.ui \
-  qt/hemis/forms/csrow.ui \
-  qt/hemis/forms/sendmemodialog.ui \
-  qt/hemis/forms/sendchangeaddressdialog.ui \
-  qt/hemis/forms/sendconfirmdialog.ui \
-  qt/hemis/forms/sendcustomfeedialog.ui \
-  qt/hemis/forms/sendmultirow.ui \
-  qt/hemis/forms/send.ui \
-  qt/hemis/forms/addnewcontactdialog.ui \
-  qt/hemis/forms/requestdialog.ui \
-  qt/hemis/forms/receivewidget.ui \
-  qt/hemis/forms/tooltipmenu.ui \
-  qt/hemis/forms/addresseswidget.ui \
-  qt/hemis/forms/defaultdialog.ui \
-  qt/hemis/forms/coldstakingwidget.ui \
-  qt/hemis/forms/proposalcard.ui \
-  qt/hemis/forms/gmselectiondialog.ui \
-  qt/hemis/forms/votedialog.ui \
-  qt/hemis/forms/createproposaldialog.ui \
-  qt/hemis/forms/proposalinfodialog.ui \
-  qt/hemis/forms/governancewidget.ui \
-  qt/hemis/settings/forms/settingsbackupwallet.ui \
-  qt/hemis/settings/forms/settingsexportcsv.ui \
-  qt/hemis/settings/forms/settingsbittoolwidget.ui \
-  qt/hemis/settings/forms/settingsconsolewidget.ui \
-  qt/hemis/settings/forms/settingsdisplayoptionswidget.ui \
-  qt/hemis/settings/forms/settingsfaqwidget.ui \
-  qt/hemis/settings/forms/settingsinformationwidget.ui \
-  qt/hemis/settings/forms/settingsmainoptionswidget.ui \
-  qt/hemis/settings/forms/settingssignmessagewidgets.ui \
-  qt/hemis/settings/forms/settingswalletoptionswidget.ui \
-  qt/hemis/settings/forms/settingswalletrepairwidget.ui \
-  qt/hemis/settings/forms/settingswidget.ui \
-  qt/hemis/forms/welcomecontentwidget.ui \
-  qt/hemis/forms/splash.ui
+  qt/Hemis/forms/loadingdialog.ui \
+  qt/Hemis/forms/snackbar.ui \
+  qt/Hemis/forms/navmenuwidget.ui \
+  qt/Hemis/forms/lockunlock.ui \
+  qt/Hemis/forms/expandablebutton.ui \
+  qt/Hemis/forms/receivedialog.ui \
+  qt/Hemis/forms/balancebubble.ui \
+  qt/Hemis/forms/topbar.ui \
+  qt/Hemis/forms/txrow.ui \
+  qt/Hemis/forms/dashboardwidget.ui \
+  qt/Hemis/forms/addresslabelrow.ui \
+  qt/Hemis/forms/contactdropdownrow.ui \
+  qt/Hemis/forms/gminfodialog.ui \
+  qt/Hemis/forms/optionbutton.ui \
+  qt/Hemis/forms/gamemasterwizarddialog.ui \
+  qt/Hemis/forms/gmrow.ui \
+  qt/Hemis/forms/gamemasterswidget.ui \
+  qt/Hemis/forms/myaddressrow.ui \
+  qt/Hemis/forms/csrow.ui \
+  qt/Hemis/forms/sendmemodialog.ui \
+  qt/Hemis/forms/sendchangeaddressdialog.ui \
+  qt/Hemis/forms/sendconfirmdialog.ui \
+  qt/Hemis/forms/sendcustomfeedialog.ui \
+  qt/Hemis/forms/sendmultirow.ui \
+  qt/Hemis/forms/send.ui \
+  qt/Hemis/forms/addnewcontactdialog.ui \
+  qt/Hemis/forms/requestdialog.ui \
+  qt/Hemis/forms/receivewidget.ui \
+  qt/Hemis/forms/tooltipmenu.ui \
+  qt/Hemis/forms/addresseswidget.ui \
+  qt/Hemis/forms/defaultdialog.ui \
+  qt/Hemis/forms/coldstakingwidget.ui \
+  qt/Hemis/forms/proposalcard.ui \
+  qt/Hemis/forms/gmselectiondialog.ui \
+  qt/Hemis/forms/votedialog.ui \
+  qt/Hemis/forms/createproposaldialog.ui \
+  qt/Hemis/forms/proposalinfodialog.ui \
+  qt/Hemis/forms/governancewidget.ui \
+  qt/Hemis/settings/forms/settingsbackupwallet.ui \
+  qt/Hemis/settings/forms/settingsexportcsv.ui \
+  qt/Hemis/settings/forms/settingsbittoolwidget.ui \
+  qt/Hemis/settings/forms/settingsconsolewidget.ui \
+  qt/Hemis/settings/forms/settingsdisplayoptionswidget.ui \
+  qt/Hemis/settings/forms/settingsfaqwidget.ui \
+  qt/Hemis/settings/forms/settingsinformationwidget.ui \
+  qt/Hemis/settings/forms/settingsmainoptionswidget.ui \
+  qt/Hemis/settings/forms/settingssignmessagewidgets.ui \
+  qt/Hemis/settings/forms/settingswalletoptionswidget.ui \
+  qt/Hemis/settings/forms/settingswalletrepairwidget.ui \
+  qt/Hemis/settings/forms/settingswidget.ui \
+  qt/Hemis/forms/welcomecontentwidget.ui \
+  qt/Hemis/forms/splash.ui
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
@@ -76,7 +76,7 @@ QT_MOC_CPP = \
   qt/moc_askpassphrasedialog.cpp \
   qt/moc_bantablemodel.cpp \
   qt/moc_bitcoinaddressvalidator.cpp \
-  qt/hemis/moc_hemisgui.cpp \
+  qt/Hemis/moc_Hemisgui.cpp \
   qt/moc_bitcoinunits.cpp \
   qt/moc_clientmodel.cpp \
   qt/moc_coincontroldialog.cpp \
@@ -101,77 +101,77 @@ QT_MOC_CPP = \
   qt/moc_transactiontablemodel.cpp \
   qt/moc_utilitydialog.cpp \
   qt/moc_walletmodel.cpp \
-  qt/hemis/moc_loadingdialog.cpp \
-  qt/hemis/moc_pwidget.cpp \
-  qt/hemis/moc_focuseddialog.cpp \
-  qt/hemis/moc_snackbar.cpp \
-  qt/hemis/moc_navmenuwidget.cpp \
-  qt/hemis/moc_lockunlock.cpp \
-  qt/hemis/moc_expandablebutton.cpp \
-  qt/hemis/moc_furabstractlistitemdelegate.cpp \
-  qt/hemis/moc_receivedialog.cpp \
-  qt/hemis/moc_pfborderimage.cpp \
-  qt/hemis/moc_topbar.cpp \
-  qt/hemis/moc_txrow.cpp \
-  qt/hemis/moc_dashboardwidget.cpp \
-  qt/hemis/moc_addresslabelrow.cpp \
-  qt/hemis/moc_contactdropdownrow.cpp \
-  qt/hemis/moc_gminfodialog.cpp \
-  qt/hemis/moc_optionbutton.cpp \
-  qt/hemis/moc_coldstakingmodel.cpp \
-  qt/hemis/moc_gmmodel.cpp \
-  qt/hemis/moc_gamemasterwizarddialog.cpp \
-  qt/hemis/moc_gmrow.cpp \
-  qt/hemis/moc_gamemasterswidget.cpp \
-  qt/hemis/moc_myaddressrow.cpp \
-  qt/hemis/moc_csrow.cpp \
-  qt/hemis/moc_contactsdropdown.cpp \
-  qt/hemis/moc_sendchangeaddressdialog.cpp \
-  qt/hemis/moc_sendconfirmdialog.cpp \
-  qt/hemis/moc_sendcustomfeedialog.cpp \
-  qt/hemis/moc_sendmemodialog.cpp \
-  qt/hemis/moc_sendmultirow.cpp \
-  qt/hemis/moc_send.cpp \
-  qt/hemis/moc_addnewcontactdialog.cpp \
-  qt/hemis/moc_requestdialog.cpp \
-  qt/hemis/moc_receivewidget.cpp \
-  qt/hemis/moc_tooltipmenu.cpp \
-  qt/hemis/moc_addresseswidget.cpp \
-  qt/hemis/moc_defaultdialog.cpp \
-  qt/hemis/moc_coldstakingwidget.cpp \
-  qt/hemis/moc_proposalcard.cpp \
-  qt/hemis/moc_gmselectiondialog.cpp \
-  qt/hemis/moc_votedialog.cpp \
-  qt/hemis/moc_createproposaldialog.cpp \
-  qt/hemis/moc_proposalinfodialog.cpp \
-  qt/hemis/moc_governancewidget.cpp \
-  qt/hemis/settings/moc_settingsbackupwallet.cpp \
-  qt/hemis/settings/moc_settingsexportcsv.cpp \
-  qt/hemis/settings/moc_settingsbittoolwidget.cpp \
-  qt/hemis/settings/moc_settingsconsolewidget.cpp \
-  qt/hemis/settings/moc_settingsdisplayoptionswidget.cpp \
-  qt/hemis/settings/moc_settingsfaqwidget.cpp \
-  qt/hemis/settings/moc_settingsinformationwidget.cpp \
-  qt/hemis/settings/moc_settingsmainoptionswidget.cpp \
-  qt/hemis/settings/moc_settingssignmessagewidgets.cpp \
-  qt/hemis/settings/moc_settingswalletoptionswidget.cpp \
-  qt/hemis/settings/moc_settingswalletrepairwidget.cpp \
-  qt/hemis/settings/moc_settingswidget.cpp \
-  qt/hemis/moc_welcomecontentwidget.cpp \
-  qt/hemis/moc_splash.cpp
+  qt/Hemis/moc_loadingdialog.cpp \
+  qt/Hemis/moc_pwidget.cpp \
+  qt/Hemis/moc_focuseddialog.cpp \
+  qt/Hemis/moc_snackbar.cpp \
+  qt/Hemis/moc_navmenuwidget.cpp \
+  qt/Hemis/moc_lockunlock.cpp \
+  qt/Hemis/moc_expandablebutton.cpp \
+  qt/Hemis/moc_furabstractlistitemdelegate.cpp \
+  qt/Hemis/moc_receivedialog.cpp \
+  qt/Hemis/moc_pfborderimage.cpp \
+  qt/Hemis/moc_topbar.cpp \
+  qt/Hemis/moc_txrow.cpp \
+  qt/Hemis/moc_dashboardwidget.cpp \
+  qt/Hemis/moc_addresslabelrow.cpp \
+  qt/Hemis/moc_contactdropdownrow.cpp \
+  qt/Hemis/moc_gminfodialog.cpp \
+  qt/Hemis/moc_optionbutton.cpp \
+  qt/Hemis/moc_coldstakingmodel.cpp \
+  qt/Hemis/moc_gmmodel.cpp \
+  qt/Hemis/moc_gamemasterwizarddialog.cpp \
+  qt/Hemis/moc_gmrow.cpp \
+  qt/Hemis/moc_gamemasterswidget.cpp \
+  qt/Hemis/moc_myaddressrow.cpp \
+  qt/Hemis/moc_csrow.cpp \
+  qt/Hemis/moc_contactsdropdown.cpp \
+  qt/Hemis/moc_sendchangeaddressdialog.cpp \
+  qt/Hemis/moc_sendconfirmdialog.cpp \
+  qt/Hemis/moc_sendcustomfeedialog.cpp \
+  qt/Hemis/moc_sendmemodialog.cpp \
+  qt/Hemis/moc_sendmultirow.cpp \
+  qt/Hemis/moc_send.cpp \
+  qt/Hemis/moc_addnewcontactdialog.cpp \
+  qt/Hemis/moc_requestdialog.cpp \
+  qt/Hemis/moc_receivewidget.cpp \
+  qt/Hemis/moc_tooltipmenu.cpp \
+  qt/Hemis/moc_addresseswidget.cpp \
+  qt/Hemis/moc_defaultdialog.cpp \
+  qt/Hemis/moc_coldstakingwidget.cpp \
+  qt/Hemis/moc_proposalcard.cpp \
+  qt/Hemis/moc_gmselectiondialog.cpp \
+  qt/Hemis/moc_votedialog.cpp \
+  qt/Hemis/moc_createproposaldialog.cpp \
+  qt/Hemis/moc_proposalinfodialog.cpp \
+  qt/Hemis/moc_governancewidget.cpp \
+  qt/Hemis/settings/moc_settingsbackupwallet.cpp \
+  qt/Hemis/settings/moc_settingsexportcsv.cpp \
+  qt/Hemis/settings/moc_settingsbittoolwidget.cpp \
+  qt/Hemis/settings/moc_settingsconsolewidget.cpp \
+  qt/Hemis/settings/moc_settingsdisplayoptionswidget.cpp \
+  qt/Hemis/settings/moc_settingsfaqwidget.cpp \
+  qt/Hemis/settings/moc_settingsinformationwidget.cpp \
+  qt/Hemis/settings/moc_settingsmainoptionswidget.cpp \
+  qt/Hemis/settings/moc_settingssignmessagewidgets.cpp \
+  qt/Hemis/settings/moc_settingswalletoptionswidget.cpp \
+  qt/Hemis/settings/moc_settingswalletrepairwidget.cpp \
+  qt/Hemis/settings/moc_settingswidget.cpp \
+  qt/Hemis/moc_welcomecontentwidget.cpp \
+  qt/Hemis/moc_splash.cpp
 
 BITCOIN_MM = \
   qt/macdockiconhandler.mm \
   qt/macnotificationhandler.mm
 
 QT_MOC = \
-  qt/hemis.moc \
+  qt/Hemis.moc \
   qt/intro.moc
 
-QT_QRC_CPP = qt/qrc_hemis.cpp
-QT_QRC = qt/hemis.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_hemis_locale.cpp
-QT_QRC_LOCALE = qt/hemis_locale.qrc
+QT_QRC_CPP = qt/qrc_Hemis.cpp
+QT_QRC = qt/Hemis.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_Hemis_locale.cpp
+QT_QRC_LOCALE = qt/Hemis_locale.qrc
 
 BITCOIN_QT_H = \
   qt/addressbookpage.h \
@@ -179,7 +179,7 @@ BITCOIN_QT_H = \
   qt/askpassphrasedialog.h \
   qt/bantablemodel.h \
   qt/bitcoinaddressvalidator.h \
-  qt/hemis/hemisgui.h \
+  qt/Hemis/Hemisgui.h \
   qt/bitcoinunits.h \
   qt/clientmodel.h \
   qt/coincontroldialog.h \
@@ -208,74 +208,74 @@ BITCOIN_QT_H = \
   qt/utilitydialog.h \
   qt/walletmodel.h \
   qt/walletmodeltransaction.h \
-  qt/hemis/prunnable.h \
-  qt/hemis/pfborderimage.h \
-  qt/hemis/loadingdialog.h \
+  qt/Hemis/prunnable.h \
+  qt/Hemis/pfborderimage.h \
+  qt/Hemis/loadingdialog.h \
   qt/winshutdownmonitor.h \
-  qt/hemis/pwidget.h \
-  qt/hemis/focuseddialog.h \
-  qt/hemis/guitransactionsutils.h \
-  qt/hemis/snackbar.h \
-  qt/hemis/navmenuwidget.h \
-  qt/hemis/lockunlock.h \
-  qt/hemis/receivedialog.h \
-  qt/hemis/furlistrow.h \
-  qt/hemis/furabstractlistitemdelegate.h \
-  qt/hemis/txviewholder.h \
-  qt/hemis/qtutils.h \
-  qt/hemis/expandablebutton.h \
-  qt/hemis/balancebubble.h \
-  qt/hemis/topbar.h \
-  qt/hemis/txrow.h \
-  qt/hemis/addressholder.h \
-  qt/hemis/addressfilterproxymodel.h \
-  qt/hemis/dashboardwidget.h \
-  qt/hemis/addresslabelrow.h \
-  qt/hemis/contactdropdownrow.h \
-  qt/hemis/gminfodialog.h \
-  qt/hemis/optionbutton.h \
-  qt/hemis/coldstakingmodel.h \
-  qt/hemis/gmmodel.h \
-  qt/hemis/gamemasterwizarddialog.h \
-  qt/hemis/gmrow.h \
-  qt/hemis/gamemasterswidget.h \
-  qt/hemis/myaddressrow.h \
-  qt/hemis/csrow.h \
-  qt/hemis/contactsdropdown.h \
-  qt/hemis/sendchangeaddressdialog.h \
-  qt/hemis/sendconfirmdialog.h \
-  qt/hemis/sendcustomfeedialog.h \
-  qt/hemis/sendmemodialog.h \
-  qt/hemis/sendmultirow.h \
-  qt/hemis/send.h \
-  qt/hemis/addnewcontactdialog.h \
-  qt/hemis/requestdialog.h \
-  qt/hemis/receivewidget.h \
-  qt/hemis/tooltipmenu.h \
-  qt/hemis/addresseswidget.h \
-  qt/hemis/defaultdialog.h \
-  qt/hemis/coldstakingwidget.h \
-  qt/hemis/governancemodel.h \
-  qt/hemis/proposalcard.h \
-  qt/hemis/gmselectiondialog.h \
-  qt/hemis/votedialog.h \
-  qt/hemis/createproposaldialog.h \
-  qt/hemis/proposalinfodialog.h \
-  qt/hemis/governancewidget.h \
-  qt/hemis/settings/settingsbackupwallet.h \
-  qt/hemis/settings/settingsexportcsv.h \
-  qt/hemis/settings/settingsbittoolwidget.h \
-  qt/hemis/settings/settingsconsolewidget.h \
-  qt/hemis/settings/settingsdisplayoptionswidget.h \
-  qt/hemis/settings/settingsfaqwidget.h \
-  qt/hemis/settings/settingsinformationwidget.h \
-  qt/hemis/settings/settingsmainoptionswidget.h \
-  qt/hemis/settings/settingssignmessagewidgets.h \
-  qt/hemis/settings/settingswalletoptionswidget.h \
-  qt/hemis/settings/settingswalletrepairwidget.h \
-  qt/hemis/settings/settingswidget.h \
-  qt/hemis/welcomecontentwidget.h \
-  qt/hemis/splash.h
+  qt/Hemis/pwidget.h \
+  qt/Hemis/focuseddialog.h \
+  qt/Hemis/guitransactionsutils.h \
+  qt/Hemis/snackbar.h \
+  qt/Hemis/navmenuwidget.h \
+  qt/Hemis/lockunlock.h \
+  qt/Hemis/receivedialog.h \
+  qt/Hemis/furlistrow.h \
+  qt/Hemis/furabstractlistitemdelegate.h \
+  qt/Hemis/txviewholder.h \
+  qt/Hemis/qtutils.h \
+  qt/Hemis/expandablebutton.h \
+  qt/Hemis/balancebubble.h \
+  qt/Hemis/topbar.h \
+  qt/Hemis/txrow.h \
+  qt/Hemis/addressholder.h \
+  qt/Hemis/addressfilterproxymodel.h \
+  qt/Hemis/dashboardwidget.h \
+  qt/Hemis/addresslabelrow.h \
+  qt/Hemis/contactdropdownrow.h \
+  qt/Hemis/gminfodialog.h \
+  qt/Hemis/optionbutton.h \
+  qt/Hemis/coldstakingmodel.h \
+  qt/Hemis/gmmodel.h \
+  qt/Hemis/gamemasterwizarddialog.h \
+  qt/Hemis/gmrow.h \
+  qt/Hemis/gamemasterswidget.h \
+  qt/Hemis/myaddressrow.h \
+  qt/Hemis/csrow.h \
+  qt/Hemis/contactsdropdown.h \
+  qt/Hemis/sendchangeaddressdialog.h \
+  qt/Hemis/sendconfirmdialog.h \
+  qt/Hemis/sendcustomfeedialog.h \
+  qt/Hemis/sendmemodialog.h \
+  qt/Hemis/sendmultirow.h \
+  qt/Hemis/send.h \
+  qt/Hemis/addnewcontactdialog.h \
+  qt/Hemis/requestdialog.h \
+  qt/Hemis/receivewidget.h \
+  qt/Hemis/tooltipmenu.h \
+  qt/Hemis/addresseswidget.h \
+  qt/Hemis/defaultdialog.h \
+  qt/Hemis/coldstakingwidget.h \
+  qt/Hemis/governancemodel.h \
+  qt/Hemis/proposalcard.h \
+  qt/Hemis/gmselectiondialog.h \
+  qt/Hemis/votedialog.h \
+  qt/Hemis/createproposaldialog.h \
+  qt/Hemis/proposalinfodialog.h \
+  qt/Hemis/governancewidget.h \
+  qt/Hemis/settings/settingsbackupwallet.h \
+  qt/Hemis/settings/settingsexportcsv.h \
+  qt/Hemis/settings/settingsbittoolwidget.h \
+  qt/Hemis/settings/settingsconsolewidget.h \
+  qt/Hemis/settings/settingsdisplayoptionswidget.h \
+  qt/Hemis/settings/settingsfaqwidget.h \
+  qt/Hemis/settings/settingsinformationwidget.h \
+  qt/Hemis/settings/settingsmainoptionswidget.h \
+  qt/Hemis/settings/settingssignmessagewidgets.h \
+  qt/Hemis/settings/settingswalletoptionswidget.h \
+  qt/Hemis/settings/settingswalletrepairwidget.h \
+  qt/Hemis/settings/settingswidget.h \
+  qt/Hemis/welcomecontentwidget.h \
+  qt/Hemis/splash.h
 
 RES_ICONS = \
   qt/res/icons/bitcoin.ico \
@@ -290,236 +290,236 @@ RES_ICONS = \
   qt/res/icons/ic-transaction-mint.svg \
   qt/res/icons/ic-transaction-sent.svg \
   qt/res/icons/ic-transaction-staked.svg \
-  qt/hemis/res/img/bg-dashboard-banner.png \
-  qt/hemis/res/img/bg-multi-number-dark.svg \
-  qt/hemis/res/img/ic-check-locked.svg \
-  qt/hemis/res/img/ic-nav-address.svg \
-  qt/hemis/res/img/ic-update.svg \
-  qt/hemis/res/img/bg-multi-number.svg \
-  qt/hemis/res/img/ic-check-mint-off.svg \
-  qt/hemis/res/img/ic-nav-cold-staking.svg \
-  qt/hemis/res/img/ic-nav-cold-staking-active.svg \
-  qt/hemis/res/img/ic-nav-dashboard-active.svg \
-  qt/hemis/res/img/ic-wallet-status-locked.svg \
-  qt/hemis/res/img/bg-splash.svg \
-  qt/hemis/res/img/bg-splash.png \
-  qt/hemis/res/img/ic-check-mint.svg \
-  qt/hemis/res/img/ic-nav-dashboard-hover.svg \
-  qt/hemis/res/img/ic-wallet-status-staking.svg \
-  qt/hemis/res/img/ic-check-peers-off.svg \
-  qt/hemis/res/img/ic-nav-dashboard.svg \
-  qt/hemis/res/img/ic-wallet-status-unlocked.svg \
-  qt/hemis/res/img/ic-check-peers.svg \
-  qt/hemis/res/img/ic-nav-master-active.svg \
-  qt/hemis/res/img/ic-watch-password-white.svg \
-  qt/hemis/res/img/bg-welcome-container.jpg \
-  qt/hemis/res/img/bg-welcome-container.png \
-  qt/hemis/res/img/bg-welcome-container.svg \
-  qt/hemis/res/img/bg-welcome-container@2x.png \
-  qt/hemis/res/img/bg-welcome-container@3x.png \
-  qt/hemis/res/img/ic-check-staking-off.svg \
-  qt/hemis/res/img/ic-nav-master-hover.svg \
-  qt/hemis/res/img/ic-watch-password.svg \
-  qt/hemis/res/img/bg-welcome.jpg \
-  qt/hemis/res/img/bg-welcome.svg \
-  qt/hemis/res/img/bg-welcome@2x.jpg \
-  qt/hemis/res/img/bg-welcome@3x.jpg \
-  qt/hemis/res/img/bg-welcome.png \
-  qt/hemis/res/img/ic-check-staking.svg \
-  qt/hemis/res/img/ic-nav-master.svg \
-  qt/hemis/res/img/img-dashboard-banner.jpg \
-  qt/hemis/res/img/btn-radio-active.svg \
-  qt/hemis/res/img/ic-check-sync-off.svg \
-  qt/hemis/res/img/ic-nav-privacy-active.svg \
-  qt/hemis/res/img/img-empty-contacts.svg \
-  qt/hemis/res/img/btn-radio-off.svg \
-  qt/hemis/res/img/ic-check-sync.png \
-  qt/hemis/res/img/ic-nav-privacy-hover.svg \
-  qt/hemis/res/img/img-empty-dark-contacts.svg \
-  qt/hemis/res/img/ic-contact-arrow-down.svg \
-  qt/hemis/res/img/ic-contact-arrow-down-white.svg \
-  qt/hemis/res/img/ic-check-sync.svg \
-  qt/hemis/res/img/ic-check-faq.svg \
-  qt/hemis/res/img/ic-nav-privacy.svg \
-  qt/hemis/res/img/img-empty-dark-error.svg \
-  qt/hemis/res/img/ic-add-label.svg \
-  qt/hemis/res/img/ic-pending.svg \
-  qt/hemis/res/img/ic-check-theme-dark.svg \
-  qt/hemis/res/img/ic-nav-receive-active.svg \
-  qt/hemis/res/img/img-empty-dark-gamemaster.svg \
-  qt/hemis/res/img/ic-add-liliac.svg \
-  qt/hemis/res/img/ic-check-theme-light.svg \
-  qt/hemis/res/img/ic-nav-receive-hover.svg \
-  qt/hemis/res/img/img-empty-dark-multisend.svg \
-  qt/hemis/res/img/ic-add-purple.svg \
-  qt/hemis/res/img/ic-check-white.svg \
-  qt/hemis/res/img/ic-nav-receive.svg \
-  qt/hemis/res/img/img-empty-dark-peers.svg \
-  qt/hemis/res/img/ic-add.svg \
-  qt/hemis/res/img/ic-check.svg \
-  qt/hemis/res/img/ic-nav-send-active.svg \
-  qt/hemis/res/img/img-empty-dark-staking-off.svg \
-  qt/hemis/res/img/img-empty-dark-staking-on.svg \
-  qt/hemis/res/img/ic-address-book-grey.svg \
-  qt/hemis/res/img/ic-chevron-left.svg \
-  qt/hemis/res/img/ic-nav-send-hover.svg \
-  qt/hemis/res/img/img-empty-dark-transactions.svg \
-  qt/hemis/res/img/ic-address-book-white.svg \
-  qt/hemis/res/img/ic-chevron-right.svg \
-  qt/hemis/res/img/ic-chevron-right-liliac.svg \
-  qt/hemis/res/img/ic-nav-send.svg \
-  qt/hemis/res/img/img-empty-error.svg \
-  qt/hemis/res/img/ic-address-book.svg \
-  qt/hemis/res/img/ic-clear-liliac.svg \
-  qt/hemis/res/img/ic-nav-settings-active.svg \
-  qt/hemis/res/img/img-empty-gamemaster.svg \
-  qt/hemis/res/img/ic-address-send-white.svg \
-  qt/hemis/res/img/ic-clear-purple.svg \
-  qt/hemis/res/img/ic-nav-settings-hover.svg \
-  qt/hemis/res/img/img-empty-multisend.svg \
-  qt/hemis/res/img/ic-address-send.svg \
-  qt/hemis/res/img/ic-close-white.svg \
-  qt/hemis/res/img/ic-nav-settings.svg \
-  qt/hemis/res/img/img-empty-peers.svg \
-  qt/hemis/res/img/img-empty-privacy.svg \
-  qt/hemis/res/img/img-empty-privacy-dark.svg \
-  qt/hemis/res/img/ic-arrow-drop-down-white.svg \
-  qt/hemis/res/img/ic-close.svg \
-  qt/hemis/res/img/ic-radio-liliac-on.svg \
-  qt/hemis/res/img/img-empty-staking-off.svg \
-  qt/hemis/res/img/ic-arrow-drop-down.svg \
-  qt/hemis/res/img/ic-coin-piv.svg \
-  qt/hemis/res/img/ic-receive-off.svg \
-  qt/hemis/res/img/img-empty-staking-on.svg \
-  qt/hemis/res/img/ic-arrow-drop-up-white.svg \
-  qt/hemis/res/img/ic-coin-zpiv.png \
-  qt/hemis/res/img/ic-receive-on.svg \
-  qt/hemis/res/img/img-empty-transactions.svg \
-  qt/hemis/res/img/ic-arrow-drop-up.svg \
-  qt/hemis/res/img/ic-coin-zpiv.svg \
-  qt/hemis/res/img/ic-received.svg \
-  qt/hemis/res/img/img-logo-hemis.png \
-  qt/hemis/res/img/ic-arrow-drop-white-down.svg \
-  qt/hemis/res/img/ic-combo-box.svg \
-  qt/hemis/res/img/ic-send.svg \
-  qt/hemis/res/img/img-logo-hemis@2x.png \
-  qt/hemis/res/img/ic-arrow-purple-down.svg \
-  qt/hemis/res/img/ic-connect.svg \
-  qt/hemis/res/img/ic-submenu-lock.svg \
-  qt/hemis/res/img/img-logo-hemis@3x.png \
-  qt/hemis/res/img/img-logo-hemis.svg \
-  qt/hemis/res/img/ic-arrow-right-white.svg \
-  qt/hemis/res/img/ic-arrow-left-white.svg \
-  qt/hemis/res/img/ic-arrow-left.svg \
-  qt/hemis/res/img/ic-copy-liliac.svg \
-  qt/hemis/res/img/ic-submenu-staking.svg \
-  qt/hemis/res/img/img-nav-logo-hemis.png \
-  qt/hemis/res/img/ic-arrow-right.svg \
-  qt/hemis/res/img/ic-copy.svg \
-  qt/hemis/res/img/ic-copy-big.svg \
-  qt/hemis/res/img/ic-copy-big-white.svg \
-  qt/hemis/res/img/ic-submenu-unlock.svg \
-  qt/hemis/res/img/img-nav-logo.png \
-  qt/hemis/res/img/ic-arrow-white-left.svg \
-  qt/hemis/res/img/ic-exit.svg \
-  qt/hemis/res/img/ic-switch-liliac-on.svg \
-  qt/hemis/res/img/img-nav-logo.svg \
-  qt/hemis/res/img/ic-arrow-white-right.svg \
-  qt/hemis/res/img/ic-expand.svg \
-  qt/hemis/res/img/ic-switch-off.svg \
-  qt/hemis/res/img/img-qr-test-big.png \
-  qt/hemis/res/img/ic-check-active.svg \
-  qt/hemis/res/img/ic-folder.svg \
-  qt/hemis/res/img/ic-switch-on.svg \
-  qt/hemis/res/img/img-qr-test.png \
-  qt/hemis/res/img/ic-check-box.svg \
-  qt/hemis/res/img/ic-check-box-light.svg \
-  qt/hemis/res/img/ic-check-box-dark-active.svg \
-  qt/hemis/res/img/ic-check-box-indeterminate.svg \
-  qt/hemis/res/img/ic-check-box-liliac-indeterminate.svg \
-  qt/hemis/res/img/ic-label-liliac.svg \
-  qt/hemis/res/img/ic-transaction-warning.svg \
-  qt/hemis/res/img/ic-transaction-mint.svg \
-  qt/hemis/res/img/ic-transaction-mint-inactive.svg \
-  qt/hemis/res/img/ic-check-cold-staking.svg \
-  qt/hemis/res/img/ic-check-cold-staking-off.svg \
-  qt/hemis/res/img/ic-check-cold-staking-enabled.svg \
-  qt/hemis/res/img/dark/ic-transaction-cs-contract.svg \
-  qt/hemis/res/img/dark/ic-transaction-cs-contract-inactive.svg \
-  qt/hemis/res/img/img-qr.svg \
-  qt/hemis/res/img/ic-check-connect-off.svg \
-  qt/hemis/res/img/ic-check-tor-off.svg \
-  qt/hemis/res/img/ic-check-tor.svg \
-  qt/hemis/res/img/ic-label.svg \
-  qt/hemis/res/img/ic-transaction-received.svg \
-  qt/hemis/res/img/ic-transaction-received-memo.svg \
-  qt/hemis/res/img/dark/ic-transaction-received.svg \
-  qt/hemis/res/img/dark/ic-transaction-received-memo.svg \
-  qt/hemis/res/img/dark/ic-transaction-warning.svg \
-  qt/hemis/res/img/dark/ic-transaction-mint.svg \
-  qt/hemis/res/img/dark/ic-transaction-mint-inactive.svg \
-  qt/hemis/res/img/ic-transaction-received-inactive.svg \
-  qt/hemis/res/img/dark/ic-transaction-received-inactive.svg \
-  qt/hemis/res/img/img-welcome-step1.png \
-  qt/hemis/res/img/ic-check-connect.svg \
-  qt/hemis/res/img/ic-menu-hover.svg \
-  qt/hemis/res/img/ic-transaction-sent.svg \
-  qt/hemis/res/img/ic-transaction-sent-inactive.svg \
-  qt/hemis/res/img/dark/ic-transaction-sent.svg \
-  qt/hemis/res/img/dark/ic-transaction-sent-inactive.svg \
-  qt/hemis/res/img/img-welcome-step2.png \
-  qt/hemis/res/img/ic-check-dark.svg \
-  qt/hemis/res/img/ic-mint.svg \
-  qt/hemis/res/img/ic-transaction-staked.svg \
-  qt/hemis/res/img/ic-transaction-staked-inactive.svg \
-  qt/hemis/res/img/dark/ic-transaction-staked.svg \
-  qt/hemis/res/img/dark/ic-transaction-staked-inactive.svg \
-  qt/hemis/res/img/img-welcome-step3.png \
-  qt/hemis/res/img/ic-check-liliac-on.svg \
-  qt/hemis/res/img/ic-nav-address-active.svg \
-  qt/hemis/res/img/ic-unlock-staking.svg \
-  qt/hemis/res/img/img-welcome-step4.png \
-  qt/hemis/res/img/ic-check-locked-off.svg \
-  qt/hemis/res/img/ic-nav-address-hover.svg \
-  qt/hemis/res/img/ic-update-liliac.svg \
-  qt/hemis/res/img/ic-arrow-drop-down-purple.svg \
-  qt/hemis/res/img/ic-arrow-drop-up-purple.svg \
-  qt/hemis/res/img/ic-check-liliac-indeterminate.svg \
-  qt/hemis/res/img/ic-check-box-liliac-indeterminate.svg \
-  qt/hemis/res/img/ic-transaction-stake-delegated.svg \
-  qt/hemis/res/img/ic-transaction-stake-delegated-inactive.svg \
-  qt/hemis/res/img/ic-transaction-stake-hot.svg \
-  qt/hemis/res/img/ic-transaction-stake-hot-inactive.svg \
-  qt/hemis/res/img/dark/ic-transaction-stake-hot.svg \
-  qt/hemis/res/img/dark/ic-transaction-stake-hot-inactive.svg \
-  qt/hemis/res/img/dark/ic-transaction-stake-delegated.svg \
-  qt/hemis/res/img/dark/ic-transaction-stake-delegated-inactive.svg \
-  qt/hemis/res/img/ic-transaction-cs-contract.svg \
-  qt/hemis/res/img/ic-transaction-cs-contract-inactive.svg \
-  qt/hemis/res/img/ic-check-box-indeterminate.svg \
-  qt/hemis/res/img/ic-information.svg \
-  qt/hemis/res/img/ic-information-hover.svg \
-  qt/hemis/res/img/ani-loading-dark.gif \
-  qt/hemis/res/img/ani-loading.gif \
-  qt/hemis/res/img/ic-check-vote.svg \
-  qt/hemis/res/img/ic-check-vote-active.svg \
-  qt/hemis/res/img/ic-check-vote-dark.svg \
-  qt/hemis/res/img/ic-check-vote-active-dark.svg \
-  qt/hemis/res/img/ic-check-block.svg \
-  qt/hemis/res/img/ic-filter.svg \
-  qt/hemis/res/img/ic-link.svg \
-  qt/hemis/res/img/ic-nav-governance.svg \
-  qt/hemis/res/img/ic-nav-governance-active.svg \
-  qt/hemis/res/img/ic-nav-governance-hover.svg \
-  qt/hemis/res/img/ic-time.svg \
-  qt/hemis/res/img/ic-link-hover.svg \
-  qt/hemis/res/img/img-empty-governance.svg \
-  qt/hemis/res/img/img-empty-dark-governance.svg
+  qt/Hemis/res/img/bg-dashboard-banner.png \
+  qt/Hemis/res/img/bg-multi-number-dark.svg \
+  qt/Hemis/res/img/ic-check-locked.svg \
+  qt/Hemis/res/img/ic-nav-address.svg \
+  qt/Hemis/res/img/ic-update.svg \
+  qt/Hemis/res/img/bg-multi-number.svg \
+  qt/Hemis/res/img/ic-check-mint-off.svg \
+  qt/Hemis/res/img/ic-nav-cold-staking.svg \
+  qt/Hemis/res/img/ic-nav-cold-staking-active.svg \
+  qt/Hemis/res/img/ic-nav-dashboard-active.svg \
+  qt/Hemis/res/img/ic-wallet-status-locked.svg \
+  qt/Hemis/res/img/bg-splash.svg \
+  qt/Hemis/res/img/bg-splash.png \
+  qt/Hemis/res/img/ic-check-mint.svg \
+  qt/Hemis/res/img/ic-nav-dashboard-hover.svg \
+  qt/Hemis/res/img/ic-wallet-status-staking.svg \
+  qt/Hemis/res/img/ic-check-peers-off.svg \
+  qt/Hemis/res/img/ic-nav-dashboard.svg \
+  qt/Hemis/res/img/ic-wallet-status-unlocked.svg \
+  qt/Hemis/res/img/ic-check-peers.svg \
+  qt/Hemis/res/img/ic-nav-master-active.svg \
+  qt/Hemis/res/img/ic-watch-password-white.svg \
+  qt/Hemis/res/img/bg-welcome-container.jpg \
+  qt/Hemis/res/img/bg-welcome-container.png \
+  qt/Hemis/res/img/bg-welcome-container.svg \
+  qt/Hemis/res/img/bg-welcome-container@2x.png \
+  qt/Hemis/res/img/bg-welcome-container@3x.png \
+  qt/Hemis/res/img/ic-check-staking-off.svg \
+  qt/Hemis/res/img/ic-nav-master-hover.svg \
+  qt/Hemis/res/img/ic-watch-password.svg \
+  qt/Hemis/res/img/bg-welcome.jpg \
+  qt/Hemis/res/img/bg-welcome.svg \
+  qt/Hemis/res/img/bg-welcome@2x.jpg \
+  qt/Hemis/res/img/bg-welcome@3x.jpg \
+  qt/Hemis/res/img/bg-welcome.png \
+  qt/Hemis/res/img/ic-check-staking.svg \
+  qt/Hemis/res/img/ic-nav-master.svg \
+  qt/Hemis/res/img/img-dashboard-banner.jpg \
+  qt/Hemis/res/img/btn-radio-active.svg \
+  qt/Hemis/res/img/ic-check-sync-off.svg \
+  qt/Hemis/res/img/ic-nav-privacy-active.svg \
+  qt/Hemis/res/img/img-empty-contacts.svg \
+  qt/Hemis/res/img/btn-radio-off.svg \
+  qt/Hemis/res/img/ic-check-sync.png \
+  qt/Hemis/res/img/ic-nav-privacy-hover.svg \
+  qt/Hemis/res/img/img-empty-dark-contacts.svg \
+  qt/Hemis/res/img/ic-contact-arrow-down.svg \
+  qt/Hemis/res/img/ic-contact-arrow-down-white.svg \
+  qt/Hemis/res/img/ic-check-sync.svg \
+  qt/Hemis/res/img/ic-check-faq.svg \
+  qt/Hemis/res/img/ic-nav-privacy.svg \
+  qt/Hemis/res/img/img-empty-dark-error.svg \
+  qt/Hemis/res/img/ic-add-label.svg \
+  qt/Hemis/res/img/ic-pending.svg \
+  qt/Hemis/res/img/ic-check-theme-dark.svg \
+  qt/Hemis/res/img/ic-nav-receive-active.svg \
+  qt/Hemis/res/img/img-empty-dark-gamemaster.svg \
+  qt/Hemis/res/img/ic-add-liliac.svg \
+  qt/Hemis/res/img/ic-check-theme-light.svg \
+  qt/Hemis/res/img/ic-nav-receive-hover.svg \
+  qt/Hemis/res/img/img-empty-dark-multisend.svg \
+  qt/Hemis/res/img/ic-add-purple.svg \
+  qt/Hemis/res/img/ic-check-white.svg \
+  qt/Hemis/res/img/ic-nav-receive.svg \
+  qt/Hemis/res/img/img-empty-dark-peers.svg \
+  qt/Hemis/res/img/ic-add.svg \
+  qt/Hemis/res/img/ic-check.svg \
+  qt/Hemis/res/img/ic-nav-send-active.svg \
+  qt/Hemis/res/img/img-empty-dark-staking-off.svg \
+  qt/Hemis/res/img/img-empty-dark-staking-on.svg \
+  qt/Hemis/res/img/ic-address-book-grey.svg \
+  qt/Hemis/res/img/ic-chevron-left.svg \
+  qt/Hemis/res/img/ic-nav-send-hover.svg \
+  qt/Hemis/res/img/img-empty-dark-transactions.svg \
+  qt/Hemis/res/img/ic-address-book-white.svg \
+  qt/Hemis/res/img/ic-chevron-right.svg \
+  qt/Hemis/res/img/ic-chevron-right-liliac.svg \
+  qt/Hemis/res/img/ic-nav-send.svg \
+  qt/Hemis/res/img/img-empty-error.svg \
+  qt/Hemis/res/img/ic-address-book.svg \
+  qt/Hemis/res/img/ic-clear-liliac.svg \
+  qt/Hemis/res/img/ic-nav-settings-active.svg \
+  qt/Hemis/res/img/img-empty-gamemaster.svg \
+  qt/Hemis/res/img/ic-address-send-white.svg \
+  qt/Hemis/res/img/ic-clear-purple.svg \
+  qt/Hemis/res/img/ic-nav-settings-hover.svg \
+  qt/Hemis/res/img/img-empty-multisend.svg \
+  qt/Hemis/res/img/ic-address-send.svg \
+  qt/Hemis/res/img/ic-close-white.svg \
+  qt/Hemis/res/img/ic-nav-settings.svg \
+  qt/Hemis/res/img/img-empty-peers.svg \
+  qt/Hemis/res/img/img-empty-privacy.svg \
+  qt/Hemis/res/img/img-empty-privacy-dark.svg \
+  qt/Hemis/res/img/ic-arrow-drop-down-white.svg \
+  qt/Hemis/res/img/ic-close.svg \
+  qt/Hemis/res/img/ic-radio-liliac-on.svg \
+  qt/Hemis/res/img/img-empty-staking-off.svg \
+  qt/Hemis/res/img/ic-arrow-drop-down.svg \
+  qt/Hemis/res/img/ic-coin-piv.svg \
+  qt/Hemis/res/img/ic-receive-off.svg \
+  qt/Hemis/res/img/img-empty-staking-on.svg \
+  qt/Hemis/res/img/ic-arrow-drop-up-white.svg \
+  qt/Hemis/res/img/ic-coin-zpiv.png \
+  qt/Hemis/res/img/ic-receive-on.svg \
+  qt/Hemis/res/img/img-empty-transactions.svg \
+  qt/Hemis/res/img/ic-arrow-drop-up.svg \
+  qt/Hemis/res/img/ic-coin-zpiv.svg \
+  qt/Hemis/res/img/ic-received.svg \
+  qt/Hemis/res/img/img-logo-Hemis.png \
+  qt/Hemis/res/img/ic-arrow-drop-white-down.svg \
+  qt/Hemis/res/img/ic-combo-box.svg \
+  qt/Hemis/res/img/ic-send.svg \
+  qt/Hemis/res/img/img-logo-Hemis@2x.png \
+  qt/Hemis/res/img/ic-arrow-purple-down.svg \
+  qt/Hemis/res/img/ic-connect.svg \
+  qt/Hemis/res/img/ic-submenu-lock.svg \
+  qt/Hemis/res/img/img-logo-Hemis@3x.png \
+  qt/Hemis/res/img/img-logo-Hemis.svg \
+  qt/Hemis/res/img/ic-arrow-right-white.svg \
+  qt/Hemis/res/img/ic-arrow-left-white.svg \
+  qt/Hemis/res/img/ic-arrow-left.svg \
+  qt/Hemis/res/img/ic-copy-liliac.svg \
+  qt/Hemis/res/img/ic-submenu-staking.svg \
+  qt/Hemis/res/img/img-nav-logo-Hemis.png \
+  qt/Hemis/res/img/ic-arrow-right.svg \
+  qt/Hemis/res/img/ic-copy.svg \
+  qt/Hemis/res/img/ic-copy-big.svg \
+  qt/Hemis/res/img/ic-copy-big-white.svg \
+  qt/Hemis/res/img/ic-submenu-unlock.svg \
+  qt/Hemis/res/img/img-nav-logo.png \
+  qt/Hemis/res/img/ic-arrow-white-left.svg \
+  qt/Hemis/res/img/ic-exit.svg \
+  qt/Hemis/res/img/ic-switch-liliac-on.svg \
+  qt/Hemis/res/img/img-nav-logo.svg \
+  qt/Hemis/res/img/ic-arrow-white-right.svg \
+  qt/Hemis/res/img/ic-expand.svg \
+  qt/Hemis/res/img/ic-switch-off.svg \
+  qt/Hemis/res/img/img-qr-test-big.png \
+  qt/Hemis/res/img/ic-check-active.svg \
+  qt/Hemis/res/img/ic-folder.svg \
+  qt/Hemis/res/img/ic-switch-on.svg \
+  qt/Hemis/res/img/img-qr-test.png \
+  qt/Hemis/res/img/ic-check-box.svg \
+  qt/Hemis/res/img/ic-check-box-light.svg \
+  qt/Hemis/res/img/ic-check-box-dark-active.svg \
+  qt/Hemis/res/img/ic-check-box-indeterminate.svg \
+  qt/Hemis/res/img/ic-check-box-liliac-indeterminate.svg \
+  qt/Hemis/res/img/ic-label-liliac.svg \
+  qt/Hemis/res/img/ic-transaction-warning.svg \
+  qt/Hemis/res/img/ic-transaction-mint.svg \
+  qt/Hemis/res/img/ic-transaction-mint-inactive.svg \
+  qt/Hemis/res/img/ic-check-cold-staking.svg \
+  qt/Hemis/res/img/ic-check-cold-staking-off.svg \
+  qt/Hemis/res/img/ic-check-cold-staking-enabled.svg \
+  qt/Hemis/res/img/dark/ic-transaction-cs-contract.svg \
+  qt/Hemis/res/img/dark/ic-transaction-cs-contract-inactive.svg \
+  qt/Hemis/res/img/img-qr.svg \
+  qt/Hemis/res/img/ic-check-connect-off.svg \
+  qt/Hemis/res/img/ic-check-tor-off.svg \
+  qt/Hemis/res/img/ic-check-tor.svg \
+  qt/Hemis/res/img/ic-label.svg \
+  qt/Hemis/res/img/ic-transaction-received.svg \
+  qt/Hemis/res/img/ic-transaction-received-memo.svg \
+  qt/Hemis/res/img/dark/ic-transaction-received.svg \
+  qt/Hemis/res/img/dark/ic-transaction-received-memo.svg \
+  qt/Hemis/res/img/dark/ic-transaction-warning.svg \
+  qt/Hemis/res/img/dark/ic-transaction-mint.svg \
+  qt/Hemis/res/img/dark/ic-transaction-mint-inactive.svg \
+  qt/Hemis/res/img/ic-transaction-received-inactive.svg \
+  qt/Hemis/res/img/dark/ic-transaction-received-inactive.svg \
+  qt/Hemis/res/img/img-welcome-step1.png \
+  qt/Hemis/res/img/ic-check-connect.svg \
+  qt/Hemis/res/img/ic-menu-hover.svg \
+  qt/Hemis/res/img/ic-transaction-sent.svg \
+  qt/Hemis/res/img/ic-transaction-sent-inactive.svg \
+  qt/Hemis/res/img/dark/ic-transaction-sent.svg \
+  qt/Hemis/res/img/dark/ic-transaction-sent-inactive.svg \
+  qt/Hemis/res/img/img-welcome-step2.png \
+  qt/Hemis/res/img/ic-check-dark.svg \
+  qt/Hemis/res/img/ic-mint.svg \
+  qt/Hemis/res/img/ic-transaction-staked.svg \
+  qt/Hemis/res/img/ic-transaction-staked-inactive.svg \
+  qt/Hemis/res/img/dark/ic-transaction-staked.svg \
+  qt/Hemis/res/img/dark/ic-transaction-staked-inactive.svg \
+  qt/Hemis/res/img/img-welcome-step3.png \
+  qt/Hemis/res/img/ic-check-liliac-on.svg \
+  qt/Hemis/res/img/ic-nav-address-active.svg \
+  qt/Hemis/res/img/ic-unlock-staking.svg \
+  qt/Hemis/res/img/img-welcome-step4.png \
+  qt/Hemis/res/img/ic-check-locked-off.svg \
+  qt/Hemis/res/img/ic-nav-address-hover.svg \
+  qt/Hemis/res/img/ic-update-liliac.svg \
+  qt/Hemis/res/img/ic-arrow-drop-down-purple.svg \
+  qt/Hemis/res/img/ic-arrow-drop-up-purple.svg \
+  qt/Hemis/res/img/ic-check-liliac-indeterminate.svg \
+  qt/Hemis/res/img/ic-check-box-liliac-indeterminate.svg \
+  qt/Hemis/res/img/ic-transaction-stake-delegated.svg \
+  qt/Hemis/res/img/ic-transaction-stake-delegated-inactive.svg \
+  qt/Hemis/res/img/ic-transaction-stake-hot.svg \
+  qt/Hemis/res/img/ic-transaction-stake-hot-inactive.svg \
+  qt/Hemis/res/img/dark/ic-transaction-stake-hot.svg \
+  qt/Hemis/res/img/dark/ic-transaction-stake-hot-inactive.svg \
+  qt/Hemis/res/img/dark/ic-transaction-stake-delegated.svg \
+  qt/Hemis/res/img/dark/ic-transaction-stake-delegated-inactive.svg \
+  qt/Hemis/res/img/ic-transaction-cs-contract.svg \
+  qt/Hemis/res/img/ic-transaction-cs-contract-inactive.svg \
+  qt/Hemis/res/img/ic-check-box-indeterminate.svg \
+  qt/Hemis/res/img/ic-information.svg \
+  qt/Hemis/res/img/ic-information-hover.svg \
+  qt/Hemis/res/img/ani-loading-dark.gif \
+  qt/Hemis/res/img/ani-loading.gif \
+  qt/Hemis/res/img/ic-check-vote.svg \
+  qt/Hemis/res/img/ic-check-vote-active.svg \
+  qt/Hemis/res/img/ic-check-vote-dark.svg \
+  qt/Hemis/res/img/ic-check-vote-active-dark.svg \
+  qt/Hemis/res/img/ic-check-block.svg \
+  qt/Hemis/res/img/ic-filter.svg \
+  qt/Hemis/res/img/ic-link.svg \
+  qt/Hemis/res/img/ic-nav-governance.svg \
+  qt/Hemis/res/img/ic-nav-governance-active.svg \
+  qt/Hemis/res/img/ic-nav-governance-hover.svg \
+  qt/Hemis/res/img/ic-time.svg \
+  qt/Hemis/res/img/ic-link-hover.svg \
+  qt/Hemis/res/img/img-empty-governance.svg \
+  qt/Hemis/res/img/img-empty-dark-governance.svg
 
 BITCOIN_QT_BASE_CPP = \
   qt/bantablemodel.cpp \
   qt/bitcoinaddressvalidator.cpp \
-  qt/hemis/hemisgui.cpp \
+  qt/Hemis/Hemisgui.cpp \
   qt/bitcoinunits.cpp \
   qt/clientmodel.cpp \
   qt/csvmodelwriter.cpp \
@@ -552,70 +552,70 @@ BITCOIN_QT_WALLET_CPP = \
   qt/transactiontablemodel.cpp \
   qt/walletmodel.cpp \
   qt/walletmodeltransaction.cpp \
-  qt/hemis/loadingdialog.cpp \
-  qt/hemis/pwidget.cpp \
-  qt/hemis/focuseddialog.cpp \
-  qt/hemis/guitransactionsutils.cpp \
-  qt/hemis/snackbar.cpp \
-  qt/hemis/navmenuwidget.cpp \
-  qt/hemis/lockunlock.cpp \
-  qt/hemis/receivedialog.cpp \
-  qt/hemis/furabstractlistitemdelegate.cpp \
-  qt/hemis/txviewholder.cpp \
-  qt/hemis/qtutils.cpp \
-  qt/hemis/expandablebutton.cpp \
-  qt/hemis/balancebubble.cpp \
-  qt/hemis/topbar.cpp \
-  qt/hemis/txrow.cpp \
-  qt/hemis/addressholder.cpp \
-  qt/hemis/addressfilterproxymodel.cpp \
-  qt/hemis/dashboardwidget.cpp \
-  qt/hemis/addresslabelrow.cpp \
-  qt/hemis/contactdropdownrow.cpp \
-  qt/hemis/contactsdropdown.cpp \
-  qt/hemis/optionbutton.cpp \
-  qt/hemis/gminfodialog.cpp \
-  qt/hemis/coldstakingmodel.cpp \
-  qt/hemis/gmmodel.cpp \
-  qt/hemis/gamemasterwizarddialog.cpp \
-  qt/hemis/gmrow.cpp \
-  qt/hemis/gamemasterswidget.cpp \
-  qt/hemis/myaddressrow.cpp \
-  qt/hemis/csrow.cpp \
-  qt/hemis/sendchangeaddressdialog.cpp \
-  qt/hemis/sendconfirmdialog.cpp \
-  qt/hemis/sendcustomfeedialog.cpp \
-  qt/hemis/sendmemodialog.cpp \
-  qt/hemis/sendmultirow.cpp \
-  qt/hemis/send.cpp \
-  qt/hemis/addnewcontactdialog.cpp \
-  qt/hemis/requestdialog.cpp \
-  qt/hemis/receivewidget.cpp \
-  qt/hemis/tooltipmenu.cpp \
-  qt/hemis/addresseswidget.cpp \
-  qt/hemis/defaultdialog.cpp \
-  qt/hemis/coldstakingwidget.cpp \
-  qt/hemis/governancemodel.cpp \
-  qt/hemis/proposalcard.cpp \
-  qt/hemis/gmselectiondialog.cpp \
-  qt/hemis/votedialog.cpp \
-  qt/hemis/createproposaldialog.cpp \
-  qt/hemis/proposalinfodialog.cpp \
-  qt/hemis/governancewidget.cpp \
-  qt/hemis/settings/settingsbackupwallet.cpp \
-  qt/hemis/settings/settingsexportcsv.cpp \
-  qt/hemis/settings/settingsbittoolwidget.cpp \
-  qt/hemis/settings/settingsconsolewidget.cpp \
-  qt/hemis/settings/settingsdisplayoptionswidget.cpp \
-  qt/hemis/settings/settingsfaqwidget.cpp \
-  qt/hemis/settings/settingsinformationwidget.cpp \
-  qt/hemis/settings/settingsmainoptionswidget.cpp \
-  qt/hemis/settings/settingssignmessagewidgets.cpp \
-  qt/hemis/settings/settingswalletoptionswidget.cpp \
-  qt/hemis/settings/settingswalletrepairwidget.cpp \
-  qt/hemis/settings/settingswidget.cpp \
-  qt/hemis/welcomecontentwidget.cpp \
-  qt/hemis/splash.cpp
+  qt/Hemis/loadingdialog.cpp \
+  qt/Hemis/pwidget.cpp \
+  qt/Hemis/focuseddialog.cpp \
+  qt/Hemis/guitransactionsutils.cpp \
+  qt/Hemis/snackbar.cpp \
+  qt/Hemis/navmenuwidget.cpp \
+  qt/Hemis/lockunlock.cpp \
+  qt/Hemis/receivedialog.cpp \
+  qt/Hemis/furabstractlistitemdelegate.cpp \
+  qt/Hemis/txviewholder.cpp \
+  qt/Hemis/qtutils.cpp \
+  qt/Hemis/expandablebutton.cpp \
+  qt/Hemis/balancebubble.cpp \
+  qt/Hemis/topbar.cpp \
+  qt/Hemis/txrow.cpp \
+  qt/Hemis/addressholder.cpp \
+  qt/Hemis/addressfilterproxymodel.cpp \
+  qt/Hemis/dashboardwidget.cpp \
+  qt/Hemis/addresslabelrow.cpp \
+  qt/Hemis/contactdropdownrow.cpp \
+  qt/Hemis/contactsdropdown.cpp \
+  qt/Hemis/optionbutton.cpp \
+  qt/Hemis/gminfodialog.cpp \
+  qt/Hemis/coldstakingmodel.cpp \
+  qt/Hemis/gmmodel.cpp \
+  qt/Hemis/gamemasterwizarddialog.cpp \
+  qt/Hemis/gmrow.cpp \
+  qt/Hemis/gamemasterswidget.cpp \
+  qt/Hemis/myaddressrow.cpp \
+  qt/Hemis/csrow.cpp \
+  qt/Hemis/sendchangeaddressdialog.cpp \
+  qt/Hemis/sendconfirmdialog.cpp \
+  qt/Hemis/sendcustomfeedialog.cpp \
+  qt/Hemis/sendmemodialog.cpp \
+  qt/Hemis/sendmultirow.cpp \
+  qt/Hemis/send.cpp \
+  qt/Hemis/addnewcontactdialog.cpp \
+  qt/Hemis/requestdialog.cpp \
+  qt/Hemis/receivewidget.cpp \
+  qt/Hemis/tooltipmenu.cpp \
+  qt/Hemis/addresseswidget.cpp \
+  qt/Hemis/defaultdialog.cpp \
+  qt/Hemis/coldstakingwidget.cpp \
+  qt/Hemis/governancemodel.cpp \
+  qt/Hemis/proposalcard.cpp \
+  qt/Hemis/gmselectiondialog.cpp \
+  qt/Hemis/votedialog.cpp \
+  qt/Hemis/createproposaldialog.cpp \
+  qt/Hemis/proposalinfodialog.cpp \
+  qt/Hemis/governancewidget.cpp \
+  qt/Hemis/settings/settingsbackupwallet.cpp \
+  qt/Hemis/settings/settingsexportcsv.cpp \
+  qt/Hemis/settings/settingsbittoolwidget.cpp \
+  qt/Hemis/settings/settingsconsolewidget.cpp \
+  qt/Hemis/settings/settingsdisplayoptionswidget.cpp \
+  qt/Hemis/settings/settingsfaqwidget.cpp \
+  qt/Hemis/settings/settingsinformationwidget.cpp \
+  qt/Hemis/settings/settingsmainoptionswidget.cpp \
+  qt/Hemis/settings/settingssignmessagewidgets.cpp \
+  qt/Hemis/settings/settingswalletoptionswidget.cpp \
+  qt/Hemis/settings/settingswalletrepairwidget.cpp \
+  qt/Hemis/settings/settingswidget.cpp \
+  qt/Hemis/welcomecontentwidget.cpp \
+  qt/Hemis/splash.cpp
 
 
 BITCOIN_QT_CPP = $(BITCOIN_QT_BASE_CPP)
@@ -634,10 +634,10 @@ RES_IMAGES = \
 
 RES_CSS = \
   qt/res/css/default.css \
-  qt/hemis/res/css/style_dark.css \
-  qt/hemis/res/css/style_light.css
+  qt/Hemis/res/css/style_dark.css \
+  qt/Hemis/res/css/style_light.css
 
-BITCOIN_RC = qt/res/hemis-qt-res.rc
+BITCOIN_RC = qt/res/Hemis-qt-res.rc
 
 BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
   -I$(builddir)/qt/forms -DQT_NO_KEYWORDS
@@ -658,66 +658,66 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_hemis_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_Hemis_qt_OBJECTS) : | $(QT_MOC)
 
-# hemis-qt binary #
-qt_hemis_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+# Hemis-qt binary #
+qt_Hemis_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(QR_CFLAGS) $(SVG_CFLAGS) $(CHARTS_CFLAGS)
-qt_hemis_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+qt_Hemis_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
-qt_hemis_qt_SOURCES = qt/hemis.cpp
+qt_Hemis_qt_SOURCES = qt/Hemis.cpp
 if TARGET_DARWIN
-  qt_hemis_qt_SOURCES += $(BITCOIN_MM)
+  qt_Hemis_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_hemis_qt_SOURCES += $(BITCOIN_RC)
+  qt_Hemis_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_hemis_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_Hemis_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_hemis_qt_LDADD += $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
+qt_Hemis_qt_LDADD += $(LIBBITCOIN_UTIL) $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_hemis_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_Hemis_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_hemis_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBSAPLING) $(LIBRUSTZCASH) $(LIBZCASH_LIBS) $(LIBLEVELDB) $(LIBLEVELDB_SSE42) $(LIBMEMENV) \
+qt_Hemis_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBBITCOIN_ZEROCOIN) $(LIBSAPLING) $(LIBRUSTZCASH) $(LIBZCASH_LIBS) $(LIBLEVELDB) $(LIBLEVELDB_SSE42) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(SVG_LIBS) $(CHARTS_LIBS) $(BDB_LIBS) $(MINIUPNPC_LIBS) $(NATPMP_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(BLS_LIBS)
-qt_hemis_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_hemis_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
+qt_Hemis_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_Hemis_qt_LIBTOOLFLAGS = $(AM_LIBTOOLFLAGS) --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-$(srcdir)/qt/hemisstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
+$(srcdir)/qt/Hemisstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_util_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) $(PYTHON) ../share/qt/extract_strings_qt.py $^
 
-translate: $(srcdir)/qt/hemisstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/hemis.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: $(srcdir)/qt/Hemisstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_BASE_CPP) qt/Hemis.cpp $(BITCOIN_QT_WINDOWS_CPP) $(BITCOIN_QT_WALLET_CPP) $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/hemis_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts $(srcdir)/qt/locale/Hemis_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@cp -f $< $(@D)/temp_$(<F)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name hemis_locale $(@D)/temp_$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name Hemis_locale $(@D)/temp_$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 	@rm $(@D)/temp_$(<F)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name hemis $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name Hemis $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
-CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/hemis/*.gcda qt/hemis/*.gcno qt/hemis/settings/*.gcda qt/hemis/settings/*.gcno qt/temp_hemis_locale.qrc
+CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/Hemis/*.gcda qt/Hemis/*.gcno qt/Hemis/settings/*.gcda qt/Hemis/settings/*.gcno qt/temp_Hemis_locale.qrc
 
 CLEANFILES += $(CLEAN_QT)
 
-hemis_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_hemis_qt_OBJECTS) qt/hemis-qt$(EXEEXT) $(LIBBITCOINQT)
+Hemis_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_Hemis_qt_OBJECTS) qt/Hemis-qt$(EXEEXT) $(LIBBITCOINQT)
 
-hemis_qt : qt/hemis-qt$(EXEEXT)
+Hemis_qt : qt/Hemis-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

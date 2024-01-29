@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
-#ifndef hemis_ZHMSMODULE_H
-#define hemis_ZHMSMODULE_H
+#ifndef Hemis_ZHMSMODULE_H
+#define Hemis_ZHMSMODULE_H
 
 #include "libzerocoin/bignum.h"
 #include "libzerocoin/Denominations.h"
@@ -84,4 +84,4 @@ namespace ZHMSModule {
 };
 
 
-#endif //hemis_ZHMSMODULE_H
+#endif //Hemis_ZHMSMODULE_H

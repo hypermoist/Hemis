@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/addressholder.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/addressholder.h"
+#include "qt/Hemis/qtutils.h"
 
 void AddressHolder::init(QWidget* holder,const QModelIndex &index, bool isHovered, bool isSelected) const {
     MyAddressRow *row = static_cast<MyAddressRow*>(holder);

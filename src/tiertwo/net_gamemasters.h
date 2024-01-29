@@ -1,10 +1,10 @@
 // Copyright (c) 2020 The Dash developers
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_NET_GAMEMASTERS_H
-#define hemis_NET_GAMEMASTERS_H
+#ifndef Hemis_NET_GAMEMASTERS_H
+#define Hemis_NET_GAMEMASTERS_H
 
 #include "consensus/params.h"
 #include "net.h"
@@ -95,4 +95,4 @@ private:
     void doMaintenance();
 };
 
-#endif //hemis_NET_GAMEMASTERS_H
+#endif //Hemis_NET_GAMEMASTERS_H

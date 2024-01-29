@@ -1,8 +1,8 @@
-// Copyright (c) 2020 The hemis Core developers
+// Copyright (c) 2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "test/test_hemis.h"
+#include "test/test_Hemis.h"
 #include "crypto/sha256.h"
 #include "uint256.h"
 

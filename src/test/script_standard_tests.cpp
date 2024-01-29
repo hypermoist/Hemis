@@ -7,7 +7,7 @@
 #include "script/ismine.h"
 #include "script/script.h"
 #include "script/standard.h"
-#include "test/test_hemis.h"
+#include "test/test_Hemis.h"
 
 #include <boost/test/unit_test.hpp>
 

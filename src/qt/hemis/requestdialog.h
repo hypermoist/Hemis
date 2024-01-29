@@ -1,18 +1,18 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef REQUESTDIALOG_H
 #define REQUESTDIALOG_H
 
-#include "qt/hemis/focuseddialog.h"
-#include "qt/hemis/snackbar.h"
+#include "qt/Hemis/focuseddialog.h"
+#include "qt/Hemis/snackbar.h"
 #include "walletmodel.h"
 
 #include <QPixmap>
 
 class WalletModel;
-class hemisGUI;
+class HemisGUI;
 
 namespace Ui {
 class RequestDialog;

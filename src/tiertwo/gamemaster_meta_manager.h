@@ -1,10 +1,10 @@
 // Copyright (c) 2014-2021 The Dash Core developers
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the X11 software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_GAMEMASTER_META_MANAGER_H
-#define hemis_GAMEMASTER_META_MANAGER_H
+#ifndef Hemis_GAMEMASTER_META_MANAGER_H
+#define Hemis_GAMEMASTER_META_MANAGER_H
 
 #include "serialize.h"
 #include "sync.h"
@@ -92,4 +92,4 @@ public:
 
 extern CGamemasterMetaMan g_mmetaman;
 
-#endif //hemis_GAMEMASTER_META_MANAGER_H
+#endif //Hemis_GAMEMASTER_META_MANAGER_H

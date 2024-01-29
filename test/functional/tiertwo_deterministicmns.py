@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2021-2022 The hemis Core developers
+# Copyright (c) 2021-2022 The Hemis Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test deterministic gamemasters"""
@@ -302,7 +302,7 @@ class DIP3Test(HemisTestFramework):
                                 miner.protx_update_service, gms[0].proTx, "",
                                 miner.getnewaddress(), gms[0].operator_sk)
         self.log.info("Trying to update the operator payee to an invalid address...")
-        assert_raises_rpc_error(-5, "invalid hemis address InvalidPayee",
+        assert_raises_rpc_error(-5, "invalid Hemis address InvalidPayee",
                                 miner.protx_update_service, dgm2c.proTx, "", "InvalidPayee", "")
         self.log.info("Update IP address...")
         gms[0].ipport = "127.0.0.1:1000"
@@ -336,7 +336,7 @@ class DIP3Test(HemisTestFramework):
         assert_raises_rpc_error(-1, "bad-protx-dup-key", controller.protx_update_registrar,
                                 gms[0].proTx, gms[1].operator_pk, "", "")
         self.log.info("Trying to update the payee to an invalid address...")
-        assert_raises_rpc_error(-5, "invalid hemis address InvalidPayee", controller.protx_update_registrar,
+        assert_raises_rpc_error(-5, "invalid Hemis address InvalidPayee", controller.protx_update_registrar,
                                 gms[0].proTx, "", "", "InvalidPayee")
         self.log.info("Update operator keys...")
         bls_keypair = self.nodes[gms[0].idx].generateblskeypair()

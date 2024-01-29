@@ -1,8 +1,8 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/addressfilterproxymodel.h"
+#include "qt/Hemis/addressfilterproxymodel.h"
 #include "qt/addresstablemodel.h"
 
 bool AddressFilterProxyModel::filterAcceptsRow(int row, const QModelIndex& parent) const

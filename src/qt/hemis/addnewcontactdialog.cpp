@@ -1,10 +1,10 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/addnewcontactdialog.h"
-#include "qt/hemis/forms/ui_addnewcontactdialog.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/addnewcontactdialog.h"
+#include "qt/Hemis/forms/ui_addnewcontactdialog.h"
+#include "qt/Hemis/qtutils.h"
 
 AddNewContactDialog::AddNewContactDialog(QWidget *parent) :
     FocusedDialog(parent),

@@ -1,10 +1,10 @@
 // Copyright (c) 2019 The Dash Core developers
-// Copyright (c) 2023 The hemis Core developers
+// Copyright (c) 2023 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_QUORUMS_CHAINLOCKS_H
-#define hemis_QUORUMS_CHAINLOCKS_H
+#ifndef Hemis_QUORUMS_CHAINLOCKS_H
+#define Hemis_QUORUMS_CHAINLOCKS_H
 
 #include "llmq/quorums.h"
 #include "llmq/quorums_signing.h"
@@ -95,4 +95,4 @@ extern CChainLocksHandler* chainLocksHandler;
 
 }
 
-#endif //hemis_QUORUMS_CHAINLOCKS_H
+#endif //Hemis_QUORUMS_CHAINLOCKS_H

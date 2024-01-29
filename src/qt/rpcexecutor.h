@@ -1,10 +1,10 @@
 // Copyright (c) 2011-2017 The Bitcoin developers
-// Copyright (c) 2015-2021 The hemis Core developers
+// Copyright (c) 2015-2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_QT_RPCEXECUTOR_H
-#define hemis_QT_RPCEXECUTOR_H
+#ifndef Hemis_QT_RPCEXECUTOR_H
+#define Hemis_QT_RPCEXECUTOR_H
 
 #include "rpc/server.h"
 
@@ -75,4 +75,4 @@ public:
 };
 
 
-#endif // hemis_QT_RPCEXECUTOR_H
+#endif // Hemis_QT_RPCEXECUTOR_H

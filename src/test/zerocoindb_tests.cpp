@@ -1,8 +1,8 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "test/test_hemis.h"
+#include "test/test_Hemis.h"
 
 #include "txdb.h"
 #include "validation.h"

@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2022 The hemis Core developers
+// Copyright (c) 2022 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_QUORUMS_DKGSESSION_H
-#define hemis_QUORUMS_DKGSESSION_H
+#ifndef Hemis_QUORUMS_DKGSESSION_H
+#define Hemis_QUORUMS_DKGSESSION_H
 
 #include "bls/bls_ies.h"
 #include "bls/bls_worker.h"
@@ -342,4 +342,4 @@ bool SetSimulatedDKGErrorRate(const std::string& error_type, double rate);
 
 }
 
-#endif //hemis_QUORUMS_DKGSESSION_H
+#endif //Hemis_QUORUMS_DKGSESSION_H

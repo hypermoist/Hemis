@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,16 +6,16 @@
 #define GAMEMASTERSWIDGET_H
 
 #include "coincontroldialog.h"
-#include "qt/hemis/furabstractlistitemdelegate.h"
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/tooltipmenu.h"
+#include "qt/Hemis/furabstractlistitemdelegate.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/tooltipmenu.h"
 
 #include <atomic>
 
 #include <QTimer>
 #include <QWidget>
 
-class hemisGUI;
+class HemisGUI;
 class GMModel;
 
 namespace Ui {
@@ -32,7 +32,7 @@ class GameMastersWidget : public PWidget
 
 public:
 
-    explicit GameMastersWidget(hemisGUI *parent = nullptr);
+    explicit GameMastersWidget(HemisGUI *parent = nullptr);
     ~GameMastersWidget();
     void resetCoinControl();
     void setGMModel(GMModel* _gmModel);

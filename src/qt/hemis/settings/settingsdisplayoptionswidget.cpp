@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingsdisplayoptionswidget.h"
-#include "qt/hemis/settings/forms/ui_settingsdisplayoptionswidget.h"
+#include "qt/Hemis/settings/settingsdisplayoptionswidget.h"
+#include "qt/Hemis/settings/forms/ui_settingsdisplayoptionswidget.h"
 #include <QListView>
 #include <QSettings>
 #include <QDir>
@@ -11,9 +11,9 @@
 #include "clientmodel.h"
 #include "optionsmodel.h"
 #include "bitcoinunits.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
-SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(hemisGUI* _window, QWidget *parent) :
+SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(HemisGUI* _window, QWidget *parent) :
     PWidget(_window,parent),
     ui(new Ui::SettingsDisplayOptionsWidget)
 {

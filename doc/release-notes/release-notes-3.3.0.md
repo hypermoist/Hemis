@@ -1,33 +1,33 @@
-hemis Core version *3.3.0* is now available from:  <https://github.com/hemis-project/hemis/releases>
+Hemis Core version *3.3.0* is now available from:  <https://github.com/Hemis-project/Hemis/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/hemis-project/hemis/issues>
+Please report bugs using the issue tracker at github: <https://github.com/Hemis-project/Hemis/issues>
 
 
 Mandatory Update
 ==============
 
-hemis Core v3.3.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of approximately one week to update their clients before enforcement of this update goes into effect.
+Hemis Core v3.3.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of approximately one week to update their clients before enforcement of this update goes into effect.
 
 Gamemasters will need to be restarted once both the gamemaster daemon and the controller wallet have been upgraded.
 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/hemis-Qt (on Mac) or hemisd/hemis-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Hemis-Qt (on Mac) or Hemisd/Hemis-qt (on Linux).
 
 
 Compatibility
 ==============
 
-hemis Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.10+, and Windows 7 and later.
+Hemis Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.10+, and Windows 7 and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support), No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
 
-Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). hemis Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
+Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). Hemis Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
 
-hemis Core should also work on most other Unix-like systems but is not frequently tested on them.
+Hemis Core should also work on most other Unix-like systems but is not frequently tested on them.
 
 
 Notable Changes
@@ -63,9 +63,9 @@ Notice text has been added to the privacy tab indicating that zHMS minting is di
 
 ### Removal of Deprecated Commands
 
-The `gamemaster` and `gmbudget` RPC commands, which were marked as deprecated in hemis Core v2.3.1 (September 19, 2017), have now been completely removed from hemis Core.
+The `gamemaster` and `gmbudget` RPC commands, which were marked as deprecated in Hemis Core v2.3.1 (September 19, 2017), have now been completely removed from Hemis Core.
 
-Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/hemis-Project/hemis/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
+Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/Hemis-Project/Hemis/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
 
 ### New `getblockindexstats` Command
 
@@ -214,4 +214,4 @@ Thanks to everyone who directly contributed to this release:
  - random-zebra
  - warrows
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/hemis-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/Hemis-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

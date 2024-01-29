@@ -4,7 +4,7 @@
 
 #include "compressor.h"
 #include "util/system.h"
-#include "test/test_hemis.h"
+#include "test/test_Hemis.h"
 
 #include <stdint.h>
 

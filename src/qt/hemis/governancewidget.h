@@ -1,12 +1,12 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #ifndef GOVERNANCEWIDGET_H
 #define GOVERNANCEWIDGET_H
 
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/proposalcard.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/proposalcard.h"
 
 #include <QGridLayout>
 #include <QStandardItemModel>
@@ -23,7 +23,7 @@ class QTimer;
 QT_END_NAMESPACE
 
 class GMModel;
-class hemisGUI;
+class HemisGUI;
 class GovernanceModel;
 class TooltipMenu;
 
@@ -57,7 +57,7 @@ class GovernanceWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit GovernanceWidget(hemisGUI* parent);
+    explicit GovernanceWidget(HemisGUI* parent);
     ~GovernanceWidget() override;
 
     void showEvent(QShowEvent *event) override;

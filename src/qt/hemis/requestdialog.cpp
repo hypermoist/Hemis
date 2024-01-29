@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/requestdialog.h"
-#include "qt/hemis/forms/ui_requestdialog.h"
+#include "qt/Hemis/requestdialog.h"
+#include "qt/Hemis/forms/ui_requestdialog.h"
 #include <QListView>
 
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
 

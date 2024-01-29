@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@
 #define BITCOIN_UTIL_SYSTEM_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include "fs.h"
@@ -47,12 +47,12 @@ public:
     boost::signals2::signal<std::string (const char* psz)> Translate;
 };
 
-extern const char * const hemis_CONF_FILENAME;
-extern const char * const hemis_PID_FILENAME;
-extern const char * const hemis_GAMEMASTER_CONF_FILENAME;
+extern const char * const Hemis_CONF_FILENAME;
+extern const char * const Hemis_PID_FILENAME;
+extern const char * const Hemis_GAMEMASTER_CONF_FILENAME;
 extern const char * const DEFAULT_DEBUGLOGFILE;
 
-//hemis only features
+//Hemis only features
 
 extern std::atomic<bool> fGameMaster;
 
@@ -269,7 +269,7 @@ void SetThreadPriority(int nPriority);
 template <typename Callable>
 void TraceThread(const std::string name, Callable func)
 {
-    std::string s = "hemis-" + name;
+    std::string s = "Hemis-" + name;
     util::ThreadRename(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

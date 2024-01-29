@@ -1,4 +1,4 @@
-/* src/config/hemis-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/Hemis-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef HMS_CONFIG_H
 

@@ -893,7 +893,7 @@
                          <enum>Qt::NoFocus</enum>
                         </property>
                         <property name="text">
-                         <string>About hemis</string>
+                         <string>About Hemis</string>
                         </property>
                         <property name="checkable">
                          <bool>false</bool>

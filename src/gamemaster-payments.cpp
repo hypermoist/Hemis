@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -376,7 +376,7 @@ void CGamemasterPayments::FillBlockPayee(CMutableTransaction& txCoinbase, CMutab
         return;
     }
 
-    // Starting from hemis v6.0 gamemaster and budgets are paid in the coinbase tx
+    // Starting from Hemis v6.0 gamemaster and budgets are paid in the coinbase tx
     const int nHeight = pindexPrev->nHeight + 1;
     bool fPayCoinstake = fProofOfStake && !Params().GetConsensus().NetworkUpgradeActive(nHeight, Consensus::UPGRADE_V6_0);
 

@@ -1,16 +1,16 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/addresseswidget.h"
-#include "qt/hemis/forms/ui_addresseswidget.h"
-#include "qt/hemis/addressfilterproxymodel.h"
-#include "qt/hemis/addresslabelrow.h"
-#include "qt/hemis/tooltipmenu.h"
+#include "qt/Hemis/addresseswidget.h"
+#include "qt/Hemis/forms/ui_addresseswidget.h"
+#include "qt/Hemis/addressfilterproxymodel.h"
+#include "qt/Hemis/addresslabelrow.h"
+#include "qt/Hemis/tooltipmenu.h"
 
-#include "qt/hemis/addnewcontactdialog.h"
+#include "qt/Hemis/addnewcontactdialog.h"
 #include "guiutil.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 #include "walletmodel.h"
 
 #include <QModelIndex>
@@ -59,7 +59,7 @@ public:
 };
 
 
-AddressesWidget::AddressesWidget(hemisGUI* parent) :
+AddressesWidget::AddressesWidget(HemisGUI* parent) :
     PWidget(parent),
     ui(new Ui::AddressesWidget)
 {

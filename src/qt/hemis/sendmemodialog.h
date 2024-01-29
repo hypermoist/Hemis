@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #ifndef SENDMEMODIALOG_H
 #define SENDMEMODIALOG_H
 
-#include "qt/hemis/focuseddialog.h"
+#include "qt/Hemis/focuseddialog.h"
 
 class WalletModel;
 class SnackBar;

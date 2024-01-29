@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_KEY_IO_H
-#define hemis_KEY_IO_H
+#ifndef Hemis_KEY_IO_H
+#define Hemis_KEY_IO_H
 
 #include "chainparams.h"
 #include "key.h"
@@ -38,4 +38,4 @@ namespace KeyIO {
 
 }
 
-#endif //hemis_KEY_IO_H
+#endif //Hemis_KEY_IO_H

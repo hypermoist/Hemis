@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Copyright (c) 2015-2020 The Zcash developers
-# Copyright (c) 2020-2021 The hemis Core developers
+# Copyright (c) 2020-2021 The Hemis Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,9 +13,9 @@ if [ -n "${1:-}" ]; then
     PARAMS_DIR="$1"
 else
     if [[ "$OSTYPE" == "darwin"* ]]; then
-        PARAMS_DIR="$HOME/Library/Application Support/hemisParams"
+        PARAMS_DIR="$HOME/Library/Application Support/HemisParams"
     else
-        PARAMS_DIR="$HOME/.hemis-params"
+        PARAMS_DIR="$HOME/.Hemis-params"
     fi
 fi
 
@@ -96,7 +96,7 @@ EOF
 function fetch_failure {
     cat >&2 <<EOF
 
-Failed to fetch the hemis zkSNARK parameters!
+Failed to fetch the Hemis zkSNARK parameters!
 Try installing one of the following programs and make sure you're online:
 
  * ipfs
@@ -181,9 +181,9 @@ function main() {
     || exit_locked_error
 
     cat <<EOF
-hemis - fetch-params.sh
+Hemis - fetch-params.sh
 
-This script will fetch the hemis zkSNARK parameters and verify their
+This script will fetch the Hemis zkSNARK parameters and verify their
 integrity with sha256sum.
 
 If they already exist locally, it will exit now and do nothing else.
@@ -195,7 +195,7 @@ EOF
         mkdir -p "$PARAMS_DIR"
         README_PATH="$PARAMS_DIR/README"
         cat >> "$README_PATH" <<EOF
-This directory stores common hemis zkSNARK parameters. Note that it is
+This directory stores common Hemis zkSNARK parameters. Note that it is
 distinct from the daemon's -datadir argument because the parameters are
 large and may be shared across multiple distinct -datadir's such as when
 setting up test networks.

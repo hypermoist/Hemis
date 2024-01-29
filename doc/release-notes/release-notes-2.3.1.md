@@ -1,23 +1,23 @@
-hemis Core version 2.3.1 is now available from:
+Hemis Core version 2.3.1 is now available from:
 
-  <https://github.com/hemis-project/hemis/releases>
+  <https://github.com/Hemis-project/Hemis/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/hemis-project/hemis/issues>
+  <https://github.com/Hemis-project/Hemis/issues>
 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/hemis-Qt (on Mac) or hemisd/hemis-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Hemis-Qt (on Mac) or Hemisd/Hemis-qt (on Linux).
 
 Compatibility
 ==============
 
-hemis Core is extensively tested on multiple operating systems using
+Hemis Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -25,7 +25,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-hemis Core should also work on most other Unix-like systems but is not
+Hemis Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable Changes
@@ -98,7 +98,7 @@ Result: (for other sets):
 }
 
 Examples:
-> hemis-cli startgamemaster "alias" true "my_gm"
+> Hemis-cli startgamemaster "alias" true "my_gm"
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "startgamemaster", "params": ["alias" true "my_gm"] }' -H 'content-type: text/plain;' http://127.0.0.1:51473/
 ```
 
@@ -133,7 +133,7 @@ Result:
 }
 
 Examples:
-> hemis-cli gmbudgetvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
+> Hemis-cli gmbudgetvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "gmbudgetvote", "params": ["local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"] }' -H 'content-type: text/plain;' http://127.0.0.1:51473/
 ```
 
@@ -159,7 +159,7 @@ Result:
     "BlockEnd": n,                (numeric) Proposal ending block
     "TotalPaymentCount": n,       (numeric) Number of payments
     "RemainingPaymentCount": n,   (numeric) Number of remaining payments
-    "PaymentAddress": "xxxx",     (string) hemis address of payment
+    "PaymentAddress": "xxxx",     (string) Hemis address of payment
     "Ratio": x.xxx,               (numeric) Ratio of yeas vs nays
     "Yeas": n,                    (numeric) Number of yea votes
     "Nays": n,                    (numeric) Number of nay votes
@@ -175,7 +175,7 @@ Result:
 ]
 
 Examples:
-> hemis-cli getbudgetinfo
+> Hemis-cli getbudgetinfo
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbudgetinfo", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:51473/
 ```
 
@@ -210,4 +210,4 @@ Thanks to everyone who directly contributed to this release:
 - Mrs-X
 - amirabrams
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/hemis-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/Hemis-project-translations/).

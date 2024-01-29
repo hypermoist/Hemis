@@ -1,14 +1,14 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/snackbar.h"
-#include "qt/hemis/forms/ui_snackbar.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/snackbar.h"
+#include "qt/Hemis/forms/ui_snackbar.h"
+#include "qt/Hemis/qtutils.h"
 #include <QTimer>
 
 
-SnackBar::SnackBar(hemisGUI* _window, QWidget *parent) :
+SnackBar::SnackBar(HemisGUI* _window, QWidget *parent) :
     QDialog(parent),
     ui(new Ui::SnackBar),
     window(_window),
@@ -23,7 +23,7 @@ SnackBar::SnackBar(hemisGUI* _window, QWidget *parent) :
 
     connect(ui->pushButton, &QPushButton::clicked, this, &SnackBar::close);
     if (window)
-        connect(window, &hemisGUI::windowResizeEvent, this, &SnackBar::windowResizeEvent);
+        connect(window, &HemisGUI::windowResizeEvent, this, &SnackBar::windowResizeEvent);
     else {
         ui->horizontalLayout->setContentsMargins(0,0,0,0);
         ui->label->setStyleSheet("font-size: 15px; color:white;");

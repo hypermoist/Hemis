@@ -1,20 +1,20 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/loadingdialog.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/loadingdialog.h"
 #include <QRunnable>
 #include <QThreadPool>
 
-PWidget::PWidget(hemisGUI* _window, QWidget *parent) : QWidget((parent) ? parent : _window), window(_window) { init(); }
+PWidget::PWidget(HemisGUI* _window, QWidget *parent) : QWidget((parent) ? parent : _window), window(_window) { init(); }
 PWidget::PWidget(PWidget* parent) : QWidget(parent), window(parent->getWindow()) { init(); }
 
 void PWidget::init()
 {
     if (window)
-        connect(window, &hemisGUI::themeChanged, this, &PWidget::onChangeTheme);
+        connect(window, &HemisGUI::themeChanged, this, &PWidget::onChangeTheme);
 }
 
 void PWidget::setClientModel(ClientModel* model)

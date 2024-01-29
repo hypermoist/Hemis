@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/contactsdropdown.h"
+#include "qt/Hemis/contactsdropdown.h"
 
 #include <QPainter>
 #include <QSizePolicy>
-#include "qt/hemis/addresslabelrow.h"
-#include "qt/hemis/contactdropdownrow.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/furlistrow.h"
+#include "qt/Hemis/addresslabelrow.h"
+#include "qt/Hemis/contactdropdownrow.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/furlistrow.h"
 #include "walletmodel.h"
 #include "addresstablemodel.h"
 
@@ -48,7 +48,7 @@ public:
     ContactDropdownRow* row = nullptr;
 };
 
-ContactsDropdown::ContactsDropdown(int minWidth, int minHeight, hemisGUI* _window, QWidget* _parent) : PWidget(_window, _parent)
+ContactsDropdown::ContactsDropdown(int minWidth, int minHeight, HemisGUI* _window, QWidget* _parent) : PWidget(_window, _parent)
 {
     this->setStyleSheet(_window->styleSheet());
     init(minWidth, minHeight);

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,9 +6,9 @@
 #define NAVMENUWIDGET_H
 
 #include <QWidget>
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 
-class hemisGUI;
+class HemisGUI;
 
 namespace Ui {
 class NavMenuWidget;
@@ -19,7 +19,7 @@ class NavMenuWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit NavMenuWidget(hemisGUI* mainWindow, QWidget *parent = nullptr);
+    explicit NavMenuWidget(HemisGUI* mainWindow, QWidget *parent = nullptr);
     ~NavMenuWidget();
 
     void loadWalletModel() override;

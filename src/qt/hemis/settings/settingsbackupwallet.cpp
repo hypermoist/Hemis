@@ -1,18 +1,18 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingsbackupwallet.h"
+#include "qt/Hemis/settings/settingsbackupwallet.h"
 
-#include "qt/hemis/settings/forms/ui_settingsbackupwallet.h"
+#include "qt/Hemis/settings/forms/ui_settingsbackupwallet.h"
 
 #include "guiinterface.h"
 #include "guiutil.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
 #include <QGraphicsDropShadowEffect>
 
-SettingsBackupWallet::SettingsBackupWallet(hemisGUI* _window, QWidget *parent) :
+SettingsBackupWallet::SettingsBackupWallet(HemisGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsBackupWallet)
 {

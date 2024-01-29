@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 #include <QDialog>
 
 class GMModel;
-class hemisGUI;
+class HemisGUI;
 
 namespace Ui {
 class SettingsFaqWidget;
@@ -27,7 +27,7 @@ public:
         GMCONTROLLER
     };
 
-    explicit SettingsFaqWidget(hemisGUI* parent, GMModel* _model);
+    explicit SettingsFaqWidget(HemisGUI* parent, GMModel* _model);
     ~SettingsFaqWidget();
 
     void showEvent(QShowEvent *event) override;

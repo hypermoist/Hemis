@@ -1,29 +1,29 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/send.h"
+#include "qt/Hemis/send.h"
 #include "addresstablemodel.h"
 #include "clientmodel.h"
 #include "coincontrol.h"
 #include "openuridialog.h"
 #include "operationresult.h"
 #include "optionsmodel.h"
-#include "qt/hemis/addnewcontactdialog.h"
-#include "qt/hemis/forms/ui_send.h"
-#include "qt/hemis/guitransactionsutils.h"
-#include "qt/hemis/loadingdialog.h"
-#include "qt/hemis/optionbutton.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/sendchangeaddressdialog.h"
-#include "qt/hemis/sendconfirmdialog.h"
+#include "qt/Hemis/addnewcontactdialog.h"
+#include "qt/Hemis/forms/ui_send.h"
+#include "qt/Hemis/guitransactionsutils.h"
+#include "qt/Hemis/loadingdialog.h"
+#include "qt/Hemis/optionbutton.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/sendchangeaddressdialog.h"
+#include "qt/Hemis/sendconfirmdialog.h"
 #include "qt/walletmodel.h"
 #include "script/standard.h"
 
 #define REQUEST_PREPARE_TX 1
 #define REQUEST_REFRESH_BALANCE 2
 
-SendWidget::SendWidget(hemisGUI* parent) :
+SendWidget::SendWidget(HemisGUI* parent) :
     PWidget(parent),
     ui(new Ui::send),
     coinIcon(new QPushButton())
@@ -76,7 +76,7 @@ SendWidget::SendWidget(hemisGUI* parent) :
 
     // Uri
     ui->btnUri->setTitleClassAndText("btn-title-grey", tr("Open URI"));
-    ui->btnUri->setSubTitleClassAndText("text-subtitle", tr("Parse a hemis URI"));
+    ui->btnUri->setSubTitleClassAndText("text-subtitle", tr("Parse a Hemis URI"));
 
     // Shield coins
     ui->btnShieldCoins->setTitleClassAndText("btn-title-grey", tr("Shield Coins"));

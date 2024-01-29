@@ -1,16 +1,16 @@
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/governancewidget.h"
-#include "qt/hemis/forms/ui_governancewidget.h"
+#include "qt/Hemis/governancewidget.h"
+#include "qt/Hemis/forms/ui_governancewidget.h"
 
-#include "qt/hemis/createproposaldialog.h"
-#include "qt/hemis/governancemodel.h"
-#include "qt/hemis/gmmodel.h"
-#include "qt/hemis/proposalinfodialog.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/votedialog.h"
+#include "qt/Hemis/createproposaldialog.h"
+#include "qt/Hemis/governancemodel.h"
+#include "qt/Hemis/gmmodel.h"
+#include "qt/Hemis/proposalinfodialog.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/votedialog.h"
 
 #include <QDesktopServices>
 #include <QGraphicsDropShadowEffect>
@@ -32,7 +32,7 @@ void initComboView(PWidget* parent, QComboBox* comboBox, const QString& filterHi
     comboBox->setCurrentIndex(0);
 }
 
-GovernanceWidget::GovernanceWidget(hemisGUI* parent) :
+GovernanceWidget::GovernanceWidget(HemisGUI* parent) :
         PWidget(parent),
         ui(new Ui::governancewidget)
 {

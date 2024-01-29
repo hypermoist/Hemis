@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,10 +8,10 @@
 #include <QObject>
 #include <QWidget>
 #include <QString>
-#include "qt/hemis/prunnable.h"
+#include "qt/Hemis/prunnable.h"
 #include "walletmodel.h"
 
-class hemisGUI;
+class HemisGUI;
 class ClientModel;
 class WalletModel;
 class WorkerTask;
@@ -30,13 +30,13 @@ class PWidget : public QWidget, public Runnable, public Translator
 {
     Q_OBJECT
 public:
-    explicit PWidget(hemisGUI* _window = nullptr, QWidget *parent = nullptr);
+    explicit PWidget(HemisGUI* _window = nullptr, QWidget *parent = nullptr);
     explicit PWidget(PWidget *parent = nullptr);
 
     void setClientModel(ClientModel* model);
     void setWalletModel(WalletModel* model);
 
-    hemisGUI* getWindow() { return this->window; }
+    HemisGUI* getWindow() { return this->window; }
 
     void run(int type) override;
     void onError(QString error, int type) override;
@@ -56,7 +56,7 @@ protected Q_SLOTS:
     void onChangeTheme(bool isLightTheme, QString &theme);
 
 protected:
-    hemisGUI* window = nullptr;
+    HemisGUI* window = nullptr;
     ClientModel* clientModel = nullptr;
     WalletModel* walletModel = nullptr;
 

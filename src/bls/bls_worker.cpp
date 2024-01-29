@@ -1,5 +1,5 @@
 // Copyright (c) 2018 The Dash Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -66,7 +66,7 @@ void CBLSWorker::Start()
     workerCount = std::max(std::min(1, workerCount), 4);
     workerPool.resize(workerCount);
 
-    RenameThreadPool(workerPool, "hemis-bls-worker");
+    RenameThreadPool(workerPool, "Hemis-bls-worker");
 }
 
 void CBLSWorker::Stop()

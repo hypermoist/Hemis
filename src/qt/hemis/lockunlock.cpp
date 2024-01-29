@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/lockunlock.h"
-#include "qt/hemis/forms/ui_lockunlock.h"
+#include "qt/Hemis/lockunlock.h"
+#include "qt/Hemis/forms/ui_lockunlock.h"
 
 LockUnlock::LockUnlock(QWidget *parent) :
     QWidget(parent),

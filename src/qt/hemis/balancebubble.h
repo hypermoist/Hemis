@@ -1,9 +1,9 @@
-// Copyright (c) 2020 The hemis Core developers
+// Copyright (c) 2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_BALANCEBUBBLE_H
-#define hemis_BALANCEBUBBLE_H
+#ifndef Hemis_BALANCEBUBBLE_H
+#define Hemis_BALANCEBUBBLE_H
 
 #include <QWidget>
 #include <QString>
@@ -32,4 +32,4 @@ private:
     QTimer* hideTimer{nullptr};
 };
 
-#endif //hemis_BALANCEBUBBLE_H
+#endif //Hemis_BALANCEBUBBLE_H

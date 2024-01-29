@@ -9,10 +9,10 @@ echo "compiling for linux"
 ./configure --disable-tests --disable-bench --enable-mining-rpc --disable-debug
 make -j$cores
 
-cp ./src/hemisd /var/www/html/builds/linux/hemisd
-cp ./src/hemis-cli /var/www/html/builds/linux/hemis-cli
-cp ./src/hemis-tx /var/www/html/builds/linux/hemis-tx
-cp ./src/qt/hemis-qt /var/www/html/builds/linux/hemis-qt
+cp ./src/Hemisd /var/www/html/builds/linux/Hemisd
+cp ./src/Hemis-cli /var/www/html/builds/linux/Hemis-cli
+cp ./src/Hemis-tx /var/www/html/builds/linux/Hemis-tx
+cp ./src/qt/Hemis-qt /var/www/html/builds/linux/Hemis-qt
 
 echo "Compiling for Windows"
 make distclean
@@ -25,13 +25,13 @@ CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --pref
 make -j$cores
 make deploy
 
-cp ./src/hemisd.exe /var/www/html/builds/windows/hemisd.exe
-cp ./src/hemis-cli.exe /var/www/html/builds/windows/hemis-cli.exe
-cp ./src/hemis-tx.exe /var/www/html/builds/windows/hemis-tx.exe
+cp ./src/Hemisd.exe /var/www/html/builds/windows/Hemisd.exe
+cp ./src/Hemis-cli.exe /var/www/html/builds/windows/Hemis-cli.exe
+cp ./src/Hemis-tx.exe /var/www/html/builds/windows/Hemis-tx.exe
 
-cp ./src/qt/hemis-qt.exe /var/www/html/builds/windows/hemis-qt.exe
-cp ./hemis-*-win64-setup-unsigned.exe /var/www/html/builds/windows/hemis-installer.exe
-hemis-1.0.0rc1-win64-setup.exe
+cp ./src/qt/Hemis-qt.exe /var/www/html/builds/windows/Hemis-qt.exe
+cp ./Hemis-*-win64-setup-unsigned.exe /var/www/html/builds/windows/Hemis-installer.exe
+Hemis-1.0.0rc1-win64-setup.exe
 
 echo "Compiling for ARM"
 make distclean
@@ -43,6 +43,6 @@ cd ..
 ./configure --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++ --disable-tests --disable-bench
 make -j$cores
 
-cp ./src/hemisd /var/www/html/builds/arm/hemisd
-cp ./src/hemis-cli /var/www/html/builds/arm/hemis-cli
-cp ./src/hemis-tx /var/www/html/builds/arm/hemis-tx
+cp ./src/Hemisd /var/www/html/builds/arm/Hemisd
+cp ./src/Hemis-cli /var/www/html/builds/arm/Hemis-cli
+cp ./src/Hemis-tx /var/www/html/builds/arm/Hemis-tx

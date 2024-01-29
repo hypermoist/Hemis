@@ -1,6 +1,6 @@
 [Protocol]
-exec=hemis-qt '%u'
-protocol=hemis
+exec=Hemis-qt '%u'
+protocol=Hemis
 input=none
 output=none
 helper=true

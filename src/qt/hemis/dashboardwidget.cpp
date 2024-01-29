@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/dashboardwidget.h"
-#include "qt/hemis/forms/ui_dashboardwidget.h"
-#include "qt/hemis/sendconfirmdialog.h"
-#include "qt/hemis/txrow.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/dashboardwidget.h"
+#include "qt/Hemis/forms/ui_dashboardwidget.h"
+#include "qt/Hemis/sendconfirmdialog.h"
+#include "qt/Hemis/txrow.h"
+#include "qt/Hemis/qtutils.h"
 #include "guiutil.h"
 #include "clientmodel.h"
 #include "optionsmodel.h"
@@ -22,7 +22,7 @@
 #define REQUEST_LOAD_TASK 1
 #define CHART_LOAD_MIN_TIME_INTERVAL 15
 
-DashboardWidget::DashboardWidget(hemisGUI* parent) :
+DashboardWidget::DashboardWidget(HemisGUI* parent) :
     PWidget(parent),
     ui(new Ui::DashboardWidget)
 {
@@ -143,7 +143,7 @@ bool hasCharts = false;
     connect(ui->pushButtonMonth, &QPushButton::clicked, [this](){setChartShow(MONTH);});
     connect(ui->pushButtonAll, &QPushButton::clicked, [this](){setChartShow(ALL);});
     if (window)
-        connect(window, &hemisGUI::windowResizeEvent, this, &DashboardWidget::windowResizeEvent);
+        connect(window, &HemisGUI::windowResizeEvent, this, &DashboardWidget::windowResizeEvent);
 #endif
 
     if (hasCharts) {

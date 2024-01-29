@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef TXVIEWHOLDER_H
 #define TXVIEWHOLDER_H
 
-#include "qt/hemis/furlistrow.h"
-#include "qt/hemis/txrow.h"
+#include "qt/Hemis/furlistrow.h"
+#include "qt/Hemis/txrow.h"
 #include "bitcoinunits.h"
 #include <transactionfilterproxy.h>
 

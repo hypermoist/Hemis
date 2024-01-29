@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2020 The ZCash developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_ZIP32_H
-#define hemis_ZIP32_H
+#ifndef Hemis_ZIP32_H
+#define Hemis_ZIP32_H
 
 #include "key.h"
 #include "optional.h"
@@ -124,4 +124,4 @@ bool IsValidSpendingKey(const libzcash::SpendingKey& zkey);
 /** Check whether a ViewingKey is not an InvalidEncoding. */
 bool IsValidViewingKey(const libzcash::ViewingKey& vk);
 
-#endif // hemis_ZIP32_H
+#endif // Hemis_ZIP32_H

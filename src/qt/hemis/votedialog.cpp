@@ -1,13 +1,13 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/votedialog.h"
-#include "qt/hemis/forms/ui_votedialog.h"
+#include "qt/Hemis/votedialog.h"
+#include "qt/Hemis/forms/ui_votedialog.h"
 
-#include "qt/hemis/gmmodel.h"
-#include "qt/hemis/gmselectiondialog.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/gmmodel.h"
+#include "qt/Hemis/gmselectiondialog.h"
+#include "qt/Hemis/qtutils.h"
 
 VoteDialog::VoteDialog(QWidget *parent, GovernanceModel* _govModel, GMModel* _gmModel) :
     QDialog(parent),
@@ -113,7 +113,7 @@ void VoteDialog::showEvent(QShowEvent *event)
 
 void VoteDialog::onGmSelectionClicked()
 {
-    hemisGUI* window = dynamic_cast<hemisGUI*>(parent());
+    HemisGUI* window = dynamic_cast<HemisGUI*>(parent());
     if (!gmSelectionDialog) {
         gmSelectionDialog = new GmSelectionDialog(window);
         gmSelectionDialog->setModel(gmModel, govModel->getProposalVoteUpdateMinTime());

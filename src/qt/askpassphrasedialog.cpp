@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include "askpassphrasedialog.h"
@@ -15,9 +15,9 @@
 #include "guiconstants.h"
 #include "guiutil.h"
 #include "walletmodel.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/loadingdialog.h"
-#include "qt/hemis/defaultdialog.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/loadingdialog.h"
+#include "qt/Hemis/defaultdialog.h"
 
 #include <QKeyEvent>
 #include <QMessageBox>
@@ -192,7 +192,7 @@ void AskPassphraseDialog::accept()
         );
         if (ret) {
             newpassCache = newpass1;
-            hemisGUI* window = static_cast<hemisGUI*>(parentWidget());
+            HemisGUI* window = static_cast<HemisGUI*>(parentWidget());
             LoadingDialog *dialog = new LoadingDialog(window);
             dialog->execute(this, 1);
             openDialogWithOpaqueBackgroundFullScreen(dialog, window);
@@ -312,7 +312,7 @@ bool AskPassphraseDialog::eventFilter(QObject* object, QEvent* event)
 
 bool AskPassphraseDialog::openStandardDialog(QString title, QString body, QString okBtn, QString cancelBtn)
 {
-    hemisGUI* gui = static_cast<hemisGUI*>(parentWidget());
+    HemisGUI* gui = static_cast<HemisGUI*>(parentWidget());
     DefaultDialog *confirmDialog = new DefaultDialog(gui);
     confirmDialog->setText(title, body, okBtn, cancelBtn);
     confirmDialog->adjustSize();
@@ -345,7 +345,7 @@ void AskPassphraseDialog::updateWarningsLabel()
 void AskPassphraseDialog::warningMessage()
 {
     hide();
-    static_cast<hemisGUI*>(parentWidget())->showHide(true);
+    static_cast<HemisGUI*>(parentWidget())->showHide(true);
     openStandardDialog(
             tr("Wallet encrypted"),
             "<qt>" +

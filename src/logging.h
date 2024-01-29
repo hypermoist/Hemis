@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2018 The Bitcoin developers
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,8 +9,8 @@
  * Server/client environment: argument handling, config file parsing,
  * logging, thread wrappers
  */
-#ifndef hemis_LOGGING_H
-#define hemis_LOGGING_H
+#ifndef Hemis_LOGGING_H
+#define Hemis_LOGGING_H
 
 #include "fs.h"
 #include "tinyformat.h"
@@ -165,7 +165,7 @@ static inline void LogPrintf(const char* fmt, const Args&... args)
     }                                                                               \
 } while(0)
 
-/// hemis
+/// Hemis
 
 class CBatchedLogger
 {
@@ -189,4 +189,4 @@ public:
     }
 };
 
-#endif // hemis_LOGGING_H
+#endif // Hemis_LOGGING_H

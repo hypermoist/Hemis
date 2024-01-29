@@ -305,7 +305,7 @@ def initialize_datadir(dirname, n):
     datadir = get_datadir_path(dirname, n)
     if not os.path.isdir(datadir):
         os.makedirs(datadir)
-    with open(os.path.join(datadir, "hemis.conf"), 'w', encoding='utf8') as f:
+    with open(os.path.join(datadir, "Hemis.conf"), 'w', encoding='utf8') as f:
         f.write("regtest=1\n")
         f.write("[regtest]\n")
         f.write("port=" + str(p2p_port(n)) + "\n")
@@ -324,15 +324,15 @@ def get_datadir_path(dirname, n):
 
 def append_config(dirname, n, options):
     datadir = get_datadir_path(dirname, n)
-    with open(os.path.join(datadir, "hemis.conf"), 'a', encoding='utf8') as f:
+    with open(os.path.join(datadir, "Hemis.conf"), 'a', encoding='utf8') as f:
         for option in options:
             f.write(option + "\n")
 
 def get_auth_cookie(datadir):
     user = None
     password = None
-    if os.path.isfile(os.path.join(datadir, "hemis.conf")):
-        with open(os.path.join(datadir, "hemis.conf"), 'r', encoding='utf8') as f:
+    if os.path.isfile(os.path.join(datadir, "Hemis.conf")):
+        with open(os.path.join(datadir, "Hemis.conf"), 'r', encoding='utf8') as f:
             for line in f:
                 if line.startswith("rpcuser="):
                     assert user is None  # Ensure that there is only one rpcuser line
@@ -563,7 +563,7 @@ def find_vout_for_address(node, txid, addr):
             return i
     raise RuntimeError("Vout not found for address: txid=%s, addr=%s" % (txid, addr))
 
-# hemis specific utils
+# Hemis specific utils
 DEFAULT_FEE = 0.01
 SPORK_ACTIVATION_TIME = 1563253447
 SPORK_DEACTIVATION_TIME = 4070908800

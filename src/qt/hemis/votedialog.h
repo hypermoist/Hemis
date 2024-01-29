@@ -1,4 +1,4 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
@@ -9,7 +9,7 @@
 #include <QCheckBox>
 #include <QProgressBar>
 
-#include "qt/hemis/governancemodel.h"
+#include "qt/Hemis/governancemodel.h"
 #include <memory>
 
 namespace Ui {

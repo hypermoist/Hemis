@@ -1,4 +1,4 @@
-Fuzz-testing hemis Core
+Fuzz-testing Hemis Core
 ==========================
 
 A special test harness in `src/test/fuzz/` is provided for each fuzz target to
@@ -49,7 +49,7 @@ For macOS you may need to ignore x86 compilation checks when running `make`:
 
 ### Instrumentation
 
-To build hemis Core using AFL instrumentation (this assumes that the
+To build Hemis Core using AFL instrumentation (this assumes that the
 `AFLPATH` was set as above):
 ```
 ./configure --disable-shared --enable-tests --enable-fuzz CC=${AFLPATH}/afl-gcc CXX=${AFLPATH}/afl-g++
@@ -125,7 +125,7 @@ example using `brew install llvm`.
 
 Should you run into problems with the address sanitizer, it is possible you
 may need to run `./configure` with `--disable-asm` to avoid errors
-with certain assembly code from hemis Core's code. See [developer notes on sanitizers](https://github.com/hemis-Project/hemis/blob/master/doc/developer-notes.md#sanitizers)
+with certain assembly code from Hemis Core's code. See [developer notes on sanitizers](https://github.com/Hemis-Project/Hemis/blob/master/doc/developer-notes.md#sanitizers)
 for more information.
 
 You may also need to take care of giving the correct path for clang and

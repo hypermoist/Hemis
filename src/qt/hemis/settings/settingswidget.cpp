@@ -1,18 +1,18 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingswidget.h"
-#include "qt/hemis/settings/forms/ui_settingswidget.h"
-#include "qt/hemis/qtutils.h"
-#include "qt/hemis/defaultdialog.h"
+#include "qt/Hemis/settings/settingswidget.h"
+#include "qt/Hemis/settings/forms/ui_settingswidget.h"
+#include "qt/Hemis/qtutils.h"
+#include "qt/Hemis/defaultdialog.h"
 #include "optionsmodel.h"
 #include "clientmodel.h"
 #include "utilitydialog.h"
 #include <QScrollBar>
 #include <QDataWidgetMapper>
 
-SettingsWidget::SettingsWidget(hemisGUI* parent) :
+SettingsWidget::SettingsWidget(HemisGUI* parent) :
     PWidget(parent),
     ui(new Ui::SettingsWidget)
 {

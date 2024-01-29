@@ -122,12 +122,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy hemis do wysyłania płatności. Zawsze sprawdzaj kwotę i adres odbiorcy przed wysłaniem monet.</translation>
+        <source>These are your Hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy Hemis do wysyłania płatności. Zawsze sprawdzaj kwotę i adres odbiorcy przed wysłaniem monet.</translation>
     </message>
     <message>
-        <source>These are your hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy hemis do otrzymywania płatności. Zaleca się użycie nowego adresu odbiorczego dla każdej transakcji.</translation>
+        <source>These are your Hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy Hemis do otrzymywania płatności. Zaleca się użycie nowego adresu odbiorczego dla każdej transakcji.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -365,8 +365,8 @@ do stakingu</translation>
         <translation>ANULUJ</translation>
     </message>
     <message>
-        <source>hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
-        <translation>hemis zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich HMS przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
+        <source>Hemis will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HMSs from being stolen by malware infecting your computer.</source>
+        <translation>Hemis zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich HMS przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1060,8 +1060,8 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Edytuj adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid hemis address.</source>
-        <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem hemis.</translation>
+        <source>The entered address "%1" is not a valid Hemis address.</source>
+        <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem Hemis.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1113,16 +1113,16 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Wersja</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About hemis Core</source>
-        <translation>O hemis Core</translation>
+        <source>About Hemis Core</source>
+        <translation>O Hemis Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1176,16 +1176,16 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Zapraszamy</translation>
     </message>
     <message>
-        <source>Welcome to hemis Core.</source>
-        <translation>Zapraszamy do hemis Core</translation>
+        <source>Welcome to Hemis Core.</source>
+        <translation>Zapraszamy do Hemis Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where hemis Core will store its data.</source>
-        <translation>Ponieważ program jest uruchamiany po raz pierwszy, możesz wybrać miejsce, w którym hemis Core będzie przechowywać swoje dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where Hemis Core will store its data.</source>
+        <translation>Ponieważ program jest uruchamiany po raz pierwszy, możesz wybrać miejsce, w którym Hemis Core będzie przechowywać swoje dane.</translation>
     </message>
     <message>
-        <source>hemis Core will download and store a copy of the hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>hemis Core pobierze i zapisze kopię łańcucha bloków hemis. Przynajmniej %1 GB danych zostanie zapisanych w tym katalogu, a jego liczba będzie rosnąć z czasem. Portfel zostanie również zapisany w tym katalogu.</translation>
+        <source>Hemis Core will download and store a copy of the Hemis block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Hemis Core pobierze i zapisze kopię łańcucha bloków Hemis. Przynajmniej %1 GB danych zostanie zapisanych w tym katalogu, a jego liczba będzie rosnąć z czasem. Portfel zostanie również zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>OK</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1312,8 +1312,8 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
         <translation>Utwórz nowy kontroler Gamemaster</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a hemis Gamemaster you must dedicate 10,000 HMS (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aby utworzyć Gamemaster hemis, musisz przeznaczyć 10.000 HMS (jednostkę hemis) na sieć (jednak monety te są nadal twoje i nigdy nie zmienią swojego właściciela).&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Możesz dezaktywować węzeł i odblokować monety w dowolnym momencie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Hemis Gamemaster you must dedicate 10,000 HMS (the unit of Hemis) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aby utworzyć Gamemaster Hemis, musisz przeznaczyć 10.000 HMS (jednostkę Hemis) na sieć (jednak monety te są nadal twoje i nigdy nie zmienią swojego właściciela).&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Możesz dezaktywować węzeł i odblokować monety w dowolnym momencie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Gamemaster Name</source>
@@ -1525,7 +1525,7 @@ i głosuj na system skarbu otrzymujący okresową nagrodę.</translation>
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the hemis.conf file
+You will only have to paste the data in the Hemis.conf file
 of your remote server and start it, then start the Gamemaster using
 this controller wallet (select the Gamemaster in the list and press "start").
 </source>
@@ -1533,7 +1533,7 @@ this controller wallet (select the Gamemaster in the list and press "start").
 na zdalnym serwerze do twojego schowka.
 
 
-Wystarczy wkleić dane do pliku hemis.conf
+Wystarczy wkleić dane do pliku Hemis.conf
 zdalnego serwera i uruchom go, a następnie uruchom Gamemaster przy użyciu
 portfela kontrolujacego (wybierz Gamemaster z listy i naciśnij „start”).
 </translation>
@@ -1707,8 +1707,8 @@ Jesteś pewny?</translation>
         <translation>Przetwarzane dane są za duże</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "hemis" prefix</source>
-        <translation>Nieprawidłowy identyfikator URI, nie zaczynający się od prefiksu „hemis”</translation>
+        <source>Invalid URI, not starting with "Hemis" prefix</source>
+        <translation>Nieprawidłowy identyfikator URI, nie zaczynający się od prefiksu „Hemis”</translation>
     </message>
 </context>
 <context>
@@ -1753,8 +1753,8 @@ Jesteś pewny?</translation>
         <translation>Jeśli wyłączysz wydawanie niepotwierdzonych reszt, reszta z transakcji nie może być użyta, dopóki transakcja nie uzyska co najmniej jednego potwierdzenia. Ma to również wpływ na sposób obliczania salda.</translation>
     </message>
     <message>
-        <source>Automatically open the hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwórz port klienta hemis na routerze. Działa to tylko wtedy, gdy twój router obsługuje UPnP i jest włączony.</translation>
+        <source>Automatically open the Hemis client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatycznie otwórz port klienta Hemis na routerze. Działa to tylko wtedy, gdy twój router obsługuje UPnP i jest włączony.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1773,12 +1773,12 @@ Jesteś pewny?</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start hemis after logging in to the system.</source>
-        <translation>Automatycznie uruchom hemis po zalogowaniu do systemu</translation>
+        <source>Automatically start Hemis after logging in to the system.</source>
+        <translation>Automatycznie uruchom Hemis po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start hemis on system login</source>
-        <translation>&amp;Uruchom hemis podczas logowania do systemu</translation>
+        <source>&amp;Start Hemis on system login</source>
+        <translation>&amp;Uruchom Hemis podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1805,14 +1805,14 @@ Jesteś pewny?</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting hemis.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie hemis</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Hemis.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Hemis</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/hemis-project/hemis-project-translations</source>
+https://www.transifex.com/Hemis-project/Hemis-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/hemis-project/hemis-project-translations </translation>
+https://www.transifex.com/Hemis-project/Hemis-project-translations </translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1855,8 +1855,8 @@ https://www.transifex.com/hemis-project/hemis-project-translations </translation
         <translation>Próg podziału stawki 'stake' :</translation>
     </message>
     <message>
-        <source>Connect to the hemis network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią hemis poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Hemis network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Hemis poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2000,10 +2000,10 @@ https://www.transifex.com/hemis-project/hemis-project-translations </translation
     </message>
 </context>
 <context>
-    <name>hemisGUI</name>
+    <name>HemisGUI</name>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2030,8 +2030,8 @@ https://www.transifex.com/hemis-project/hemis-project-translations </translation
         <translation>Wyjdź z aplikacji</translation>
     </message>
     <message>
-        <source>hemis Core client</source>
-        <translation>hemis Core klient</translation>
+        <source>Hemis Core client</source>
+        <translation>Hemis Core klient</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2097,12 +2097,12 @@ Adres: %4
         <translation>Nieprawidłowy adres płatności %1</translation>
     </message>
     <message>
-        <source>Cannot start hemis: click-to-pay handler</source>
-        <translation>Nie można uruchomić hemis: click-to-pay handler</translation>
+        <source>Cannot start Hemis: click-to-pay handler</source>
+        <translation>Nie można uruchomić Hemis: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid hemis address or malformed URI parameters.</source>
-        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieprawidłowym adresem hemis lub nieprawidłowymi parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Hemis address or malformed URI parameters.</source>
+        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieprawidłowym adresem Hemis lub nieprawidłowymi parametrami URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2187,8 +2187,8 @@ Adres: %4
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter hemis address (e.g. %1)</source>
-        <translation>Wpisz adres hemis (np. %1)</translation>
+        <source>Enter Hemis address (e.g. %1)</source>
+        <translation>Wpisz adres Hemis (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2231,12 +2231,12 @@ Adres: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. hemis can no longer continue safely and will quit.</source>
-        <translation>Wystąpił błąd krytyczny. hemis nie może już działać bezpiecznie i zakończy działanie.</translation>
+        <source>A fatal error occurred. Hemis can no longer continue safely and will quit.</source>
+        <translation>Wystąpił błąd krytyczny. Hemis nie może już działać bezpiecznie i zakończy działanie.</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2255,8 +2255,8 @@ Adres: %4
         <translation>Błąd odczytu pliku konfiguracyjnego gamemaster: %1</translation>
     </message>
     <message>
-        <source>hemis Core didn't yet exit safely...</source>
-        <translation>hemis Core nie zamkną się jeszcze bezpiecznie ...</translation>
+        <source>Hemis Core didn't yet exit safely...</source>
+        <translation>Hemis Core nie zamkną się jeszcze bezpiecznie ...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2446,8 +2446,8 @@ Adres: %4
         <translation>Łańcuch bloków</translation>
     </message>
     <message>
-        <source>Open the hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otwórz plik dziennika debugowania hemis z bieżącego katalogu danych. Może to potrwać kilka sekund w przypadku dużych plików dziennika.</translation>
+        <source>Open the Hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otwórz plik dziennika debugowania Hemis z bieżącego katalogu danych. Może to potrwać kilka sekund w przypadku dużych plików dziennika.</translation>
     </message>
     <message>
         <source>Number of Gamemasters</source>
@@ -2670,8 +2670,8 @@ Adres: %4
         <translation>Z</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Witamy w konsoli hemis RPC.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Witamy w konsoli Hemis RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3025,7 +3025,7 @@ Adres: %4
         <translation>Niestandardowa adresu reszty</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" hemis address</source>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Hemis address</source>
         <translation>Pozostała wartość wynikająca z wpłat i wypłat trafia na adresu „reszty”</translation>
     </message>
     <message>
@@ -3363,8 +3363,8 @@ Monety te nie będą już cold-staked.</translation>
         <translation>KLUCZ DESZYFRUJĄCY</translation>
     </message>
     <message>
-        <source>hemis address</source>
-        <translation>Adres hemis</translation>
+        <source>Hemis address</source>
+        <translation>Adres Hemis</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3496,8 +3496,8 @@ Verify that you have installed a predetermined text editor.</source>
 Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
     </message>
     <message>
-        <source>Welcome to the hemis RPC console.</source>
-        <translation>Witamy w konsoli hemis RPC.</translation>
+        <source>Welcome to the Hemis RPC console.</source>
+        <translation>Witamy w konsoli Hemis RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3606,12 +3606,12 @@ Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
         <translation>Eksportuj listę adresów</translation>
     </message>
     <message>
-        <source>hemis_tx_csv_export(*.csv)</source>
-        <translation>hemis_tx_csv_export(*.csv)</translation>
+        <source>Hemis_tx_csv_export(*.csv)</source>
+        <translation>Hemis_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>hemis_addresses_csv_export(*.csv)</source>
-        <translation>hemis_addresses_csv_export(*.csv)</translation>
+        <source>Hemis_addresses_csv_export(*.csv)</source>
+        <translation>Hemis_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3681,24 +3681,24 @@ Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>1) What is hemis?</source>
-        <translation>1) Co to jest hemis?</translation>
+        <source>1) What is Hemis?</source>
+        <translation>1) Co to jest Hemis?</translation>
     </message>
     <message>
         <source>2) Why are my HMS unspendable?</source>
         <translation>2) Dlaczego mojego HMS nie można wydać?</translation>
     </message>
     <message>
-        <source>https://hemis.org/</source>
-        <translation>https://hemis.org/</translation>
+        <source>https://Hemis.org/</source>
+        <translation>https://Hemis.org/</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is hemis?</source>
-        <translation>Co to jest hemis?</translation>
+        <source>What is Hemis?</source>
+        <translation>Co to jest Hemis?</translation>
     </message>
     <message>
         <source>2</source>
@@ -3848,8 +3848,8 @@ Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj
         <translation>Nie można otworzyć folderu kopii zapasowych</translation>
     </message>
     <message>
-        <source>Unable to open hemis.conf with default application</source>
-        <translation>Nie można otworzyć pliku hemis.conf w domyślnej aplikacji</translation>
+        <source>Unable to open Hemis.conf with default application</source>
+        <translation>Nie można otworzyć pliku Hemis.conf w domyślnej aplikacji</translation>
     </message>
     <message>
         <source>In:</source>
@@ -3903,8 +3903,8 @@ Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj
         <translation>Liczba wątków weryfikujących skrypt</translation>
     </message>
     <message>
-        <source>Start hemis on system login</source>
-        <translation>Uruchom hemis przy logowaniu do systemu</translation>
+        <source>Start Hemis on system login</source>
+        <translation>Uruchom Hemis przy logowaniu do systemu</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3991,8 +3991,8 @@ Jesteś pewny?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other hemis addresses after it matures.</source>
-        <translation>MultiSend pozwala automatycznie wysyłać do 100% stake lub nagrody gamemaster na listę innych adresów hemis po ich dojrzaniu.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or gamemaster reward to a list of other Hemis addresses after it matures.</source>
+        <translation>MultiSend pozwala automatycznie wysyłać do 100% stake lub nagrody gamemaster na listę innych adresów Hemis po ich dojrzaniu.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4118,8 +4118,8 @@ Zaznacz jedno lub oba pola wyboru, aby wysłać stake i / lub nagrode gamemaster
         <translation>Wiadomość</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>Adres hemis lub etykieta kontaktowa</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Adres Hemis lub etykieta kontaktowa</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4407,8 +4407,8 @@ Zaznacz jedno lub oba pola wyboru, aby wysłać stake i / lub nagrode gamemaster
         <translation>FAQ</translation>
     </message>
     <message>
-        <source>About hemis</source>
-        <translation>o hemis</translation>
+        <source>About Hemis</source>
+        <translation>o Hemis</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4474,8 +4474,8 @@ Jesteś pewny?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>hemis Core is shutting down...</source>
-        <translation>hemis Core się wyłącza ...</translation>
+        <source>Hemis Core is shutting down...</source>
+        <translation>Hemis Core się wyłącza ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4504,8 +4504,8 @@ Jesteś pewny?
         <translation>Ładowanie…</translation>
     </message>
     <message>
-        <source>hemis Core</source>
-        <translation>hemis Core</translation>
+        <source>Hemis Core</source>
+        <translation>Hemis Core</translation>
     </message>
 </context>
 <context>
@@ -5008,21 +5008,21 @@ Wybierz mniej nominałów kontrolą monet.</translation>
     </message>
     <message>
         <source>Welcome to
-hemis Core Wallet</source>
+Hemis Core Wallet</source>
         <translation>Witamy
-Portfel hemis Core</translation>
+Portfel Hemis Core</translation>
     </message>
     <message>
-        <source>hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>hemis to najbardziej innowacyjna na świecie technologia oparta na blockchain Proof of Stake. Opracowany przez zespół wysoce doświadczonych programistów i kryptografów.</translation>
+        <source>Hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>Hemis to najbardziej innowacyjna na świecie technologia oparta na blockchain Proof of Stake. Opracowany przez zespół wysoce doświadczonych programistów i kryptografów.</translation>
     </message>
     <message>
-        <source>The gamemaster network is hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Sieć gamemaster jest siecią drugiej warstwy hemis na szczycie blockchain, która umożliwia naszemu DAO zapewnienie zdecentralizowanego zarządzania i skarbca.</translation>
+        <source>The gamemaster network is Hemis's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Sieć gamemaster jest siecią drugiej warstwy Hemis na szczycie blockchain, która umożliwia naszemu DAO zapewnienie zdecentralizowanego zarządzania i skarbca.</translation>
     </message>
     <message>
-        <source>How hemis respects your privacy?</source>
-        <translation>Jak hemis szanuje twoją prywatność?</translation>
+        <source>How Hemis respects your privacy?</source>
+        <translation>Jak Hemis szanuje twoją prywatność?</translation>
     </message>
     <message>
         <source>What is a Gamemaster?</source>
@@ -5034,7 +5034,7 @@ Portfel hemis Core</translation>
     </message>
 </context>
 <context>
-    <name>hemis-core</name>
+    <name>Hemis-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Zezwalaj na połączenia JSON-RPC z określonego źródła. Ważny dla &lt;ip&gt; są pojedynczym IP (na przykład 1.2.3.4), siecią / maską sieci (np. 1.2.3.4/255.255.255.0) lub siecią / CIDR (na przykład 1.2.3.4/24). Ta opcja może być określona wiele razy</translation>
@@ -5052,8 +5052,8 @@ Portfel hemis Core</translation>
         <translation>Powiąż z podanym adresem, aby odsłuchać połączenia JSON-RPC. Użyj [host]:port dla IPv6. Ta opcja może być określona wiele razy (domyślnie: powiązanie ze wszystkimi interfejsami)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. hemis Core is probably already running.</source>
-        <translation>Nie można uzyskać dostępu do katalogu danych %s. hemis Core prawdopodobnie już działa.</translation>
+        <source>Cannot obtain a lock on data directory %s. Hemis Core is probably already running.</source>
+        <translation>Nie można uzyskać dostępu do katalogu danych %s. Hemis Core prawdopodobnie już działa.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5200,8 +5200,8 @@ Portfel hemis Core</translation>
         <translation>Całkowita długość string wersji sieciowej (%i) przekracza maksymalną długość (%i). Zmniejsz liczbę lub rozmiar uacomments.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. hemis Core is probably already running.</source>
-        <translation>Nie można podłączyć %s na tym komputerze. hemis Core prawdopodobnie już działa.</translation>
+        <source>Unable to bind to %s on this computer. Hemis Core is probably already running.</source>
+        <translation>Nie można podłączyć %s na tym komputerze. Hemis Core prawdopodobnie już działa.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5216,8 +5216,8 @@ Portfel hemis Core</translation>
         <translation>Ostrzeżenie: -paytxfee jest ustawione bardzo wysoko! Jest to opłata transakcyjna, którą zapłacisz, jeśli wyślesz transakcję.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Ostrzeżenie: sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, hemis Core nie będzie działać poprawnie.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Ostrzeżenie: sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, Hemis Core nie będzie działać poprawnie.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5288,8 +5288,8 @@ Portfel hemis Core</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The hemis Core Developers</source>
-        <translation>Copyright (C) 2015-%i The hemis Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Hemis Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Hemis Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5408,8 +5408,8 @@ Portfel hemis Core</translation>
         <translation>Informacje</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. hemis Core is shutting down.</source>
-        <translation>Sprawdzenie poprawności inicjalizacji nie powiodło się. hemis Core zamyka się.</translation>
+        <source>Initialization sanity check failed. Hemis Core is shutting down.</source>
+        <translation>Sprawdzenie poprawności inicjalizacji nie powiodło się. Hemis Core zamyka się.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5642,8 +5642,8 @@ Portfel hemis Core</translation>
         <translation>Przygotowanie do ponownej synchronizacji ...</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong hemis Core will not work properly.</source>
-        <translation>Sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, hemis Core nie będzie działać poprawnie.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Hemis Core will not work properly.</source>
+        <translation>Sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, Hemis Core nie będzie działać poprawnie.</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
@@ -5946,8 +5946,8 @@ Portfel hemis Core</translation>
         <translation>Weryfikuję portfel ...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart hemis Core to complete</source>
-        <translation>Portfel musiał zostać przepisany: zrestartuj hemis Core, aby zakończyć</translation>
+        <source>Wallet needed to be rewritten: restart Hemis Core to complete</source>
+        <translation>Portfel musiał zostać przepisany: zrestartuj Hemis Core, aby zakończyć</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -6001,8 +6001,8 @@ Portfel hemis Core</translation>
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>hemis address or contact label</source>
-        <translation>Adres hemis lub etykieta kontaktowa</translation>
+        <source>Hemis address or contact label</source>
+        <translation>Adres Hemis lub etykieta kontaktowa</translation>
     </message>
     <message>
         <source>Amount</source>

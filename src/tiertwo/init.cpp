@@ -1,4 +1,4 @@
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
@@ -28,7 +28,7 @@ std::string GetTierTwoHelpString(bool showDebug)
 {
     std::string strUsage = HelpMessageGroup("Gamemaster options:");
     strUsage += HelpMessageOpt("-gamemaster=<n>", strprintf("Enable the client to act as a gamemaster (0-1, default: %u)", DEFAULT_GAMEMASTER));
-    strUsage += HelpMessageOpt("-gmconf=<file>", strprintf("Specify gamemaster configuration file (default: %s)", hemis_GAMEMASTER_CONF_FILENAME));
+    strUsage += HelpMessageOpt("-gmconf=<file>", strprintf("Specify gamemaster configuration file (default: %s)", Hemis_GAMEMASTER_CONF_FILENAME));
     strUsage += HelpMessageOpt("-gmconflock=<n>", strprintf("Lock gamemasters from gamemaster configuration file (default: %u)", DEFAULT_GMCONFLOCK));
     strUsage += HelpMessageOpt("-gamemasterprivkey=<n>", "Set the gamemaster private key");
     strUsage += HelpMessageOpt("-gamemasteraddr=<n>", strprintf("Set external address:port to get to this gamemaster (example: %s). Only for Legacy Gamemasters", "128.127.106.235:49165"));

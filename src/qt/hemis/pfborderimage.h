@@ -1,9 +1,9 @@
-// Copyright (c) 2019 The hemis Core developers
+// Copyright (c) 2019 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_PFBorderImage_H
-#define hemis_PFBorderImage_H
+#ifndef Hemis_PFBorderImage_H
+#define Hemis_PFBorderImage_H
 
 #include <QPainter>
 #include <QPixmap>
@@ -52,4 +52,4 @@ protected:
 
 };
 
-#endif //hemis_PFBorderImage_H
+#endif //Hemis_PFBorderImage_H

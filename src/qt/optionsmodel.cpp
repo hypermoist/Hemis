@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2021 The hemis Core developers
+// Copyright (c) 2015-2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -206,7 +206,7 @@ void OptionsModel::setDisplayDefaultOptions(QSettings& settings, bool reset)
         addOverriddenOption("-lang");
 
     if (settings.contains("nAnonymizeHemisAmount") || reset)
-        gArgs.SoftSetArg("-anonymizehemisamount", settings.value("nAnonymizeHemisAmount").toString().toStdString());
+        gArgs.SoftSetArg("-anonymizeHemisamount", settings.value("nAnonymizeHemisAmount").toString().toStdString());
 
     if (!settings.contains("strThirdPartyTxUrls") || reset)
         settings.setValue("strThirdPartyTxUrls", "");
@@ -225,7 +225,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in hemis.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in Hemis.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

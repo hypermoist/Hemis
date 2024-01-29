@@ -1,22 +1,22 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingsinformationwidget.h"
-#include "qt/hemis/settings/forms/ui_settingsinformationwidget.h"
+#include "qt/Hemis/settings/settingsinformationwidget.h"
+#include "qt/Hemis/settings/forms/ui_settingsinformationwidget.h"
 
 #include "clientmodel.h"
 #include "chainparams.h"
 #include "db.h"
 #include "util/system.h"
 #include "guiutil.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
 #include <QDir>
 
 #define REQUEST_UPDATE_COUNTS 0
 
-SettingsInformationWidget::SettingsInformationWidget(hemisGUI* _window,QWidget *parent) :
+SettingsInformationWidget::SettingsInformationWidget(HemisGUI* _window,QWidget *parent) :
     PWidget(_window,parent),
     ui(new Ui::SettingsInformationWidget)
 {
@@ -101,7 +101,7 @@ SettingsInformationWidget::SettingsInformationWidget(hemisGUI* _window,QWidget *
     });
     connect(ui->pushButtonFile, &QPushButton::clicked, [this](){
         if (!GUIUtil::openConfigfile())
-            inform(tr("Unable to open hemis.conf with default application"));
+            inform(tr("Unable to open Hemis.conf with default application"));
     });
     connect(ui->pushButtonNetworkMonitor, &QPushButton::clicked, this, &SettingsInformationWidget::openNetworkMonitor);
 }

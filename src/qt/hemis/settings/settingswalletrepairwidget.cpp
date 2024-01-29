@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingswalletrepairwidget.h"
-#include "qt/hemis/settings/forms/ui_settingswalletrepairwidget.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/settings/settingswalletrepairwidget.h"
+#include "qt/Hemis/settings/forms/ui_settingswalletrepairwidget.h"
+#include "qt/Hemis/qtutils.h"
 
-SettingsWalletRepairWidget::SettingsWalletRepairWidget(hemisGUI* _window, QWidget *parent) :
+SettingsWalletRepairWidget::SettingsWalletRepairWidget(HemisGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsWalletRepairWidget)
 {
@@ -118,7 +118,7 @@ void SettingsWalletRepairWidget::buildParameterlist(QString arg)
     // Append repair parameter to command line.
     args.append(arg);
 
-    // Send command-line arguments to hemisGUI::handleRestart()
+    // Send command-line arguments to HemisGUI::handleRestart()
     Q_EMIT handleRestart(args);
 }
 

@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_WARNINGS_H
-#define hemis_WARNINGS_H
+#ifndef Hemis_WARNINGS_H
+#define Hemis_WARNINGS_H
 
 #include <stdlib.h>
 #include <string>
@@ -18,4 +18,4 @@ std::string GetWarnings(const std::string& strFor);
 
 static const bool DEFAULT_TESTSAFEMODE = false;
 
-#endif //hemis_WARNINGS_H
+#endif //Hemis_WARNINGS_H

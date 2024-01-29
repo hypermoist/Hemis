@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef TOOLTIPMENU_H
 #define TOOLTIPMENU_H
 
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 #include <QWidget>
 #include <QModelIndex>
 
-class hemisGUI;
+class HemisGUI;
 class WalletModel;
 
 namespace Ui {
@@ -25,7 +25,7 @@ class TooltipMenu : public PWidget
     Q_OBJECT
 
 public:
-    explicit TooltipMenu(hemisGUI* _window, QWidget *parent = nullptr);
+    explicit TooltipMenu(HemisGUI* _window, QWidget *parent = nullptr);
     ~TooltipMenu() override;
 
     virtual void showEvent(QShowEvent *event) override;

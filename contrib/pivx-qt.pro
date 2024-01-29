@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/hemis-config.h \
+           src/Hemis-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/hemis-config.h \
+           src/config/Hemis-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -332,7 +332,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/hemis.moc \
+           src/qt/Hemis.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -373,9 +373,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/hemis-cli.cpp \
-           src/hemis-tx.cpp \
-           src/hemis.cpp \
+           src/Hemis-cli.cpp \
+           src/Hemis-tx.cpp \
+           src/Hemis.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -470,8 +470,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/hemis.cpp \
-           src/qt/hemisstrings.cpp \
+           src/qt/Hemis.cpp \
+           src/qt/Hemisstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -549,7 +549,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_hemis.cpp \
+           src/test/test_Hemis.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -640,24 +640,24 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/hemis.qrc src/qt/hemis_locale.qrc
+RESOURCES += src/qt/Hemis.qrc src/qt/Hemis_locale.qrc
 
-TRANSLATIONS += src/qt/locale/hemis_bg.ts \
-                src/qt/locale/hemis_de.ts \
-                src/qt/locale/hemis_en.ts \
-                src/qt/locale/hemis_es.ts \
-                src/qt/locale/hemis_fi.ts \
-                src/qt/locale/hemis_fr.ts \
-                src/qt/locale/hemis_it.ts \
-                src/qt/locale/hemis_ja.ts \
-                src/qt/locale/hemis_pl.ts \
-                src/qt/locale/hemis_pt.ts \
-                src/qt/locale/hemis_ru.ts \
-                src/qt/locale/hemis_sk.ts \
-                src/qt/locale/hemis_sv.ts \
-                src/qt/locale/hemis_vi.ts \
-                src/qt/locale/hemis_zh_CN.ts \
-                src/qt/locale/hemis_zh_TW.ts
+TRANSLATIONS += src/qt/locale/Hemis_bg.ts \
+                src/qt/locale/Hemis_de.ts \
+                src/qt/locale/Hemis_en.ts \
+                src/qt/locale/Hemis_es.ts \
+                src/qt/locale/Hemis_fi.ts \
+                src/qt/locale/Hemis_fr.ts \
+                src/qt/locale/Hemis_it.ts \
+                src/qt/locale/Hemis_ja.ts \
+                src/qt/locale/Hemis_pl.ts \
+                src/qt/locale/Hemis_pt.ts \
+                src/qt/locale/Hemis_ru.ts \
+                src/qt/locale/Hemis_sk.ts \
+                src/qt/locale/Hemis_sv.ts \
+                src/qt/locale/Hemis_vi.ts \
+                src/qt/locale/Hemis_zh_CN.ts \
+                src/qt/locale/Hemis_zh_TW.ts
 
 DISTFILES += \
     README.md

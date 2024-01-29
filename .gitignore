@@ -7,14 +7,14 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/hemis
-src/hemisd
-src/hemis-cli
-src/hemis-tx
-src/bench/bench_hemis
-src/test/test_hemis
-src/test/test_hemis_fuzzy
-src/qt/test/test_hemis-qt
+src/Hemis
+src/Hemisd
+src/Hemis-cli
+src/Hemis-tx
+src/bench/bench_Hemis
+src/test/test_Hemis
+src/test/test_Hemis_fuzzy
+src/qt/test/test_Hemis-qt
 src/test/fuzz/address_deserialize
 src/test/fuzz/addrman_deserialize
 src/test/fuzz/banentry_deserialize
@@ -61,8 +61,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/hemis-config.h
-src/config/hemis-config.h.in
+src/config/Hemis-config.h
+src/config/Hemis-config.h.in
 src/config/stamp-h1
 src/obj
 share/setup.nsi
@@ -88,7 +88,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.hemis
+.Hemis
 *.a
 *.pb.cc
 *.pb.h
@@ -111,7 +111,7 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-hemis-qt
+Hemis-qt
 PIVX-Qt.app
 background.tiff*
 
@@ -122,7 +122,7 @@ target/
 
 # Unit-tests
 Makefile.test
-hemis-qt_test
+Hemis-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -138,7 +138,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_hemis.coverage/
+test_Hemis.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -169,6 +169,6 @@ moc_*
 *.tmp
 ui_*
 build*
-hemisd.*
-hemisd-new-gui.*
+Hemisd.*
+Hemisd-new-gui.*
 /cov-int/

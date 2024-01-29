@@ -1,9 +1,9 @@
-// Copyright (c) 2020-2021 The hemis Core developers
+// Copyright (c) 2020-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_HDCHAIN_H
-#define hemis_HDCHAIN_H
+#ifndef Hemis_HDCHAIN_H
+#define Hemis_HDCHAIN_H
 
 #include "key.h"
 
@@ -65,4 +65,4 @@ public:
     }
 };
 
-#endif // hemis_HDCHAIN_H
+#endif // Hemis_HDCHAIN_H

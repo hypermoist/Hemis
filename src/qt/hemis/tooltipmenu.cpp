@@ -1,14 +1,14 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/tooltipmenu.h"
-#include "qt/hemis/forms/ui_tooltipmenu.h"
+#include "qt/Hemis/tooltipmenu.h"
+#include "qt/Hemis/forms/ui_tooltipmenu.h"
 
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 #include <QTimer>
 
-TooltipMenu::TooltipMenu(hemisGUI *_window, QWidget *parent) :
+TooltipMenu::TooltipMenu(HemisGUI *_window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::TooltipMenu)
 {

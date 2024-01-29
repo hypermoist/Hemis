@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/addresslabelrow.h"
-#include "qt/hemis/forms/ui_addresslabelrow.h"
+#include "qt/Hemis/addresslabelrow.h"
+#include "qt/Hemis/forms/ui_addresslabelrow.h"
 
 AddressLabelRow::AddressLabelRow(QWidget *parent) :
     QWidget(parent),

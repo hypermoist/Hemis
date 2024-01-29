@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.hemis.hemisd</string>
+	<string>org.Hemis.Hemisd</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/hemisd</string>
+		<string>/usr/local/bin/Hemisd</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>

@@ -4,7 +4,7 @@
 <context>
     <name>AddNewAddressDialog</name>
     <message>
-        <location filename="../hemis/forms/addnewaddressdialog.ui" line="+53"/>
+        <location filename="../Hemis/forms/addnewaddressdialog.ui" line="+53"/>
         <source>New Address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -27,7 +27,7 @@
 <context>
     <name>AddNewContactDialog</name>
     <message>
-        <location filename="../hemis/forms/addnewcontactdialog.ui" line="+254"/>
+        <location filename="../Hemis/forms/addnewcontactdialog.ui" line="+254"/>
         <source>CANCEL</source>
         <translation type="unfinished"></translation>
     </message>
@@ -52,7 +52,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/addnewcontactdialog.cpp" line="+48"/>
+        <location filename="../Hemis/addnewcontactdialog.cpp" line="+48"/>
         <source>Edit label for the selected address:
 %1</source>
         <translation type="unfinished"></translation>
@@ -137,12 +137,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Hemis addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Hemis addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -212,7 +212,7 @@
 <context>
     <name>AddressesWidget</name>
     <message>
-        <location filename="../hemis/forms/addresseswidget.ui" line="+356"/>
+        <location filename="../Hemis/forms/addresseswidget.ui" line="+356"/>
         <source>Contact name</source>
         <translation type="unfinished"></translation>
     </message>
@@ -242,7 +242,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/addresseswidget.cpp" line="+89"/>
+        <location filename="../Hemis/addresseswidget.cpp" line="+89"/>
         <source>Add new contact</source>
         <translation type="unfinished"></translation>
     </message>
@@ -486,7 +486,7 @@ for staking</source>
 <context>
     <name>BalanceBubble</name>
     <message>
-        <location filename="../hemis/forms/balancebubble.ui" line="+75"/>
+        <location filename="../Hemis/forms/balancebubble.ui" line="+75"/>
         <source>Transparent</source>
         <translation type="unfinished"></translation>
     </message>
@@ -512,7 +512,7 @@ for staking</source>
 <context>
     <name>CSRow</name>
     <message>
-        <location filename="../hemis/forms/csrow.ui" line="+85"/>
+        <location filename="../Hemis/forms/csrow.ui" line="+85"/>
         <source>Savings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -527,7 +527,7 @@ for staking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/csrow.cpp" line="+27"/>
+        <location filename="../Hemis/csrow.cpp" line="+27"/>
         <source>Own delegation</source>
         <translation type="unfinished"></translation>
     </message>
@@ -786,7 +786,7 @@ for staking</source>
 <context>
     <name>ColdStakingWidget</name>
     <message>
-        <location filename="../hemis/forms/coldstakingwidget.ui" line="+355"/>
+        <location filename="../Hemis/forms/coldstakingwidget.ui" line="+355"/>
         <source>Owner address (optional, if empty a new address will be created)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -836,7 +836,7 @@ for staking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/coldstakingwidget.cpp" line="+806"/>
+        <location filename="../Hemis/coldstakingwidget.cpp" line="+806"/>
         <source>Total Staking: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -846,7 +846,7 @@ for staking</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/forms/coldstakingwidget.ui" line="-603"/>
+        <location filename="../Hemis/forms/coldstakingwidget.ui" line="-603"/>
         <source>You can delegate your HMSs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
         <translation type="unfinished"></translation>
@@ -867,7 +867,7 @@ stake on your behalf, while you keep the keys securely offline.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/coldstakingwidget.cpp" line="+18"/>
+        <location filename="../Hemis/coldstakingwidget.cpp" line="+18"/>
         <source>No receive addresses available, you can go to the receive screen and create some there!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1068,7 +1068,7 @@ address</source>
 <context>
     <name>CreateProposalDialog</name>
     <message>
-        <location filename="../hemis/forms/createproposaldialog.ui" line="+520"/>
+        <location filename="../Hemis/forms/createproposaldialog.ui" line="+520"/>
         <location line="+613"/>
         <source>Name</source>
         <translation type="unfinished">Name</translation>
@@ -1148,7 +1148,7 @@ address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/createproposaldialog.cpp" line="+60"/>
+        <location filename="../Hemis/createproposaldialog.cpp" line="+60"/>
         <source>NEXT</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1196,7 +1196,7 @@ address</source>
 <context>
     <name>DashboardWidget</name>
     <message>
-        <location filename="../hemis/forms/dashboardwidget.ui" line="+93"/>
+        <location filename="../Hemis/forms/dashboardwidget.ui" line="+93"/>
         <source>Transactions</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1251,12 +1251,12 @@ address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/dashboardwidget.cpp" line="+115"/>
+        <location filename="../Hemis/dashboardwidget.cpp" line="+115"/>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/forms/dashboardwidget.ui" line="-658"/>
+        <location filename="../Hemis/forms/dashboardwidget.ui" line="-658"/>
         <source>No transactions yet</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1267,7 +1267,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/dashboardwidget.cpp" line="+36"/>
+        <location filename="../Hemis/dashboardwidget.cpp" line="+36"/>
         <location line="+274"/>
         <source>You have no staking rewards</source>
         <translation type="unfinished"></translation>
@@ -1303,7 +1303,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>DefaultDialog</name>
     <message>
-        <location filename="../hemis/forms/defaultdialog.ui" line="+242"/>
+        <location filename="../Hemis/forms/defaultdialog.ui" line="+242"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1362,7 +1362,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid hemis address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Hemis address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1412,7 +1412,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
 <context>
     <name>GovernanceWidget</name>
     <message>
-        <location filename="../hemis/governancewidget.cpp" line="+44"/>
+        <location filename="../Hemis/governancewidget.cpp" line="+44"/>
         <source>Governance</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1610,7 +1610,7 @@ Be part of the DAO.</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>%1 will download and store a copy of the hemis block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the Hemis block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1657,7 +1657,7 @@ Be part of the DAO.</source>
 <context>
     <name>LoadingDialog</name>
     <message>
-        <location filename="../hemis/forms/loadingdialog.ui" line="+127"/>
+        <location filename="../Hemis/forms/loadingdialog.ui" line="+127"/>
         <source>Loading</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1665,7 +1665,7 @@ Be part of the DAO.</source>
 <context>
     <name>LockUnlock</name>
     <message>
-        <location filename="../hemis/forms/lockunlock.ui" line="+104"/>
+        <location filename="../Hemis/forms/lockunlock.ui" line="+104"/>
         <source>Unlock Wallet</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1683,7 +1683,7 @@ Be part of the DAO.</source>
 <context>
     <name>GMRow</name>
     <message>
-        <location filename="../hemis/gmrow.cpp" line="+25"/>
+        <location filename="../Hemis/gmrow.cpp" line="+25"/>
         <source>Collateral tx not found</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1696,7 +1696,7 @@ Be part of the DAO.</source>
 <context>
     <name>GameMasterWizardDialog</name>
     <message>
-        <location filename="../hemis/forms/gamemasterwizarddialog.ui" line="+196"/>
+        <location filename="../Hemis/forms/gamemasterwizarddialog.ui" line="+196"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1771,7 +1771,7 @@ Be part of the DAO.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/gamemasterwizarddialog.cpp" line="+192"/>
+        <location filename="../Hemis/gamemasterwizarddialog.cpp" line="+192"/>
         <source>address label cannot be empty</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1817,7 +1817,7 @@ Be part of the DAO.</source>
     </message>
     <message>
         <location line="-210"/>
-        <source>To create a hemis Gamemaster you must dedicate %1 (the unit of hemis) to the network (however, these coins are still yours and will never leave your possession).</source>
+        <source>To create a Hemis Gamemaster you must dedicate %1 (the unit of Hemis) to the network (however, these coins are still yours and will never leave your possession).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1864,7 +1864,7 @@ Be part of the DAO.</source>
 <context>
     <name>GameMastersWidget</name>
     <message>
-        <location filename="../hemis/forms/gamemasterswidget.ui" line="+295"/>
+        <location filename="../Hemis/forms/gamemasterswidget.ui" line="+295"/>
         <source>Start All</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1895,7 +1895,7 @@ and vote on the treasury system receiving a periodic reward.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/gamemasterswidget.cpp" line="+167"/>
+        <location filename="../Hemis/gamemasterswidget.cpp" line="+167"/>
         <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2007,7 +2007,7 @@ Please wait few more minutes (gamemaster collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the hemis.conf file
+You will only have to paste the data in the Hemis.conf file
 of your remote server and start it, then start the Gamemaster using
 this controller wallet (select the Gamemaster in the list and press &quot;start&quot;).
 </source>
@@ -2060,7 +2060,7 @@ Are you sure?</source>
 <context>
     <name>GmInfoDialog</name>
     <message>
-        <location filename="../hemis/forms/gminfodialog.ui" line="+104"/>
+        <location filename="../Hemis/forms/gminfodialog.ui" line="+104"/>
         <source>Gamemaster Information</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2100,7 +2100,7 @@ Are you sure?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/gminfodialog.cpp" line="+25"/>
+        <location filename="../Hemis/gminfodialog.cpp" line="+25"/>
         <source>Gamemaster public key copied</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2113,7 +2113,7 @@ Are you sure?</source>
 <context>
     <name>GmSelectionDialog</name>
     <message>
-        <location filename="../hemis/forms/gmselectiondialog.ui" line="+117"/>
+        <location filename="../Hemis/forms/gmselectiondialog.ui" line="+117"/>
         <source>Select Gamemasters</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2129,7 +2129,7 @@ Are you sure?</source>
     </message>
     <message>
         <location line="+45"/>
-        <location filename="../hemis/gmselectiondialog.cpp" line="+104"/>
+        <location filename="../Hemis/gmselectiondialog.cpp" line="+104"/>
         <source>Select All</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2159,7 +2159,7 @@ Are you sure?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/gmselectiondialog.cpp" line="+0"/>
+        <location filename="../Hemis/gmselectiondialog.cpp" line="+0"/>
         <source>Unselect All</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2192,7 +2192,7 @@ Are you sure?</source>
 <context>
     <name>NavMenuWidget</name>
     <message>
-        <location filename="../hemis/forms/navmenuwidget.ui" line="+170"/>
+        <location filename="../Hemis/forms/navmenuwidget.ui" line="+170"/>
         <source>HOME
 </source>
         <translation type="unfinished"></translation>
@@ -2239,7 +2239,7 @@ STAKING</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/navmenuwidget.cpp" line="+23"/>
+        <location filename="../Hemis/navmenuwidget.cpp" line="+23"/>
         <source>v%1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2253,7 +2253,7 @@ STAKING</source>
     </message>
     <message>
         <location line="+45"/>
-        <source>Open hemis URI</source>
+        <source>Open Hemis URI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2268,9 +2268,9 @@ STAKING</source>
     </message>
 </context>
 <context>
-    <name>hemisGUI</name>
+    <name>HemisGUI</name>
     <message>
-        <location filename="../hemis/hemisgui.cpp" line="+70"/>
+        <location filename="../Hemis/Hemisgui.cpp" line="+70"/>
         <source>Wallet</source>
         <translation type="unfinished">Wallet</translation>
     </message>
@@ -2373,12 +2373,12 @@ Address: %4
     </message>
     <message>
         <location line="-54"/>
-        <source>Cannot start hemis: click-to-pay handler</source>
+        <source>Cannot start Hemis: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+60"/>
-        <source>URI cannot be parsed! This can be caused by an invalid hemis address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Hemis address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2408,12 +2408,12 @@ Address: %4
 <context>
     <name>ProposalCard</name>
     <message>
-        <location filename="../hemis/forms/proposalcard.ui" line="+355"/>
+        <location filename="../Hemis/forms/proposalcard.ui" line="+355"/>
         <source>Vote</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/proposalcard.cpp" line="+43"/>
+        <location filename="../Hemis/proposalcard.cpp" line="+43"/>
         <source>Inactive proposal</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2466,7 +2466,7 @@ Address: %4
 <context>
     <name>ProposalInfoDialog</name>
     <message>
-        <location filename="../hemis/forms/proposalinfodialog.ui" line="+116"/>
+        <location filename="../Hemis/forms/proposalinfodialog.ui" line="+116"/>
         <source>Proposal Information</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2530,7 +2530,7 @@ Address: %4
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+137"/>
-        <source>Enter hemis address (e.g. %1)</source>
+        <source>Enter Hemis address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2585,8 +2585,8 @@ Address: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <location filename="../hemis.cpp" line="+544"/>
-        <source>A fatal error occurred. hemis can no longer continue safely and will quit.</source>
+        <location filename="../Hemis.cpp" line="+544"/>
+        <source>A fatal error occurred. Hemis can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2621,25 +2621,25 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../hemis/qtutils.cpp" line="+135"/>
+        <location filename="../Hemis/qtutils.cpp" line="+135"/>
         <source>Receiving</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../hemis/qtutils.cpp" line="+3"/>
+        <location filename="../Hemis/qtutils.cpp" line="+3"/>
         <source>Delegator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../hemis/qtutils.cpp" line="+1"/>
+        <location filename="../Hemis/qtutils.cpp" line="+1"/>
         <source>Delegable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../hemis/qtutils.cpp" line="-2"/>
+        <location filename="../Hemis/qtutils.cpp" line="-2"/>
         <source>Cold Staking</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2669,7 +2669,7 @@ Address: %4
         <translation type="unfinished">Unknown</translation>
     </message>
     <message>
-        <location filename="../hemis/qtutils.cpp" line="-3"/>
+        <location filename="../Hemis/qtutils.cpp" line="-3"/>
         <location line="+24"/>
         <source>All</source>
         <translation type="unfinished">All</translation>
@@ -2785,7 +2785,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/dashboardwidget.cpp" line="-531"/>
+        <location filename="../Hemis/dashboardwidget.cpp" line="-531"/>
         <source>Jan</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2845,7 +2845,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/coldstakingwidget.cpp" line="-716"/>
+        <location filename="../Hemis/coldstakingwidget.cpp" line="-716"/>
         <source>Address with no label</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2929,7 +2929,7 @@ Address: %4
     </message>
     <message>
         <location line="+93"/>
-        <source>Open the hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Hemis debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3191,7 +3191,7 @@ Address: %4
     </message>
     <message>
         <location line="-40"/>
-        <source>Welcome to the hemis RPC console.</source>
+        <source>Welcome to the Hemis RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3343,7 +3343,7 @@ Address: %4
 <context>
     <name>ReceiveDialog</name>
     <message>
-        <location filename="../hemis/forms/receivedialog.ui" line="+95"/>
+        <location filename="../Hemis/forms/receivedialog.ui" line="+95"/>
         <source>My Address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3361,7 +3361,7 @@ Address: %4
 <context>
     <name>ReceiveWidget</name>
     <message>
-        <location filename="../hemis/forms/receivewidget.ui" line="+81"/>
+        <location filename="../Hemis/forms/receivewidget.ui" line="+81"/>
         <source>Scan the QR code or copy the address to receive HMS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3382,7 +3382,7 @@ Address: %4
     </message>
     <message>
         <location line="+179"/>
-        <location filename="../hemis/receivewidget.cpp" line="+185"/>
+        <location filename="../Hemis/receivewidget.cpp" line="+185"/>
         <source>Add Label</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3407,7 +3407,7 @@ Address: %4
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/receivewidget.cpp" line="-127"/>
+        <location filename="../Hemis/receivewidget.cpp" line="-127"/>
         <source>My Addresses</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3536,13 +3536,13 @@ try unlocking the wallet</source>
 <context>
     <name>RequestDialog</name>
     <message>
-        <location filename="../hemis/forms/requestdialog.ui" line="+256"/>
+        <location filename="../Hemis/forms/requestdialog.ui" line="+256"/>
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
     <message>
         <location line="-43"/>
-        <source>Instead of sharing only a hemis address, you can create a payment request, bundling up more information</source>
+        <source>Instead of sharing only a Hemis address, you can create a payment request, bundling up more information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3586,17 +3586,17 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/requestdialog.cpp" line="+47"/>
+        <location filename="../Hemis/requestdialog.cpp" line="+47"/>
         <source>Error</source>
         <translation type="unfinished">Error</translation>
     </message>
     <message>
-        <location filename="../hemis/forms/requestdialog.ui" line="+222"/>
+        <location filename="../Hemis/forms/requestdialog.ui" line="+222"/>
         <source>GENERATE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/requestdialog.cpp" line="+28"/>
+        <location filename="../Hemis/requestdialog.cpp" line="+28"/>
         <source>Creates an address to receive coin delegations and be able to stake them.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3634,8 +3634,8 @@ try unlocking the wallet</source>
 <context>
     <name>SendChangeAddressDialog</name>
     <message>
-        <location filename="../hemis/forms/sendchangeaddressdialog.ui" line="+252"/>
-        <location filename="../hemis/sendchangeaddressdialog.cpp" line="+64"/>
+        <location filename="../Hemis/forms/sendchangeaddressdialog.ui" line="+252"/>
+        <location filename="../Hemis/sendchangeaddressdialog.cpp" line="+64"/>
         <source>CANCEL</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3646,7 +3646,7 @@ try unlocking the wallet</source>
     </message>
     <message>
         <location line="+72"/>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the &quot;change&quot; hemis address</source>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the &quot;change&quot; Hemis address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3655,7 +3655,7 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/sendchangeaddressdialog.cpp" line="-17"/>
+        <location filename="../Hemis/sendchangeaddressdialog.cpp" line="-17"/>
         <source>RESET</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3673,7 +3673,7 @@ try unlocking the wallet</source>
 <context>
     <name>SendCustomFeeDialog</name>
     <message>
-        <location filename="../hemis/forms/sendcustomfeedialog.ui" line="+204"/>
+        <location filename="../Hemis/forms/sendcustomfeedialog.ui" line="+204"/>
         <source>Recommended</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3698,7 +3698,7 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/sendcustomfeedialog.cpp" line="+36"/>
+        <location filename="../Hemis/sendcustomfeedialog.cpp" line="+36"/>
         <source>Normal</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3718,12 +3718,12 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/forms/sendcustomfeedialog.ui" line="+260"/>
+        <location filename="../Hemis/forms/sendcustomfeedialog.ui" line="+260"/>
         <source>SAVE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/sendcustomfeedialog.cpp" line="-32"/>
+        <location filename="../Hemis/sendcustomfeedialog.cpp" line="-32"/>
         <source>Fee too high. Must be below: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3736,7 +3736,7 @@ try unlocking the wallet</source>
 <context>
     <name>SendMemoDialog</name>
     <message>
-        <location filename="../hemis/forms/sendmemodialog.ui" line="+151"/>
+        <location filename="../Hemis/forms/sendmemodialog.ui" line="+151"/>
         <source>Private message only visible for the recipient(s)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3746,7 +3746,7 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/sendmemodialog.cpp" line="+49"/>
+        <location filename="../Hemis/sendmemodialog.cpp" line="+49"/>
         <source>RESET</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3759,7 +3759,7 @@ try unlocking the wallet</source>
 <context>
     <name>SendMultiRow</name>
     <message>
-        <location filename="../hemis/forms/sendmultirow.ui" line="+144"/>
+        <location filename="../Hemis/forms/sendmultirow.ui" line="+144"/>
         <source>Enter address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3784,7 +3784,7 @@ try unlocking the wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/sendmultirow.cpp" line="+93"/>
+        <location filename="../Hemis/sendmultirow.cpp" line="+93"/>
         <source>Update memo</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3802,7 +3802,7 @@ try unlocking the wallet</source>
 <context>
     <name>SendWidget</name>
     <message>
-        <location filename="../hemis/send.cpp" line="+159"/>
+        <location filename="../Hemis/send.cpp" line="+159"/>
         <source>Total remaining from the selected UTXO</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3831,7 +3831,7 @@ Do you want to continue?</source>
     </message>
     <message>
         <location line="-225"/>
-        <source>Parse a hemis URI</source>
+        <source>Parse a Hemis URI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4056,7 +4056,7 @@ Do you want to continue?
 <context>
     <name>SettingsBackupWallet</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsbackupwallet.ui" line="+161"/>
+        <location filename="../Hemis/settings/forms/settingsbackupwallet.ui" line="+161"/>
         <source>Change Wallet Passphrase</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4073,7 +4073,7 @@ This option creates a wallet.dat file that can be used to recover your whole bal
     </message>
     <message>
         <location line="+53"/>
-        <location filename="../hemis/settings/settingsbackupwallet.cpp" line="+57"/>
+        <location filename="../Hemis/settings/settingsbackupwallet.cpp" line="+57"/>
         <source>Select folder...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4090,12 +4090,12 @@ Remember to write it down and store it safely, otherwise you might lose access t
     </message>
     <message>
         <location line="-172"/>
-        <location filename="../hemis/settings/settingsbackupwallet.cpp" line="-7"/>
+        <location filename="../Hemis/settings/settingsbackupwallet.cpp" line="-7"/>
         <source>Backup Wallet</source>
         <translation type="unfinished">Backup Wallet</translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsbackupwallet.cpp" line="+1"/>
+        <location filename="../Hemis/settings/settingsbackupwallet.cpp" line="+1"/>
         <source>Wallet Data (*.dat)</source>
         <translation type="unfinished">Wallet Data (*.dat)</translation>
     </message>
@@ -4118,7 +4118,7 @@ Remember to write it down and store it safely, otherwise you might lose access t
 <context>
     <name>SettingsBitToolWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsbittoolwidget.ui" line="+473"/>
+        <location filename="../Hemis/settings/forms/settingsbittoolwidget.ui" line="+473"/>
         <source>Import Address</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4129,7 +4129,7 @@ Remember to write it down and store it safely, otherwise you might lose access t
     </message>
     <message>
         <location line="+7"/>
-        <source>Encrypt your hemis addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your Hemis addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4176,7 +4176,7 @@ Using this mechanism you can share your keys without middle-man risk, only need 
     </message>
     <message>
         <location line="+77"/>
-        <source>hemis address</source>
+        <source>Hemis address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4216,7 +4216,7 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsbittoolwidget.cpp" line="+142"/>
+        <location filename="../Hemis/settings/settingsbittoolwidget.cpp" line="+142"/>
         <source>The entered passphrase is invalid. </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4311,17 +4311,17 @@ Using this mechanism you can share your keys without middle-man risk, only need 
 <context>
     <name>SettingsConsoleWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsconsolewidget.ui" line="+60"/>
+        <location filename="../Hemis/settings/forms/settingsconsolewidget.ui" line="+60"/>
         <source>Console</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsconsolewidget.cpp" line="+72"/>
+        <location filename="../Hemis/settings/settingsconsolewidget.cpp" line="+72"/>
         <source>Console input</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/forms/settingsconsolewidget.ui" line="+29"/>
+        <location filename="../Hemis/settings/forms/settingsconsolewidget.ui" line="+29"/>
         <source>Open Debug File</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4336,14 +4336,14 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsconsolewidget.cpp" line="+13"/>
+        <location filename="../Hemis/settings/settingsconsolewidget.cpp" line="+13"/>
         <source>Cannot open debug file.
 Verify that you have installed a predetermined text editor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+138"/>
-        <source>Welcome to the hemis RPC console.</source>
+        <source>Welcome to the Hemis RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4370,13 +4370,13 @@ Verify that you have installed a predetermined text editor.</source>
 <context>
     <name>SettingsDisplayOptionsWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsdisplayoptionswidget.ui" line="+208"/>
+        <location filename="../Hemis/settings/forms/settingsdisplayoptionswidget.ui" line="+208"/>
         <source>Hide stake charts in the dashboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+91"/>
-        <location filename="../hemis/settings/settingsdisplayoptionswidget.cpp" line="+92"/>
+        <location filename="../Hemis/settings/settingsdisplayoptionswidget.cpp" line="+92"/>
         <source>Reset to default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4421,7 +4421,7 @@ Verify that you have installed a predetermined text editor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsdisplayoptionswidget.cpp" line="-1"/>
+        <location filename="../Hemis/settings/settingsdisplayoptionswidget.cpp" line="-1"/>
         <source>SAVE</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4439,7 +4439,7 @@ Verify that you have installed a predetermined text editor.</source>
 <context>
     <name>SettingsExportCSV</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsexportcsv.ui" line="+55"/>
+        <location filename="../Hemis/settings/forms/settingsexportcsv.ui" line="+55"/>
         <source>Export Accounting</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4450,26 +4450,26 @@ Verify that you have installed a predetermined text editor.</source>
     </message>
     <message>
         <location line="+35"/>
-        <location filename="../hemis/settings/settingsexportcsv.cpp" line="+61"/>
+        <location filename="../Hemis/settings/settingsexportcsv.cpp" line="+61"/>
         <source>Export Transaction History</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+58"/>
         <location line="+115"/>
-        <location filename="../hemis/settings/settingsexportcsv.cpp" line="+8"/>
+        <location filename="../Hemis/settings/settingsexportcsv.cpp" line="+8"/>
         <location line="+7"/>
         <source>Select folder...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-48"/>
-        <location filename="../hemis/settings/settingsexportcsv.cpp" line="-15"/>
+        <location filename="../Hemis/settings/settingsexportcsv.cpp" line="-15"/>
         <source>Export Address Book</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsexportcsv.cpp" line="+1"/>
+        <location filename="../Hemis/settings/settingsexportcsv.cpp" line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation type="unfinished">Comma separated file (*.csv)</translation>
     </message>
@@ -4547,8 +4547,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsFaqWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsfaqwidget.ui" line="+166"/>
-        <source>1) What is hemis?</source>
+        <location filename="../Hemis/settings/forms/settingsfaqwidget.ui" line="+166"/>
+        <source>1) What is Hemis?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4563,7 +4563,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+18"/>
-        <source>What is hemis?</source>
+        <source>What is Hemis?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4652,23 +4652,23 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsfaqwidget.cpp" line="+78"/>
-        <source>hemis is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. hemis incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
+        <location filename="../Hemis/settings/settingsfaqwidget.cpp" line="+78"/>
+        <source>Hemis is a form of digital online money using blockchain technology that can be easily transferred globally, instantly, and with near zero fees. Hemis incorporates market leading security &amp; privacy and is also the first PoS (Proof of Stake) Cryptocurrency to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>hemis utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of hemis to participate in earning block rewards while securing the network with full node wallets, as well as to run Gamemasters to create and vote on proposals.</source>
+        <source>Hemis utilizes a Proof of Stake (PoS) consensus system algorithm, allowing all owners of Hemis to participate in earning block rewards while securing the network with full node wallets, as well as to run Gamemasters to create and vote on proposals.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>Newly received hemis requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
+        <source>Newly received Hemis requires 6 confirmations on the network to become eligible for spending which can take ~6 minutes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Your hemis wallet also needs to be completely synchronized to see and spend balances on the network.</source>
+        <source>Your Hemis wallet also needs to be completely synchronized to see and spend balances on the network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4678,7 +4678,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+1"/>
-        <source>You must have a balance of hemis with a minimum of 600 confirmations.</source>
+        <source>You must have a balance of Hemis with a minimum of 600 confirmations.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4753,7 +4753,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+2"/>
-        <source>Participate in hemis Governance</source>
+        <source>Participate in Hemis Governance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4768,7 +4768,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+1"/>
-        <source>Help secure the hemis network</source>
+        <source>Help secure the Hemis network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4795,7 +4795,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsInformationWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsinformationwidget.ui" line="+116"/>
+        <location filename="../Hemis/settings/forms/settingsinformationwidget.ui" line="+116"/>
         <source>Network Monitor</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4885,12 +4885,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsinformationwidget.cpp" line="+74"/>
+        <location filename="../Hemis/settings/settingsinformationwidget.cpp" line="+74"/>
         <source>Main</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/forms/settingsinformationwidget.ui" line="-587"/>
+        <location filename="../Hemis/settings/forms/settingsinformationwidget.ui" line="-587"/>
         <source>Wallet Conf</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4900,7 +4900,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsinformationwidget.cpp" line="+21"/>
+        <location filename="../Hemis/settings/settingsinformationwidget.cpp" line="+21"/>
         <source>No information</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4911,7 +4911,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+4"/>
-        <source>Unable to open hemis.conf with default application</source>
+        <source>Unable to open Hemis.conf with default application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4933,7 +4933,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
 <context>
     <name>SettingsMainOptionsWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingsmainoptionswidget.ui" line="+292"/>
+        <location filename="../Hemis/settings/forms/settingsmainoptionswidget.ui" line="+292"/>
         <source>Window</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4988,7 +4988,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingsmainoptionswidget.cpp" line="+54"/>
+        <location filename="../Hemis/settings/settingsmainoptionswidget.cpp" line="+54"/>
         <source>Start %1 on system login</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5014,7 +5014,7 @@ Are you sure?
 <context>
     <name>SettingsSignMessageWidgets</name>
     <message>
-        <location filename="../hemis/settings/forms/settingssignmessagewidgets.ui" line="+78"/>
+        <location filename="../Hemis/settings/forms/settingssignmessagewidgets.ui" line="+78"/>
         <source>Sign/Verify Message</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5034,18 +5034,18 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingssignmessagewidgets.cpp" line="+48"/>
+        <location filename="../Hemis/settings/settingssignmessagewidgets.cpp" line="+48"/>
         <source>Select mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/forms/settingssignmessagewidgets.ui" line="-19"/>
+        <location filename="../Hemis/settings/forms/settingssignmessagewidgets.ui" line="-19"/>
         <source>Message</source>
         <translation type="unfinished">Message</translation>
     </message>
     <message>
         <location line="-62"/>
-        <source>hemis address or contact label</source>
+        <source>Hemis address or contact label</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5061,7 +5061,7 @@ Are you sure?
     </message>
     <message>
         <location line="+88"/>
-        <location filename="../hemis/settings/settingssignmessagewidgets.cpp" line="+64"/>
+        <location filename="../Hemis/settings/settingssignmessagewidgets.cpp" line="+64"/>
         <source>SIGN</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5071,7 +5071,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingssignmessagewidgets.cpp" line="-1"/>
+        <location filename="../Hemis/settings/settingssignmessagewidgets.cpp" line="-1"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
@@ -5154,7 +5154,7 @@ Are you sure?
 <context>
     <name>SettingsWalletOptionsWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingswalletoptionswidget.ui" line="+464"/>
+        <location filename="../Hemis/settings/forms/settingswalletoptionswidget.ui" line="+464"/>
         <source>Reset to default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5185,7 +5185,7 @@ Are you sure?
     </message>
     <message>
         <location line="+71"/>
-        <location filename="../hemis/settings/settingswalletoptionswidget.cpp" line="+43"/>
+        <location filename="../Hemis/settings/settingswalletoptionswidget.cpp" line="+43"/>
         <source>Network</source>
         <translation type="unfinished">Network</translation>
     </message>
@@ -5196,7 +5196,7 @@ Are you sure?
     </message>
     <message>
         <location line="+58"/>
-        <source>Automatically open the hemis client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the Hemis client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5245,7 +5245,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingswalletoptionswidget.cpp" line="+28"/>
+        <location filename="../Hemis/settings/settingswalletoptionswidget.cpp" line="+28"/>
         <source>Options reset succeed</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5258,8 +5258,8 @@ Are you sure?
 <context>
     <name>SettingsWalletRepairWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingswalletrepairwidget.ui" line="+108"/>
-        <location filename="../hemis/settings/settingswalletrepairwidget.cpp" line="+22"/>
+        <location filename="../Hemis/settings/forms/settingswalletrepairwidget.ui" line="+108"/>
+        <location filename="../Hemis/settings/settingswalletrepairwidget.cpp" line="+22"/>
         <source>Wallet Repair</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5339,7 +5339,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingswalletrepairwidget.cpp" line="+63"/>
+        <location filename="../Hemis/settings/settingswalletrepairwidget.cpp" line="+63"/>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5367,7 +5367,7 @@ Are you sure?
 <context>
     <name>SettingsWidget</name>
     <message>
-        <location filename="../hemis/settings/forms/settingswidget.ui" line="+269"/>
+        <location filename="../Hemis/settings/forms/settingswidget.ui" line="+269"/>
         <source>Wallet Data</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5444,7 +5444,7 @@ Are you sure?
     </message>
     <message>
         <location line="+31"/>
-        <source>About hemis</source>
+        <source>About Hemis</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5453,7 +5453,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/settings/settingswidget.cpp" line="+211"/>
+        <location filename="../Hemis/settings/settingswidget.cpp" line="+211"/>
         <source>Confirm options reset</source>
         <translation type="unfinished">Confirm options reset</translation>
     </message>
@@ -5533,7 +5533,7 @@ Are you sure?
 <context>
     <name>Splash</name>
     <message>
-        <location filename="../hemis/forms/splash.ui" line="+169"/>
+        <location filename="../Hemis/forms/splash.ui" line="+169"/>
         <source>Loading…</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5549,7 +5549,7 @@ Are you sure?
 <context>
     <name>TooltipMenu</name>
     <message>
-        <location filename="../hemis/forms/tooltipmenu.ui" line="+86"/>
+        <location filename="../Hemis/forms/tooltipmenu.ui" line="+86"/>
         <source>Copy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5572,7 +5572,7 @@ Are you sure?
 <context>
     <name>TopBar</name>
     <message>
-        <location filename="../hemis/forms/topbar.ui" line="+129"/>
+        <location filename="../Hemis/forms/topbar.ui" line="+129"/>
         <source>transparent</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5583,7 +5583,7 @@ Are you sure?
     </message>
     <message>
         <location line="+213"/>
-        <location filename="../hemis/topbar.cpp" line="+669"/>
+        <location filename="../Hemis/topbar.cpp" line="+669"/>
         <source>Available</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5598,7 +5598,7 @@ Are you sure?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/topbar.cpp" line="-370"/>
+        <location filename="../Hemis/topbar.cpp" line="-370"/>
         <location line="+342"/>
         <source>Wallet Unlocked for staking</source>
         <translation type="unfinished"></translation>
@@ -6091,8 +6091,8 @@ backup will be created.
 <context>
     <name>TxDetailDialog</name>
     <message>
-        <location filename="../hemis/forms/sendconfirmdialog.ui" line="+116"/>
-        <location filename="../hemis/sendconfirmdialog.cpp" line="+75"/>
+        <location filename="../Hemis/forms/sendconfirmdialog.ui" line="+116"/>
+        <location filename="../Hemis/sendconfirmdialog.cpp" line="+75"/>
         <source>Transaction Details</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6103,13 +6103,13 @@ backup will be created.
     </message>
     <message>
         <location line="+117"/>
-        <location filename="../hemis/sendconfirmdialog.cpp" line="+12"/>
+        <location filename="../Hemis/sendconfirmdialog.cpp" line="+12"/>
         <source>Previous Transaction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-16"/>
-        <location filename="../hemis/sendconfirmdialog.cpp" line="+1"/>
+        <location filename="../Hemis/sendconfirmdialog.cpp" line="+1"/>
         <source>Output Index</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6179,7 +6179,7 @@ backup will be created.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/sendconfirmdialog.cpp" line="-34"/>
+        <location filename="../Hemis/sendconfirmdialog.cpp" line="-34"/>
         <source>Confirm Your Transaction</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6227,7 +6227,7 @@ backup will be created.
 <context>
     <name>VoteDialog</name>
     <message>
-        <location filename="../hemis/forms/votedialog.ui" line="+92"/>
+        <location filename="../Hemis/forms/votedialog.ui" line="+92"/>
         <source>Vote For Proposal</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6238,7 +6238,7 @@ backup will be created.
     </message>
     <message>
         <location line="+276"/>
-        <location filename="../hemis/votedialog.cpp" line="+170"/>
+        <location filename="../Hemis/votedialog.cpp" line="+170"/>
         <source>Select Voting Gamemasters</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6258,7 +6258,7 @@ backup will be created.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/votedialog.cpp" line="-110"/>
+        <location filename="../Hemis/votedialog.cpp" line="-110"/>
         <source>%1 months remaining</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6322,7 +6322,7 @@ Select fewer inputs with coin control.</source>
 <context>
     <name>WelcomeContentWidget</name>
     <message>
-        <location filename="../hemis/forms/welcomecontentwidget.ui" line="+244"/>
+        <location filename="../Hemis/forms/welcomecontentwidget.ui" line="+244"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6368,22 +6368,22 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <location line="+116"/>
-        <source>hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <source>Hemis is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - Hemis believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+83"/>
-        <source>The gamemaster network is hemis&apos;s second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <source>The gamemaster network is Hemis&apos;s second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-103"/>
-        <source>How hemis respects your privacy?</source>
+        <source>How Hemis respects your privacy?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6398,7 +6398,7 @@ Select fewer inputs with coin control.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../hemis/welcomecontentwidget.cpp" line="+183"/>
+        <location filename="../Hemis/welcomecontentwidget.cpp" line="+183"/>
         <source>default</source>
         <translation type="unfinished">default</translation>
     </message>
@@ -6406,7 +6406,7 @@ Select fewer inputs with coin control.</source>
 <context>
     <name>governancewidget</name>
     <message>
-        <location filename="../hemis/forms/governancewidget.ui" line="+436"/>
+        <location filename="../Hemis/forms/governancewidget.ui" line="+436"/>
         <source>No active proposals yet</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6432,9 +6432,9 @@ Select fewer inputs with coin control.</source>
     </message>
 </context>
 <context>
-    <name>hemis-core</name>
+    <name>Hemis-core</name>
     <message>
-        <location filename="../hemisstrings.cpp" line="+25"/>
+        <location filename="../Hemisstrings.cpp" line="+25"/>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation type="unfinished">Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
@@ -7271,7 +7271,7 @@ Please run &apos;sapling-fetch-params&apos; or &apos;./util/fetch-params.sh&apos
 <context>
     <name>send</name>
     <message>
-        <location filename="../hemis/forms/send.ui" line="+74"/>
+        <location filename="../Hemis/forms/send.ui" line="+74"/>
         <location line="+629"/>
         <source>Send</source>
         <translation type="unfinished"></translation>

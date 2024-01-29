@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/navmenuwidget.h"
-#include "qt/hemis/forms/ui_navmenuwidget.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/navmenuwidget.h"
+#include "qt/Hemis/forms/ui_navmenuwidget.h"
+#include "qt/Hemis/qtutils.h"
 #include "clientversion.h"
 #include "optionsmodel.h"
 #include <QScrollBar>
 
-NavMenuWidget::NavMenuWidget(hemisGUI *mainWindow, QWidget *parent) :
+NavMenuWidget::NavMenuWidget(HemisGUI *mainWindow, QWidget *parent) :
     PWidget(mainWindow, parent),
     ui(new Ui::NavMenuWidget)
 {

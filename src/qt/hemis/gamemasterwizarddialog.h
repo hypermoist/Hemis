@@ -1,14 +1,14 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef GAMEMASTERWIZARDDIALOG_H
 #define GAMEMASTERWIZARDDIALOG_H
 
-#include "qt/hemis/focuseddialog.h"
-#include "qt/hemis/snackbar.h"
+#include "qt/Hemis/focuseddialog.h"
+#include "qt/Hemis/snackbar.h"
 #include "gamemasterconfig.h"
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 
 class GMModel;
 class WalletModel;

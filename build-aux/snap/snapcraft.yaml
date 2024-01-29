@@ -1,78 +1,78 @@
 # Copyright (c) 2018-2019 The Ion developers
-# Copyright (c) 2019 The hemis developers
-name: hemis-core
+# Copyright (c) 2019 The Hemis developers
+name: Hemis-core
 base: core18
 version: 5.5.99
-summary:   hemis (Private – Instant – Verified – Transaction)
+summary:   Hemis (Private – Instant – Verified – Transaction)
 description: |
-  hemis is an MIT licensed,
+  Hemis is an MIT licensed,
   open source, blockchain-based cryptocurrency with
   ultra fast transactions, low fees, high network decentralization, and
   Zero Knowledge cryptography proofs for industry-leading
   transaction anonymity.
 
-  - [Download](https://hemis.org/wp-content/uploads/2018/10/hemis-White.pdf) hemis White Paper PDF
+  - [Download](https://Hemis.org/wp-content/uploads/2018/10/Hemis-White.pdf) Hemis White Paper PDF
 grade: devel
 confinement: strict
 
 apps:
   daemon:
-    command: hemisd
+    command: Hemisd
     plugs: [network, network-bind, home, removable-media]
-    desktop: hemisd.desktop
+    desktop: Hemisd.desktop
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
       HOME: $SNAP_USER_COMMON
   daemon-testnet:
-    command: hemisd --testnet
+    command: Hemisd --testnet
     plugs: [network, network-bind, home, removable-media]
-    desktop: hemisd_testnet.desktop
+    desktop: Hemisd_testnet.desktop
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
       HOME: $SNAP_USER_COMMON
   qt:
-    command: desktop-launch hemis-qt
+    command: desktop-launch Hemis-qt
     plugs: [network, network-bind, network-status, unity7, desktop, desktop-legacy, wayland, x11, mir, opengl, home, gsettings, removable-media, screen-inhibit-control, pulseaudio, media-hub]
-    desktop: hemis-qt.desktop
+    desktop: Hemis-qt.desktop
     environment:
       QT_XKB_CONFIG_ROOT: $SNAP_USER_DATA:$SNAP/usr/share:$QT_XKB_CONFIG_ROOT
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
       HOME: $SNAP_USER_COMMON
   qt-testnet:
-    command: desktop-launch hemis-qt --testnet
+    command: desktop-launch Hemis-qt --testnet
     plugs: [network, network-bind, network-status, unity7, desktop, desktop-legacy, wayland, x11, mir, opengl, home, gsettings, removable-media, screen-inhibit-control, pulseaudio, media-hub]
-    desktop: hemis-qt_testnet.desktop
+    desktop: Hemis-qt_testnet.desktop
     environment:
       QT_XKB_CONFIG_ROOT: $SNAP_USER_DATA:$SNAP/usr/share:$QT_XKB_CONFIG_ROOT
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
       HOME: $SNAP_USER_COMMON
   cli:
-    command: hemis-cli
+    command: Hemis-cli
     plugs: [network, network-bind, home, removable-media]
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
       HOME: $SNAP_USER_COMMON
   cli-testnet:
-    command: hemis-cli --testnet
+    command: Hemis-cli --testnet
     plugs: [network, network-bind, home, removable-media]
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
       HOME: $SNAP_USER_COMMON
   tx:
-    command: hemis-tx
+    command: Hemis-tx
     plugs: [home]
   test:
-    command: test_hemis
+    command: test_Hemis
     plugs: [home]
   testqt:
-    command: test_hemis-qt
+    command: test_Hemis-qt
     plugs: [home]
 
 layout:
-  /usr/share/hemis/sapling-spend.params:
-    bind-file: $SNAP/share/hemis/sapling-spend.params
-  /usr/share/hemis/sapling-output.params:
-    bind-file: $SNAP/share/hemis/sapling-output.params
+  /usr/share/Hemis/sapling-spend.params:
+    bind-file: $SNAP/share/Hemis/sapling-spend.params
+  /usr/share/Hemis/sapling-output.params:
+    bind-file: $SNAP/share/Hemis/sapling-output.params
 
 parts:
 
@@ -105,8 +105,8 @@ parts:
       - xdg-user-dirs
       - fcitx-frontend-qt5
 
-  hemis-core:
-    source: https://github.com/hemis-Project/hemis
+  Hemis-core:
+    source: https://github.com/Hemis-Project/Hemis
     source-type: git
     source-tag: master
     plugin: nil
@@ -118,7 +118,7 @@ parts:
       #    project is called ioncore because ion exists already as package. For anybody
       #    offering non official release and using own SNAP, this variable should be used
       #    default value is "false", to enable it, use your projects binary prefix
-      OVERRIDEBINPREFIX="hemis"
+      OVERRIDEBINPREFIX="Hemis"
       OVERRIDEDATADIR="false"
       OVERRIDECONF="${OVERRIDEDATADIR}"
       COPYCONF=0    # copy example config into users data folder, 1 = enabled
@@ -227,8 +227,8 @@ parts:
       echo "INSTALLATION OF ${BINPREF}-${SNAPCRAFT_PROJECT_VERSION}" # run make install with a prefix where to install
       echo "+++++++++++++++++++++++++++++++++++++++++++++++"
       make install prefix=${SNAPCRAFT_PART_INSTALL}
-      install -m 0644 -D -T $SNAPCRAFT_PART_BUILD/src/qt/res/icons/bitcoin.png $SNAPCRAFT_PART_INSTALL/share/pixmaps/hemis.png
-      install -m 0644 -D -T $SNAPCRAFT_PART_BUILD/src/qt/res/icons/bitcoin_testnet.png $SNAPCRAFT_PART_INSTALL/share/pixmaps/hemis_testnet.png
+      install -m 0644 -D -T $SNAPCRAFT_PART_BUILD/src/qt/res/icons/bitcoin.png $SNAPCRAFT_PART_INSTALL/share/pixmaps/Hemis.png
+      install -m 0644 -D -T $SNAPCRAFT_PART_BUILD/src/qt/res/icons/bitcoin_testnet.png $SNAPCRAFT_PART_INSTALL/share/pixmaps/Hemis_testnet.png
       echo "-----------------------------------------------"
       echo "+++++++++++++++++++++++++++++++++++++++++++++++"
       echo "POST INSTALL SCRIPTS OF ${BINPREF}-${SNAPCRAFT_PROJECT_VERSION}" # run make install with a prefix where to install
@@ -262,7 +262,7 @@ parts:
       fi
       echo "-----------------------------------------------"
       echo "+++++++++++++++++++++++++++++++++++++++++++++++"
-      echo "CONFIG FILE" # create .hemis folder and copy example config - !!!warning!!!: do not copy as hemis.conf
+      echo "CONFIG FILE" # create .Hemis folder and copy example config - !!!warning!!!: do not copy as Hemis.conf
       echo "+++++++++++++++++++++++++++++++++++++++++++++++"
       mkdir -p ${SNAP_USER_COMMON}/.${DATADIR}
       if [ $COPYCONF = 1 ]; then

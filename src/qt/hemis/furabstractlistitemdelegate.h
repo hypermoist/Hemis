@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef FURABSTRACTLISTITEMDELEGATE_H
 #define FURABSTRACTLISTITEMDELEGATE_H
 
-#include "qt/hemis/furlistrow.h"
+#include "qt/Hemis/furlistrow.h"
 
 #include <QAbstractItemDelegate>
 #include <QColor>

@@ -5,19 +5,19 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/hemis/hemis.conf
+# /etc/Hemis/Hemis.conf
 
 [Unit]
-Description=hemis daemon
+Description=Hemis daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/hemisd -daemon -conf=/etc/hemis/hemis.conf -pid=/run/hemisd/hemisd.pid
-# Creates /run/hemisd owned by hemis
-RuntimeDirectory=hemisd
-User=hemis
+ExecStart=/usr/bin/Hemisd -daemon -conf=/etc/Hemis/Hemis.conf -pid=/run/Hemisd/Hemisd.pid
+# Creates /run/Hemisd owned by Hemis
+RuntimeDirectory=Hemisd
+User=Hemis
 Type=forking
-PIDFile=/run/hemisd/hemisd.pid
+PIDFile=/run/Hemisd/Hemisd.pid
 Restart=on-failure
 
 # Hardening measures

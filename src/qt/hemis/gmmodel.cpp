@@ -1,8 +1,8 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/gmmodel.h"
+#include "qt/Hemis/gmmodel.h"
 
 #include "coincontrol.h"
 #include "gamemaster.h"
@@ -11,7 +11,7 @@
 #include "primitives/transaction.h"
 #include "qt/bitcoinunits.h"
 #include "qt/optionsmodel.h"
-#include "qt/hemis/guitransactionsutils.h"
+#include "qt/Hemis/guitransactionsutils.h"
 #include "qt/walletmodel.h"
 #include "qt/walletmodeltransaction.h"
 #include "tiertwo/tiertwo_sync_state.h"
@@ -323,7 +323,7 @@ CGamemasterConfig::CGamemasterEntry* GMModel::createLegacyGM(COutPoint& collater
                              QString& ret_error)
 {
     // Update the conf file
-    QString strConfFileQt(hemis_GAMEMASTER_CONF_FILENAME);
+    QString strConfFileQt(Hemis_GAMEMASTER_CONF_FILENAME);
     std::string strConfFile = strConfFileQt.toStdString();
     std::string strDataDir = GetDataDir().string();
     fs::path conf_file_path(strConfFile);
@@ -416,7 +416,7 @@ CGamemasterConfig::CGamemasterEntry* GMModel::createLegacyGM(COutPoint& collater
 // Future: remove after v6.0
 bool GMModel::removeLegacyGM(const std::string& alias_to_remove, const std::string& tx_id, unsigned int out_index, QString& ret_error)
 {
-    QString strConfFileQt(hemis_GAMEMASTER_CONF_FILENAME);
+    QString strConfFileQt(Hemis_GAMEMASTER_CONF_FILENAME);
     std::string strConfFile = strConfFileQt.toStdString();
     std::string strDataDir = GetDataDir().string();
     fs::path conf_file_path(strConfFile);

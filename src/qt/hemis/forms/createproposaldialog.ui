@@ -1132,7 +1132,7 @@
                     <item>
                      <widget class="QLabel" name="labelResultName">
                       <property name="text">
-                       <string notr="true">hemis-MBD-JanJun2021</string>
+                       <string notr="true">Hemis-MBD-JanJun2021</string>
                       </property>
                      </widget>
                     </item>

@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2021 The hemis Core developers
+// Copyright (c) 2015-2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,11 +44,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case HMS:
-        return QString("hemis");
+        return QString("Hemis");
     case mHMS:
-        return QString("mhemis");
+        return QString("mHemis");
     case uHMS:
-        return QString::fromUtf8("uhemis");
+        return QString::fromUtf8("uHemis");
     default:
         return QString("???");
     }

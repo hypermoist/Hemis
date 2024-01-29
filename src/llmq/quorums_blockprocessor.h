@@ -1,10 +1,10 @@
 // Copyright (c) 2018-2021 The Dash Core developers
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_LLMQ_BLOCKPROCESSOR_H
-#define hemis_LLMQ_BLOCKPROCESSOR_H
+#ifndef Hemis_LLMQ_BLOCKPROCESSOR_H
+#define Hemis_LLMQ_BLOCKPROCESSOR_H
 
 #include "consensus/params.h"
 #include "llmq/quorums_commitment.h"
@@ -70,4 +70,4 @@ extern std::unique_ptr<CQuorumBlockProcessor> quorumBlockProcessor;
 
 } // namespace llmq
 
-#endif // hemis_LLMQ_BLOCKPROCESSOR_H
+#endif // Hemis_LLMQ_BLOCKPROCESSOR_H

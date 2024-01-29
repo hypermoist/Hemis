@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "hemis"
-            VALUE "FileDescription",    "hemisd (hemis node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Hemis"
+            VALUE "FileDescription",    "Hemisd (Hemis node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "hemisd"
+            VALUE "InternalName",       "Hemisd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "hemisd.exe"
-            VALUE "ProductName",        "hemisd"
+            VALUE "OriginalFilename",   "Hemisd.exe"
+            VALUE "ProductName",        "Hemisd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

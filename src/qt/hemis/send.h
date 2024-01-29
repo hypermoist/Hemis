@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,19 +8,19 @@
 #include <QWidget>
 #include <QPushButton>
 
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/contactsdropdown.h"
-#include "qt/hemis/sendmultirow.h"
-#include "qt/hemis/sendcustomfeedialog.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/contactsdropdown.h"
+#include "qt/Hemis/sendmultirow.h"
+#include "qt/Hemis/sendcustomfeedialog.h"
 #include "walletmodel.h"
 #include "coincontroldialog.h"
-#include "qt/hemis/tooltipmenu.h"
+#include "qt/Hemis/tooltipmenu.h"
 
 #include <atomic>
 
 static const int MAX_SEND_POPUP_ENTRIES = 8;
 
-class hemisGUI;
+class HemisGUI;
 class ClientModel;
 class OperationResult;
 class WalletModel;
@@ -36,7 +36,7 @@ class SendWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SendWidget(hemisGUI* parent);
+    explicit SendWidget(HemisGUI* parent);
     ~SendWidget();
 
     void addEntry();

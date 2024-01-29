@@ -1,10 +1,10 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/receivedialog.h"
-#include "qt/hemis/forms/ui_receivedialog.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/receivedialog.h"
+#include "qt/Hemis/forms/ui_receivedialog.h"
+#include "qt/Hemis/qtutils.h"
 #include "qt/walletmodel.h"
 
 #include <QPixmap>

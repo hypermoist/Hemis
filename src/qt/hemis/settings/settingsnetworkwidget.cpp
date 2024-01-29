@@ -1,13 +1,13 @@
-// Copyright (c) 2019 The hemis Core developers
+// Copyright (c) 2019 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/settings/settingsnetworkwidget.h"
-#include "qt/hemis/settings/forms/ui_settingsnetworkwidget.h"
+#include "qt/Hemis/settings/settingsnetworkwidget.h"
+#include "qt/Hemis/settings/forms/ui_settingsnetworkwidget.h"
 #include "optionsmodel.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/qtutils.h"
 
-SettingsNetworkWidget::SettingsNetworkWidget(hemisGUI* _window, QWidget *parent) :
+SettingsNetworkWidget::SettingsNetworkWidget(HemisGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsNetworkWidget)
 {

@@ -1,9 +1,9 @@
-// Copyright (c) 2020-2021 The hemis Core developers
+// Copyright (c) 2020-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_CONSENSUS_ZEROCOIN_VERIFY_H
-#define hemis_CONSENSUS_ZEROCOIN_VERIFY_H
+#ifndef Hemis_CONSENSUS_ZEROCOIN_VERIFY_H
+#define Hemis_CONSENSUS_ZEROCOIN_VERIFY_H
 
 #include "consensus/consensus.h"
 #include "script/interpreter.h"
@@ -34,4 +34,4 @@ bool ParseAndValidateZerocoinSpends(const Consensus::Params& consensus,
                                     CValidationState& state,
                                     std::vector<std::pair<CBigNum, uint256>>& vSpendsRet);
 
-#endif //hemis_CONSENSUS_ZEROCOIN_VERIFY_H
+#endif //Hemis_CONSENSUS_ZEROCOIN_VERIFY_H

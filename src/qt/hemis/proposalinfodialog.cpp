@@ -1,13 +1,13 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/proposalinfodialog.h"
-#include "qt/hemis/forms/ui_proposalinfodialog.h"
+#include "qt/Hemis/proposalinfodialog.h"
+#include "qt/Hemis/forms/ui_proposalinfodialog.h"
 
 #include "guiutil.h"
-#include "qt/hemis/snackbar.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/snackbar.h"
+#include "qt/Hemis/qtutils.h"
 
 #include <QDateTime>
 

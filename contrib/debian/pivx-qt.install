@@ -1,6 +1,6 @@
-usr/local/bin/hemis-qt usr/bin
-share/pixmaps/hemis32.xpm usr/share/pixmaps
-share/pixmaps/hemis16.xpm usr/share/pixmaps
-share/pixmaps/hemis128.png usr/share/pixmaps
-debian/hemis-qt.desktop usr/share/applications
-debian/hemis-qt.protocol usr/share/kde4/services/
+usr/local/bin/Hemis-qt usr/bin
+share/pixmaps/Hemis32.xpm usr/share/pixmaps
+share/pixmaps/Hemis16.xpm usr/share/pixmaps
+share/pixmaps/Hemis128.png usr/share/pixmaps
+debian/Hemis-qt.desktop usr/share/applications
+debian/Hemis-qt.protocol usr/share/kde4/services/

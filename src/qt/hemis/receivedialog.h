@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef RECEIVEDIALOG_H
 #define RECEIVEDIALOG_H
 
-#include "qt/hemis/focuseddialog.h"
+#include "qt/Hemis/focuseddialog.h"
 
 class SendCoinsRecipient;
 

@@ -1,18 +1,18 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/sendmultirow.h"
-#include "qt/hemis/forms/ui_sendmultirow.h"
+#include "qt/Hemis/sendmultirow.h"
+#include "qt/Hemis/forms/ui_sendmultirow.h"
 
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
 #include "guiutil.h"
 #include "bitcoinunits.h"
-#include "qt/hemis/sendmemodialog.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/sendmemodialog.h"
+#include "qt/Hemis/qtutils.h"
 
-SendMultiRow::SendMultiRow(hemisGUI* _window, PWidget *parent) :
+SendMultiRow::SendMultiRow(HemisGUI* _window, PWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SendMultiRow),
     iconNumber(new QPushButton())

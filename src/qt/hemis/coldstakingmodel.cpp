@@ -1,8 +1,8 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/coldstakingmodel.h"
+#include "qt/Hemis/coldstakingmodel.h"
 #include "uint256.h"
 #include "bitcoinunits.h"
 #include "guiutil.h"

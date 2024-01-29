@@ -1,13 +1,13 @@
-hemis Core version v5.2.0 is now available from:  <https://github.com/hemis-project/hemis/releases>
+Hemis Core version v5.2.0 is now available from:  <https://github.com/Hemis-project/Hemis/releases>
 
 This is a new major version release, including various bug fixes and visual improvements.
 
-Please report bugs using the issue tracker at github: <https://github.com/hemis-project/hemis/issues>
+Please report bugs using the issue tracker at github: <https://github.com/Hemis-project/Hemis/issues>
 
 Mandatory Update
 ==============
 
-hemis Core v5.2.0 is a mandatory update for all users. This release contains a protocol upgrade (to `70922`), new consensus rules and improvements that are not backwards compatible with older versions. Users will need to update their clients before enforcement of this update goes into effect.
+Hemis Core v5.2.0 is a mandatory update for all users. This release contains a protocol upgrade (to `70922`), new consensus rules and improvements that are not backwards compatible with older versions. Users will need to update their clients before enforcement of this update goes into effect.
 
 Update enforcement is currently scheduled to go into effect at the following block height:
 ```
@@ -20,29 +20,29 @@ Note: In preparation for the enforcement, upgraded peers will start rejecting no
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/hemis-Qt (on Mac) or hemisd/hemis-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/Hemis-Qt (on Mac) or Hemisd/Hemis-qt (on Linux).
 
 Sapling Parameters
 ==================
 
-In order to run, hemis Core now requires two files, `sapling-output.params` and `sapling-spend.params` (with total size ~50 MB), to be saved in a specific location.
+In order to run, Hemis Core now requires two files, `sapling-output.params` and `sapling-spend.params` (with total size ~50 MB), to be saved in a specific location.
 
 For the following packages, no action is required by the user:
 - macOS release `dmg` binaries will use the params that are bundled into the .app bundle.
 - Windows installer `.exe` will automatically copy the files in the proper location.
 - Linux `PPA/Snap` installs will automatically copy the files in the proper location.
 
-For the other packages, the user must save the param files in the proper location, before being able to run hemis v5.2.0:
+For the other packages, the user must save the param files in the proper location, before being able to run Hemis v5.2.0:
 - macOS/Linux `tar.gz` tarballs include a bash script (`install-params.sh`) to copy the parameters in the appropriate location.
-- Windows `.zip` users need to manually copy the files from the `share/hemis` folder to the `%APPDATA%\hemisParams` directory.
+- Windows `.zip` users need to manually copy the files from the `share/Hemis` folder to the `%APPDATA%\HemisParams` directory.
 - self compilers can run the script from the repository sources (`params/install-params.sh`), or copy the files directly from the `params` subdirectory.
 
 Compatibility
 ==============
 
-hemis Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.12+, and Windows 7 and later.
+Hemis Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.12+, and Windows 7 and later.
 
-hemis Core should also work on most other Unix-like systems but is not frequently tested on them.
+Hemis Core should also work on most other Unix-like systems but is not frequently tested on them.
 
 v5.2.0 Change log
 ==============
@@ -96,4 +96,4 @@ Thanks to everyone who directly contributed to this release:
 - Volodia
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/hemis-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/Hemis-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

@@ -1,10 +1,10 @@
 // Copyright (c) 2016-2020 The ZCash developers
-// Copyright (c) 2020-2021 The hemis Core developers
+// Copyright (c) 2020-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_SAPLING_VALIDATION_H
-#define hemis_SAPLING_VALIDATION_H
+#ifndef Hemis_SAPLING_VALIDATION_H
+#define Hemis_SAPLING_VALIDATION_H
 
 #include "chainparams.h"
 
@@ -27,4 +27,4 @@ bool ContextualCheckTransaction(const CTransaction &tx, CValidationState &state,
 
 }; // End SaplingValidation namespace
 
-#endif //hemis_SAPLING_VALIDATION_H
+#endif //Hemis_SAPLING_VALIDATION_H

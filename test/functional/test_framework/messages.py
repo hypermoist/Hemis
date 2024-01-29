@@ -193,7 +193,7 @@ def FromHex(obj, hex_string):
 def ToHex(obj):
     return bytes_to_hex_str(obj.serialize())
 
-# Objects that map to hemisd objects, which can be serialized/deserialized
+# Objects that map to Hemisd objects, which can be serialized/deserialized
 
 class CAddress:
     __slots__ = ("net", "ip", "nServices", "port", "time")
@@ -578,7 +578,7 @@ class CBlockHeader:
         self.calc_sha256()
         return self.sha256
 
-    # hemis
+    # Hemis
     def solve_stake(self, stakeInputs, prevModifier):
         target0 = uint256_from_compact(self.nBits)
         loop = True
@@ -1368,7 +1368,7 @@ class msg_headers:
         self.headers = headers if headers is not None else []
 
     def deserialize(self, f):
-        # comment in hemisd indicates these should be deserialized as blocks
+        # comment in Hemisd indicates these should be deserialized as blocks
         blocks = deser_vector(f, CBlock)
         for x in blocks:
             self.headers.append(CBlockHeader(x))
@@ -1477,7 +1477,7 @@ class msg_witness_blocktxn(msg_blocktxn):
         return r
 
 
-# hemis Classes
+# Hemis Classes
 class Gamemaster(object):
     def __init__(self, idx, owner_addr, operator_pk, voting_addr, ipport, payout_addr, operator_sk):
         self.idx = idx

@@ -1,11 +1,11 @@
-// Copyright (c) 2021 The hemis Core developers
+// Copyright (c) 2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/gmselectiondialog.h"
-#include "qt/hemis/forms/ui_gmselectiondialog.h"
-#include "qt/hemis/gmmodel.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/gmselectiondialog.h"
+#include "qt/Hemis/forms/ui_gmselectiondialog.h"
+#include "qt/Hemis/gmmodel.h"
+#include "qt/Hemis/qtutils.h"
 
 GmSelectionDialog::GmSelectionDialog(QWidget *parent) :
         QDialog(parent),

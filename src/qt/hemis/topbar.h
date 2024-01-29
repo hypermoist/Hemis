@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,14 +7,14 @@
 
 #include <QWidget>
 #include "qt/askpassphrasedialog.h"
-#include "qt/hemis/pwidget.h"
-#include "qt/hemis/lockunlock.h"
+#include "qt/Hemis/pwidget.h"
+#include "qt/Hemis/lockunlock.h"
 #include "amount.h"
 #include <QTimer>
 #include <QProgressBar>
 
 class BalanceBubble;
-class hemisGUI;
+class HemisGUI;
 class WalletModel;
 class ClientModel;
 
@@ -27,7 +27,7 @@ class TopBar : public PWidget
     Q_OBJECT
 
 public:
-    explicit TopBar(hemisGUI* _mainWindow, QWidget *parent = nullptr);
+    explicit TopBar(HemisGUI* _mainWindow, QWidget *parent = nullptr);
     ~TopBar();
 
     void showTop();

@@ -1,10 +1,10 @@
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2021-2022 The hemis Core developers
+// Copyright (c) 2021-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_FLAT_DATABASE_H
-#define hemis_FLAT_DATABASE_H
+#ifndef Hemis_FLAT_DATABASE_H
+#define Hemis_FLAT_DATABASE_H
 
 #include "chainparams.h"
 #include "clientversion.h"
@@ -180,4 +180,4 @@ public:
 };
 
 
-#endif // hemis_FLAT_DATABASE_H
+#endif // Hemis_FLAT_DATABASE_H

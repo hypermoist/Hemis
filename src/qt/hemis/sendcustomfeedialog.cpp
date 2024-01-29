@@ -1,10 +1,10 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/sendcustomfeedialog.h"
-#include "qt/hemis/forms/ui_sendcustomfeedialog.h"
-#include "qt/hemis/qtutils.h"
+#include "qt/Hemis/sendcustomfeedialog.h"
+#include "qt/Hemis/forms/ui_sendcustomfeedialog.h"
+#include "qt/Hemis/qtutils.h"
 #include "qt/walletmodel.h"
 #include "optionsmodel.h"
 #include "guiutil.h"
@@ -12,7 +12,7 @@
 #include <QListView>
 #include <QComboBox>
 
-SendCustomFeeDialog::SendCustomFeeDialog(hemisGUI* parent, WalletModel* model) :
+SendCustomFeeDialog::SendCustomFeeDialog(HemisGUI* parent, WalletModel* model) :
     FocusedDialog(parent),
     ui(new Ui::SendCustomFeeDialog),
     walletModel(model)
@@ -55,7 +55,7 @@ SendCustomFeeDialog::SendCustomFeeDialog(hemisGUI* parent, WalletModel* model) :
     connect(ui->comboBoxRecommended, static_cast<void (QComboBox::*)(const QString &)>(&QComboBox::currentIndexChanged),
         this, &SendCustomFeeDialog::updateFee);
     if (parent)
-        connect(parent, &hemisGUI::themeChanged, this, &SendCustomFeeDialog::onChangeTheme);
+        connect(parent, &HemisGUI::themeChanged, this, &SendCustomFeeDialog::onChangeTheme);
     ui->checkBoxRecommended->setChecked(true);
 }
 

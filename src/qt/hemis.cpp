@@ -1,14 +1,14 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2022 The hemis Core developers
+// Copyright (c) 2015-2022 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
-#include "qt/hemis/hemisgui.h"
+#include "qt/Hemis/Hemisgui.h"
 
 
 #include "fs.h"
@@ -21,8 +21,8 @@
 #include "qt/intro.h"
 #include "qt/optionsmodel.h"
 #include "qt/networkstyle.h"
-#include "qt/hemis/splash.h"
-#include "qt/hemis/welcomecontentwidget.h"
+#include "qt/Hemis/splash.h"
+#include "qt/Hemis/welcomecontentwidget.h"
 #include "qt/winshutdownmonitor.h"
 #include "rpc/server.h"
 #include "shutdown.h"
@@ -31,8 +31,8 @@
 #include "warnings.h"
 
 #ifdef ENABLE_WALLET
-#include "qt/hemis/governancemodel.h"
-#include "qt/hemis/gmmodel.h"
+#include "qt/Hemis/governancemodel.h"
+#include "qt/Hemis/gmmodel.h"
 #include "paymentserver.h"
 #include "walletmodel.h"
 #include "interfaces/wallet.h"
@@ -82,7 +82,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("hemis-core", psz).toStdString();
+    return QCoreApplication::translate("Hemis-core", psz).toStdString();
 }
 
 static QString GetLangTerritory(bool forceLangFromSetting = false)
@@ -129,11 +129,11 @@ static void initTranslations(QTranslator& qtTranslatorBase, QTranslator& qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in hemis.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in Hemis.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in hemis.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in Hemis.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -149,7 +149,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
     }
 }
 
-/** Class encapsulating hemis Core startup and shutdown.
+/** Class encapsulating Hemis Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class BitcoinCore : public QObject
@@ -174,7 +174,7 @@ private:
     void handleRunawayException(const std::exception* e);
 };
 
-/** Main hemis application object */
+/** Main Hemis application object */
 class BitcoinApplication : public QApplication
 {
     Q_OBJECT
@@ -203,7 +203,7 @@ public:
     /// Get process return value
     int getReturnValue() { return returnValue; }
 
-    /// Get window identifier of QMainWindow (hemisGUI)
+    /// Get window identifier of QMainWindow (HemisGUI)
     WId getMainWinId() const;
 
 public Q_SLOTS:
@@ -224,7 +224,7 @@ private:
     QThread* coreThread{nullptr};
     OptionsModel* optionsModel{nullptr};
     ClientModel* clientModel{nullptr};
-    hemisGUI* window{nullptr};
+    HemisGUI* window{nullptr};
     QTimer* pollShutdownTimer{nullptr};
 #ifdef ENABLE_WALLET
     PaymentServer* paymentServer{nullptr};
@@ -238,7 +238,7 @@ private:
     void startThread();
 };
 
-#include "hemis.moc"
+#include "Hemis.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
@@ -368,10 +368,10 @@ void BitcoinApplication::createOptionsModel()
 
 void BitcoinApplication::createWindow(const NetworkStyle* networkStyle)
 {
-    window = new hemisGUI(networkStyle, nullptr);
+    window = new HemisGUI(networkStyle, nullptr);
 
     pollShutdownTimer = new QTimer(window);
-    connect(pollShutdownTimer, &QTimer::timeout, window, &hemisGUI::detectShutdown);
+    connect(pollShutdownTimer, &QTimer::timeout, window, &HemisGUI::detectShutdown);
 }
 
 void BitcoinApplication::createSplashScreen(const NetworkStyle* networkStyle)
@@ -404,7 +404,7 @@ void BitcoinApplication::startThread()
     connect(executor, &BitcoinCore::runawayException, this, &BitcoinApplication::handleRunawayException);
     connect(this, &BitcoinApplication::requestedInitialize, executor, &BitcoinCore::initialize);
     connect(this, &BitcoinApplication::requestedShutdown, executor, &BitcoinCore::shutdown);
-    connect(window, &hemisGUI::requestedRestart, executor, &BitcoinCore::restart);
+    connect(window, &HemisGUI::requestedRestart, executor, &BitcoinCore::restart);
     /*  make sure executor object is deleted in its own thread */
     connect(this, &BitcoinApplication::stopThread, executor, &QObject::deleteLater);
     connect(this, &BitcoinApplication::stopThread, coreThread, &QThread::quit);
@@ -482,8 +482,8 @@ void BitcoinApplication::initializeResult(int retval)
             gmModel->init();
 
             window->setGovModel(govModel);
-            window->addWallet(hemisGUI::DEFAULT_WALLET, walletModel);
-            window->setCurrentWallet(hemisGUI::DEFAULT_WALLET);
+            window->addWallet(HemisGUI::DEFAULT_WALLET, walletModel);
+            window->setCurrentWallet(HemisGUI::DEFAULT_WALLET);
             window->setGMModel(gmModel);
         }
 #endif
@@ -498,9 +498,9 @@ void BitcoinApplication::initializeResult(int retval)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // hemis: URIs or payment requests:
-        //connect(paymentServer, &PaymentServer::receivedPaymentRequest, window, &hemisGUI::handlePaymentRequest);
-        connect(window, &hemisGUI::receivedURI, paymentServer, &PaymentServer::handleURIOrFile);
+        // Hemis: URIs or payment requests:
+        //connect(paymentServer, &PaymentServer::receivedPaymentRequest, window, &HemisGUI::handlePaymentRequest);
+        connect(window, &HemisGUI::receivedURI, paymentServer, &PaymentServer::handleURIOrFile);
         connect(paymentServer, &PaymentServer::message, [this](const QString& title, const QString& message, unsigned int style) {
           window->message(title, message, style);
         });
@@ -520,7 +520,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString& message)
 {
-    QMessageBox::critical(nullptr, "Runaway exception", QObject::tr("A fatal error occurred. hemis can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(nullptr, "Runaway exception", QObject::tr("A fatal error occurred. Hemis can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(EXIT_FAILURE);
 }
 
@@ -548,8 +548,8 @@ int main(int argc, char* argv[])
 // Do not refer to data directory yet, this can be overridden by Intro::pickDataDirectory
 
 /// 2. Basic Qt initialization (not dependent on parameters or configuration)
-    Q_INIT_RESOURCE(hemis_locale);
-    Q_INIT_RESOURCE(hemis);
+    Q_INIT_RESOURCE(Hemis_locale);
+    Q_INIT_RESOURCE(Hemis);
 
     // Generate high-dpi pixmaps
     QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
@@ -595,7 +595,7 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return EXIT_SUCCESS;
 
-    /// 6. Determine availability of data directory and parse hemis.conf
+    /// 6. Determine availability of data directory and parse Hemis.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!CheckDataDirOption()) {
         QMessageBox::critical(nullptr, PACKAGE_NAME,
@@ -603,7 +603,7 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
     try {
-        gArgs.ReadConfigFile(gArgs.GetArg("-conf", hemis_CONF_FILENAME));
+        gArgs.ReadConfigFile(gArgs.GetArg("-conf", Hemis_CONF_FILENAME));
     } catch (const std::exception& e) {
         QMessageBox::critical(nullptr, PACKAGE_NAME,
             QObject::tr("Error: Cannot parse configuration file: %1. Only use key=value syntax.").arg(e.what()));
@@ -646,7 +646,7 @@ int main(int argc, char* argv[])
         exit(EXIT_SUCCESS);
 
     // Start up the payment server early, too, so impatient users that click on
-    // hemis: links repeatedly have their payment requests routed to this process:
+    // Hemis: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

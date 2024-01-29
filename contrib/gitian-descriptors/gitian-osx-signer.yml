@@ -1,5 +1,5 @@
 ---
-name: "hemis-dmg-signer"
+name: "Hemis-dmg-signer"
 distro: "ubuntu"
 suites:
 - "bionic"
@@ -8,10 +8,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/hemis-project/hemis-detached-sigs.git"
+- "url": "https://github.com/Hemis-project/Hemis-detached-sigs.git"
   "dir": "signature"
 files:
-- "hemis-osx-unsigned.tar.gz"
+- "Hemis-osx-unsigned.tar.gz"
 script: |
   set -e -o pipefail
 
@@ -30,8 +30,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=hemis-osx-unsigned.tar.gz
-  SIGNED=hemis-osx-signed.dmg
+  UNSIGNED=Hemis-osx-unsigned.tar.gz
+  SIGNED=Hemis-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

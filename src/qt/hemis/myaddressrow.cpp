@@ -1,9 +1,9 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/hemis/myaddressrow.h"
-#include "qt/hemis/forms/ui_myaddressrow.h"
+#include "qt/Hemis/myaddressrow.h"
+#include "qt/Hemis/forms/ui_myaddressrow.h"
 
 MyAddressRow::MyAddressRow(QWidget *parent) :
     QWidget(parent),

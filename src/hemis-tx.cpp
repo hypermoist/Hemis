@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2015-2021 The hemis Core developers
+// Copyright (c) 2015-2021 The Hemis Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
 #include "clientversion.h"
@@ -52,9 +52,9 @@ static int AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || gArgs.IsArgSet("-?") || gArgs.IsArgSet("-h") || gArgs.IsArgSet("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = PACKAGE_NAME " hemis-tx utility version " + FormatFullVersion() + "\n\n" +
-                               "Usage:  hemis-tx [options] <hex-tx> [commands]  Update hex-encoded hemis transaction\n" +
-                               "or:     hemis-tx [options] -create [commands]   Create hex-encoded hemis transaction\n" +
+        std::string strUsage = PACKAGE_NAME " Hemis-tx utility version " + FormatFullVersion() + "\n\n" +
+                               "Usage:  Hemis-tx [options] <hex-tx> [commands]  Update hex-encoded Hemis transaction\n" +
+                               "or:     Hemis-tx [options] -create [commands]   Create hex-encoded Hemis transaction\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -699,7 +699,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw std::runtime_error("too few parameters");
 
-            // param: hex-encoded hemis transaction
+            // param: hex-encoded Hemis transaction
             std::string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

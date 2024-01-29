@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "hemis"
-            VALUE "FileDescription",    "hemis-cli (OSS RPC client for " PACKAGE_NAME ")"
+            VALUE "CompanyName",        "Hemis"
+            VALUE "FileDescription",    "Hemis-cli (OSS RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "hemis-cli"
+            VALUE "InternalName",       "Hemis-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "hemis-cli.exe"
-            VALUE "ProductName",        "hemis-cli"
+            VALUE "OriginalFilename",   "Hemis-cli.exe"
+            VALUE "ProductName",        "Hemis-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

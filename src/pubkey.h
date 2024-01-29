@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2016-2021 The hemis Core developers
+// Copyright (c) 2016-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef hemis_PUBKEY_H
-#define hemis_PUBKEY_H
+#ifndef Hemis_PUBKEY_H
+#define Hemis_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -265,4 +265,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // hemis_PUBKEY_H
+#endif // Hemis_PUBKEY_H

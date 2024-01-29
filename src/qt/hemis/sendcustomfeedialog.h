@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The hemis Core developers
+// Copyright (c) 2019-2020 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,10 +6,10 @@
 #define SENDCUSTOMFEEDIALOG_H
 
 #include "policy/feerate.h"
-#include "qt/hemis/focuseddialog.h"
-#include "qt/hemis/snackbar.h"
+#include "qt/Hemis/focuseddialog.h"
+#include "qt/Hemis/snackbar.h"
 
-class hemisGUI;
+class HemisGUI;
 class WalletModel;
 
 namespace Ui {
@@ -21,7 +21,7 @@ class SendCustomFeeDialog : public FocusedDialog
     Q_OBJECT
 
 public:
-    explicit SendCustomFeeDialog(hemisGUI* parent, WalletModel* model);
+    explicit SendCustomFeeDialog(HemisGUI* parent, WalletModel* model);
     ~SendCustomFeeDialog();
 
     void showEvent(QShowEvent* event) override;

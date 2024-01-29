@@ -1,13 +1,13 @@
-// Copyright (c) 2019-2021 The hemis Core developers
+// Copyright (c) 2019-2021 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/hemis-config.h"
+#include "config/Hemis-config.h"
 #endif
 
-#include "qt/hemis/welcomecontentwidget.h"
-#include "qt/hemis/forms/ui_welcomecontentwidget.h"
+#include "qt/Hemis/welcomecontentwidget.h"
+#include "qt/Hemis/forms/ui_welcomecontentwidget.h"
 
 #include "guiutil.h"
 

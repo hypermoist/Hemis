@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2022 The hemis Core developers
+// Copyright (c) 2019-2022 The Hemis Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef FURSZY_hemis_GUITRANSACTIONSUTILS_H
-#define FURSZY_hemis_GUITRANSACTIONSUTILS_H
+#ifndef FURSZY_Hemis_GUITRANSACTIONSUTILS_H
+#define FURSZY_Hemis_GUITRANSACTIONSUTILS_H
 
 #include "walletmodel.h"
-#include "qt/hemis/pwidget.h"
+#include "qt/Hemis/pwidget.h"
 
 
 namespace GuiTransactionsUtils {
@@ -33,4 +33,4 @@ namespace GuiTransactionsUtils {
 }
 
 
-#endif //FURSZY_hemis_GUITRANSACTIONSUTILS_H
+#endif //FURSZY_Hemis_GUITRANSACTIONSUTILS_H
