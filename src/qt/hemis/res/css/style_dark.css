@@ -1860,10 +1860,10 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-stake-piv"] {
-    color:#636266;
+    color:#FF9000;
     font-size:16px;
     padding:10px;
-    border-bottom: 5px solid #636266;
+    border-bottom: 5px solid #FF9000;
 }
 
 *[cssClass="text-stake-piv-disable"] {
@@ -1899,7 +1899,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-chart-piv"] {
-    color:#636266;
+    color:#FF9000;
     font-size:16px;
     padding-left:4px;
 }
@@ -1910,7 +1910,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="square-chart-piv"] {
-    background-color:#636266;
+    background-color:#FF9000;
     border:none;
 }
 
@@ -1926,7 +1926,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 QPushButton[cssClass="btn-chart-arrow"] {
     qproperty-icon: url("://ic-arrow-left-white") ;
-    qproperty-iconSize: 12px 12px;
+    qproperty-iconSize: 20px 20px;
     background-color: transparent;
     border:0px;
     border-radius:2px;
@@ -1942,7 +1942,7 @@ QPushButton[cssClass="btn-chart-arrow"]:pressed {
 
 QPushButton[cssClass="btn-chart-arrow-right"] {
     qproperty-icon: url("://ic-arrow-right-white") ;
-    qproperty-iconSize: 12px 12px;
+    qproperty-iconSize: 20px 20px;
     background-color: transparent;
     border:0px;
     border-radius:2px;

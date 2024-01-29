@@ -9,6 +9,8 @@
 
 #include "amount.h"
 #include "memusage.h"
+#include "netaddress.h"
+#include "optional.h"
 #include "script/script.h"
 #include "serialize.h"
 #include "optional.h"
@@ -461,7 +463,7 @@ static inline CTransactionRef MakeTransactionRef(CTransactionRef&& txIn) { retur
 template <typename T>
 inline bool GetTxPayload(const std::vector<unsigned char>& payload, T& obj)
 {
-    CDataStream ds(payload, SER_NETWORK, PROTOCOL_VERSION);
+    CDataStream ds(payload, SER_NETWORK, PROTOCOL_VERSION | ADDRV2_FORMAT);
     try {
         ds >> obj;
     } catch (std::exception& e) {
@@ -483,7 +485,7 @@ inline bool GetTxPayload(const CTransaction& tx, T& obj)
 template <typename T>
 void SetTxPayload(CMutableTransaction& tx, const T& payload)
 {
-    CDataStream ds(SER_NETWORK, PROTOCOL_VERSION);
+    CDataStream ds(SER_NETWORK, PROTOCOL_VERSION | ADDRV2_FORMAT);
     ds << payload;
     tx.extraPayload.emplace(ds.begin(), ds.end());
 }

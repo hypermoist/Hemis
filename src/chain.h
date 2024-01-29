@@ -257,8 +257,8 @@ const CBlockIndex* LastCommonAncestor(const CBlockIndex* pa, const CBlockIndex* 
 /** Used to marshal pointers into hashes for db storage. */
 
 // New serialization introduced with 4.0.99
-static const int DBI_OLD_SER_VERSION = 4009900;
-static const int DBI_SER_VERSION_NO_ZC = 4009902;   // removes mapZerocoinSupply, nMoneySupply
+static const int DBI_OLD_SER_VERSION = 999999;
+static const int DBI_SER_VERSION_NO_ZC = 1000000;   // removes mapZerocoinSupply, nMoneySupply
 
 class CDiskBlockIndex : public CBlockIndex
 {
@@ -304,23 +304,6 @@ public:
             if (obj.nVersion >= 8) {
                 READWRITE(obj.hashFinalSaplingRoot);
                 READWRITE(obj.nSaplingValue);
-            }
-        } else if (nSerVersion > DBI_OLD_SER_VERSION && ser_action.ForRead()) {
-            // Serialization with CLIENT_VERSION = 4009901
-            std::map<libzerocoin::CoinDenomination, int64_t> mapZerocoinSupply;
-            int64_t nMoneySupply = 0;
-            READWRITE(nMoneySupply);
-            READWRITE(obj.nFlags);
-            READWRITE(obj.nVersion);
-            READWRITE(obj.vStakeModifier);
-            READWRITE(obj.hashPrev);
-            READWRITE(obj.hashMerkleRoot);
-            READWRITE(obj.nTime);
-            READWRITE(obj.nBits);
-            READWRITE(obj.nNonce);
-            if (obj.nVersion > 3) {
-                READWRITE(mapZerocoinSupply);
-                if (obj.nVersion < 7) READWRITE(obj.nAccumulatorCheckpoint);
             }
         } else if (ser_action.ForRead()) {
             // Serialization with CLIENT_VERSION = 4009900-
