@@ -193,98 +193,6 @@ static const CCheckpointData dataRegtest = {
     0,
     100};
 
-/*
-void findGenesisBlock()
-{
-    // Parameters for CreateGenesisBlock can be changed to suit your needs
-    uint32_t nTime = 1692283012;  // Your desired timestamp
-    int32_t nVersion = 1;  // Your desired block version
-    uint32_t nNonce = 0;  // Starting nonce, will iterate this
-    const CAmount& genesisReward = 0 * COIN;  // No reward for genesis block
-
-    // Initialize maximum allowed difficulty at genesis block
-    uint32_t nBits = 0x1e000fff;  // This is maximum target for proof-of-work at genesis block
-    arith_uint256 bnTarget;
-    bnTarget.SetCompact(nBits);
-	std::cout << "Hemis Genesis block Generation"  << std::endl;
-    for (;; ++nNonce)
-    {
-        CBlock genesis = CreateGenesisBlock(nTime, nNonce, nBits, nVersion, genesisReward);
-        uint256 hashGenesisBlock = genesis.GetHash();
-
-        if (UintToArith256(hashGenesisBlock) <= bnTarget)
-        {
-            std::cout << "Genesis Block Found!" << std::endl;
-            std::cout << "nonce: " << nNonce << std::endl;
-            std::cout << "genesis hash: " << hashGenesisBlock.GetHex() << std::endl;
-            std::cout << "merkle root: " << genesis.hashMerkleRoot.GetHex() << std::endl;
-            break;
-        }
-
-        if (nNonce % 10000 == 0)  // just to see a progress in console
-        {
-            std::cout << "\rStill searching. Current nonce: " << nNonce;
-        }
-    }
-}
-*/
-
-void findGenesisBlock(uint32_t nTime, uint32_t startNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
-{
-
-    bool fNegative;
-    bool fOverflow;
-    arith_uint256 bnTarget;
-
-    bnTarget.SetCompact(nBits, &fNegative, &fOverflow);
-
-    uint32_t nNonce = 0;
-    while (!found) 
-    {
-        CBlock genesis = CreateGenesisBlock(nTime, nNonce, nBits, nVersion, genesisReward);
-        uint256 hashGenesisBlock = genesis.GetHash();
-
-        if (UintToArith256(hashGenesisBlock) <= bnTarget)
-        {
-            std::cout << "Genesis Block Found!" << std::endl;
-            std::cout << "nonce: " << nNonce << std::endl;
-            std::cout << "genesis hash: " << hashGenesisBlock.GetHex() << std::endl;
-            std::cout << "merkle root: " << genesis.hashMerkleRoot.GetHex() << std::endl;
-            found = true;
-            break;
-        }
-
-        nNonce++;
-
-        if (nNonce % 100000 == 0) 
-        {
-            std::cout << "\rThread " << std::this_thread::get_id() << ": checked " << nNonce << " nonces, still running.";
-        }
-    }
-}
-
-void findGenesis() 
-{
-    uint32_t nTime = 1705298400;  
-    int32_t nVersion = 1;  
-    const CAmount& genesisReward = 0 * COIN;  
-    uint32_t nBits = 0x1e00ffff;
-
-    const unsigned numThreads = std::thread::hardware_concurrency(); // Get number of cores
-
-    std::vector<std::thread> threads(numThreads);
-    for (unsigned i = 0; i < numThreads; ++i) {
-        // Pass a different start nonce to each thread
-        threads[i] = std::thread(findGenesisBlock, nTime, i, nBits, nVersion, genesisReward);
-    }
-    // Join all threads
-    for (auto& t : threads) {
-        t.join();
-    }
-
-}
-
-
 class CMainParams : public CChainParams
 {
 public:
@@ -292,12 +200,8 @@ public:
     {
         strNetworkID = "main";
 
-	//findGenesis();
         genesis = CreateGenesisBlock(1705298400, 1356045, 0x1e00ffff, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-
-	//std::cout << "genesis Block Hash: " << consensus.hashGenesisBlock.GetHex() << std::endl;
-	//std::cout << "Merkle Root Hash: " << genesis.hashMerkleRoot.GetHex() << std::endl;
 
         assert(consensus.hashGenesisBlock == uint256S("0x000000956c582b70df5d2c9b4b83d05b5331978e40d639739bdc96c29e156ce7"));
         assert(genesis.hashMerkleRoot == uint256S("0x93ad7b455294f429da00d11b656d62f7fb197a72b7315f58de8c9380dbdaa113"));
