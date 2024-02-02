@@ -4,15 +4,13 @@ Hemis Core integration/staging repository
 
 Hemis is an open source community-driven cryptocurrency, focused on five main aspects:
 
-(1) User Data Protection: Through the use of SHIELD, a zk-SNARKs based privacy protocol.
+(1) Low environmental footprint and network participation equality: Through the use of a highly developed Proof of Stake protocol.
 
-(2) Low environmental footprint and network participation equality: Through the use of a highly developed Proof of Stake protocol.
+(2) Decentralized Governance System: A DAO built on top of the tier two Gamemasters network, enabling a monthly community treasury, proposals submission and decentralized voting.
 
-(3) Decentralized Governance System: A DAO built on top of the tier two Gamemasters network, enabling a monthly community treasury, proposals submission and decentralized voting.
+(3) Fast Transactions: Through the use of fast block times and the tier two network, Hemis is committed to continue researching new and better instant transactions mechanisms.
 
-(4) Fast Transactions: Through the use of fast block times and the tier two network, Hemis is committed to continue researching new and better instant transactions mechanisms.
-
-(5) Ease of Use: Hemis is determined to offer the best possible graphical interface for a core node/wallet. A full featured graphical product for new and advanced users.
+(4) Ease of Use: Hemis is determined to offer the best possible graphical interface for a core node/wallet. A full featured graphical product for new and advanced users.
 
 A lot more information and specs at [Hemis.tech](https://www.Hemis.tech/). Join the community at [Hemis Discord](https://discord.gg/Fhmk74CJ).
 
