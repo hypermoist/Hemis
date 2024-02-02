@@ -14,7 +14,7 @@ Hemis is an open source community-driven cryptocurrency, focused on five main as
 
 (5) Ease of Use: Hemis is determined to offer the best possible graphical interface for a core node/wallet. A full featured graphical product for new and advanced users.
 
-A lot more information and specs at [Hemis.tech](https://www.Hemis.tech/). Join the community at [Hemis Discord](https://discordapp.com/invite/jzqVsJd).
+A lot more information and specs at [Hemis.tech](https://www.Hemis.tech/). Join the community at [Hemis Discord](https://discord.gg/Fhmk74CJ).
 
 ## License
 Hemis Core is released under the terms of the MIT license. See [COPYING](https://github.com/Hemis-Blockchain/Hemis/blob/master/COPYING) for more information or see https://opensource.org/licenses/MIT.
