@@ -234,7 +234,7 @@ debug.log file if inconsistencies are detected.
 
 Valgrind is a programming tool for memory debugging, memory leak detection, and
 profiling. The repo contains a Valgrind suppressions file
-([`valgrind.supp`](https://github.com/Hemis-project/Hemis/blob/master/contrib/valgrind.supp))
+([`valgrind.supp`](https://github.com/Hemis-blockchain/Hemis/blob/master/contrib/valgrind.supp))
 which includes known Valgrind warnings in our dependencies that cannot be fixed
 in-tree. Example use:
 
@@ -730,7 +730,7 @@ Current subtrees include:
   - Upstream at https://github.com/bitcoin-core/univalue ; actively maintained by Core contributors, deviates from upstream https://github.com/jgarzik/univalue
 
 - src/chiabls
-  - Upstream at https://github.com/Hemis-Project/bls-signatures/ ; actively maintained by Core contributors, deviates from upstream https://github.com/Chia-Network/bls-signatures/
+  - Upstream at https://github.com/Hemis-blockchain/bls-signatures/ ; actively maintained by Core contributors, deviates from upstream https://github.com/Chia-Network/bls-signatures/
 
 Upgrading LevelDB
 ---------------------

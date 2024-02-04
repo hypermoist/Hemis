@@ -11,7 +11,7 @@ description: |
   Zero Knowledge cryptography proofs for industry-leading
   transaction anonymity.
 
-  - [Download](https://Hemis.org/wp-content/uploads/2018/10/Hemis-White.pdf) Hemis White Paper PDF
+  - [Download](https://Hemis.tech/wp-content/uploads/2018/10/Hemis-White.pdf) Hemis White Paper PDF
 grade: devel
 confinement: strict
 
@@ -106,7 +106,7 @@ parts:
       - fcitx-frontend-qt5
 
   Hemis-core:
-    source: https://github.com/Hemis-Project/Hemis
+    source: https://github.com/Hemis-blockchain/Hemis
     source-type: git
     source-tag: master
     plugin: nil

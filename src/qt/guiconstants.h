@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 
 
 #define QAPP_ORG_NAME "Hemis"
-#define QAPP_ORG_DOMAIN "Hemis.org"
+#define QAPP_ORG_DOMAIN "Hemis.tech"
 #define QAPP_APP_NAME_DEFAULT "Hemis-Qt"
 #define QAPP_APP_NAME_TESTNET "Hemis-Qt-testnet"
 

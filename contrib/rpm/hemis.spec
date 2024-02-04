@@ -20,8 +20,8 @@ Summary:	Peer to Peer Cryptographic Currency
 
 Group:		Applications/System
 License:	MIT
-URL:		https://Hemis.org/
-Source0:	https://Hemis.org/bin/Hemis-core-%{version}/Hemis-%{version}.tar.gz
+URL:		https://Hemis.tech/
+Source0:	https://Hemis.tech/bin/Hemis-core-%{version}/Hemis-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
 Source10:	https://raw.githubusercontent.com/Hemis-project/Hemis/v%{version}/contrib/debian/examples/Hemis.conf

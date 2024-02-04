@@ -201,7 +201,7 @@ class GamemasterGovernanceBasicTest(HemisTier2TestFramework):
         self.log.info("preparing budget proposal..")
         firstProposal = Proposal(
             "super-cool",
-            "https://forum.Hemis.org/t/test-proposal",
+            "https://forum.Hemis.tech/t/test-proposal",
             2,
             self.miner.getnewaddress(),
             300

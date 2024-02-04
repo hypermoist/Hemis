@@ -104,6 +104,6 @@ To create a new language template, you will need to edit the languages manifest 
 **Note:** that the language translation file **must end in `.qm`** (the compiled extension), and not `.ts`.
 
 ### Questions and general assistance
-The Hemis Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [Hemis Discord](https://discord.Hemis.org).
+The Hemis Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [Hemis Discord](https://discord.Hemis.tech).
 
 Announcements will be posted during application pre-releases to notify translators to check for updates.

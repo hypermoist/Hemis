@@ -3803,8 +3803,8 @@ Si è verificato un errore nel tentativo di salvare l'elenco degli indirizzi in 
         <translation>2) Perché i miei HMS non sono spendibili?</translation>
     </message>
     <message>
-        <source>https://Hemis.org/</source>
-        <translation>https://Hemis.org/</translation>
+        <source>https://Hemis.tech/</source>
+        <translation>https://Hemis.tech/</translation>
     </message>
     <message>
         <source>1</source>
@@ -3874,7 +3874,7 @@ per vedere e spendere i saldi sulla rete.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.tech'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
                            &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;

@@ -3,7 +3,7 @@ Hemis Core
 
 Setup
 ---------------------
-[Hemis Core](http://Hemis.org/wallet) is the original Hemis client and it builds the backbone of the network. However, it downloads and stores the entire history of Hemis transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Hemis Core](https://Hemis.tech/wallet) is the original Hemis client and it builds the backbone of the network. However, it downloads and stores the entire history of Hemis transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -28,10 +28,9 @@ Drag Hemis-Qt to your applications folder, and then run Hemis-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Hemis Wiki](https://github.com/Hemis-Project/Hemis/wiki)
+* See the documentation at the [Hemis Wiki](https://github.com/Hemis-blockchain/Hemis/wiki)
 for help and more information.
-* Ask for help on the [Hemis Forum](http://forum.Hemis.org/).
-* Join our Discord server [Discord Server](https://discord.Hemis.org)
+* Join our Discord server [Discord Server](https://discord.Hemis.tech)
 
 Building
 ---------------------
@@ -58,8 +57,8 @@ The Hemis repo's [root README](/README.md) contains relevant information on the 
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [Hemis](http://forum.Hemis.org/) forum.
-* Join the [Hemis Discord](https://discord.Hemis.org).
+* Discuss on the [Hemis](http://forum.Hemis.tech/) forum.
+* Join the [Hemis Discord](https://discord.Hemis.tech).
 
 ### Miscellaneous
 - [Files](files.md)

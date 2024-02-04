@@ -3806,8 +3806,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>2) Waarom is mijn HMS niet besteedbaar?</translation>
     </message>
     <message>
-        <source>https://Hemis.org/</source>
-        <translation>https://Hemis.org/</translation>
+        <source>https://Hemis.tech/</source>
+        <translation>https://Hemis.tech/</translation>
     </message>
     <message>
         <source>1</source>
@@ -3877,7 +3877,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.tech'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
                            &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
@@ -3887,7 +3887,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We hebben ondersteuningskanalen in de meeste van onze officiële chatgroepen, bijvoorbeeld
-                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.tech'&gt;
                            #support in onze Discord&lt;/a&gt;.
                            Als u liever een ticket indient, kan jedat
                            &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;

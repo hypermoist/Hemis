@@ -28,9 +28,9 @@ Build-Depends: debhelper,
  libzmq3-dev,
  dh-systemd
 Standards-Version: 3.9.2
-Homepage: http://www.Hemis.org
-Vcs-Git: git://github.com/Hemis-Project/Hemis.git
-Vcs-Browser: http://github.com/Hemis-Project/Hemis
+Homepage: http://www.Hemis.tech
+Vcs-Git: git://github.com/Hemis-blockchain/Hemis.git
+Vcs-Browser: http://github.com/Hemis-blockchain/Hemis
 
 Package: Hemisd
 Architecture: any
