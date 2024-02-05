@@ -1,10 +1,10 @@
 (note: this is a temporary file, to be added-to by anybody, and moved to release-notes at release time)
 
-Hemis Core version *version* is now available from:  <https://github.com/Hemis-project/Hemis/releases>
+Hemis Core version *version* is now available from:  <https://github.com/Hemis-blockchain/Hemis/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/Hemis-project/Hemis/issues>
+Please report bugs using the issue tracker at github: <https://github.com/Hemis-blockchain/Hemis/issues>
 
 
 How to Upgrade
@@ -23,10 +23,6 @@ Notable Changes
 The `autocombinerewards` RPC command was soft-deprecated in v5.3.0 and replaced with explicit setter/getter commands `setautocombinethreshold`/`getautocombinethreshold`. Hemis Core, by default, will no longer accept the `autocombinerewards` command, returning a deprecation error, unless the `Hemisd`/`Hemis-qt` is started with the `-deprecatedrpc=autocombinerewards` option.
 
 This command will be fully removed in v6.0.0.
-
-### Shield address support for RPC label commands
-
-The `setlabel` RPC command now supports a shield address input argument to allow users to set labels for shield addresses. Additionally, the `getaddressesbylabel` RPC command will also now return shield addresses with a matching label.
 
 ### Specify optional label for getnewshieldaddress
 

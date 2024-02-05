@@ -72,7 +72,7 @@ If you want to build the windows installer with `make deploy` you need [NSIS](ht
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/Hemis-project/Hemis.git
+    git clone https://github.com/Hemis-blockchain/Hemis.git
     cd Hemis
 
 ## Building for 64-bit Windows

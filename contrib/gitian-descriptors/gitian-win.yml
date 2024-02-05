@@ -23,7 +23,7 @@ packages:
 - "ca-certificates"
 - "python3"
 remotes:
-- "url": "https://github.com/Hemis-project/Hemis.git"
+- "url": "https://github.com/Hemis-blockchain/Hemis.git"
   "dir": "Hemis"
 files: []
 script: |

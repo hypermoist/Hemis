@@ -3801,8 +3801,8 @@ Ha habido un error al tratar de guardar la libreta de direcciones en %1. Por fav
         <translation>2) ¿Por qué mis HMS no se pueden gastar?</translation>
     </message>
     <message>
-        <source>https://Hemis.org/</source>
-        <translation>https://Hemis.org/</translation>
+        <source>https://Hemis.tech/</source>
+        <translation>https://Hemis.tech/</translation>
     </message>
     <message>
         <source>1</source>

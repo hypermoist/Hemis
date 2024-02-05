@@ -3795,8 +3795,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>2) Почему мои HMS невозможно потратить?</translation>
     </message>
     <message>
-        <source>https://Hemis.org/</source>
-        <translation>https://Hemis.org/</translation>
+        <source>https://Hemis.tech/</source>
+        <translation>https://Hemis.tech/</translation>
     </message>
     <message>
         <source>1</source>

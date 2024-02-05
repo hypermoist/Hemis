@@ -48,7 +48,7 @@ Build Hemis Core
 
 1. Clone the Hemis Core source code:
 
-        git clone https://github.com/Hemis-project/Hemis
+        git clone https://github.com/Hemis-blockchain/Hemis
         cd Hemis
 
 2.  Build Hemis Core:

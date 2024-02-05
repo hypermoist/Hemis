@@ -3962,8 +3962,8 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>2) Zašto se moji HMS ne mogu potrošiti?</translation>
     </message>
     <message>
-        <source>https://Hemis.org/</source>
-        <translation>https://Hemis.org/</translation>
+        <source>https://Hemis.tech/</source>
+        <translation>https://Hemis.tech/</translation>
     </message>
     <message>
         <source>1</source>
@@ -4064,7 +4064,7 @@ vodjenje Gamemaster-ova za stvaranje i glasanje o prijedlozima.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
+                           &lt;a style='color: #FF9000' href='https://discord.Hemis.tech'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
                            &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;
@@ -4074,7 +4074,7 @@ vodjenje Gamemaster-ova za stvaranje i glasanje o prijedlozima.
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Imamo korisničku podršku u većini naših službenih chat grupa, na primjer
-&lt;a style='color: #FF9000' href='https://discord.Hemis.org'&gt;
+&lt;a style='color: #FF9000' href='https://discord.Hemis.tech'&gt;
 #support na Discordu&lt;/a&gt;.
 Možete i podnijeti zahtjev, a to možete
 &lt;a style='color: #FF9000' href='https://Hemis.freshdesk.com'&gt;

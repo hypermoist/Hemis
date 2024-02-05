@@ -29,7 +29,7 @@ packages:
 - "python3-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/Hemis-project/Hemis.git"
+- "url": "https://github.com/Hemis-blockchain/Hemis.git"
   "dir": "Hemis"
 files:
 - "Xcode-11.3.1-11C505-extracted-SDK-with-libcxx-headers.tar.gz"

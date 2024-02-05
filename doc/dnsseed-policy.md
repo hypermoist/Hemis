@@ -44,7 +44,7 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active Hemis
 Core development team as well as posting on the
-[Hemis Forum](https://forum.Hemis.org).
+[Hemis Forum](https://forum.Hemis.tech).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.
