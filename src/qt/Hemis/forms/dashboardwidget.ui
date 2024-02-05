@@ -442,22 +442,6 @@
            </property>
           </spacer>
          </item>
-         <item alignment="Qt::AlignHCenter">
-          <widget class="QPushButton" name="btnHowTo">
-           <property name="minimumSize">
-            <size>
-             <width>280</width>
-             <height>50</height>
-            </size>
-           </property>
-           <property name="focusPolicy">
-            <enum>Qt::NoFocus</enum>
-           </property>
-           <property name="text">
-            <string>How to get HMS</string>
-           </property>
-          </widget>
-         </item>
         </layout>
        </widget>
       </item>

@@ -122,8 +122,6 @@ DashboardWidget::DashboardWidget(HemisGUI* parent) :
     setCssProperty(ui->chartContainer, "container-chart");
     setCssProperty(ui->pushImgEmptyChart, "img-empty-staking-on");
 
-    setCssBtnSecondary(ui->btnHowTo);
-
     setCssProperty(ui->labelEmptyChart, "text-empty");
     setCssSubtitleScreen(ui->labelMessageEmpty);
 
@@ -204,7 +202,6 @@ void DashboardWidget::loadWalletModel()
         }
 
         connect(ui->pushImgEmpty, &QPushButton::clicked, [this](){window->openFAQ();});
-        connect(ui->btnHowTo, &QPushButton::clicked, [this](){window->openFAQ();});
         connect(txModel, &TransactionTableModel::txArrived, this, &DashboardWidget::onTxArrived);
 
         // Notification pop-up for new transaction
