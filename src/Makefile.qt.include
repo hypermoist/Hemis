@@ -388,15 +388,12 @@ RES_ICONS = \
   qt/Hemis/res/img/ic-radio-liliac-on.svg \
   qt/Hemis/res/img/img-empty-staking-off.svg \
   qt/Hemis/res/img/ic-arrow-drop-down.svg \
-  qt/Hemis/res/img/ic-coin-piv.svg \
   qt/Hemis/res/img/ic-receive-off.svg \
   qt/Hemis/res/img/img-empty-staking-on.svg \
   qt/Hemis/res/img/ic-arrow-drop-up-white.svg \
-  qt/Hemis/res/img/ic-coin-zpiv.png \
   qt/Hemis/res/img/ic-receive-on.svg \
   qt/Hemis/res/img/img-empty-transactions.svg \
   qt/Hemis/res/img/ic-arrow-drop-up.svg \
-  qt/Hemis/res/img/ic-coin-zpiv.svg \
   qt/Hemis/res/img/ic-received.svg \
   qt/Hemis/res/img/img-logo-Hemis.png \
   qt/Hemis/res/img/ic-arrow-drop-white-down.svg \

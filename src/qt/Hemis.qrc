@@ -92,8 +92,6 @@
         <file alias="ic-clear-purple">Hemis/res/img/ic-clear-purple.svg</file>
         <file alias="ic-close-white">Hemis/res/img/ic-close-white.svg</file>
         <file alias="ic-close">Hemis/res/img/ic-close.svg</file>
-        <file alias="ic-coin-piv">Hemis/res/img/ic-coin-piv.svg</file>
-        <file alias="ic-coin-zpiv">Hemis/res/img/ic-coin-zpiv.svg</file>
         <file alias="ic-combo-box">Hemis/res/img/ic-combo-box.svg</file>
         <file alias="ic-connect">Hemis/res/img/ic-connect.svg</file>
         <file alias="ic-copy-liliac">Hemis/res/img/ic-copy-liliac.svg</file>
