@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.Hemis.Hemis-Qt";
+        return @"io.Hemis.Hemis-Core";
     } else {
         return [self __bundleIdentifier];
     }

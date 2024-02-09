@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Hemis-Qt</string>
+  <string>Hemis-Core</string>
 
   <key>CFBundleName</key>
-  <string>Hemis-Qt</string>
+  <string>Hemis-Core</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.Hemis.Hemis-Qt</string>
+  <string>io.Hemis.Hemis-Core</string>
 
   <key>CFBundleURLTypes</key>
   <array>
