@@ -51,7 +51,7 @@ static const int MAX_URI_LENGTH = 255;
 
 #define QAPP_ORG_NAME "Hemis"
 #define QAPP_ORG_DOMAIN "Hemis.tech"
-#define QAPP_APP_NAME_DEFAULT "Hemis-Qt"
-#define QAPP_APP_NAME_TESTNET "Hemis-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Hemis-Core"
+#define QAPP_APP_NAME_TESTNET "Hemis-Core-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H
