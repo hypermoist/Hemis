@@ -17,6 +17,13 @@ A lot more information and specs at [Hemis.tech](https://www.Hemis.tech/). Join 
 ## License
 Hemis Core is released under the terms of the MIT license. See [COPYING](https://github.com/Hemis-Blockchain/Hemis/blob/master/COPYING) for more information or see https://opensource.org/licenses/MIT.
 
+## Quick Installation in Linux
+SSH into your VPS and run this command to install the latest Hemis wallet for Linux:
+
+```bash
+sudo wget https://raw.githubusercontent.com/Hemis-Blockchain/Hemis/main/vps-install.sh && sudo bash vps-install.sh
+```
+
 ## Development Process
 
 The master branch is regularly built (see doc/build-*.md for instructions) and tested, but it is not guaranteed to be completely stable. [Tags](https://github.com/Hemis-Blockchain/Hemis/tags) are created regularly from release branches to indicate new official, stable release versions of Hemis Core.
