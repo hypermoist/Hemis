@@ -651,8 +651,12 @@ QString loadStyleSheet()
     } else {
         // Build-in CSS
         settings.setValue("fCSSexternal", false);
-        cssName = QString(":/css/default-dark");
-        settings.setValue("theme", "default-dark");
+        if (!theme.isEmpty()) {
+            cssName = QString(":/css/") + theme;
+        } else {
+            cssName = QString(":/css/default-dark");
+            settings.setValue("theme", "default-dark");
+        }
     }
 
     QFile qFile(cssName);
