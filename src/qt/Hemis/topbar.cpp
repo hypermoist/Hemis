@@ -111,6 +111,14 @@ TopBar::TopBar(HemisGUI* _mainWindow, QWidget *parent) :
 
     ui->pushButtonLock->setButtonClassStyle("cssClass", "btn-check-lock");
 
+    if (isLightTheme()) {
+        ui->pushButtonTheme->setButtonClassStyle("cssClass", "btn-check-theme-light");
+        ui->pushButtonTheme->setButtonText(tr("Light Theme"));
+    } else {
+        ui->pushButtonTheme->setButtonClassStyle("cssClass", "btn-check-theme-dark");
+        ui->pushButtonTheme->setButtonText(tr("Dark Theme"));
+    }
+
     setCssProperty(ui->qrContainer, "container-qr");
     setCssProperty(ui->pushButtonQR, "btn-qr");
     setCssProperty(ui->pushButtonBalanceInfo, "btn-info");
