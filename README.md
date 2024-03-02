@@ -21,7 +21,7 @@ Hemis Core is released under the terms of the MIT license. See [COPYING](https:/
 This script assumes you are running Hemis on a clean VPS. SSH into your VPS and run this command as root to install (or update to) the latest Hemis wallet for Linux:
 
 ```bash
-sudo wget https://raw.githubusercontent.com/Hemis-Blockchain/Hemis/main/vps-install.sh && sudo bash vps-install.sh
+wget https://raw.githubusercontent.com/Hemis-Blockchain/Hemis/main/vps-install.sh && bash vps-install.sh
 ```
 
 ## Development Process
