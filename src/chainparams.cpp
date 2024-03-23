@@ -523,8 +523,7 @@ consensus.fPowAllowMinDifficultyBlocks = false;
         nDefaultPort = 51474;
 
         // nodes with support for servicebits filtering should be at the top
-        //vSeeds.emplace_back("Hemis-testnet.seed.fuzzbawls.pw", true);
-        //vSeeds.emplace_back("Hemis-testnet.seed2.fuzzbawls.pw", true);
+        vSeeds.emplace_back("hemis.hypur.xyz", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet Hemis addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet Hemis script addresses start with '8' or '9'
