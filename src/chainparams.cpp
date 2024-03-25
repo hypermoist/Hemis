@@ -176,13 +176,14 @@ static const CCheckpointData data = {
 };
 
 static MapCheckpoints mapCheckpointsTestnet = {
-    {0, uint256S("0x0000008f180a09479e4004c973f39fd2de6d1324be60fe196abb8d6460b7ae7a")},
+    {0, uint256S("0x000000798b274f80ef80da249806ed8d86dec9338a58b34073b7014096e3d0c5")},
+    {500, uint256S("0x5b6f9b4b781a4a22d3d0ffdaa0289ed4f9ff8f70293eee0f8c1a0c2966b6f18c")},
     //{    201, uint256S("6ae7d52092fd918c8ac8d9b1334400387d3057997e6e927a88e57186dc395231")},     // v5 activation (PoS/Sapling)
 };
 
 static const CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1454124731,
+    1710619302,
     0,
     3000};
 
@@ -193,60 +194,60 @@ static const CCheckpointData dataRegtest = {
     0,
     100};
 
-void findGenesisBlock(uint32_t nTime, uint32_t startNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
-{
+//void findGenesisBlock(uint32_t nTime, uint32_t startNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
+//{
+//
+//    bool fNegative;
+//    bool fOverflow;
+//    arith_uint256 bnTarget;
+//
+//    bnTarget.SetCompact(nBits, &fNegative, &fOverflow);
+//
+//    uint32_t nNonce = 0;
+//    while (!found)
+//    {
+//        CBlock genesis = CreateGenesisBlock(nTime, nNonce, nBits, nVersion, genesisReward);
+//        uint256 hashGenesisBlock = genesis.GetHash();
+//
+//        if (UintToArith256(hashGenesisBlock) <= bnTarget)
+//        {
+//            std::cout << "Genesis Block Found!" << std::endl;
+//            std::cout << "nonce: " << nNonce << std::endl;
+//            std::cout << "genesis hash: " << hashGenesisBlock.GetHex() << std::endl;
+//            std::cout << "merkle root: " << genesis.hashMerkleRoot.GetHex() << std::endl;
+//            found = true;
+//            break;
+//        }
+//
+//        nNonce++;
+//
+//        if (nNonce % 100000 == 0)
+//        {
+//            std::cout << "\rThread " << std::this_thread::get_id() << ": checked " << nNonce << " nonces, still running.";
+//        }
+//    }
+//}
 
-    bool fNegative;
-    bool fOverflow;
-    arith_uint256 bnTarget;
-
-    bnTarget.SetCompact(nBits, &fNegative, &fOverflow);
-
-    uint32_t nNonce = 0;
-    while (!found) 
-    {
-        CBlock genesis = CreateGenesisBlock(nTime, nNonce, nBits, nVersion, genesisReward);
-        uint256 hashGenesisBlock = genesis.GetHash();
-
-        if (UintToArith256(hashGenesisBlock) <= bnTarget)
-        {
-            std::cout << "Genesis Block Found!" << std::endl;
-            std::cout << "nonce: " << nNonce << std::endl;
-            std::cout << "genesis hash: " << hashGenesisBlock.GetHex() << std::endl;
-            std::cout << "merkle root: " << genesis.hashMerkleRoot.GetHex() << std::endl;
-            found = true;
-            break;
-        }
-
-        nNonce++;
-
-        if (nNonce % 100000 == 0) 
-        {
-            std::cout << "\rThread " << std::this_thread::get_id() << ": checked " << nNonce << " nonces, still running.";
-        }
-    }
-}
-
-void findGenesis() 
-{
-    uint32_t nTime = 1710619302;
-    int32_t nVersion = 1;  
-    const CAmount& genesisReward = 0 * COIN;  
-    uint32_t nBits = 0x1e00ffff;
-
-    const unsigned numThreads = std::thread::hardware_concurrency(); // Get number of cores
-
-    std::vector<std::thread> threads(numThreads);
-    for (unsigned i = 0; i < numThreads; ++i) {
-        // Pass a different start nonce to each thread
-        threads[i] = std::thread(findGenesisBlock, nTime, i, nBits, nVersion, genesisReward);
-    }
-    // Join all threads
-    for (auto& t : threads) {
-        t.join();
-    }
-
-}
+//void findGenesis()
+//{
+//    uint32_t nTime = 1710619302;
+//    int32_t nVersion = 1;
+//    const CAmount& genesisReward = 0 * COIN;
+//    uint32_t nBits = 0x1e00ffff;
+//
+//    const unsigned numThreads = std::thread::hardware_concurrency(); // Get number of cores
+//
+//    std::vector<std::thread> threads(numThreads);
+//    for (unsigned i = 0; i < numThreads; ++i) {
+//        // Pass a different start nonce to each thread
+//        threads[i] = std::thread(findGenesisBlock, nTime, i, nBits, nVersion, genesisReward);
+//    }
+//    // Join all threads
+//    for (auto& t : threads) {
+//        t.join();
+//    }
+//
+//}
 
 class CMainParams : public CChainParams
 {
@@ -421,14 +422,14 @@ public:
         genesis = CreateGenesisBlock(1710619302, 12048181, 0x1e00ffff, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
-	std::cout << "genesis Block Hash: " << consensus.hashGenesisBlock.GetHex() << std::endl;
-	std::cout << "Merkle Root Hash: " << genesis.hashMerkleRoot.GetHex() << std::endl;
+	    //std::cout << "genesis Block Hash: " << consensus.hashGenesisBlock.GetHex() << std::endl;
+	    //std::cout << "Merkle Root Hash: " << genesis.hashMerkleRoot.GetHex() << std::endl;
 
 
         assert(consensus.hashGenesisBlock == uint256S("0x000000798b274f80ef80da249806ed8d86dec9338a58b34073b7014096e3d0c5"));
         assert(genesis.hashMerkleRoot == uint256S("0x93ad7b455294f429da00d11b656d62f7fb197a72b7315f58de8c9380dbdaa113"));
 
-consensus.fPowAllowMinDifficultyBlocks = false;
+        consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.powLimit   = uint256S("0x000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.posLimitV1 = uint256S("0x000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
