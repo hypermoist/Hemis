@@ -358,7 +358,8 @@ public:
         nDefaultPort = 49165;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("hmsdns.Hemis.tech", true);     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.emplace_back("hmsdns.Hemis.tech", true);
+	vSeeds.emplace_back("hemis.hypur.xyz", true);     // Primary DNS Seeder from Fuzzbawls
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 40);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -524,7 +525,7 @@ public:
         nDefaultPort = 51474;
 
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("hemis.hypur.xyz", true);
+        vSeeds.emplace_back("hemis-testnet.hypur.xyz", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet Hemis addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet Hemis script addresses start with '8' or '9'
