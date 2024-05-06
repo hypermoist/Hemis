@@ -370,7 +370,7 @@ public:
         base58Prefixes[EXT_SECRET_KEY] = {0xa0, 0xf3, 0xf1, 0xfB};
 
         // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
-        base58Prefixes[EXT_COIN_TYPE] = {0xa8, 0xa0, 0xa0, 0xa7};
+        base58Prefixes[EXT_COIN_TYPE] = {0x80, 0x00, 0x02, 0xac};
 
         vFixedSeeds = std::vector<uint8_t>(std::begin(chainparams_seed_main), std::end(chainparams_seed_main));
 
