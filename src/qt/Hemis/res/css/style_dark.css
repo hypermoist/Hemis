@@ -1920,7 +1920,7 @@ QPushButton[cssClass="btn-chart-arrow"]:hover {
 }
 
 QPushButton[cssClass="btn-chart-arrow"]:pressed {
-    background-color:#20192e;
+    background-color:#636266;
 }
 
 QPushButton[cssClass="btn-chart-arrow-right"] {
@@ -1936,7 +1936,7 @@ QPushButton[cssClass="btn-chart-arrow-right"]:hover {
 }
 
 QPushButton[cssClass="btn-chart-arrow-right"]:pressed {
-    background-color:#20192e;
+    background-color:#636266;
 }
 
 QComboBox[cssClass="btn-combo-secundary"] {
@@ -2039,7 +2039,7 @@ QPushButton[cssClass="btn-check-time"]:hover {
 }
 
 QPushButton[cssClass="btn-check-time"]:pressed {
-    background-color:#20192e;
+    background-color:#636266;
     border-radius:2px;
     font-size:14px;
     padding:4px;
