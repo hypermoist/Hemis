@@ -370,7 +370,9 @@ jobs:
       
       - name: Tar Linux Builds
         if: ${{ matrix.config.host == 'x86_64-unknown-linux-gnu' }}
-        run: tar -czvf Hemis-Linux.tar.gz /home/runner/work/Hemis/Hemis/${{github.run_number}}-x86_64-unknown-linux-gnu/bin
+        run: tar -czvf Hemis-Linux.tar.gz /home/runner/work/Hemis/Hemis/${{github.run_number}}-x86_64-unknown-linux-gnu/bin/Hemisd \
+              /home/runner/work/Hemis/Hemis/${{github.run_number}}-x86_64-unknown-linux-gnu/bin/Hemis-cli \
+              /home/runner/work/Hemis/Hemis/${{github.run_number}}-x86_64-unknown-linux-gnu/bin/Hemis-qt
 
       - name: Zip AArch64 Builds
         if: ${{ matrix.config.host == 'aarch64-linux-gnu' }}
