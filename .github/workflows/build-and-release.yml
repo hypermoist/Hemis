@@ -411,7 +411,7 @@ jobs:
           prerelease: false
           files: |
               Hemis-Linux.zip
-              Hemis-Linux.tar.gz
+              /home/runner/work/Hemis/Hemis/${{github.run_number}}-x86_64-unknown-linux-gnu/bin/Hemis-Linux.tar.gz
 
       - name: Upload PreRelease Linux Builds
         uses: softprops/action-gh-release@v2.0.5
