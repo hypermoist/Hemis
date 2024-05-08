@@ -392,7 +392,7 @@ jobs:
             /home/runner/work/Hemis/Hemis/build/Hemis-x86_64-w64-mingw32/Hemis-*-setup-unsigned.exe
 
       - name: Upload PreRelease Windows Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: matrix.config.host == 'x86_64-w64-mingw32' && github.event.inputs.release == 'false'
         with:
           name: ${{ github.event.inputs.release-name }}
@@ -409,7 +409,9 @@ jobs:
           name: ${{ github.event.inputs.release-name }}
           tag_name: ${{ github.event.inputs.tags }}
           prerelease: false
-          files: Hemis-Linux.zip
+          files: |
+              Hemis-Linux.zip
+              Hemis-Linux.tar.gz
 
       - name: Upload PreRelease Linux Builds
         uses: softprops/action-gh-release@v2.0.5
