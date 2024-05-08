@@ -367,6 +367,10 @@ jobs:
       - name: Zip Linux Builds
         if: ${{ matrix.config.host == 'x86_64-unknown-linux-gnu' }}
         run: zip -rj Hemis-Linux.zip /home/runner/work/Hemis/Hemis/${{github.run_number}}-x86_64-unknown-linux-gnu/bin
+      
+      - name: Tar Linux Builds
+        if: ${{ matrix.config.host == 'x86_64-unknown-linux-gnu' }}
+        run: tar -czvf Hemis-Linux.tar.gz /home/runner/work/Hemis/Hemis/${{github.run_number}}-x86_64-unknown-linux-gnu/bin
 
       - name: Zip AArch64 Builds
         if: ${{ matrix.config.host == 'aarch64-linux-gnu' }}
@@ -399,7 +403,7 @@ jobs:
             /home/runner/work/Hemis/Hemis/build/Hemis-x86_64-w64-mingw32/Hemis-*-setup-unsigned.exe
 
       - name: Upload Release Linux Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: matrix.config.host == 'x86_64-unknown-linux-gnu' && github.event.inputs.release == 'true'
         with:
           name: ${{ github.event.inputs.release-name }}
@@ -408,16 +412,18 @@ jobs:
           files: Hemis-Linux.zip
 
       - name: Upload PreRelease Linux Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: matrix.config.host == 'x86_64-unknown-linux-gnu' && github.event.inputs.release == 'false'
         with:
           name: ${{ github.event.inputs.release-name }}
           tag_name: ${{ github.event.inputs.tags }}
           prerelease: true
-          files: Hemis-Linux.zip
+          files: |
+              Hemis-Linux.zip
+              Hemis-Linux.tar.gz
 
       - name: Upload Release Mac Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: matrix.config.host == 'x86_64-apple-darwin16' && github.event.inputs.release == 'true'
         with:
           name: ${{ github.event.inputs.release-name }}
@@ -426,7 +432,7 @@ jobs:
           files: /home/runner/work/Hemis/Hemis/build/Hemis-x86_64-apple-darwin16/Hemis-Core.dmg
 
       - name: Upload PreRelease Mac Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: matrix.config.host == 'x86_64-apple-darwin16' && github.event.inputs.release == 'false'
         with:
           name: ${{ github.event.inputs.release-name }}
@@ -435,7 +441,7 @@ jobs:
           files: /home/runner/work/Hemis/Hemis/build/Hemis-x86_64-apple-darwin16/Hemis-Core.dmg
 
       - name: Upload Release AArch Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: (matrix.config.host == 'aarch64-linux-gnu' && github.event.inputs.release == 'true')
         with:
           name: ${{ github.event.inputs.release-name }}
@@ -444,7 +450,7 @@ jobs:
           files: Hemis-AArch.zip
 
       - name: Upload PreRelease AArch Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: (matrix.config.host == 'aarch64-linux-gnu' && github.event.inputs.release == 'false')
         with:
           name: ${{ github.event.inputs.release-name }}
@@ -453,7 +459,7 @@ jobs:
           files: Hemis-AArch.zip
 
       - name: Upload Release Arm32 Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: (matrix.config.host == 'arm-linux-gnueabihf' && github.event.inputs.release == 'true')
         with:
           name: ${{ github.event.inputs.release-name }}
@@ -462,7 +468,7 @@ jobs:
           files: Hemis-Arm32.zip
 
       - name: Upload PreRelease Arm32 Builds
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v2.0.5
         if: (matrix.config.host == 'arm-linux-gnueabihf' && github.event.inputs.release == 'false')
         with:
           name: ${{ github.event.inputs.release-name }}
