@@ -615,7 +615,7 @@ public:
         private key hex: bd4960dcbd9e7f2223f24e7164ecb6f1fe96fc3a416f5d3a830ba5720c84b8ca
         Address: yCvUVd72w7xpimf981m114FSFbmAmne7j9
         */
-        consensus.strSporkPubKey = "043969b1b0e6f327de37f297a015d37e2235eaaeeb3933deecd8162c075cee0207b13537618bde640879606001a8136091c62ec272dd0133424a178704e6e75bb7";
+        consensus.strSporkPubKey = "0409323b06b6287186f99a6282e154ffec839f1caad358b16a749fa4ad90b7d7507b33fa8863599aa9971b9f411f4bd43c8ac29d8f8e028d52513e4a1ac3347b7b";
 
         // height based activations
         consensus.height_last_invalid_UTXO = -1;
